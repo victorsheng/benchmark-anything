@@ -1,0 +1,73 @@
+# JMH version: 1.22-SNAPSHOT
+# VM version: JDK 1.8.0_112, Java HotSpot(TM) 64-Bit Server VM, 25.112-b15
+# VM invoker: /home/hadoop/jdk1.8.0_112/jre/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.openjdk.jmh.samples.JMHSample_07_FixtureLevelInvocation.measureCold
+
+# Run progress: 0.00% complete, ETA 00:03:20
+# Fork: 1 of 1
+# Warmup Iteration   1: 54.285 us/op
+# Warmup Iteration   2: 36.909 us/op
+# Warmup Iteration   3: 47.912 us/op
+# Warmup Iteration   4: 40.247 us/op
+# Warmup Iteration   5: 46.908 us/op
+Iteration   1: 45.811 us/op
+Iteration   2: 41.664 us/op
+Iteration   3: 37.899 us/op
+Iteration   4: 33.578 us/op
+Iteration   5: 38.847 us/op
+
+
+Result "org.openjdk.jmh.samples.JMHSample_07_FixtureLevelInvocation.measureCold":
+  39.560 ±(99.9%) 17.493 us/op [Average]
+  (min, avg, max) = (33.578, 39.560, 45.811), stdev = 4.543
+  CI (99.9%): [22.067, 57.053] (assumes normal distribution)
+
+
+# JMH version: 1.22-SNAPSHOT
+# VM version: JDK 1.8.0_112, Java HotSpot(TM) 64-Bit Server VM, 25.112-b15
+# VM invoker: /home/hadoop/jdk1.8.0_112/jre/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.openjdk.jmh.samples.JMHSample_07_FixtureLevelInvocation.measureHot
+
+# Run progress: 50.00% complete, ETA 00:01:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 9.943 us/op
+# Warmup Iteration   2: 8.947 us/op
+# Warmup Iteration   3: 7.511 us/op
+# Warmup Iteration   4: 7.772 us/op
+# Warmup Iteration   5: 6.671 us/op
+Iteration   1: 7.022 us/op
+Iteration   2: 8.016 us/op
+Iteration   3: 7.272 us/op
+Iteration   4: 7.866 us/op
+Iteration   5: 7.329 us/op
+
+
+Result "org.openjdk.jmh.samples.JMHSample_07_FixtureLevelInvocation.measureHot":
+  7.501 ±(99.9%) 1.621 us/op [Average]
+  (min, avg, max) = (7.022, 7.501, 8.016), stdev = 0.421
+  CI (99.9%): [5.879, 9.122] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:03:20
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                        Mode  Cnt   Score    Error  Units
+JMHSample_07_FixtureLevelInvocation.measureCold  avgt    5  39.560 ± 17.493  us/op
+JMHSample_07_FixtureLevelInvocation.measureHot   avgt    5   7.501 ±  1.621  us/op

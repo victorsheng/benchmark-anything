@@ -1,0 +1,177 @@
+# JMH version: 1.22-SNAPSHOT
+# VM version: JDK 1.8.0_112, Java HotSpot(TM) 64-Bit Server VM, 25.112-b15
+# VM invoker: /home/hadoop/jdk1.8.0_112/jre/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 4 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.samples.JMHSample_31_InfraParams.measureDefault
+
+# Run progress: 0.00% complete, ETA 00:16:40
+# Fork: 1 of 5
+# Warmup Iteration   1: 31498.961 ops/s
+# Warmup Iteration   2: 31375.925 ops/s
+# Warmup Iteration   3: 25774.829 ops/s
+# Warmup Iteration   4: 34324.200 ops/s
+# Warmup Iteration   5: 31662.050 ops/s
+Iteration   1: 30737.449 ops/s
+Iteration   2: 34295.476 ops/s
+Iteration   3: 36184.252 ops/s
+Iteration   4: 35599.258 ops/s
+Iteration   5: 35773.737 ops/s
+
+# Run progress: 10.00% complete, ETA 00:15:18
+# Fork: 2 of 5
+# Warmup Iteration   1: 35200.167 ops/s
+# Warmup Iteration   2: 33528.691 ops/s
+# Warmup Iteration   3: 31581.252 ops/s
+# Warmup Iteration   4: 38562.040 ops/s
+# Warmup Iteration   5: 41107.475 ops/s
+Iteration   1: 40584.603 ops/s
+Iteration   2: 40883.157 ops/s
+Iteration   3: 39591.291 ops/s
+Iteration   4: 40861.691 ops/s
+Iteration   5: 41121.251 ops/s
+
+# Run progress: 20.00% complete, ETA 00:13:34
+# Fork: 3 of 5
+# Warmup Iteration   1: 37693.950 ops/s
+# Warmup Iteration   2: 36357.239 ops/s
+# Warmup Iteration   3: 37030.889 ops/s
+# Warmup Iteration   4: 38182.567 ops/s
+# Warmup Iteration   5: 36902.080 ops/s
+Iteration   1: 36641.587 ops/s
+Iteration   2: 37310.790 ops/s
+Iteration   3: 36446.353 ops/s
+Iteration   4: 37485.134 ops/s
+Iteration   5: 38283.297 ops/s
+
+# Run progress: 30.00% complete, ETA 00:11:49
+# Fork: 4 of 5
+# Warmup Iteration   1: 40657.516 ops/s
+# Warmup Iteration   2: 40232.479 ops/s
+# Warmup Iteration   3: 39715.561 ops/s
+# Warmup Iteration   4: 39124.524 ops/s
+# Warmup Iteration   5: 39672.544 ops/s
+Iteration   1: 39515.767 ops/s
+Iteration   2: 39447.377 ops/s
+Iteration   3: 39386.443 ops/s
+Iteration   4: 38942.476 ops/s
+Iteration   5: 40704.552 ops/s
+
+# Run progress: 40.00% complete, ETA 00:10:06
+# Fork: 5 of 5
+# Warmup Iteration   1: 42308.645 ops/s
+# Warmup Iteration   2: 43036.424 ops/s
+# Warmup Iteration   3: 43613.692 ops/s
+# Warmup Iteration   4: 44335.852 ops/s
+# Warmup Iteration   5: 44222.399 ops/s
+Iteration   1: 44523.541 ops/s
+Iteration   2: 43790.099 ops/s
+Iteration   3: 44322.713 ops/s
+Iteration   4: 43990.971 ops/s
+Iteration   5: 43743.980 ops/s
+
+
+Result "org.openjdk.jmh.samples.JMHSample_31_InfraParams.measureDefault":
+  39206.690 ±(99.9%) 2577.165 ops/s [Average]
+  (min, avg, max) = (30737.449, 39206.690, 44523.541), stdev = 3440.442
+  CI (99.9%): [36629.524, 41783.855] (assumes normal distribution)
+
+
+# JMH version: 1.22-SNAPSHOT
+# VM version: JDK 1.8.0_112, Java HotSpot(TM) 64-Bit Server VM, 25.112-b15
+# VM invoker: /home/hadoop/jdk1.8.0_112/jre/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 4 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.samples.JMHSample_31_InfraParams.measureFollowThreads
+
+# Run progress: 50.00% complete, ETA 00:08:24
+# Fork: 1 of 5
+# Warmup Iteration   1: 41738.371 ops/s
+# Warmup Iteration   2: 41530.750 ops/s
+# Warmup Iteration   3: 41364.805 ops/s
+# Warmup Iteration   4: 41903.063 ops/s
+# Warmup Iteration   5: 42305.617 ops/s
+Iteration   1: 43568.367 ops/s
+Iteration   2: 42828.698 ops/s
+Iteration   3: 42784.368 ops/s
+Iteration   4: 43106.473 ops/s
+Iteration   5: 42563.658 ops/s
+
+# Run progress: 60.00% complete, ETA 00:06:43
+# Fork: 2 of 5
+# Warmup Iteration   1: 37886.703 ops/s
+# Warmup Iteration   2: 38863.548 ops/s
+# Warmup Iteration   3: 39617.030 ops/s
+# Warmup Iteration   4: 39007.247 ops/s
+# Warmup Iteration   5: 39261.624 ops/s
+Iteration   1: 38858.973 ops/s
+Iteration   2: 40440.419 ops/s
+Iteration   3: 39979.776 ops/s
+Iteration   4: 39402.846 ops/s
+Iteration   5: 40338.334 ops/s
+
+# Run progress: 70.00% complete, ETA 00:05:02
+# Fork: 3 of 5
+# Warmup Iteration   1: 37645.617 ops/s
+# Warmup Iteration   2: 34532.030 ops/s
+# Warmup Iteration   3: 35547.536 ops/s
+# Warmup Iteration   4: 36149.061 ops/s
+# Warmup Iteration   5: 36177.697 ops/s
+Iteration   1: 35430.380 ops/s
+Iteration   2: 35865.904 ops/s
+Iteration   3: 36109.014 ops/s
+Iteration   4: 34417.397 ops/s
+Iteration   5: 33735.133 ops/s
+
+# Run progress: 80.00% complete, ETA 00:03:21
+# Fork: 4 of 5
+# Warmup Iteration   1: 38552.926 ops/s
+# Warmup Iteration   2: 38449.642 ops/s
+# Warmup Iteration   3: 39088.729 ops/s
+# Warmup Iteration   4: 39340.451 ops/s
+# Warmup Iteration   5: 38859.609 ops/s
+Iteration   1: 39530.090 ops/s
+Iteration   2: 40357.641 ops/s
+Iteration   3: 40037.760 ops/s
+Iteration   4: 40528.760 ops/s
+Iteration   5: 40737.941 ops/s
+
+# Run progress: 90.00% complete, ETA 00:01:40
+# Fork: 5 of 5
+# Warmup Iteration   1: 39934.358 ops/s
+# Warmup Iteration   2: 37053.112 ops/s
+# Warmup Iteration   3: 38304.649 ops/s
+# Warmup Iteration   4: 39412.704 ops/s
+# Warmup Iteration   5: 39223.727 ops/s
+Iteration   1: 39122.124 ops/s
+Iteration   2: 39202.440 ops/s
+Iteration   3: 39745.029 ops/s
+Iteration   4: 39647.166 ops/s
+Iteration   5: 39846.874 ops/s
+
+
+Result "org.openjdk.jmh.samples.JMHSample_31_InfraParams.measureFollowThreads":
+  39527.423 ±(99.9%) 1978.420 ops/s [Average]
+  (min, avg, max) = (33735.133, 39527.423, 43568.367), stdev = 2641.134
+  CI (99.9%): [37549.003, 41505.843] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:16:46
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                       Mode  Cnt      Score      Error  Units
+JMHSample_31_InfraParams.measureDefault        thrpt   25  39206.690 ± 2577.165  ops/s
+JMHSample_31_InfraParams.measureFollowThreads  thrpt   25  39527.423 ± 1978.420  ops/s

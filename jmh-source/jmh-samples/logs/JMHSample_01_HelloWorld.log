@@ -1,0 +1,41 @@
+# JMH version: 1.22-SNAPSHOT
+# VM version: JDK 1.8.0_112, Java HotSpot(TM) 64-Bit Server VM, 25.112-b15
+# VM invoker: /home/hadoop/jdk1.8.0_112/jre/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.samples.JMHSample_01_HelloWorld.wellHelloThere
+
+# Run progress: 0.00% complete, ETA 00:01:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 2232013775.590 ops/s
+# Warmup Iteration   2: 2289894029.506 ops/s
+# Warmup Iteration   3: 2326647713.621 ops/s
+# Warmup Iteration   4: 2331598818.078 ops/s
+# Warmup Iteration   5: 2209797765.818 ops/s
+Iteration   1: 1670702881.309 ops/s
+Iteration   2: 2269119547.839 ops/s
+Iteration   3: 2165502854.607 ops/s
+Iteration   4: 2144149670.920 ops/s
+Iteration   5: 2115974161.678 ops/s
+
+
+Result "org.openjdk.jmh.samples.JMHSample_01_HelloWorld.wellHelloThere":
+  2073089823.271 ±(99.9%) 894335659.080 ops/s [Average]
+  (min, avg, max) = (1670702881.309, 2073089823.271, 2269119547.839), stdev = 232256130.578
+  CI (99.9%): [1178754164.191, 2967425482.350] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:01:40
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                Mode  Cnt           Score           Error  Units
+JMHSample_01_HelloWorld.wellHelloThere  thrpt    5  2073089823.271 ± 894335659.080  ops/s

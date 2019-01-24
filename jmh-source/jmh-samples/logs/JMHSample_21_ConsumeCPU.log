@@ -1,0 +1,301 @@
+# JMH version: 1.22-SNAPSHOT
+# VM version: JDK 1.8.0_112, Java HotSpot(TM) 64-Bit Server VM, 25.112-b15
+# VM invoker: /home/hadoop/jdk1.8.0_112/jre/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.openjdk.jmh.samples.JMHSample_21_ConsumeCPU.consume_0000
+
+# Run progress: 0.00% complete, ETA 00:20:00
+# Fork: 1 of 1
+# Warmup Iteration   1: 3.418 ns/op
+# Warmup Iteration   2: 3.445 ns/op
+# Warmup Iteration   3: 3.132 ns/op
+# Warmup Iteration   4: 3.245 ns/op
+# Warmup Iteration   5: 3.203 ns/op
+Iteration   1: 3.120 ns/op
+Iteration   2: 3.146 ns/op
+Iteration   3: 3.106 ns/op
+Iteration   4: 3.125 ns/op
+Iteration   5: 3.114 ns/op
+
+
+Result "org.openjdk.jmh.samples.JMHSample_21_ConsumeCPU.consume_0000":
+  3.122 ±(99.9%) 0.059 ns/op [Average]
+  (min, avg, max) = (3.106, 3.122, 3.146), stdev = 0.015
+  CI (99.9%): [3.063, 3.181] (assumes normal distribution)
+
+
+# JMH version: 1.22-SNAPSHOT
+# VM version: JDK 1.8.0_112, Java HotSpot(TM) 64-Bit Server VM, 25.112-b15
+# VM invoker: /home/hadoop/jdk1.8.0_112/jre/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.openjdk.jmh.samples.JMHSample_21_ConsumeCPU.consume_0001
+
+# Run progress: 8.33% complete, ETA 00:18:25
+# Fork: 1 of 1
+# Warmup Iteration   1: 5.107 ns/op
+# Warmup Iteration   2: 5.291 ns/op
+# Warmup Iteration   3: 4.601 ns/op
+# Warmup Iteration   4: 4.635 ns/op
+# Warmup Iteration   5: 4.701 ns/op
+Iteration   1: 4.618 ns/op
+Iteration   2: 4.643 ns/op
+Iteration   3: 4.644 ns/op
+Iteration   4: 4.674 ns/op
+Iteration   5: 4.618 ns/op
+
+
+Result "org.openjdk.jmh.samples.JMHSample_21_ConsumeCPU.consume_0001":
+  4.639 ±(99.9%) 0.089 ns/op [Average]
+  (min, avg, max) = (4.618, 4.639, 4.674), stdev = 0.023
+  CI (99.9%): [4.550, 4.728] (assumes normal distribution)
+
+
+# JMH version: 1.22-SNAPSHOT
+# VM version: JDK 1.8.0_112, Java HotSpot(TM) 64-Bit Server VM, 25.112-b15
+# VM invoker: /home/hadoop/jdk1.8.0_112/jre/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.openjdk.jmh.samples.JMHSample_21_ConsumeCPU.consume_0002
+
+# Run progress: 16.67% complete, ETA 00:16:44
+# Fork: 1 of 1
+# Warmup Iteration   1: 7.251 ns/op
+# Warmup Iteration   2: 6.974 ns/op
+# Warmup Iteration   3: 5.978 ns/op
+# Warmup Iteration   4: 6.059 ns/op
+# Warmup Iteration   5: 5.968 ns/op
+Iteration   1: 6.032 ns/op
+Iteration   2: 6.009 ns/op
+Iteration   3: 6.002 ns/op
+Iteration   4: 6.071 ns/op
+Iteration   5: 6.022 ns/op
+
+
+Result "org.openjdk.jmh.samples.JMHSample_21_ConsumeCPU.consume_0002":
+  6.027 ±(99.9%) 0.104 ns/op [Average]
+  (min, avg, max) = (6.002, 6.027, 6.071), stdev = 0.027
+  CI (99.9%): [5.923, 6.131] (assumes normal distribution)
+
+
+# JMH version: 1.22-SNAPSHOT
+# VM version: JDK 1.8.0_112, Java HotSpot(TM) 64-Bit Server VM, 25.112-b15
+# VM invoker: /home/hadoop/jdk1.8.0_112/jre/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.openjdk.jmh.samples.JMHSample_21_ConsumeCPU.consume_0004
+
+# Run progress: 25.00% complete, ETA 00:15:03
+# Fork: 1 of 1
+# Warmup Iteration   1: 9.330 ns/op
+# Warmup Iteration   2: 9.088 ns/op
+# Warmup Iteration   3: 8.807 ns/op
+# Warmup Iteration   4: 8.440 ns/op
+# Warmup Iteration   5: 8.303 ns/op
+Iteration   1: 8.490 ns/op
+Iteration   2: 8.669 ns/op
+Iteration   3: 8.813 ns/op
+Iteration   4: 8.929 ns/op
+Iteration   5: 8.871 ns/op
+
+
+Result "org.openjdk.jmh.samples.JMHSample_21_ConsumeCPU.consume_0004":
+  8.754 ±(99.9%) 0.680 ns/op [Average]
+  (min, avg, max) = (8.490, 8.754, 8.929), stdev = 0.177
+  CI (99.9%): [8.074, 9.435] (assumes normal distribution)
+
+
+# JMH version: 1.22-SNAPSHOT
+# VM version: JDK 1.8.0_112, Java HotSpot(TM) 64-Bit Server VM, 25.112-b15
+# VM invoker: /home/hadoop/jdk1.8.0_112/jre/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.openjdk.jmh.samples.JMHSample_21_ConsumeCPU.consume_0008
+
+# Run progress: 33.33% complete, ETA 00:13:23
+# Fork: 1 of 1
+# Warmup Iteration   1: 16.608 ns/op
+# Warmup Iteration   2: 15.466 ns/op
+# Warmup Iteration   3: 14.435 ns/op
+# Warmup Iteration   4: 15.159 ns/op
+# Warmup Iteration   5: 15.200 ns/op
+Iteration   1: 15.344 ns/op
+Iteration   2: 15.168 ns/op
+Iteration   3: 15.377 ns/op
+Iteration   4: 14.724 ns/op
+Iteration   5: 14.812 ns/op
+
+
+Result "org.openjdk.jmh.samples.JMHSample_21_ConsumeCPU.consume_0008":
+  15.085 ±(99.9%) 1.162 ns/op [Average]
+  (min, avg, max) = (14.724, 15.085, 15.377), stdev = 0.302
+  CI (99.9%): [13.924, 16.247] (assumes normal distribution)
+
+
+# JMH version: 1.22-SNAPSHOT
+# VM version: JDK 1.8.0_112, Java HotSpot(TM) 64-Bit Server VM, 25.112-b15
+# VM invoker: /home/hadoop/jdk1.8.0_112/jre/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.openjdk.jmh.samples.JMHSample_21_ConsumeCPU.consume_0016
+
+# Run progress: 41.67% complete, ETA 00:11:42
+# Fork: 1 of 1
+# Warmup Iteration   1: 36.314 ns/op
+# Warmup Iteration   2: 36.780 ns/op
+# Warmup Iteration   3: 35.353 ns/op
+# Warmup Iteration   4: 33.919 ns/op
+# Warmup Iteration   5: 35.243 ns/op
+Iteration   1: 35.666 ns/op
+Iteration   2: 35.296 ns/op
+Iteration   3: 33.840 ns/op
+Iteration   4: 35.117 ns/op
+Iteration   5: 34.639 ns/op
+
+
+Result "org.openjdk.jmh.samples.JMHSample_21_ConsumeCPU.consume_0016":
+  34.912 ±(99.9%) 2.710 ns/op [Average]
+  (min, avg, max) = (33.840, 34.912, 35.666), stdev = 0.704
+  CI (99.9%): [32.202, 37.622] (assumes normal distribution)
+
+
+# JMH version: 1.22-SNAPSHOT
+# VM version: JDK 1.8.0_112, Java HotSpot(TM) 64-Bit Server VM, 25.112-b15
+# VM invoker: /home/hadoop/jdk1.8.0_112/jre/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.openjdk.jmh.samples.JMHSample_21_ConsumeCPU.consume_0032
+
+# Run progress: 50.00% complete, ETA 00:10:02
+# Fork: 1 of 1
+# Warmup Iteration   1: 85.343 ns/op
+# Warmup Iteration   2: 80.721 ns/op
+# Warmup Iteration   3: 83.529 ns/op
+# Warmup Iteration   4: 85.321 ns/op
+# Warmup Iteration   5: 83.291 ns/op
+Iteration   1: 85.286 ns/op
+Iteration   2: 86.779 ns/op
+Iteration   3: 85.098 ns/op
+Iteration   4: 82.072 ns/op
+Iteration   5: 84.598 ns/op
+
+
+Result "org.openjdk.jmh.samples.JMHSample_21_ConsumeCPU.consume_0032":
+  84.766 ±(99.9%) 6.591 ns/op [Average]
+  (min, avg, max) = (82.072, 84.766, 86.779), stdev = 1.712
+  CI (99.9%): [78.175, 91.358] (assumes normal distribution)
+
+
+# JMH version: 1.22-SNAPSHOT
+# VM version: JDK 1.8.0_112, Java HotSpot(TM) 64-Bit Server VM, 25.112-b15
+# VM invoker: /home/hadoop/jdk1.8.0_112/jre/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.openjdk.jmh.samples.JMHSample_21_ConsumeCPU.consume_0064
+
+# Run progress: 58.33% complete, ETA 00:08:21
+# Fork: 1 of 1
+# Warmup Iteration   1: 193.363 ns/op
+# Warmup Iteration   2: 182.148 ns/op
+# Warmup Iteration   3: 182.546 ns/op
+# Warmup Iteration   4: 190.726 ns/op
+# Warmup Iteration   5: 186.441 ns/op
+Iteration   1: 186.290 ns/op
+Iteration   2: 193.099 ns/op
+Iteration   3: 187.288 ns/op
+Iteration   4: 194.428 ns/op
+Iteration   5: 187.964 ns/op
+
+
+Result "org.openjdk.jmh.samples.JMHSample_21_ConsumeCPU.consume_0064":
+  189.814 ±(99.9%) 14.187 ns/op [Average]
+  (min, avg, max) = (186.290, 189.814, 194.428), stdev = 3.684
+  CI (99.9%): [175.627, 204.001] (assumes normal distribution)
+
+
+# JMH version: 1.22-SNAPSHOT
+# VM version: JDK 1.8.0_112, Java HotSpot(TM) 64-Bit Server VM, 25.112-b15
+# VM invoker: /home/hadoop/jdk1.8.0_112/jre/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.openjdk.jmh.samples.JMHSample_21_ConsumeCPU.consume_0128
+
+# Run progress: 66.67% complete, ETA 00:06:41
+# Fork: 1 of 1
+# Warmup Iteration   1: 402.003 ns/op
+# Warmup Iteration   2: 404.022 ns/op
+# Warmup Iteration   3: 410.405 ns/op
+# Warmup Iteration   4: 400.506 ns/op
+# Warmup Iteration   5: 392.909 ns/op
+Iteration   1: 383.320 ns/op
+Iteration   2: 380.188 ns/op
+Iteration   3: 394.915 ns/op
+Iteration   4: 390.640 ns/op
+Iteration   5: 365.723 ns/op
+
+
+Result "org.openjdk.jmh.samples.JMHSample_21_ConsumeCPU.consume_0128":
+  382.957 ±(99.9%) 43.345 ns/op [Average]
+  (min, avg, max) = (365.723, 382.957, 394.915), stdev = 11.256
+  CI (99.9%): [339.613, 426.302] (assumes normal distribution)
+
+
+# JMH version: 1.22-SNAPSHOT
+# VM version: JDK 1.8.0_112, Java HotSpot(TM) 64-Bit Server VM, 25.112-b15
+# VM invoker: /home/hadoop/jdk1.8.0_112/jre/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.openjdk.jmh.samples.JMHSample_21_ConsumeCPU.consume_0256
+
+# Run progress: 75.00% complete, ETA 00:05:01
+# Fork: 1 of 1
+# Warmup Iteration   1: 818.981 ns/op
+# Warmup Iteration   2: 809.259 ns/op
+# Warmup Iteration   3: 787.411 ns/op
+# Warmup Iteration   4: 765.318 ns/op
+# Warmup Iteration   5: 747.927 ns/op
+Iteration   1: 788.488 ns/op
+Iteration   2: 753.545 ns/op
+Iteration   3: 753.360 ns/op
+Iteration   4: 

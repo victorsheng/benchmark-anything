@@ -1,0 +1,137 @@
+# JMH version: 1.22-SNAPSHOT
+# VM version: JDK 1.8.0_112, Java HotSpot(TM) 64-Bit Server VM, 25.112-b15
+# VM invoker: /home/hadoop/jdk1.8.0_112/jre/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.openjdk.jmh.samples.JMHSample_10_ConstantFold.baseline
+
+# Run progress: 0.00% complete, ETA 00:06:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 4.535 ns/op
+# Warmup Iteration   2: 5.044 ns/op
+# Warmup Iteration   3: 3.877 ns/op
+# Warmup Iteration   4: 3.720 ns/op
+# Warmup Iteration   5: 3.732 ns/op
+Iteration   1: 3.906 ns/op
+Iteration   2: 3.585 ns/op
+Iteration   3: 3.559 ns/op
+Iteration   4: 3.686 ns/op
+Iteration   5: 3.587 ns/op
+
+
+Result "org.openjdk.jmh.samples.JMHSample_10_ConstantFold.baseline":
+  3.665 ±(99.9%) 0.552 ns/op [Average]
+  (min, avg, max) = (3.559, 3.665, 3.906), stdev = 0.143
+  CI (99.9%): [3.113, 4.216] (assumes normal distribution)
+
+
+# JMH version: 1.22-SNAPSHOT
+# VM version: JDK 1.8.0_112, Java HotSpot(TM) 64-Bit Server VM, 25.112-b15
+# VM invoker: /home/hadoop/jdk1.8.0_112/jre/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.openjdk.jmh.samples.JMHSample_10_ConstantFold.measureRight
+
+# Run progress: 25.00% complete, ETA 00:05:01
+# Fork: 1 of 1
+# Warmup Iteration   1: 32.175 ns/op
+# Warmup Iteration   2: 33.118 ns/op
+# Warmup Iteration   3: 32.817 ns/op
+# Warmup Iteration   4: 31.407 ns/op
+# Warmup Iteration   5: 31.802 ns/op
+Iteration   1: 31.696 ns/op
+Iteration   2: 34.302 ns/op
+Iteration   3: 34.063 ns/op
+Iteration   4: 34.583 ns/op
+Iteration   5: 34.363 ns/op
+
+
+Result "org.openjdk.jmh.samples.JMHSample_10_ConstantFold.measureRight":
+  33.801 ±(99.9%) 4.588 ns/op [Average]
+  (min, avg, max) = (31.696, 33.801, 34.583), stdev = 1.191
+  CI (99.9%): [29.214, 38.389] (assumes normal distribution)
+
+
+# JMH version: 1.22-SNAPSHOT
+# VM version: JDK 1.8.0_112, Java HotSpot(TM) 64-Bit Server VM, 25.112-b15
+# VM invoker: /home/hadoop/jdk1.8.0_112/jre/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.openjdk.jmh.samples.JMHSample_10_ConstantFold.measureWrong_1
+
+# Run progress: 50.00% complete, ETA 00:03:20
+# Fork: 1 of 1
+# Warmup Iteration   1: 4.812 ns/op
+# Warmup Iteration   2: 4.760 ns/op
+# Warmup Iteration   3: 3.732 ns/op
+# Warmup Iteration   4: 3.590 ns/op
+# Warmup Iteration   5: 3.658 ns/op
+Iteration   1: 3.699 ns/op
+Iteration   2: 3.858 ns/op
+Iteration   3: 3.779 ns/op
+Iteration   4: 3.563 ns/op
+Iteration   5: 3.567 ns/op
+
+
+Result "org.openjdk.jmh.samples.JMHSample_10_ConstantFold.measureWrong_1":
+  3.693 ±(99.9%) 0.500 ns/op [Average]
+  (min, avg, max) = (3.563, 3.693, 3.858), stdev = 0.130
+  CI (99.9%): [3.193, 4.193] (assumes normal distribution)
+
+
+# JMH version: 1.22-SNAPSHOT
+# VM version: JDK 1.8.0_112, Java HotSpot(TM) 64-Bit Server VM, 25.112-b15
+# VM invoker: /home/hadoop/jdk1.8.0_112/jre/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.openjdk.jmh.samples.JMHSample_10_ConstantFold.measureWrong_2
+
+# Run progress: 75.00% complete, ETA 00:01:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 4.603 ns/op
+# Warmup Iteration   2: 4.506 ns/op
+# Warmup Iteration   3: 3.854 ns/op
+# Warmup Iteration   4: 3.686 ns/op
+# Warmup Iteration   5: 3.684 ns/op
+Iteration   1: 3.797 ns/op
+Iteration   2: 3.733 ns/op
+Iteration   3: 3.615 ns/op
+Iteration   4: 3.601 ns/op
+Iteration   5: 3.389 ns/op
+
+
+Result "org.openjdk.jmh.samples.JMHSample_10_ConstantFold.measureWrong_2":
+  3.627 ±(99.9%) 0.602 ns/op [Average]
+  (min, avg, max) = (3.389, 3.627, 3.797), stdev = 0.156
+  CI (99.9%): [3.026, 4.229] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:06:42
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                 Mode  Cnt   Score   Error  Units
+JMHSample_10_ConstantFold.baseline        avgt    5   3.665 ± 0.552  ns/op
+JMHSample_10_ConstantFold.measureRight    avgt    5  33.801 ± 4.588  ns/op
+JMHSample_10_ConstantFold.measureWrong_1  avgt    5   3.693 ± 0.500  ns/op
+JMHSample_10_ConstantFold.measureWrong_2  avgt    5   3.627 ± 0.602  ns/op

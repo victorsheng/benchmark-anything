@@ -1,0 +1,75 @@
+# JMH version: 1.22-SNAPSHOT
+# VM version: JDK 1.8.0_112, Java HotSpot(TM) 64-Bit Server VM, 25.112-b15
+# VM invoker: /home/hadoop/jdk1.8.0_112/jre/bin/java
+# VM options: -ea
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.samples.JMHSample_06_FixtureLevel.measureRight
+
+# Run progress: 0.00% complete, ETA 00:03:20
+# Fork: 1 of 1
+# Warmup Iteration   1: 248786537.445 ops/s
+# Warmup Iteration   2: 246208283.609 ops/s
+# Warmup Iteration   3: 244397693.318 ops/s
+# Warmup Iteration   4: 243520723.349 ops/s
+# Warmup Iteration   5: 240163543.275 ops/s
+Iteration   1: 246292797.246 ops/s
+Iteration   2: 250343030.460 ops/s
+Iteration   3: 242368460.376 ops/s
+Iteration   4: 239671271.892 ops/s
+Iteration   5: 248184184.109 ops/s
+
+
+Result "org.openjdk.jmh.samples.JMHSample_06_FixtureLevel.measureRight":
+  245371948.817 ±(99.9%) 16672325.754 ops/s [Average]
+  (min, avg, max) = (239671271.892, 245371948.817, 250343030.460), stdev = 4329750.053
+  CI (99.9%): [228699623.062, 262044274.571] (assumes normal distribution)
+
+
+# JMH version: 1.22-SNAPSHOT
+# VM version: JDK 1.8.0_112, Java HotSpot(TM) 64-Bit Server VM, 25.112-b15
+# VM invoker: /home/hadoop/jdk1.8.0_112/jre/bin/java
+# VM options: -ea
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.samples.JMHSample_06_FixtureLevel.measureWrong
+
+# Run progress: 50.00% complete, ETA 00:01:40
+# Fork: 1 of 1
+# Warmup Iteration   1: <failure>
+
+java.lang.AssertionError: Nothing changed?
+	at org.openjdk.jmh.samples.JMHSample_06_FixtureLevel.check(JMHSample_06_FixtureLevel.java:59)
+	at org.openjdk.jmh.samples.generated.JMHSample_06_FixtureLevel_measureWrong_jmhTest.measureWrong_Throughput(JMHSample_06_FixtureLevel_measureWrong_jmhTest.java:95)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call(BenchmarkHandler.java:453)
+	at org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call(BenchmarkHandler.java:437)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+
+
+# Run complete. Total time: 00:01:50
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                Mode  Cnt          Score          Error  Units
+JMHSample_06_FixtureLevel.measureRight  thrpt    5  245371948.817 ± 16672325.754  ops/s

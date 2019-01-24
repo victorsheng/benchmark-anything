@@ -1,0 +1,68 @@
+# JMH version: 1.22-SNAPSHOT
+# VM version: JDK 1.8.0_112, Java HotSpot(TM) 64-Bit Server VM, 25.112-b15
+# VM invoker: /home/hadoop/jdk1.8.0_112/jre/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 2 threads (1 group; 1x "ping", 1x "pong" in each group), will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.samples.JMHSample_18_Control.pingpong
+
+# Run progress: 0.00% complete, ETA 00:01:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 20484967.761 ops/s
+# Warmup Iteration   2: 24248872.821 ops/s
+# Warmup Iteration   3: 21959707.907 ops/s
+# Warmup Iteration   4: 23986311.039 ops/s
+# Warmup Iteration   5: 23891124.449 ops/s
+Iteration   1: 20479541.256 ops/s
+                 ping: 10239769.612 ops/s
+                 pong: 10239771.645 ops/s
+
+Iteration   2: 20209349.155 ops/s
+                 ping: 10104675.983 ops/s
+                 pong: 10104673.172 ops/s
+
+Iteration   3: 20588783.743 ops/s
+                 ping: 10294391.294 ops/s
+                 pong: 10294392.449 ops/s
+
+Iteration   4: 21136094.414 ops/s
+                 ping: 10568030.676 ops/s
+                 pong: 10568063.739 ops/s
+
+Iteration   5: 19281713.906 ops/s
+                 ping: 9640856.838 ops/s
+                 pong: 9640857.068 ops/s
+
+
+
+Result "org.openjdk.jmh.samples.JMHSample_18_Control.pingpong":
+  20339096.495 ±(99.9%) 2620253.874 ops/s [Average]
+  (min, avg, max) = (19281713.906, 20339096.495, 21136094.414), stdev = 680471.610
+  CI (99.9%): [17718842.621, 22959350.369] (assumes normal distribution)
+
+Secondary result "org.openjdk.jmh.samples.JMHSample_18_Control.pingpong:ping":
+  10169544.880 ±(99.9%) 1310107.806 ops/s [Average]
+  (min, avg, max) = (9640856.838, 10169544.880, 10568030.676), stdev = 340230.837
+  CI (99.9%): [8859437.075, 11479652.686] (assumes normal distribution)
+
+Secondary result "org.openjdk.jmh.samples.JMHSample_18_Control.pingpong:pong":
+  10169551.615 ±(99.9%) 1310146.068 ops/s [Average]
+  (min, avg, max) = (9640857.068, 10169551.615, 10568063.739), stdev = 340240.773
+  CI (99.9%): [8859405.546, 11479697.683] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:01:40
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                            Mode  Cnt         Score         Error  Units
+JMHSample_18_Control.pingpong       thrpt    5  20339096.495 ± 2620253.874  ops/s
+JMHSample_18_Control.pingpong:ping  thrpt    5  10169544.880 ± 1310107.806  ops/s
+JMHSample_18_Control.pingpong:pong  thrpt    5  10169551.615 ± 1310146.068  ops/s

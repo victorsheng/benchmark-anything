@@ -1,0 +1,953 @@
+# JMH version: 1.22-SNAPSHOT
+# VM version: JDK 1.8.0_112, Java HotSpot(TM) 64-Bit Server VM, 25.112-b15
+# VM invoker: /home/hadoop/jdk1.8.0_112/jre/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.openjdk.jmh.samples.JMHSample_34_SafeLooping.measureRight_1
+# Parameters: (size = 1)
+
+# Run progress: 0.00% complete, ETA 00:08:00
+# Fork: 1 of 3
+# Warmup Iteration   1: 7.161 ns/op
+# Warmup Iteration   2: 7.615 ns/op
+# Warmup Iteration   3: 7.086 ns/op
+# Warmup Iteration   4: 7.009 ns/op
+# Warmup Iteration   5: 7.127 ns/op
+Iteration   1: 7.436 ns/op
+Iteration   2: 7.303 ns/op
+Iteration   3: 6.940 ns/op
+Iteration   4: 6.803 ns/op
+Iteration   5: 6.782 ns/op
+
+# Run progress: 2.08% complete, ETA 00:08:11
+# Fork: 2 of 3
+# Warmup Iteration   1: 6.669 ns/op
+# Warmup Iteration   2: 7.189 ns/op
+# Warmup Iteration   3: 6.904 ns/op
+# Warmup Iteration   4: 6.435 ns/op
+# Warmup Iteration   5: 5.719 ns/op
+Iteration   1: 5.503 ns/op
+Iteration   2: 7.042 ns/op
+Iteration   3: 6.668 ns/op
+Iteration   4: 6.923 ns/op
+Iteration   5: 6.813 ns/op
+
+# Run progress: 4.17% complete, ETA 00:07:58
+# Fork: 3 of 3
+# Warmup Iteration   1: 7.442 ns/op
+# Warmup Iteration   2: 7.110 ns/op
+# Warmup Iteration   3: 6.649 ns/op
+# Warmup Iteration   4: 6.962 ns/op
+# Warmup Iteration   5: 6.874 ns/op
+Iteration   1: 6.808 ns/op
+Iteration   2: 6.805 ns/op
+Iteration   3: 6.848 ns/op
+Iteration   4: 6.816 ns/op
+Iteration   5: 6.597 ns/op
+
+
+Result "org.openjdk.jmh.samples.JMHSample_34_SafeLooping.measureRight_1":
+  6.806 ±(99.9%) 0.451 ns/op [Average]
+  (min, avg, max) = (5.503, 6.806, 7.436), stdev = 0.422
+  CI (99.9%): [6.355, 7.257] (assumes normal distribution)
+
+
+# JMH version: 1.22-SNAPSHOT
+# VM version: JDK 1.8.0_112, Java HotSpot(TM) 64-Bit Server VM, 25.112-b15
+# VM invoker: /home/hadoop/jdk1.8.0_112/jre/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.openjdk.jmh.samples.JMHSample_34_SafeLooping.measureRight_1
+# Parameters: (size = 10)
+
+# Run progress: 6.25% complete, ETA 00:07:47
+# Fork: 1 of 3
+# Warmup Iteration   1: 39.935 ns/op
+# Warmup Iteration   2: 41.331 ns/op
+# Warmup Iteration   3: 41.663 ns/op
+# Warmup Iteration   4: 38.398 ns/op
+# Warmup Iteration   5: 37.479 ns/op
+Iteration   1: 37.034 ns/op
+Iteration   2: 38.509 ns/op
+Iteration   3: 39.007 ns/op
+Iteration   4: 37.169 ns/op
+Iteration   5: 37.262 ns/op
+
+# Run progress: 8.33% complete, ETA 00:07:36
+# Fork: 2 of 3
+# Warmup Iteration   1: 37.522 ns/op
+# Warmup Iteration   2: 37.553 ns/op
+# Warmup Iteration   3: 37.586 ns/op
+# Warmup Iteration   4: 38.920 ns/op
+# Warmup Iteration   5: 38.958 ns/op
+Iteration   1: 36.266 ns/op
+Iteration   2: 39.178 ns/op
+Iteration   3: 37.669 ns/op
+Iteration   4: 37.053 ns/op
+Iteration   5: 40.171 ns/op
+
+# Run progress: 10.42% complete, ETA 00:07:25
+# Fork: 3 of 3
+# Warmup Iteration   1: 41.474 ns/op
+# Warmup Iteration   2: 38.971 ns/op
+# Warmup Iteration   3: 38.521 ns/op
+# Warmup Iteration   4: 37.024 ns/op
+# Warmup Iteration   5: 35.696 ns/op
+Iteration   1: 36.954 ns/op
+Iteration   2: 37.234 ns/op
+Iteration   3: 34.927 ns/op
+Iteration   4: 37.245 ns/op
+Iteration   5: 37.207 ns/op
+
+
+Result "org.openjdk.jmh.samples.JMHSample_34_SafeLooping.measureRight_1":
+  37.526 ±(99.9%) 1.355 ns/op [Average]
+  (min, avg, max) = (34.927, 37.526, 40.171), stdev = 1.268
+  CI (99.9%): [36.170, 38.881] (assumes normal distribution)
+
+
+# JMH version: 1.22-SNAPSHOT
+# VM version: JDK 1.8.0_112, Java HotSpot(TM) 64-Bit Server VM, 25.112-b15
+# VM invoker: /home/hadoop/jdk1.8.0_112/jre/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.openjdk.jmh.samples.JMHSample_34_SafeLooping.measureRight_1
+# Parameters: (size = 100)
+
+# Run progress: 12.50% complete, ETA 00:07:15
+# Fork: 1 of 3
+# Warmup Iteration   1: 371.661 ns/op
+# Warmup Iteration   2: 383.763 ns/op
+# Warmup Iteration   3: 368.862 ns/op
+# Warmup Iteration   4: 365.834 ns/op
+# Warmup Iteration   5: 365.584 ns/op
+Iteration   1: 361.994 ns/op
+Iteration   2: 359.977 ns/op
+Iteration   3: 365.743 ns/op
+Iteration   4: 380.635 ns/op
+Iteration   5: 368.366 ns/op
+
+# Run progress: 14.58% complete, ETA 00:07:04
+# Fork: 2 of 3
+# Warmup Iteration   1: 376.003 ns/op
+# Warmup Iteration   2: 366.297 ns/op
+# Warmup Iteration   3: 361.366 ns/op
+# Warmup Iteration   4: 361.370 ns/op
+# Warmup Iteration   5: 360.505 ns/op
+Iteration   1: 335.704 ns/op
+Iteration   2: 369.627 ns/op
+Iteration   3: 380.137 ns/op
+Iteration   4: 380.201 ns/op
+Iteration   5: 374.519 ns/op
+
+# Run progress: 16.67% complete, ETA 00:06:54
+# Fork: 3 of 3
+# Warmup Iteration   1: 314.313 ns/op
+# Warmup Iteration   2: 326.490 ns/op
+# Warmup Iteration   3: 362.704 ns/op
+# Warmup Iteration   4: 326.846 ns/op
+# Warmup Iteration   5: 357.392 ns/op
+Iteration   1: 364.753 ns/op
+Iteration   2: 360.075 ns/op
+Iteration   3: 369.716 ns/op
+Iteration   4: 377.971 ns/op
+Iteration   5: 369.866 ns/op
+
+
+Result "org.openjdk.jmh.samples.JMHSample_34_SafeLooping.measureRight_1":
+  367.952 ±(99.9%) 12.219 ns/op [Average]
+  (min, avg, max) = (335.704, 367.952, 380.635), stdev = 11.429
+  CI (99.9%): [355.734, 380.171] (assumes normal distribution)
+
+
+# JMH version: 1.22-SNAPSHOT
+# VM version: JDK 1.8.0_112, Java HotSpot(TM) 64-Bit Server VM, 25.112-b15
+# VM invoker: /home/hadoop/jdk1.8.0_112/jre/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.openjdk.jmh.samples.JMHSample_34_SafeLooping.measureRight_1
+# Parameters: (size = 1000)
+
+# Run progress: 18.75% complete, ETA 00:06:43
+# Fork: 1 of 3
+# Warmup Iteration   1: 3599.512 ns/op
+# Warmup Iteration   2: 3693.377 ns/op
+# Warmup Iteration   3: 3608.029 ns/op
+# Warmup Iteration   4: 3693.965 ns/op
+# Warmup Iteration   5: 3568.198 ns/op
+Iteration   1: 3445.883 ns/op
+Iteration   2: 3209.927 ns/op
+Iteration   3: 3216.047 ns/op
+Iteration   4: 3440.153 ns/op
+Iteration   5: 3570.052 ns/op
+
+# Run progress: 20.83% complete, ETA 00:06:33
+# Fork: 2 of 3
+# Warmup Iteration   1: 3491.771 ns/op
+# Warmup Iteration   2: 3591.794 ns/op
+# Warmup Iteration   3: 3340.848 ns/op
+# Warmup Iteration   4: 3565.557 ns/op
+# Warmup Iteration   5: 3704.421 ns/op
+Iteration   1: 3623.324 ns/op
+Iteration   2: 3641.067 ns/op
+Iteration   3: 3662.070 ns/op
+Iteration   4: 3678.638 ns/op
+Iteration   5: 3215.516 ns/op
+
+# Run progress: 22.92% complete, ETA 00:06:22
+# Fork: 3 of 3
+# Warmup Iteration   1: 3599.019 ns/op
+# Warmup Iteration   2: 3509.740 ns/op
+# Warmup Iteration   3: 3536.030 ns/op
+# Warmup Iteration   4: 3578.864 ns/op
+# Warmup Iteration   5: 3366.664 ns/op
+Iteration   1: 3499.193 ns/op
+Iteration   2: 3342.182 ns/op
+Iteration   3: 3635.400 ns/op
+Iteration   4: 3413.169 ns/op
+Iteration   5: 3063.309 ns/op
+
+
+Result "org.openjdk.jmh.samples.JMHSample_34_SafeLooping.measureRight_1":
+  3443.729 ±(99.9%) 210.811 ns/op [Average]
+  (min, avg, max) = (3063.309, 3443.729, 3678.638), stdev = 197.193
+  CI (99.9%): [3232.918, 3654.540] (assumes normal distribution)
+
+
+# JMH version: 1.22-SNAPSHOT
+# VM version: JDK 1.8.0_112, Java HotSpot(TM) 64-Bit Server VM, 25.112-b15
+# VM invoker: /home/hadoop/jdk1.8.0_112/jre/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.openjdk.jmh.samples.JMHSample_34_SafeLooping.measureRight_2
+# Parameters: (size = 1)
+
+# Run progress: 25.00% complete, ETA 00:06:12
+# Fork: 1 of 3
+# Warmup Iteration   1: 5.941 ns/op
+# Warmup Iteration   2: 5.688 ns/op
+# Warmup Iteration   3: 5.463 ns/op
+# Warmup Iteration   4: 5.502 ns/op
+# Warmup Iteration   5: 5.497 ns/op
+Iteration   1: 5.856 ns/op
+Iteration   2: 5.956 ns/op
+Iteration   3: 5.652 ns/op
+Iteration   4: 5.805 ns/op
+Iteration   5: 5.879 ns/op
+
+# Run progress: 27.08% complete, ETA 00:06:02
+# Fork: 2 of 3
+# Warmup Iteration   1: 6.070 ns/op
+# Warmup Iteration   2: 6.098 ns/op
+# Warmup Iteration   3: 6.227 ns/op
+# Warmup Iteration   4: 6.244 ns/op
+# Warmup Iteration   5: 6.157 ns/op
+Iteration   1: 6.294 ns/op
+Iteration   2: 5.830 ns/op
+Iteration   3: 6.272 ns/op
+Iteration   4: 5.870 ns/op
+Iteration   5: 6.366 ns/op
+
+# Run progress: 29.17% complete, ETA 00:05:51
+# Fork: 3 of 3
+# Warmup Iteration   1: 5.923 ns/op
+# Warmup Iteration   2: 6.200 ns/op
+# Warmup Iteration   3: 6.435 ns/op
+# Warmup Iteration   4: 5.923 ns/op
+# Warmup Iteration   5: 5.532 ns/op
+Iteration   1: 5.967 ns/op
+Iteration   2: 5.937 ns/op
+Iteration   3: 5.536 ns/op
+Iteration   4: 5.515 ns/op
+Iteration   5: 6.061 ns/op
+
+
+Result "org.openjdk.jmh.samples.JMHSample_34_SafeLooping.measureRight_2":
+  5.920 ±(99.9%) 0.271 ns/op [Average]
+  (min, avg, max) = (5.515, 5.920, 6.366), stdev = 0.253
+  CI (99.9%): [5.649, 6.191] (assumes normal distribution)
+
+
+# JMH version: 1.22-SNAPSHOT
+# VM version: JDK 1.8.0_112, Java HotSpot(TM) 64-Bit Server VM, 25.112-b15
+# VM invoker: /home/hadoop/jdk1.8.0_112/jre/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.openjdk.jmh.samples.JMHSample_34_SafeLooping.measureRight_2
+# Parameters: (size = 10)
+
+# Run progress: 31.25% complete, ETA 00:05:41
+# Fork: 1 of 3
+# Warmup Iteration   1: 31.007 ns/op
+# Warmup Iteration   2: 32.856 ns/op
+# Warmup Iteration   3: 33.183 ns/op
+# Warmup Iteration   4: 31.815 ns/op
+# Warmup Iteration   5: 31.146 ns/op
+Iteration   1: 30.958 ns/op
+Iteration   2: 31.039 ns/op
+Iteration   3: 29.312 ns/op
+Iteration   4: 26.204 ns/op
+Iteration   5: 26.670 ns/op
+
+# Run progress: 33.33% complete, ETA 00:05:31
+# Fork: 2 of 3
+# Warmup Iteration   1: 30.762 ns/op
+# Warmup Iteration   2: 29.333 ns/op
+# Warmup Iteration   3: 32.040 ns/op
+# Warmup Iteration   4: 33.219 ns/op
+# Warmup Iteration   5: 31.056 ns/op
+Iteration   1: 30.206 ns/op
+Iteration   2: 31.448 ns/op
+Iteration   3: 31.491 ns/op
+Iteration   4: 31.954 ns/op
+Iteration   5: 32.428 ns/op
+
+# Run progress: 35.42% complete, ETA 00:05:20
+# Fork: 3 of 3
+# Warmup Iteration   1: 32.356 ns/op
+# Warmup Iteration   2: 31.854 ns/op
+# Warmup Iteration   3: 31.003 ns/op
+# Warmup Iteration   4: 31.450 ns/op
+# Warmup Iteration   5: 33.813 ns/op
+Iteration   1: 29.134 ns/op
+Iteration   2: 31.769 ns/op
+Iteration   3: 31.747 ns/op
+Iteration   4: 31.327 ns/op
+Iteration   5: 30.463 ns/op
+
+
+Result "org.openjdk.jmh.samples.JMHSample_34_SafeLooping.measureRight_2":
+  30.410 ±(99.9%) 1.988 ns/op [Average]
+  (min, avg, max) = (26.204, 30.410, 32.428), stdev = 1.860
+  CI (99.9%): [28.422, 32.398] (assumes normal distribution)
+
+
+# JMH version: 1.22-SNAPSHOT
+# VM version: JDK 1.8.0_112, Java HotSpot(TM) 64-Bit Server VM, 25.112-b15
+# VM invoker: /home/hadoop/jdk1.8.0_112/jre/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.openjdk.jmh.samples.JMHSample_34_SafeLooping.measureRight_2
+# Parameters: (size = 100)
+
+# Run progress: 37.50% complete, ETA 00:05:10
+# Fork: 1 of 3
+# Warmup Iteration   1: 310.005 ns/op
+# Warmup Iteration   2: 294.696 ns/op
+# Warmup Iteration   3: 268.462 ns/op
+# Warmup Iteration   4: 287.579 ns/op
+# Warmup Iteration   5: 322.210 ns/op
+Iteration   1: 296.911 ns/op
+Iteration   2: 324.754 ns/op
+Iteration   3: 317.622 ns/op
+Iteration   4: 322.990 ns/op
+Iteration   5: 310.445 ns/op
+
+# Run progress: 39.58% complete, ETA 00:05:00
+# Fork: 2 of 3
+# Warmup Iteration   1: 318.953 ns/op
+# Warmup Iteration   2: 314.134 ns/op
+# Warmup Iteration   3: 308.229 ns/op
+# Warmup Iteration   4: 312.878 ns/op
+# Warmup Iteration   5: 306.478 ns/op
+Iteration   1: 305.449 ns/op
+Iteration   2: 318.002 ns/op
+Iteration   3: 310.787 ns/op
+Iteration   4: 312.535 ns/op
+Iteration   5: 309.156 ns/op
+
+# Run progress: 41.67% complete, ETA 00:04:49
+# Fork: 3 of 3
+# Warmup Iteration   1: 333.946 ns/op
+# Warmup Iteration   2: 314.322 ns/op
+# Warmup Iteration   3: 330.896 ns/op
+# Warmup Iteration   4: 310.221 ns/op
+# Warmup Iteration   5: 312.230 ns/op
+Iteration   1: 320.085 ns/op
+Iteration   2: 316.589 ns/op
+Iteration   3: 323.284 ns/op
+Iteration   4: 316.338 ns/op
+Iteration   5: 345.310 ns/op
+
+
+Result "org.openjdk.jmh.samples.JMHSample_34_SafeLooping.measureRight_2":
+  316.684 ±(99.9%) 11.595 ns/op [Average]
+  (min, avg, max) = (296.911, 316.684, 345.310), stdev = 10.846
+  CI (99.9%): [305.088, 328.279] (assumes normal distribution)
+
+
+# JMH version: 1.22-SNAPSHOT
+# VM version: JDK 1.8.0_112, Java HotSpot(TM) 64-Bit Server VM, 25.112-b15
+# VM invoker: /home/hadoop/jdk1.8.0_112/jre/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.openjdk.jmh.samples.JMHSample_34_SafeLooping.measureRight_2
+# Parameters: (size = 1000)
+
+# Run progress: 43.75% complete, ETA 00:04:39
+# Fork: 1 of 3
+# Warmup Iteration   1: 3157.863 ns/op
+# Warmup Iteration   2: 2838.146 ns/op
+# Warmup Iteration   3: 3060.142 ns/op
+# Warmup Iteration   4: 2977.536 ns/op
+# Warmup Iteration   5: 2979.813 ns/op
+Iteration   1: 2939.661 ns/op
+Iteration   2: 2854.514 ns/op
+Iteration   3: 2584.525 ns/op
+Iteration   4: 2458.786 ns/op
+Iteration   5: 2606.763 ns/op
+
+# Run progress: 45.83% complete, ETA 00:04:29
+# Fork: 2 of 3
+# Warmup Iteration   1: 3051.418 ns/op
+# Warmup Iteration   2: 3071.919 ns/op
+# Warmup Iteration   3: 3030.797 ns/op
+# Warmup Iteration   4: 3000.625 ns/op
+# Warmup Iteration   5: 2589.835 ns/op
+Iteration   1: 2570.482 ns/op
+Iteration   2: 2844.119 ns/op
+Iteration   3: 2913.226 ns/op
+Iteration   4: 2934.507 ns/op
+Iteration   5: 2924.712 ns/op
+
+# Run progress: 47.92% complete, ETA 00:04:18
+# Fork: 3 of 3
+# Warmup Iteration   1: 3257.293 ns/op
+# Warmup Iteration   2: 3059.292 ns/op
+# Warmup Iteration   3: 3053.645 ns/op
+# Warmup Iteration   4: 2972.326 ns/op
+# Warmup Iteration   5: 2924.122 ns/op
+Iteration   1: 2940.870 ns/op
+Iteration   2: 2996.239 ns/op
+Iteration   3: 2992.894 ns/op
+Iteration   4: 2968.143 ns/op
+Iteration   5: 2972.752 ns/op
+
+
+Result "org.openjdk.jmh.samples.JMHSample_34_SafeLooping.measureRight_2":
+  2833.480 ±(99.9%) 193.916 ns/op [Average]
+  (min, avg, max) = (2458.786, 2833.480, 2996.239), stdev = 181.389
+  CI (99.9%): [2639.564, 3027.396] (assumes normal distribution)
+
+
+# JMH version: 1.22-SNAPSHOT
+# VM version: JDK 1.8.0_112, Java HotSpot(TM) 64-Bit Server VM, 25.112-b15
+# VM invoker: /home/hadoop/jdk1.8.0_112/jre/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.openjdk.jmh.samples.JMHSample_34_SafeLooping.measureWrong_1
+# Parameters: (size = 1)
+
+# Run progress: 50.00% complete, ETA 00:04:08
+# Fork: 1 of 3
+# Warmup Iteration   1: 6.292 ns/op
+# Warmup Iteration   2: 5.621 ns/op
+# Warmup Iteration   3: 4.857 ns/op
+# Warmup Iteration   4: 4.751 ns/op
+# Warmup Iteration   5: 4.948 ns/op
+Iteration   1: 4.981 ns/op
+Iteration   2: 4.836 ns/op
+Iteration   3: 4.828 ns/op
+Iteration   4: 4.922 ns/op
+Iteration   5: 4.962 ns/op
+
+# Run progress: 52.08% complete, ETA 00:03:58
+# Fork: 2 of 3
+# Warmup Iteration   1: 6.063 ns/op
+# Warmup Iteration   2: 5.849 ns/op
+# Warmup Iteration   3: 5.031 ns/op
+# Warmup Iteration   4: 5.020 ns/op
+# Warmup Iteration   5: 5.087 ns/op
+Iteration   1: 5.133 ns/op
+Iteration   2: 5.163 ns/op
+Iteration   3: 5.113 ns/op
+Iteration   4: 5.115 ns/op
+Iteration   5: 4.952 ns/op
+
+# Run progress: 54.17% complete, ETA 00:03:47
+# Fork: 3 of 3
+# Warmup Iteration   1: 6.151 ns/op
+# Warmup Iteration   2: 5.966 ns/op
+# Warmup Iteration   3: 5.247 ns/op
+# Warmup Iteration   4: 5.114 ns/op
+# Warmup Iteration   5: 5.074 ns/op
+Iteration   1: 5.033 ns/op
+Iteration   2: 4.915 ns/op
+Iteration   3: 4.477 ns/op
+Iteration   4: 4.914 ns/op
+Iteration   5: 5.026 ns/op
+
+
+Result "org.openjdk.jmh.samples.JMHSample_34_SafeLooping.measureWrong_1":
+  4.958 ±(99.9%) 0.181 ns/op [Average]
+  (min, avg, max) = (4.477, 4.958, 5.163), stdev = 0.169
+  CI (99.9%): [4.777, 5.139] (assumes normal distribution)
+
+
+# JMH version: 1.22-SNAPSHOT
+# VM version: JDK 1.8.0_112, Java HotSpot(TM) 64-Bit Server VM, 25.112-b15
+# VM invoker: /home/hadoop/jdk1.8.0_112/jre/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.openjdk.jmh.samples.JMHSample_34_SafeLooping.measureWrong_1
+# Parameters: (size = 10)
+
+# Run progress: 56.25% complete, ETA 00:03:37
+# Fork: 1 of 3
+# Warmup Iteration   1: 7.352 ns/op
+# Warmup Iteration   2: 7.941 ns/op
+# Warmup Iteration   3: 6.450 ns/op
+# Warmup Iteration   4: 6.737 ns/op
+# Warmup Iteration   5: 6.368 ns/op
+Iteration   1: 6.342 ns/op
+Iteration   2: 6.231 ns/op
+Iteration   3: 5.822 ns/op
+Iteration   4: 5.432 ns/op
+Iteration   5: 5.883 ns/op
+
+# Run progress: 58.33% complete, ETA 00:03:26
+# Fork: 2 of 3
+# Warmup Iteration   1: 7.872 ns/op
+# Warmup Iteration   2: 7.662 ns/op
+# Warmup Iteration   3: 6.440 ns/op
+# Warmup Iteration   4: 5.338 ns/op
+# Warmup Iteration   5: 5.928 ns/op
+Iteration   1: 6.401 ns/op
+Iteration   2: 6.446 ns/op
+Iteration   3: 6.415 ns/op
+Iteration   4: 6.529 ns/op
+Iteration   5: 6.437 ns/op
+
+# Run progress: 60.42% complete, ETA 00:03:16
+# Fork: 3 of 3
+# Warmup Iteration   1: 7.785 ns/op
+# Warmup Iteration   2: 7.577 ns/op
+# Warmup Iteration   3: 6.199 ns/op
+# Warmup Iteration   4: 6.215 ns/op
+# Warmup Iteration   5: 5.681 ns/op
+Iteration   1: 5.910 ns/op
+Iteration   2: 5.814 ns/op
+Iteration   3: 5.929 ns/op
+Iteration   4: 5.692 ns/op
+Iteration   5: 5.834 ns/op
+
+
+Result "org.openjdk.jmh.samples.JMHSample_34_SafeLooping.measureWrong_1":
+  6.074 ±(99.9%) 0.365 ns/op [Average]
+  (min, avg, max) = (5.432, 6.074, 6.529), stdev = 0.341
+  CI (99.9%): [5.710, 6.439] (assumes normal distribution)
+
+
+# JMH version: 1.22-SNAPSHOT
+# VM version: JDK 1.8.0_112, Java HotSpot(TM) 64-Bit Server VM, 25.112-b15
+# VM invoker: /home/hadoop/jdk1.8.0_112/jre/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.openjdk.jmh.samples.JMHSample_34_SafeLooping.measureWrong_1
+# Parameters: (size = 100)
+
+# Run progress: 62.50% complete, ETA 00:03:06
+# Fork: 1 of 3
+# Warmup Iteration   1: 13.288 ns/op
+# Warmup Iteration   2: 12.444 ns/op
+# Warmup Iteration   3: 13.007 ns/op
+# Warmup Iteration   4: 12.357 ns/op
+# Warmup Iteration   5: 11.952 ns/op
+Iteration   1: 12.564 ns/op
+Iteration   2: 12.280 ns/op
+Iteration   3: 11.763 ns/op
+Iteration   4: 11.570 ns/op
+Iteration   5: 11.575 ns/op
+
+# Run progress: 64.58% complete, ETA 00:02:55
+# Fork: 2 of 3
+# Warmup Iteration   1: 13.348 ns/op
+# Warmup Iteration   2: 12.111 ns/op
+# Warmup Iteration   3: 12.837 ns/op
+# Warmup Iteration   4: 13.258 ns/op
+# Warmup Iteration   5: 12.979 ns/op
+Iteration   1: 13.002 ns/op
+Iteration   2: 12.649 ns/op
+Iteration   3: 12.173 ns/op
+Iteration   4: 11.750 ns/op
+Iteration   5: 12.961 ns/op
+
+# Run progress: 66.67% complete, ETA 00:02:45
+# Fork: 3 of 3
+# Warmup Iteration   1: 13.856 ns/op
+# Warmup Iteration   2: 13.138 ns/op
+# Warmup Iteration   3: 12.869 ns/op
+# Warmup Iteration   4: 12.828 ns/op
+# Warmup Iteration   5: 12.798 ns/op
+Iteration   1: 12.736 ns/op
+Iteration   2: 13.220 ns/op
+Iteration   3: 12.826 ns/op
+Iteration   4: 13.159 ns/op
+Iteration   5: 13.024 ns/op
+
+
+Result "org.openjdk.jmh.samples.JMHSample_34_SafeLooping.measureWrong_1":
+  12.484 ±(99.9%) 0.630 ns/op [Average]
+  (min, avg, max) = (11.570, 12.484, 13.220), stdev = 0.589
+  CI (99.9%): [11.854, 13.113] (assumes normal distribution)
+
+
+# JMH version: 1.22-SNAPSHOT
+# VM version: JDK 1.8.0_112, Java HotSpot(TM) 64-Bit Server VM, 25.112-b15
+# VM invoker: /home/hadoop/jdk1.8.0_112/jre/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.openjdk.jmh.samples.JMHSample_34_SafeLooping.measureWrong_1
+# Parameters: (size = 1000)
+
+# Run progress: 68.75% complete, ETA 00:02:35
+# Fork: 1 of 3
+# Warmup Iteration   1: 55.736 ns/op
+# Warmup Iteration   2: 64.864 ns/op
+# Warmup Iteration   3: 62.783 ns/op
+# Warmup Iteration   4: 63.051 ns/op
+# Warmup Iteration   5: 58.063 ns/op
+Iteration   1: 55.257 ns/op
+Iteration   2: 56.198 ns/op
+Iteration   3: 58.677 ns/op
+Iteration   4: 55.608 ns/op
+Iteration   5: 62.198 ns/op
+
+# Run progress: 70.83% complete, ETA 00:02:24
+# Fork: 2 of 3
+# Warmup Iteration   1: 65.919 ns/op
+# Warmup Iteration   2: 64.078 ns/op
+# Warmup Iteration   3: 60.822 ns/op
+# Warmup Iteration   4: 63.488 ns/op
+# Warmup Iteration   5: 63.548 ns/op
+Iteration   1: 61.407 ns/op
+Iteration   2: 63.941 ns/op
+Iteration   3: 66.348 ns/op
+Iteration   4: 58.163 ns/op
+Iteration   5: 62.728 ns/op
+
+# Run progress: 72.92% complete, ETA 00:02:14
+# Fork: 3 of 3
+# Warmup Iteration   1: 71.181 ns/op
+# Warmup Iteration   2: 65.814 ns/op
+# Warmup Iteration   3: 55.058 ns/op
+# Warmup Iteration   4: 60.522 ns/op
+# Warmup Iteration   5: 60.446 ns/op
+Iteration   1: 60.294 ns/op
+Iteration   2: 63.107 ns/op
+Iteration   3: 62.045 ns/op
+Iteration   4: 63.806 ns/op
+Iteration   5: 63.695 ns/op
+
+
+Result "org.openjdk.jmh.samples.JMHSample_34_SafeLooping.measureWrong_1":
+  60.898 ±(99.9%) 3.630 ns/op [Average]
+  (min, avg, max) = (55.257, 60.898, 66.348), stdev = 3.396
+  CI (99.9%): [57.268, 64.528] (assumes normal distribution)
+
+
+# JMH version: 1.22-SNAPSHOT
+# VM version: JDK 1.8.0_112, Java HotSpot(TM) 64-Bit Server VM, 25.112-b15
+# VM invoker: /home/hadoop/jdk1.8.0_112/jre/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.openjdk.jmh.samples.JMHSample_34_SafeLooping.measureWrong_2
+# Parameters: (size = 1)
+
+# Run progress: 75.00% complete, ETA 00:02:04
+# Fork: 1 of 3
+# Warmup Iteration   1: 6.365 ns/op
+# Warmup Iteration   2: 6.128 ns/op
+# Warmup Iteration   3: 5.387 ns/op
+# Warmup Iteration   4: 5.208 ns/op
+# Warmup Iteration   5: 5.562 ns/op
+Iteration   1: 5.325 ns/op
+Iteration   2: 5.501 ns/op
+Iteration   3: 5.786 ns/op
+Iteration   4: 5.372 ns/op
+Iteration   5: 5.834 ns/op
+
+# Run progress: 77.08% complete, ETA 00:01:53
+# Fork: 2 of 3
+# Warmup Iteration   1: 6.114 ns/op
+# Warmup Iteration   2: 6.180 ns/op
+# Warmup Iteration   3: 5.237 ns/op
+# Warmup Iteration   4: 5.260 ns/op
+# Warmup Iteration   5: 5.270 ns/op
+Iteration   1: 5.050 ns/op
+Iteration   2: 4.891 ns/op
+Iteration   3: 5.232 ns/op
+Iteration   4: 5.254 ns/op
+Iteration   5: 5.489 ns/op
+
+# Run progress: 79.17% complete, ETA 00:01:43
+# Fork: 3 of 3
+# Warmup Iteration   1: 6.091 ns/op
+# Warmup Iteration   2: 6.192 ns/op
+# Warmup Iteration   3: 5.746 ns/op
+# Warmup Iteration   4: 5.513 ns/op
+# Warmup Iteration   5: 5.299 ns/op
+Iteration   1: 5.277 ns/op
+Iteration   2: 5.326 ns/op
+Iteration   3: 5.390 ns/op
+Iteration   4: 5.087 ns/op
+Iteration   5: 5.351 ns/op
+
+
+Result "org.openjdk.jmh.samples.JMHSample_34_SafeLooping.measureWrong_2":
+  5.344 ±(99.9%) 0.266 ns/op [Average]
+  (min, avg, max) = (4.891, 5.344, 5.834), stdev = 0.249
+  CI (99.9%): [5.078, 5.610] (assumes normal distribution)
+
+
+# JMH version: 1.22-SNAPSHOT
+# VM version: JDK 1.8.0_112, Java HotSpot(TM) 64-Bit Server VM, 25.112-b15
+# VM invoker: /home/hadoop/jdk1.8.0_112/jre/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.openjdk.jmh.samples.JMHSample_34_SafeLooping.measureWrong_2
+# Parameters: (size = 10)
+
+# Run progress: 81.25% complete, ETA 00:01:33
+# Fork: 1 of 3
+# Warmup Iteration   1: 10.505 ns/op
+# Warmup Iteration   2: 10.895 ns/op
+# Warmup Iteration   3: 9.097 ns/op
+# Warmup Iteration   4: 9.375 ns/op
+# Warmup Iteration   5: 10.170 ns/op
+Iteration   1: 9.604 ns/op
+Iteration   2: 9.706 ns/op
+Iteration   3: 9.434 ns/op
+Iteration   4: 9.798 ns/op
+Iteration   5: 9.731 ns/op
+
+# Run progress: 83.33% complete, ETA 00:01:22
+# Fork: 2 of 3
+# Warmup Iteration   1: 10.844 ns/op
+# Warmup Iteration   2: 11.132 ns/op
+# Warmup Iteration   3: 9.284 ns/op
+# Warmup Iteration   4: 9.859 ns/op
+# Warmup Iteration   5: 9.604 ns/op
+Iteration   1: 9.561 ns/op
+Iteration   2: 9.677 ns/op
+Iteration   3: 9.894 ns/op
+Iteration   4: 9.863 ns/op
+Iteration   5: 8.964 ns/op
+
+# Run progress: 85.42% complete, ETA 00:01:12
+# Fork: 3 of 3
+# Warmup Iteration   1: 10.519 ns/op
+# Warmup Iteration   2: 10.650 ns/op
+# Warmup Iteration   3: 9.865 ns/op
+# Warmup Iteration   4: 10.080 ns/op
+# Warmup Iteration   5: 9.259 ns/op
+Iteration   1: 9.687 ns/op
+Iteration   2: 9.906 ns/op
+Iteration   3: 9.793 ns/op
+Iteration   4: 9.693 ns/op
+Iteration   5: 9.457 ns/op
+
+
+Result "org.openjdk.jmh.samples.JMHSample_34_SafeLooping.measureWrong_2":
+  9.651 ±(99.9%) 0.254 ns/op [Average]
+  (min, avg, max) = (8.964, 9.651, 9.906), stdev = 0.238
+  CI (99.9%): [9.397, 9.905] (assumes normal distribution)
+
+
+# JMH version: 1.22-SNAPSHOT
+# VM version: JDK 1.8.0_112, Java HotSpot(TM) 64-Bit Server VM, 25.112-b15
+# VM invoker: /home/hadoop/jdk1.8.0_112/jre/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.openjdk.jmh.samples.JMHSample_34_SafeLooping.measureWrong_2
+# Parameters: (size = 100)
+
+# Run progress: 87.50% complete, ETA 00:01:02
+# Fork: 1 of 3
+# Warmup Iteration   1: 50.918 ns/op
+# Warmup Iteration   2: 51.556 ns/op
+# Warmup Iteration   3: 49.006 ns/op
+# Warmup Iteration   4: 50.591 ns/op
+# Warmup Iteration   5: 47.240 ns/op
+Iteration   1: 47.307 ns/op
+Iteration   2: 45.459 ns/op
+Iteration   3: 51.012 ns/op
+Iteration   4: 48.026 ns/op
+Iteration   5: 51.470 ns/op
+
+# Run progress: 89.58% complete, ETA 00:00:51
+# Fork: 2 of 3
+# Warmup Iteration   1: 50.563 ns/op
+# Warmup Iteration   2: 51.099 ns/op
+# Warmup Iteration   3: 49.063 ns/op
+# Warmup Iteration   4: 49.493 ns/op
+# Warmup Iteration   5: 48.171 ns/op
+Iteration   1: 48.470 ns/op
+Iteration   2: 47.877 ns/op
+Iteration   3: 49.778 ns/op
+Iteration   4: 49.614 ns/op
+Iteration   5: 42.388 ns/op
+
+# Run progress: 91.67% complete, ETA 00:00:41
+# Fork: 3 of 3
+# Warmup Iteration   1: 49.945 ns/op
+# Warmup Iteration   2: 49.682 ns/op
+# Warmup Iteration   3: 49.112 ns/op
+# Warmup Iteration   4: 50.172 ns/op
+# Warmup Iteration   5: 50.764 ns/op
+Iteration   1: 48.449 ns/op
+Iteration   2: 49.489 ns/op
+Iteration   3: 49.112 ns/op
+Iteration   4: 49.970 ns/op
+Iteration   5: 47.703 ns/op
+
+
+Result "org.openjdk.jmh.samples.JMHSample_34_SafeLooping.measureWrong_2":
+  48.408 ±(99.9%) 2.402 ns/op [Average]
+  (min, avg, max) = (42.388, 48.408, 51.470), stdev = 2.247
+  CI (99.9%): [46.006, 50.810] (assumes normal distribution)
+
+
+# JMH version: 1.22-SNAPSHOT
+# VM version: JDK 1.8.0_112, Java HotSpot(TM) 64-Bit Server VM, 25.112-b15
+# VM invoker: /home/hadoop/jdk1.8.0_112/jre/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.openjdk.jmh.samples.JMHSample_34_SafeLooping.measureWrong_2
+# Parameters: (size = 1000)
+
+# Run progress: 93.75% complete, ETA 00:00:31
+# Fork: 1 of 3
+# Warmup Iteration   1: 525.111 ns/op
+# Warmup Iteration   2: 511.936 ns/op
+# Warmup Iteration   3: 525.828 ns/op
+# Warmup Iteration   4: 525.683 ns/op
+# Warmup Iteration   5: 522.799 ns/op
+Iteration   1: 551.533 ns/op
+Iteration   2: 534.136 ns/op
+Iteration   3: 539.402 ns/op
+Iteration   4: 523.301 ns/op
+Iteration   5: 527.871 ns/op
+
+# Run progress: 95.83% complete, ETA 00:00:20
+# Fork: 2 of 3
+# Warmup Iteration   1: 544.141 ns/op
+# Warmup Iteration   2: 524.652 ns/op
+# Warmup Iteration   3: 526.824 ns/op
+# Warmup Iteration   4: 514.719 ns/op
+# Warmup Iteration   5: 462.289 ns/op
+Iteration   1: 511.510 ns/op
+Iteration   2: 541.416 ns/op
+Iteration   3: 519.618 ns/op
+Iteration   4: 517.279 ns/op
+Iteration   5: 525.409 ns/op
+
+# Run progress: 97.92% complete, ETA 00:00:10
+# Fork: 3 of 3
+# Warmup Iteration   1: 522.809 ns/op
+# Warmup Iteration   2: 537.653 ns/op
+# Warmup Iteration   3: 494.649 ns/op
+# Warmup Iteration   4: 526.540 ns/op
+# Warmup Iteration   5: 510.882 ns/op
+Iteration   1: 518.149 ns/op
+Iteration   2: 517.967 ns/op
+Iteration   3: 551.704 ns/op
+Iteration   4: 554.989 ns/op
+Iteration   5: 498.178 ns/op
+
+
+Result "org.openjdk.jmh.samples.JMHSample_34_SafeLooping.measureWrong_2":
+  528.831 ±(99.9%) 17.507 ns/op [Average]
+  (min, avg, max) = (498.178, 528.831, 554.989), stdev = 16.376
+  CI (99.9%): [511.324, 546.337] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:08:16
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                (size)  Mode  Cnt     Score     Error  Units
+JMHSample_34_SafeLooping.measureRight_1       1  avgt   15     6.806 ±   0.451  ns/op
+JMHSample_34_SafeLooping.measureRight_1      10  avgt   15    37.526 ±   1.355  ns/op
+JMHSample_34_SafeLooping.measureRight_1     100  avgt   15   367.952 ±  12.219  ns/op
+JMHSample_34_SafeLooping.measureRight_1    1000  avgt   15  3443.729 ± 210.811  ns/op
+JMHSample_34_SafeLooping.measureRight_2       1  avgt   15     5.920 ±   0.271  ns/op
+JMHSample_34_SafeLooping.measureRight_2      10  avgt   15    30.410 ±   1.988  ns/op
+JMHSample_34_SafeLooping.measureRight_2     100  avgt   15   316.684 ±  11.595  ns/op
+JMHSample_34_SafeLooping.measureRight_2    1000  avgt   15  2833.480 ± 193.916  ns/op
+JMHSample_34_SafeLooping.measureWrong_1       1  avgt   15     4.958 ±   0.181  ns/op
+JMHSample_34_SafeLooping.measureWrong_1      10  avgt   15     6.074 ±   0.365  ns/op
+JMHSample_34_SafeLooping.measureWrong_1     100  avgt   15    12.484 ±   0.630  ns/op
+JMHSample_34_SafeLooping.measureWrong_1    1000  avgt   15    60.898 ±   3.630  ns/op
+JMHSample_34_SafeLooping.measureWrong_2       1  avgt   15     5.344 ±   0.266  ns/op
+JMHSample_34_SafeLooping.measureWrong_2      10  avgt   15     9.651 ±   0.254  ns/op
+JMHSample_34_SafeLooping.measureWrong_2     100  avgt   15    48.408 ±   2.402  ns/op
+JMHSample_34_SafeLooping.measureWrong_2    1000  avgt   15   528.831 ±  17.507  ns/op

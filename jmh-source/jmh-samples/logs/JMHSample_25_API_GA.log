@@ -1,0 +1,1400 @@
+Entering generation 0
+---------------------------------------
+Baseline score:  716215.80 ops/s
+ 854726.00 ops/s (    +19.34%) -XX:FreqInlineSize=325 -XX:InlineSmallCode=1000 -XX:MaxInlineLevel=9 -XX:MaxInlineSize=35 -XX:MaxRecursiveInlineLevel=1 -XX:MinInliningThreshold=250
+ 746019.79 ops/s (     +4.16%) -XX:FreqInlineSize=325 -XX:InlineSmallCode=1000 -XX:MaxInlineLevel=9 -XX:MaxInlineSize=35 -XX:MaxRecursiveInlineLevel=1 -XX:MinInliningThreshold=250
+ 744859.85 ops/s (     +4.00%) -XX:FreqInlineSize=325 -XX:InlineSmallCode=1000 -XX:MaxInlineLevel=9 -XX:MaxInlineSize=35 -XX:MaxRecursiveInlineLevel=1 -XX:MinInliningThreshold=250
+ 738404.81 ops/s (     +3.10%) -XX:FreqInlineSize=325 -XX:InlineSmallCode=1000 -XX:MaxInlineLevel=9 -XX:MaxInlineSize=35 -XX:MaxRecursiveInlineLevel=1 -XX:MinInliningThreshold=250
+ 738166.71 ops/s (     +3.06%) -XX:FreqInlineSize=325 -XX:InlineSmallCode=1000 -XX:MaxInlineLevel=9 -XX:MaxInlineSize=35 -XX:MaxRecursiveInlineLevel=1 -XX:MinInliningThreshold=250
+ 730971.11 ops/s (     +2.06%) -XX:FreqInlineSize=325 -XX:InlineSmallCode=1000 -XX:MaxInlineLevel=9 -XX:MaxInlineSize=35 -XX:MaxRecursiveInlineLevel=1 -XX:MinInliningThreshold=250
+ 723689.90 ops/s (     +1.04%) -XX:FreqInlineSize=325 -XX:InlineSmallCode=1000 -XX:MaxInlineLevel=9 -XX:MaxInlineSize=35 -XX:MaxRecursiveInlineLevel=1 -XX:MinInliningThreshold=250
+ 716219.06 ops/s (     +0.00%) -XX:FreqInlineSize=325 -XX:InlineSmallCode=1000 -XX:MaxInlineLevel=9 -XX:MaxInlineSize=35 -XX:MaxRecursiveInlineLevel=1 -XX:MinInliningThreshold=250
+ 702901.12 ops/s (     -1.86%) -XX:FreqInlineSize=325 -XX:InlineSmallCode=1000 -XX:MaxInlineLevel=9 -XX:MaxInlineSize=35 -XX:MaxRecursiveInlineLevel=1 -XX:MinInliningThreshold=250
+ 682351.64 ops/s (     -4.73%) -XX:FreqInlineSize=325 -XX:InlineSmallCode=1000 -XX:MaxInlineLevel=9 -XX:MaxInlineSize=35 -XX:MaxRecursiveInlineLevel=1 -XX:MinInliningThreshold=250
+
+Entering generation 1
+---------------------------------------
+Baseline score:  705082.79 ops/s
+ 854726.00 ops/s (    +21.22%) -XX:FreqInlineSize=325 -XX:InlineSmallCode=1000 -XX:MaxInlineLevel=9 -XX:MaxInlineSize=35 -XX:MaxRecursiveInlineLevel=1 -XX:MinInliningThreshold=250
+ 799006.78 ops/s (    +13.32%) -XX:FreqInlineSize=336 -XX:InlineSmallCode=1286 -XX:MaxInlineLevel=5 -XX:MaxInlineSize=40 -XX:MaxRecursiveInlineLevel=1 -XX:MinInliningThreshold=250
+ 746019.79 ops/s (     +5.81%) -XX:FreqInlineSize=325 -XX:InlineSmallCode=1000 -XX:MaxInlineLevel=9 -XX:MaxInlineSize=35 -XX:MaxRecursiveInlineLevel=1 -XX:MinInliningThreshold=250
+ 741039.48 ops/s (     +5.10%) -XX:FreqInlineSize=291 -XX:InlineSmallCode=536 -XX:MaxInlineLevel=9 -XX:MaxInlineSize=73 -XX:MaxRecursiveInlineLevel=1 -XX:MinInliningThreshold=250
+ 723790.97 ops/s (     +2.65%) -XX:FreqInlineSize=54 -XX:InlineSmallCode=1000 -XX:MaxInlineLevel=9 -XX:MaxInlineSize=35 -XX:MaxRecursiveInlineLevel=1 -XX:MinInliningThreshold=196
+ 718549.69 ops/s (     +1.91%) -XX:FreqInlineSize=325 -XX:InlineSmallCode=1000 -XX:MaxInlineLevel=9 -XX:MaxInlineSize=48 -XX:MaxRecursiveInlineLevel=1 -XX:MinInliningThreshold=244
+ 713088.60 ops/s (     +1.14%) -XX:FreqInlineSize=325 -XX:InlineSmallCode=1000 -XX:MaxInlineLevel=2 -XX:MaxInlineSize=35 -XX:MaxRecursiveInlineLevel=1 -XX:MinInliningThreshold=115
+ 128801.64 ops/s (    -81.73%) -XX:FreqInlineSize=115 -XX:InlineSmallCode=501 -XX:MaxInlineLevel=32 -XX:MaxInlineSize=35 -XX:MaxRecursiveInlineLevel=0 -XX:MinInliningThreshold=235
+ 127404.04 ops/s (    -81.93%) -XX:FreqInlineSize=73 -XX:InlineSmallCode=1000 -XX:MaxInlineLevel=9 -XX:MaxInlineSize=35 -XX:MaxRecursiveInlineLevel=0 -XX:MinInliningThreshold=31
+ 125386.98 ops/s (    -82.22%) -XX:FreqInlineSize=276 -XX:InlineSmallCode=1000 -XX:MaxInlineLevel=9 -XX:MaxInlineSize=270 -XX:MaxRecursiveInlineLevel=0 -XX:MinInliningThreshold=250
+
+Entering generation 2
+---------------------------------------
+Baseline score:  707041.23 ops/s
+1525612.51 ops/s (   +115.77%) -XX:FreqInlineSize=403 -XX:InlineSmallCode=1286 -XX:MaxInlineLevel=5 -XX:MaxInlineSize=57 -XX:MaxRecursiveInlineLevel=6 -XX:MinInliningThreshold=234
+ 976495.11 ops/s (    +38.11%) -XX:FreqInlineSize=336 -XX:InlineSmallCode=1121 -XX:MaxInlineLevel=2 -XX:MaxInlineSize=46 -XX:MaxRecursiveInlineLevel=7 -XX:MinInliningThreshold=777
+ 854726.00 ops/s (    +20.89%) -XX:FreqInlineSize=325 -XX:InlineSmallCode=1000 -XX:MaxInlineLevel=9 -XX:MaxInlineSize=35 -XX:MaxRecursiveInlineLevel=1 -XX:MinInliningThreshold=250
+ 799006.78 ops/s (    +13.01%) -XX:FreqInlineSize=336 -XX:InlineSmallCode=1286 -XX:MaxInlineLevel=5 -XX:MaxInlineSize=40 -XX:MaxRecursiveInlineLevel=1 -XX:MinInliningThreshold=250
+ 729659.31 ops/s (     +3.20%) -XX:FreqInlineSize=336 -XX:InlineSmallCode=1286 -XX:MaxInlineLevel=34 -XX:MaxInlineSize=40 -XX:MaxRecursiveInlineLevel=1 -XX:MinInliningThreshold=250
+ 724900.89 ops/s (     +2.53%) -XX:FreqInlineSize=336 -XX:InlineSmallCode=1286 -XX:MaxInlineLevel=5 -XX:MaxInlineSize=279 -XX:MaxRecursiveInlineLevel=1 -XX:MinInliningThreshold=290
+ 718066.68 ops/s (     +1.56%) -XX:FreqInlineSize=336 -XX:InlineSmallCode=1286 -XX:MaxInlineLevel=5 -XX:MaxInlineSize=40 -XX:MaxRecursiveInlineLevel=1 -XX:MinInliningThreshold=133
+ 712297.53 ops/s (     +0.74%) -XX:FreqInlineSize=336 -XX:InlineSmallCode=156 -XX:MaxInlineLevel=2 -XX:MaxInlineSize=107 -XX:MaxRecursiveInlineLevel=1 -XX:MinInliningThreshold=91
+ 136436.10 ops/s (    -80.70%) -XX:FreqInlineSize=336 -XX:InlineSmallCode=1286 -XX:MaxInlineLevel=5 -XX:MaxInlineSize=48 -XX:MaxRecursiveInlineLevel=0 -XX:MinInliningThreshold=250
+ 132222.05 ops/s (    -81.30%) -XX:FreqInlineSize=336 -XX:InlineSmallCode=391 -XX:MaxInlineLevel=3 -XX:MaxInlineSize=43 -XX:MaxRecursiveInlineLevel=0 -XX:MinInliningThreshold=250
+
+Entering generation 3
+---------------------------------------
+Baseline score:  714602.66 ops/s
+1525612.51 ops/s (   +113.49%) -XX:FreqInlineSize=403 -XX:InlineSmallCode=1286 -XX:MaxInlineLevel=5 -XX:MaxInlineSize=57 -XX:MaxRecursiveInlineLevel=6 -XX:MinInliningThreshold=234
+1220712.48 ops/s (    +70.82%) -XX:FreqInlineSize=336 -XX:InlineSmallCode=1121 -XX:MaxInlineLevel=3 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=9 -XX:MinInliningThreshold=1160
+1052194.92 ops/s (    +47.24%) -XX:FreqInlineSize=285 -XX:InlineSmallCode=748 -XX:MaxInlineLevel=2 -XX:MaxInlineSize=46 -XX:MaxRecursiveInlineLevel=7 -XX:MinInliningThreshold=4834
+1047297.90 ops/s (    +46.56%) -XX:FreqInlineSize=227 -XX:InlineSmallCode=975 -XX:MaxInlineLevel=2 -XX:MaxInlineSize=46 -XX:MaxRecursiveInlineLevel=7 -XX:MinInliningThreshold=292
+1036905.94 ops/s (    +45.10%) -XX:FreqInlineSize=336 -XX:InlineSmallCode=1696 -XX:MaxInlineLevel=2 -XX:MaxInlineSize=37 -XX:MaxRecursiveInlineLevel=7 -XX:MinInliningThreshold=777
+1028670.22 ops/s (    +43.95%) -XX:FreqInlineSize=124 -XX:InlineSmallCode=1121 -XX:MaxInlineLevel=2 -XX:MaxInlineSize=46 -XX:MaxRecursiveInlineLevel=15 -XX:MinInliningThreshold=827
+1024690.99 ops/s (    +43.39%) -XX:FreqInlineSize=336 -XX:InlineSmallCode=2215 -XX:MaxInlineLevel=2 -XX:MaxInlineSize=46 -XX:MaxRecursiveInlineLevel=7 -XX:MinInliningThreshold=870
+1013383.62 ops/s (    +41.81%) -XX:FreqInlineSize=336 -XX:InlineSmallCode=1121 -XX:MaxInlineLevel=2 -XX:MaxInlineSize=46 -XX:MaxRecursiveInlineLevel=7 -XX:MinInliningThreshold=538
+ 977618.16 ops/s (    +36.81%) -XX:FreqInlineSize=783 -XX:InlineSmallCode=1121 -XX:MaxInlineLevel=2 -XX:MaxInlineSize=62 -XX:MaxRecursiveInlineLevel=9 -XX:MinInliningThreshold=461
+ 976495.11 ops/s (    +36.65%) -XX:FreqInlineSize=336 -XX:InlineSmallCode=1121 -XX:MaxInlineLevel=2 -XX:MaxInlineSize=46 -XX:MaxRecursiveInlineLevel=7 -XX:MinInliningThreshold=777
+
+Entering generation 4
+---------------------------------------
+Baseline score:  729052.81 ops/s
+1525612.51 ops/s (   +109.26%) -XX:FreqInlineSize=403 -XX:InlineSmallCode=1286 -XX:MaxInlineLevel=5 -XX:MaxInlineSize=57 -XX:MaxRecursiveInlineLevel=6 -XX:MinInliningThreshold=234
+1291226.03 ops/s (    +77.11%) -XX:FreqInlineSize=336 -XX:InlineSmallCode=1524 -XX:MaxInlineLevel=3 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=11 -XX:MinInliningThreshold=1160
+1287648.59 ops/s (    +76.62%) -XX:FreqInlineSize=142 -XX:InlineSmallCode=1121 -XX:MaxInlineLevel=3 -XX:MaxInlineSize=12 -XX:MaxRecursiveInlineLevel=9 -XX:MinInliningThreshold=2108
+1273675.36 ops/s (    +74.70%) -XX:FreqInlineSize=336 -XX:InlineSmallCode=1121 -XX:MaxInlineLevel=3 -XX:MaxInlineSize=20 -XX:MaxRecursiveInlineLevel=6 -XX:MinInliningThreshold=1160
+1260684.62 ops/s (    +72.92%) -XX:FreqInlineSize=1284 -XX:InlineSmallCode=1399 -XX:MaxInlineLevel=3 -XX:MaxInlineSize=42 -XX:MaxRecursiveInlineLevel=9 -XX:MinInliningThreshold=1160
+1250182.81 ops/s (    +71.48%) -XX:FreqInlineSize=336 -XX:InlineSmallCode=1121 -XX:MaxInlineLevel=4 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=4 -XX:MinInliningThreshold=467
+1240136.04 ops/s (    +70.10%) -XX:FreqInlineSize=653 -XX:InlineSmallCode=1121 -XX:MaxInlineLevel=3 -XX:MaxInlineSize=7 -XX:MaxRecursiveInlineLevel=9 -XX:MinInliningThreshold=1270
+1220712.48 ops/s (    +67.44%) -XX:FreqInlineSize=336 -XX:InlineSmallCode=1121 -XX:MaxInlineLevel=3 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=9 -XX:MinInliningThreshold=1160
+1059212.50 ops/s (    +45.29%) -XX:FreqInlineSize=360 -XX:InlineSmallCode=1121 -XX:MaxInlineLevel=2 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=9 -XX:MinInliningThreshold=497
+1016493.38 ops/s (    +39.43%) -XX:FreqInlineSize=336 -XX:InlineSmallCode=1121 -XX:MaxInlineLevel=1 -XX:MaxInlineSize=54 -XX:MaxRecursiveInlineLevel=9 -XX:MinInliningThreshold=1160
+
+Entering generation 5
+---------------------------------------
+Baseline score:  728454.51 ops/s
+1775556.74 ops/s (   +143.74%) -XX:FreqInlineSize=336 -XX:InlineSmallCode=1524 -XX:MaxInlineLevel=12 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=12 -XX:MinInliningThreshold=2908
+1685749.61 ops/s (   +131.41%) -XX:FreqInlineSize=365 -XX:InlineSmallCode=1524 -XX:MaxInlineLevel=19 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=7 -XX:MinInliningThreshold=374
+1525612.51 ops/s (   +109.43%) -XX:FreqInlineSize=403 -XX:InlineSmallCode=1286 -XX:MaxInlineLevel=5 -XX:MaxInlineSize=57 -XX:MaxRecursiveInlineLevel=6 -XX:MinInliningThreshold=234
+1445821.62 ops/s (    +98.48%) -XX:FreqInlineSize=182 -XX:InlineSmallCode=1230 -XX:MaxInlineLevel=4 -XX:MaxInlineSize=15 -XX:MaxRecursiveInlineLevel=11 -XX:MinInliningThreshold=171
+1397550.02 ops/s (    +91.85%) -XX:FreqInlineSize=336 -XX:InlineSmallCode=18649 -XX:MaxInlineLevel=4 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=19 -XX:MinInliningThreshold=1160
+1291226.03 ops/s (    +77.26%) -XX:FreqInlineSize=336 -XX:InlineSmallCode=1524 -XX:MaxInlineLevel=3 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=11 -XX:MinInliningThreshold=1160
+1270252.67 ops/s (    +74.38%) -XX:FreqInlineSize=336 -XX:InlineSmallCode=1632 -XX:MaxInlineLevel=3 -XX:MaxInlineSize=49 -XX:MaxRecursiveInlineLevel=11 -XX:MinInliningThreshold=516
+1067239.74 ops/s (    +46.51%) -XX:FreqInlineSize=304 -XX:InlineSmallCode=2311 -XX:MaxInlineLevel=1 -XX:MaxInlineSize=17 -XX:MaxRecursiveInlineLevel=11 -XX:MinInliningThreshold=1160
+1042032.20 ops/s (    +43.05%) -XX:FreqInlineSize=211 -XX:InlineSmallCode=1524 -XX:MaxInlineLevel=2 -XX:MaxInlineSize=17 -XX:MaxRecursiveInlineLevel=11 -XX:MinInliningThreshold=1160
+ 753026.15 ops/s (     +3.37%) -XX:FreqInlineSize=37 -XX:InlineSmallCode=1221 -XX:MaxInlineLevel=0 -XX:MaxInlineSize=40 -XX:MaxRecursiveInlineLevel=11 -XX:MinInliningThreshold=1160
+
+Entering generation 6
+---------------------------------------
+Baseline score:  738105.16 ops/s
+1893133.98 ops/s (   +156.49%) -XX:FreqInlineSize=365 -XX:InlineSmallCode=2581 -XX:MaxInlineLevel=19 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=11 -XX:MinInliningThreshold=1202
+1775556.74 ops/s (   +140.56%) -XX:FreqInlineSize=336 -XX:InlineSmallCode=1524 -XX:MaxInlineLevel=12 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=12 -XX:MinInliningThreshold=2908
+1755772.11 ops/s (   +137.88%) -XX:FreqInlineSize=239 -XX:InlineSmallCode=861 -XX:MaxInlineLevel=19 -XX:MaxInlineSize=32 -XX:MaxRecursiveInlineLevel=11 -XX:MinInliningThreshold=519
+1685749.61 ops/s (   +128.39%) -XX:FreqInlineSize=365 -XX:InlineSmallCode=1524 -XX:MaxInlineLevel=19 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=7 -XX:MinInliningThreshold=374
+1659016.40 ops/s (   +124.77%) -XX:FreqInlineSize=365 -XX:InlineSmallCode=2022 -XX:MaxInlineLevel=19 -XX:MaxInlineSize=15 -XX:MaxRecursiveInlineLevel=7 -XX:MinInliningThreshold=374
+1619910.66 ops/s (   +119.47%) -XX:FreqInlineSize=365 -XX:InlineSmallCode=1524 -XX:MaxInlineLevel=19 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=7 -XX:MinInliningThreshold=480
+1539514.28 ops/s (   +108.58%) -XX:FreqInlineSize=365 -XX:InlineSmallCode=1524 -XX:MaxInlineLevel=19 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=7 -XX:MinInliningThreshold=514
+1424615.58 ops/s (    +93.01%) -XX:FreqInlineSize=196 -XX:InlineSmallCode=1524 -XX:MaxInlineLevel=18 -XX:MaxInlineSize=47 -XX:MaxRecursiveInlineLevel=5 -XX:MinInliningThreshold=668
+1085330.95 ops/s (    +47.04%) -XX:FreqInlineSize=571 -XX:InlineSmallCode=1389 -XX:MaxInlineLevel=19 -XX:MaxInlineSize=40 -XX:MaxRecursiveInlineLevel=3 -XX:MinInliningThreshold=374
+1046233.31 ops/s (    +41.75%) -XX:FreqInlineSize=943 -XX:InlineSmallCode=1524 -XX:MaxInlineLevel=1 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=7 -XX:MinInliningThreshold=374
+
+Entering generation 7
+---------------------------------------
+Baseline score:  731788.26 ops/s
+1893133.98 ops/s (   +158.70%) -XX:FreqInlineSize=365 -XX:InlineSmallCode=2581 -XX:MaxInlineLevel=19 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=11 -XX:MinInliningThreshold=1202
+1878727.94 ops/s (   +156.73%) -XX:FreqInlineSize=336 -XX:InlineSmallCode=1524 -XX:MaxInlineLevel=12 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=12 -XX:MinInliningThreshold=1500
+1875059.14 ops/s (   +156.23%) -XX:FreqInlineSize=428 -XX:InlineSmallCode=1784 -XX:MaxInlineLevel=45 -XX:MaxInlineSize=45 -XX:MaxRecursiveInlineLevel=12 -XX:MinInliningThreshold=2908
+1834746.06 ops/s (   +150.72%) -XX:FreqInlineSize=336 -XX:InlineSmallCode=1524 -XX:MaxInlineLevel=12 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=12 -XX:MinInliningThreshold=2908
+1775556.74 ops/s (   +142.63%) -XX:FreqInlineSize=336 -XX:InlineSmallCode=1524 -XX:MaxInlineLevel=12 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=12 -XX:MinInliningThreshold=2908
+1561674.88 ops/s (   +113.41%) -XX:FreqInlineSize=376 -XX:InlineSmallCode=1378 -XX:MaxInlineLevel=12 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=8 -XX:MinInliningThreshold=2070
+1013760.10 ops/s (    +38.53%) -XX:FreqInlineSize=336 -XX:InlineSmallCode=1524 -XX:MaxInlineLevel=6 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=3 -XX:MinInliningThreshold=3229
+ 735395.96 ops/s (     +0.49%) -XX:FreqInlineSize=143 -XX:InlineSmallCode=2654 -XX:MaxInlineLevel=12 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=1 -XX:MinInliningThreshold=307
+ 721885.52 ops/s (     -1.35%) -XX:FreqInlineSize=528 -XX:InlineSmallCode=1524 -XX:MaxInlineLevel=0 -XX:MaxInlineSize=41 -XX:MaxRecursiveInlineLevel=21 -XX:MinInliningThreshold=2247
+ 719747.58 ops/s (     -1.65%) -XX:FreqInlineSize=336 -XX:InlineSmallCode=9084 -XX:MaxInlineLevel=0 -XX:MaxInlineSize=0 -XX:MaxRecursiveInlineLevel=12 -XX:MinInliningThreshold=1340
+
+Entering generation 8
+---------------------------------------
+Baseline score:  700180.30 ops/s
+1962860.69 ops/s (   +180.34%) -XX:FreqInlineSize=16497 -XX:InlineSmallCode=1524 -XX:MaxInlineLevel=12 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=34 -XX:MinInliningThreshold=868
+1893133.98 ops/s (   +170.38%) -XX:FreqInlineSize=365 -XX:InlineSmallCode=2581 -XX:MaxInlineLevel=19 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=11 -XX:MinInliningThreshold=1202
+1878727.94 ops/s (   +168.32%) -XX:FreqInlineSize=336 -XX:InlineSmallCode=1524 -XX:MaxInlineLevel=12 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=12 -XX:MinInliningThreshold=1500
+1859878.43 ops/s (   +165.63%) -XX:FreqInlineSize=463 -XX:InlineSmallCode=42606 -XX:MaxInlineLevel=12 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=12 -XX:MinInliningThreshold=1500
+1784482.61 ops/s (   +154.86%) -XX:FreqInlineSize=284 -XX:InlineSmallCode=360 -XX:MaxInlineLevel=11 -XX:MaxInlineSize=40 -XX:MaxRecursiveInlineLevel=51 -XX:MinInliningThreshold=1500
+1747315.97 ops/s (   +149.55%) -XX:FreqInlineSize=625 -XX:InlineSmallCode=368 -XX:MaxInlineLevel=8 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=29 -XX:MinInliningThreshold=1798
+1713338.46 ops/s (   +144.70%) -XX:FreqInlineSize=257 -XX:InlineSmallCode=3680 -XX:MaxInlineLevel=8 -XX:MaxInlineSize=15 -XX:MaxRecursiveInlineLevel=12 -XX:MinInliningThreshold=2649
+1507172.98 ops/s (   +115.25%) -XX:FreqInlineSize=336 -XX:InlineSmallCode=1524 -XX:MaxInlineLevel=19 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=6 -XX:MinInliningThreshold=2537
+1286494.85 ops/s (    +83.74%) -XX:FreqInlineSize=413 -XX:InlineSmallCode=1524 -XX:MaxInlineLevel=5 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=4 -XX:MinInliningThreshold=2802
+1008058.44 ops/s (    +43.97%) -XX:FreqInlineSize=336 -XX:InlineSmallCode=33 -XX:MaxInlineLevel=8 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=2 -XX:MinInliningThreshold=1721
+
+Entering generation 9
+---------------------------------------
+Baseline score:  682155.85 ops/s
+2098497.48 ops/s (   +207.63%) -XX:FreqInlineSize=513 -XX:InlineSmallCode=2581 -XX:MaxInlineLevel=58 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=16 -XX:MinInliningThreshold=1518
+2078237.20 ops/s (   +204.66%) -XX:FreqInlineSize=365 -XX:InlineSmallCode=2581 -XX:MaxInlineLevel=19 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=17 -XX:MinInliningThreshold=1202
+2050063.21 ops/s (   +200.53%) -XX:FreqInlineSize=365 -XX:InlineSmallCode=4869 -XX:MaxInlineLevel=19 -XX:MaxInlineSize=39 -XX:MaxRecursiveInlineLevel=14 -XX:MinInliningThreshold=217
+1962860.69 ops/s (   +187.74%) -XX:FreqInlineSize=16497 -XX:InlineSmallCode=1524 -XX:MaxInlineLevel=12 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=34 -XX:MinInliningThreshold=868
+1947026.75 ops/s (   +185.42%) -XX:FreqInlineSize=474 -XX:InlineSmallCode=1048 -XX:MaxInlineLevel=15 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=11 -XX:MinInliningThreshold=1202
+1893133.98 ops/s (   +177.52%) -XX:FreqInlineSize=365 -XX:InlineSmallCode=2581 -XX:MaxInlineLevel=19 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=11 -XX:MinInliningThreshold=1202
+1847283.54 ops/s (   +170.80%) -XX:FreqInlineSize=574 -XX:InlineSmallCode=2581 -XX:MaxInlineLevel=19 -XX:MaxInlineSize=24 -XX:MaxRecursiveInlineLevel=11 -XX:MinInliningThreshold=1202
+1842017.79 ops/s (   +170.03%) -XX:FreqInlineSize=365 -XX:InlineSmallCode=7284 -XX:MaxInlineLevel=13 -XX:MaxInlineSize=51 -XX:MaxRecursiveInlineLevel=11 -XX:MinInliningThreshold=5492
+1434982.34 ops/s (   +110.36%) -XX:FreqInlineSize=200 -XX:InlineSmallCode=5066 -XX:MaxInlineLevel=26 -XX:MaxInlineSize=50 -XX:MaxRecursiveInlineLevel=5 -XX:MinInliningThreshold=1202
+1285067.14 ops/s (    +88.38%) -XX:FreqInlineSize=49 -XX:InlineSmallCode=2581 -XX:MaxInlineLevel=3 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=5 -XX:MinInliningThreshold=1202
+
+Entering generation 10
+---------------------------------------
+Baseline score:  739711.02 ops/s
+2175962.60 ops/s (   +194.16%) -XX:FreqInlineSize=365 -XX:InlineSmallCode=1957 -XX:MaxInlineLevel=26 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=17 -XX:MinInliningThreshold=1202
+2152061.43 ops/s (   +190.93%) -XX:FreqInlineSize=50 -XX:InlineSmallCode=2581 -XX:MaxInlineLevel=19 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=41 -XX:MinInliningThreshold=1202
+2121851.84 ops/s (   +186.85%) -XX:FreqInlineSize=114 -XX:InlineSmallCode=2581 -XX:MaxInlineLevel=19 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=17 -XX:MinInliningThreshold=881
+2098497.48 ops/s (   +183.69%) -XX:FreqInlineSize=513 -XX:InlineSmallCode=2581 -XX:MaxInlineLevel=58 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=16 -XX:MinInliningThreshold=1518
+2096526.53 ops/s (   +183.43%) -XX:FreqInlineSize=186 -XX:InlineSmallCode=2581 -XX:MaxInlineLevel=17 -XX:MaxInlineSize=39 -XX:MaxRecursiveInlineLevel=14 -XX:MinInliningThreshold=1202
+2078237.20 ops/s (   +180.95%) -XX:FreqInlineSize=365 -XX:InlineSmallCode=2581 -XX:MaxInlineLevel=19 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=17 -XX:MinInliningThreshold=1202
+2074672.07 ops/s (   +180.47%) -XX:FreqInlineSize=417 -XX:InlineSmallCode=2581 -XX:MaxInlineLevel=19 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=17 -XX:MinInliningThreshold=1202
+1996557.89 ops/s (   +169.91%) -XX:FreqInlineSize=187 -XX:InlineSmallCode=1249 -XX:MaxInlineLevel=22 -XX:MaxInlineSize=46 -XX:MaxRecursiveInlineLevel=13 -XX:MinInliningThreshold=1501
+1980410.22 ops/s (   +167.73%) -XX:FreqInlineSize=365 -XX:InlineSmallCode=2581 -XX:MaxInlineLevel=19 -XX:MaxInlineSize=16 -XX:MaxRecursiveInlineLevel=17 -XX:MinInliningThreshold=5666
+1324331.61 ops/s (    +79.03%) -XX:FreqInlineSize=305 -XX:InlineSmallCode=3733 -XX:MaxInlineLevel=3 -XX:MaxInlineSize=34 -XX:MaxRecursiveInlineLevel=17 -XX:MinInliningThreshold=2235
+
+Entering generation 11
+---------------------------------------
+Baseline score:  727738.65 ops/s
+2614586.74 ops/s (   +259.28%) -XX:FreqInlineSize=27 -XX:InlineSmallCode=5114 -XX:MaxInlineLevel=37 -XX:MaxInlineSize=38 -XX:MaxRecursiveInlineLevel=41 -XX:MinInliningThreshold=1202
+2301272.25 ops/s (   +216.22%) -XX:FreqInlineSize=42 -XX:InlineSmallCode=2581 -XX:MaxInlineLevel=26 -XX:MaxInlineSize=30 -XX:MaxRecursiveInlineLevel=24 -XX:MinInliningThreshold=826
+2228103.44 ops/s (   +206.17%) -XX:FreqInlineSize=50 -XX:InlineSmallCode=2581 -XX:MaxInlineLevel=19 -XX:MaxInlineSize=108 -XX:MaxRecursiveInlineLevel=41 -XX:MinInliningThreshold=1202
+2181244.57 ops/s (   +199.73%) -XX:FreqInlineSize=50 -XX:InlineSmallCode=2581 -XX:MaxInlineLevel=19 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=102 -XX:MinInliningThreshold=1299
+2175962.60 ops/s (   +199.00%) -XX:FreqInlineSize=365 -XX:InlineSmallCode=1957 -XX:MaxInlineLevel=26 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=17 -XX:MinInliningThreshold=1202
+2170104.04 ops/s (   +198.20%) -XX:FreqInlineSize=50 -XX:InlineSmallCode=2581 -XX:MaxInlineLevel=19 -XX:MaxInlineSize=33 -XX:MaxRecursiveInlineLevel=129 -XX:MinInliningThreshold=238
+2152061.43 ops/s (   +195.72%) -XX:FreqInlineSize=50 -XX:InlineSmallCode=2581 -XX:MaxInlineLevel=19 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=41 -XX:MinInliningThreshold=1202
+2135133.34 ops/s (   +193.39%) -XX:FreqInlineSize=50 -XX:InlineSmallCode=4637 -XX:MaxInlineLevel=19 -XX:MaxInlineSize=22 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1202
+2115141.00 ops/s (   +190.65%) -XX:FreqInlineSize=832 -XX:InlineSmallCode=1370 -XX:MaxInlineLevel=19 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=41 -XX:MinInliningThreshold=635
+2018449.69 ops/s (   +177.36%) -XX:FreqInlineSize=185 -XX:InlineSmallCode=2581 -XX:MaxInlineLevel=15 -XX:MaxInlineSize=13 -XX:MaxRecursiveInlineLevel=42 -XX:MinInliningThreshold=1202
+
+Entering generation 12
+---------------------------------------
+Baseline score:  734143.54 ops/s
+2699743.07 ops/s (   +267.74%) -XX:FreqInlineSize=42 -XX:InlineSmallCode=2581 -XX:MaxInlineLevel=42 -XX:MaxInlineSize=31 -XX:MaxRecursiveInlineLevel=43 -XX:MinInliningThreshold=826
+2614586.74 ops/s (   +256.14%) -XX:FreqInlineSize=27 -XX:InlineSmallCode=5114 -XX:MaxInlineLevel=37 -XX:MaxInlineSize=38 -XX:MaxRecursiveInlineLevel=41 -XX:MinInliningThreshold=1202
+2342705.55 ops/s (   +219.11%) -XX:FreqInlineSize=29 -XX:InlineSmallCode=5482 -XX:MaxInlineLevel=26 -XX:MaxInlineSize=30 -XX:MaxRecursiveInlineLevel=24 -XX:MinInliningThreshold=826
+2336009.20 ops/s (   +218.20%) -XX:FreqInlineSize=42 -XX:InlineSmallCode=2581 -XX:MaxInlineLevel=20 -XX:MaxInlineSize=5 -XX:MaxRecursiveInlineLevel=24 -XX:MinInliningThreshold=826
+2326771.81 ops/s (   +216.94%) -XX:FreqInlineSize=81 -XX:InlineSmallCode=2581 -XX:MaxInlineLevel=26 -XX:MaxInlineSize=24 -XX:MaxRecursiveInlineLevel=24 -XX:MinInliningThreshold=826
+2301272.25 ops/s (   +213.46%) -XX:FreqInlineSize=42 -XX:InlineSmallCode=2581 -XX:MaxInlineLevel=26 -XX:MaxInlineSize=30 -XX:MaxRecursiveInlineLevel=24 -XX:MinInliningThreshold=826
+2090664.82 ops/s (   +184.78%) -XX:FreqInlineSize=32 -XX:InlineSmallCode=1385 -XX:MaxInlineLevel=26 -XX:MaxInlineSize=30 -XX:MaxRecursiveInlineLevel=14 -XX:MinInliningThreshold=718
+2086906.70 ops/s (   +184.26%) -XX:FreqInlineSize=25 -XX:InlineSmallCode=4258 -XX:MaxInlineLevel=26 -XX:MaxInlineSize=30 -XX:MaxRecursiveInlineLevel=14 -XX:MinInliningThreshold=1013
+1302511.60 ops/s (    +77.42%) -XX:FreqInlineSize=43 -XX:InlineSmallCode=2511 -XX:MaxInlineLevel=26 -XX:MaxInlineSize=65 -XX:MaxRecursiveInlineLevel=4 -XX:MinInliningThreshold=799
+1089688.41 ops/s (    +48.43%) -XX:FreqInlineSize=42 -XX:InlineSmallCode=2581 -XX:MaxInlineLevel=17 -XX:MaxInlineSize=30 -XX:MaxRecursiveInlineLevel=3 -XX:MinInliningThreshold=826
+
+Entering generation 13
+---------------------------------------
+Baseline score:  740272.53 ops/s
+2735575.07 ops/s (   +269.54%) -XX:FreqInlineSize=27 -XX:InlineSmallCode=5114 -XX:MaxInlineLevel=253 -XX:MaxInlineSize=49 -XX:MaxRecursiveInlineLevel=57 -XX:MinInliningThreshold=656
+2699743.07 ops/s (   +264.70%) -XX:FreqInlineSize=42 -XX:InlineSmallCode=2581 -XX:MaxInlineLevel=42 -XX:MaxInlineSize=31 -XX:MaxRecursiveInlineLevel=43 -XX:MinInliningThreshold=826
+2675469.50 ops/s (   +261.42%) -XX:FreqInlineSize=27 -XX:InlineSmallCode=5114 -XX:MaxInlineLevel=37 -XX:MaxInlineSize=38 -XX:MaxRecursiveInlineLevel=41 -XX:MinInliningThreshold=1249
+2614586.74 ops/s (   +253.19%) -XX:FreqInlineSize=27 -XX:InlineSmallCode=5114 -XX:MaxInlineLevel=37 -XX:MaxInlineSize=38 -XX:MaxRecursiveInlineLevel=41 -XX:MinInliningThreshold=1202
+2593626.82 ops/s (   +250.36%) -XX:FreqInlineSize=35 -XX:InlineSmallCode=5114 -XX:MaxInlineLevel=37 -XX:MaxInlineSize=132 -XX:MaxRecursiveInlineLevel=29 -XX:MinInliningThreshold=1202
+2126864.83 ops/s (   +187.31%) -XX:FreqInlineSize=48 -XX:InlineSmallCode=1827 -XX:MaxInlineLevel=13 -XX:MaxInlineSize=38 -XX:MaxRecursiveInlineLevel=41 -XX:MinInliningThreshold=1699
+1792909.69 ops/s (   +142.20%) -XX:FreqInlineSize=18 -XX:InlineSmallCode=5114 -XX:MaxInlineLevel=20 -XX:MaxInlineSize=55 -XX:MaxRecursiveInlineLevel=9 -XX:MinInliningThreshold=1500
+1159042.21 ops/s (    +56.57%) -XX:FreqInlineSize=46 -XX:InlineSmallCode=5114 -XX:MaxInlineLevel=2 -XX:MaxInlineSize=26 -XX:MaxRecursiveInlineLevel=21 -XX:MinInliningThreshold=1202
+ 129919.26 ops/s (    -82.45%) -XX:FreqInlineSize=2 -XX:InlineSmallCode=3825 -XX:MaxInlineLevel=86 -XX:MaxInlineSize=38 -XX:MaxRecursiveInlineLevel=41 -XX:MinInliningThreshold=791
+ 126168.33 ops/s (    -82.96%) -XX:FreqInlineSize=7 -XX:InlineSmallCode=5572 -XX:MaxInlineLevel=37 -XX:MaxInlineSize=38 -XX:MaxRecursiveInlineLevel=76 -XX:MinInliningThreshold=1202
+
+Entering generation 14
+---------------------------------------
+Baseline score:  710526.83 ops/s
+2735575.07 ops/s (   +285.01%) -XX:FreqInlineSize=27 -XX:InlineSmallCode=5114 -XX:MaxInlineLevel=253 -XX:MaxInlineSize=49 -XX:MaxRecursiveInlineLevel=57 -XX:MinInliningThreshold=656
+2729374.38 ops/s (   +284.13%) -XX:FreqInlineSize=70 -XX:InlineSmallCode=4999 -XX:MaxInlineLevel=88 -XX:MaxInlineSize=60 -XX:MaxRecursiveInlineLevel=43 -XX:MinInliningThreshold=826
+2699743.07 ops/s (   +279.96%) -XX:FreqInlineSize=42 -XX:InlineSmallCode=2581 -XX:MaxInlineLevel=42 -XX:MaxInlineSize=31 -XX:MaxRecursiveInlineLevel=43 -XX:MinInliningThreshold=826
+2610064.38 ops/s (   +267.34%) -XX:FreqInlineSize=72 -XX:InlineSmallCode=2581 -XX:MaxInlineLevel=37 -XX:MaxInlineSize=184 -XX:MaxRecursiveInlineLevel=43 -XX:MinInliningThreshold=826
+2575573.98 ops/s (   +262.49%) -XX:FreqInlineSize=32808 -XX:InlineSmallCode=948 -XX:MaxInlineLevel=37 -XX:MaxInlineSize=31 -XX:MaxRecursiveInlineLevel=43 -XX:MinInliningThreshold=625
+2569031.60 ops/s (   +261.57%) -XX:FreqInlineSize=69 -XX:InlineSmallCode=1922 -XX:MaxInlineLevel=42 -XX:MaxInlineSize=48 -XX:MaxRecursiveInlineLevel=61 -XX:MinInliningThreshold=419
+2565108.04 ops/s (   +261.01%) -XX:FreqInlineSize=33 -XX:InlineSmallCode=1626 -XX:MaxInlineLevel=54 -XX:MaxInlineSize=31 -XX:MaxRecursiveInlineLevel=39 -XX:MinInliningThreshold=1127
+2485593.65 ops/s (   +249.82%) -XX:FreqInlineSize=42 -XX:InlineSmallCode=2368 -XX:MaxInlineLevel=84 -XX:MaxInlineSize=50 -XX:MaxRecursiveInlineLevel=45 -XX:MinInliningThreshold=826
+2404611.70 ops/s (   +238.43%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=1649 -XX:MaxInlineLevel=77 -XX:MaxInlineSize=31 -XX:MaxRecursiveInlineLevel=27 -XX:MinInliningThreshold=826
+ 130968.50 ops/s (    -81.57%) -XX:FreqInlineSize=7 -XX:InlineSmallCode=1863 -XX:MaxInlineLevel=42 -XX:MaxInlineSize=31 -XX:MaxRecursiveInlineLevel=28 -XX:MinInliningThreshold=826
+
+Entering generation 15
+---------------------------------------
+Baseline score:  780126.71 ops/s
+2967916.75 ops/s (   +280.44%) -XX:FreqInlineSize=70 -XX:InlineSmallCode=6551 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=70 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=826
+2735575.07 ops/s (   +250.66%) -XX:FreqInlineSize=27 -XX:InlineSmallCode=5114 -XX:MaxInlineLevel=253 -XX:MaxInlineSize=49 -XX:MaxRecursiveInlineLevel=57 -XX:MinInliningThreshold=656
+2732452.53 ops/s (   +250.26%) -XX:FreqInlineSize=70 -XX:InlineSmallCode=4999 -XX:MaxInlineLevel=59 -XX:MaxInlineSize=36 -XX:MaxRecursiveInlineLevel=70 -XX:MinInliningThreshold=384
+2729374.38 ops/s (   +249.86%) -XX:FreqInlineSize=70 -XX:InlineSmallCode=4999 -XX:MaxInlineLevel=88 -XX:MaxInlineSize=60 -XX:MaxRecursiveInlineLevel=43 -XX:MinInliningThreshold=826
+2714398.96 ops/s (   +247.94%) -XX:FreqInlineSize=70 -XX:InlineSmallCode=4999 -XX:MaxInlineLevel=88 -XX:MaxInlineSize=60 -XX:MaxRecursiveInlineLevel=43 -XX:MinInliningThreshold=826
+2664247.35 ops/s (   +241.51%) -XX:FreqInlineSize=132 -XX:InlineSmallCode=5139 -XX:MaxInlineLevel=88 -XX:MaxInlineSize=38 -XX:MaxRecursiveInlineLevel=43 -XX:MinInliningThreshold=826
+2645266.99 ops/s (   +239.08%) -XX:FreqInlineSize=108 -XX:InlineSmallCode=4999 -XX:MaxInlineLevel=77 -XX:MaxInlineSize=60 -XX:MaxRecursiveInlineLevel=40 -XX:MinInliningThreshold=826
+2047351.99 ops/s (   +162.44%) -XX:FreqInlineSize=90 -XX:InlineSmallCode=4597 -XX:MaxInlineLevel=88 -XX:MaxInlineSize=60 -XX:MaxRecursiveInlineLevel=81 -XX:MinInliningThreshold=826
+1308633.03 ops/s (    +67.75%) -XX:FreqInlineSize=119 -XX:InlineSmallCode=4999 -XX:MaxInlineLevel=146 -XX:MaxInlineSize=60 -XX:MaxRecursiveInlineLevel=4 -XX:MinInliningThreshold=826
+ 133186.47 ops/s (    -82.93%) -XX:FreqInlineSize=76 -XX:InlineSmallCode=9495 -XX:MaxInlineLevel=88 -XX:MaxInlineSize=62 -XX:MaxRecursiveInlineLevel=0 -XX:MinInliningThreshold=826
+
+Entering generation 16
+---------------------------------------
+Baseline score:  759561.25 ops/s
+2967916.75 ops/s (   +290.74%) -XX:FreqInlineSize=70 -XX:InlineSmallCode=6551 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=70 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=826
+2767510.94 ops/s (   +264.36%) -XX:FreqInlineSize=27 -XX:InlineSmallCode=42729 -XX:MaxInlineLevel=253 -XX:MaxInlineSize=49 -XX:MaxRecursiveInlineLevel=57 -XX:MinInliningThreshold=387
+2735575.07 ops/s (   +260.15%) -XX:FreqInlineSize=27 -XX:InlineSmallCode=5114 -XX:MaxInlineLevel=253 -XX:MaxInlineSize=49 -XX:MaxRecursiveInlineLevel=57 -XX:MinInliningThreshold=656
+2728270.97 ops/s (   +259.19%) -XX:FreqInlineSize=27 -XX:InlineSmallCode=5114 -XX:MaxInlineLevel=434 -XX:MaxInlineSize=49 -XX:MaxRecursiveInlineLevel=57 -XX:MinInliningThreshold=62
+2675987.83 ops/s (   +252.31%) -XX:FreqInlineSize=22 -XX:InlineSmallCode=12942 -XX:MaxInlineLevel=253 -XX:MaxInlineSize=14 -XX:MaxRecursiveInlineLevel=57 -XX:MinInliningThreshold=383
+2669705.66 ops/s (   +251.48%) -XX:FreqInlineSize=27 -XX:InlineSmallCode=2618 -XX:MaxInlineLevel=249 -XX:MaxInlineSize=69 -XX:MaxRecursiveInlineLevel=57 -XX:MinInliningThreshold=559
+2615674.58 ops/s (   +244.37%) -XX:FreqInlineSize=82 -XX:InlineSmallCode=3302 -XX:MaxInlineLevel=82 -XX:MaxInlineSize=49 -XX:MaxRecursiveInlineLevel=57 -XX:MinInliningThreshold=656
+2368597.14 ops/s (   +211.84%) -XX:FreqInlineSize=27 -XX:InlineSmallCode=3081 -XX:MaxInlineLevel=28 -XX:MaxInlineSize=28 -XX:MaxRecursiveInlineLevel=57 -XX:MinInliningThreshold=156
+ 137893.01 ops/s (    -81.85%) -XX:FreqInlineSize=13 -XX:InlineSmallCode=5114 -XX:MaxInlineLevel=253 -XX:MaxInlineSize=75 -XX:MaxRecursiveInlineLevel=57 -XX:MinInliningThreshold=656
+ 128784.44 ops/s (    -83.04%) -XX:FreqInlineSize=14 -XX:InlineSmallCode=25188 -XX:MaxInlineLevel=253 -XX:MaxInlineSize=79 -XX:MaxRecursiveInlineLevel=57 -XX:MinInliningThreshold=656
+
+Entering generation 17
+---------------------------------------
+Baseline score:  711014.61 ops/s
+2967916.75 ops/s (   +317.42%) -XX:FreqInlineSize=70 -XX:InlineSmallCode=6551 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=70 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=826
+2857808.68 ops/s (   +301.93%) -XX:FreqInlineSize=22 -XX:InlineSmallCode=42729 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=57 -XX:MinInliningThreshold=387
+2809517.95 ops/s (   +295.14%) -XX:FreqInlineSize=27 -XX:InlineSmallCode=42729 -XX:MaxInlineLevel=270 -XX:MaxInlineSize=49 -XX:MaxRecursiveInlineLevel=57 -XX:MinInliningThreshold=182
+2793279.39 ops/s (   +292.86%) -XX:FreqInlineSize=39 -XX:InlineSmallCode=42729 -XX:MaxInlineLevel=253 -XX:MaxInlineSize=49 -XX:MaxRecursiveInlineLevel=98 -XX:MinInliningThreshold=387
+2767510.94 ops/s (   +289.23%) -XX:FreqInlineSize=27 -XX:InlineSmallCode=42729 -XX:MaxInlineLevel=253 -XX:MaxInlineSize=49 -XX:MaxRecursiveInlineLevel=57 -XX:MinInliningThreshold=387
+2762570.12 ops/s (   +288.54%) -XX:FreqInlineSize=20 -XX:InlineSmallCode=42729 -XX:MaxInlineLevel=273 -XX:MaxInlineSize=49 -XX:MaxRecursiveInlineLevel=57 -XX:MinInliningThreshold=1041
+2761396.54 ops/s (   +288.37%) -XX:FreqInlineSize=27 -XX:InlineSmallCode=42729 -XX:MaxInlineLevel=253 -XX:MaxInlineSize=49 -XX:MaxRecursiveInlineLevel=57 -XX:MinInliningThreshold=230
+2664256.80 ops/s (   +274.71%) -XX:FreqInlineSize=31 -XX:InlineSmallCode=37261 -XX:MaxInlineLevel=501 -XX:MaxInlineSize=49 -XX:MaxRecursiveInlineLevel=57 -XX:MinInliningThreshold=18
+2661196.00 ops/s (   +274.28%) -XX:FreqInlineSize=27 -XX:InlineSmallCode=79994 -XX:MaxInlineLevel=253 -XX:MaxInlineSize=178 -XX:MaxRecursiveInlineLevel=60 -XX:MinInliningThreshold=387
+2659720.25 ops/s (   +274.07%) -XX:FreqInlineSize=44 -XX:InlineSmallCode=42729 -XX:MaxInlineLevel=253 -XX:MaxInlineSize=83 -XX:MaxRecursiveInlineLevel=57 -XX:MinInliningThreshold=387
+
+Entering generation 18
+---------------------------------------
+Baseline score:  716736.35 ops/s
+2967916.75 ops/s (   +314.09%) -XX:FreqInlineSize=70 -XX:InlineSmallCode=6551 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=70 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=826
+2923412.69 ops/s (   +307.88%) -XX:FreqInlineSize=15 -XX:InlineSmallCode=42729 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=217 -XX:MinInliningThreshold=387
+2857808.68 ops/s (   +298.73%) -XX:FreqInlineSize=22 -XX:InlineSmallCode=42729 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=57 -XX:MinInliningThreshold=387
+2548123.05 ops/s (   +255.52%) -XX:FreqInlineSize=22 -XX:InlineSmallCode=42729 -XX:MaxInlineLevel=214 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=57 -XX:MinInliningThreshold=206
+2319382.27 ops/s (   +223.60%) -XX:FreqInlineSize=19 -XX:InlineSmallCode=43212 -XX:MaxInlineLevel=85 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=28 -XX:MinInliningThreshold=387
+2172881.33 ops/s (   +203.16%) -XX:FreqInlineSize=22 -XX:InlineSmallCode=66162 -XX:MaxInlineLevel=213 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=16 -XX:MinInliningThreshold=2195
+ 136630.36 ops/s (    -80.94%) -XX:FreqInlineSize=11 -XX:InlineSmallCode=30255 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=11 -XX:MaxRecursiveInlineLevel=534 -XX:MinInliningThreshold=387
+ 135316.69 ops/s (    -81.12%) -XX:FreqInlineSize=1 -XX:InlineSmallCode=41832 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=11 -XX:MaxRecursiveInlineLevel=28 -XX:MinInliningThreshold=387
+ 132882.34 ops/s (    -81.46%) -XX:FreqInlineSize=12 -XX:InlineSmallCode=42729 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=57 -XX:MinInliningThreshold=680
+ 127368.01 ops/s (    -82.23%) -XX:FreqInlineSize=5 -XX:InlineSmallCode=35591 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=20 -XX:MinInliningThreshold=387
+
+Entering generation 19
+---------------------------------------
+Baseline score:  696972.17 ops/s
+2967916.75 ops/s (   +325.83%) -XX:FreqInlineSize=70 -XX:InlineSmallCode=6551 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=70 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=826
+2933357.64 ops/s (   +320.87%) -XX:FreqInlineSize=15 -XX:InlineSmallCode=42729 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=165 -XX:MinInliningThreshold=568
+2923412.69 ops/s (   +319.44%) -XX:FreqInlineSize=15 -XX:InlineSmallCode=42729 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=217 -XX:MinInliningThreshold=387
+2902766.53 ops/s (   +316.48%) -XX:FreqInlineSize=15 -XX:InlineSmallCode=42729 -XX:MaxInlineLevel=111 -XX:MaxInlineSize=3 -XX:MaxRecursiveInlineLevel=332 -XX:MinInliningThreshold=387
+2837516.19 ops/s (   +307.12%) -XX:FreqInlineSize=15 -XX:InlineSmallCode=46202 -XX:MaxInlineLevel=205 -XX:MaxInlineSize=30 -XX:MaxRecursiveInlineLevel=346 -XX:MinInliningThreshold=247
+2781988.48 ops/s (   +299.15%) -XX:FreqInlineSize=15 -XX:InlineSmallCode=20787 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=14 -XX:MaxRecursiveInlineLevel=217 -XX:MinInliningThreshold=387
+2459518.81 ops/s (   +252.89%) -XX:FreqInlineSize=15 -XX:InlineSmallCode=39900 -XX:MaxInlineLevel=30 -XX:MaxInlineSize=11 -XX:MaxRecursiveInlineLevel=217 -XX:MinInliningThreshold=387
+ 134732.38 ops/s (    -80.67%) -XX:FreqInlineSize=8 -XX:InlineSmallCode=17114 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=217 -XX:MinInliningThreshold=387
+ 125656.15 ops/s (    -81.97%) -XX:FreqInlineSize=13 -XX:InlineSmallCode=84032 -XX:MaxInlineLevel=136 -XX:MaxInlineSize=5 -XX:MaxRecursiveInlineLevel=217 -XX:MinInliningThreshold=212
+ 116296.65 ops/s (    -83.31%) -XX:FreqInlineSize=10 -XX:InlineSmallCode=27316 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=117 -XX:MinInliningThreshold=387
+
+Entering generation 20
+---------------------------------------
+Baseline score:  732697.95 ops/s
+2970981.56 ops/s (   +305.49%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=42729 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=21 -XX:MaxRecursiveInlineLevel=165 -XX:MinInliningThreshold=568
+2967916.75 ops/s (   +305.07%) -XX:FreqInlineSize=70 -XX:InlineSmallCode=6551 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=70 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=826
+2937317.13 ops/s (   +300.89%) -XX:FreqInlineSize=17 -XX:InlineSmallCode=42729 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=35 -XX:MaxRecursiveInlineLevel=165 -XX:MinInliningThreshold=568
+2933357.64 ops/s (   +300.35%) -XX:FreqInlineSize=15 -XX:InlineSmallCode=42729 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=165 -XX:MinInliningThreshold=568
+2932715.46 ops/s (   +300.26%) -XX:FreqInlineSize=23 -XX:InlineSmallCode=42729 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=13 -XX:MaxRecursiveInlineLevel=165 -XX:MinInliningThreshold=568
+2917433.84 ops/s (   +298.18%) -XX:FreqInlineSize=25 -XX:InlineSmallCode=67895 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=211 -XX:MaxRecursiveInlineLevel=165 -XX:MinInliningThreshold=641
+2867534.09 ops/s (   +291.37%) -XX:FreqInlineSize=282 -XX:InlineSmallCode=25185 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=15 -XX:MaxRecursiveInlineLevel=165 -XX:MinInliningThreshold=464
+2779216.70 ops/s (   +279.31%) -XX:FreqInlineSize=15 -XX:InlineSmallCode=42729 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=41 -XX:MaxRecursiveInlineLevel=104 -XX:MinInliningThreshold=568
+2773637.15 ops/s (   +278.55%) -XX:FreqInlineSize=15 -XX:InlineSmallCode=50926 -XX:MaxInlineLevel=154 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=165 -XX:MinInliningThreshold=1063
+ 130536.07 ops/s (    -82.18%) -XX:FreqInlineSize=2 -XX:InlineSmallCode=42729 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=155 -XX:MinInliningThreshold=478
+
+Entering generation 21
+---------------------------------------
+Baseline score:  721232.79 ops/s
+2970981.56 ops/s (   +311.93%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=42729 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=21 -XX:MaxRecursiveInlineLevel=165 -XX:MinInliningThreshold=568
+2967916.75 ops/s (   +311.51%) -XX:FreqInlineSize=70 -XX:InlineSmallCode=6551 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=70 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=826
+2937790.57 ops/s (   +307.33%) -XX:FreqInlineSize=6503 -XX:InlineSmallCode=11758 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=70 -XX:MaxRecursiveInlineLevel=273 -XX:MinInliningThreshold=466
+2935143.06 ops/s (   +306.96%) -XX:FreqInlineSize=70 -XX:InlineSmallCode=6551 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=70 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=826
+2913054.07 ops/s (   +303.90%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=12997 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=80 -XX:MaxRecursiveInlineLevel=135 -XX:MinInliningThreshold=826
+2877752.50 ops/s (   +299.00%) -XX:FreqInlineSize=70 -XX:InlineSmallCode=6551 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=104 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=826
+2846724.05 ops/s (   +294.70%) -XX:FreqInlineSize=70 -XX:InlineSmallCode=6551 -XX:MaxInlineLevel=168 -XX:MaxInlineSize=59 -XX:MaxRecursiveInlineLevel=136 -XX:MinInliningThreshold=826
+2846111.60 ops/s (   +294.62%) -XX:FreqInlineSize=45 -XX:InlineSmallCode=8624 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=70 -XX:MaxRecursiveInlineLevel=127 -XX:MinInliningThreshold=826
+2692081.47 ops/s (   +273.26%) -XX:FreqInlineSize=49 -XX:InlineSmallCode=6551 -XX:MaxInlineLevel=53 -XX:MaxInlineSize=63 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=728
+2639247.85 ops/s (   +265.94%) -XX:FreqInlineSize=70 -XX:InlineSmallCode=6551 -XX:MaxInlineLevel=244 -XX:MaxInlineSize=46 -XX:MaxRecursiveInlineLevel=48 -XX:MinInliningThreshold=710
+
+Entering generation 22
+---------------------------------------
+Baseline score:  691547.17 ops/s
+3095386.60 ops/s (   +347.60%) -XX:FreqInlineSize=61 -XX:InlineSmallCode=6551 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=50 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2970981.56 ops/s (   +329.61%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=42729 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=21 -XX:MaxRecursiveInlineLevel=165 -XX:MinInliningThreshold=568
+2967916.75 ops/s (   +329.17%) -XX:FreqInlineSize=70 -XX:InlineSmallCode=6551 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=70 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=826
+2833157.93 ops/s (   +309.68%) -XX:FreqInlineSize=70 -XX:InlineSmallCode=3641 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=70 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=826
+2722830.77 ops/s (   +293.73%) -XX:FreqInlineSize=78 -XX:InlineSmallCode=6551 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=70 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1097
+2699041.34 ops/s (   +290.29%) -XX:FreqInlineSize=70 -XX:InlineSmallCode=1159 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=124 -XX:MaxRecursiveInlineLevel=145 -XX:MinInliningThreshold=826
+2665473.37 ops/s (   +285.44%) -XX:FreqInlineSize=70 -XX:InlineSmallCode=23398 -XX:MaxInlineLevel=206 -XX:MaxInlineSize=47 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=2887
+2652958.91 ops/s (   +283.63%) -XX:FreqInlineSize=55 -XX:InlineSmallCode=6551 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=70 -XX:MaxRecursiveInlineLevel=51 -XX:MinInliningThreshold=21700
+2201916.99 ops/s (   +218.40%) -XX:FreqInlineSize=70 -XX:InlineSmallCode=10441 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=70 -XX:MaxRecursiveInlineLevel=25 -XX:MinInliningThreshold=826
+ 125265.25 ops/s (    -81.89%) -XX:FreqInlineSize=10 -XX:InlineSmallCode=6551 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=72 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=826
+
+Entering generation 23
+---------------------------------------
+Baseline score:  698672.73 ops/s
+3095386.60 ops/s (   +343.04%) -XX:FreqInlineSize=61 -XX:InlineSmallCode=6551 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=50 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+3093974.83 ops/s (   +342.84%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=42729 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=21 -XX:MaxRecursiveInlineLevel=165 -XX:MinInliningThreshold=691
+2970981.56 ops/s (   +325.23%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=42729 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=21 -XX:MaxRecursiveInlineLevel=165 -XX:MinInliningThreshold=568
+2949626.34 ops/s (   +322.18%) -XX:FreqInlineSize=22 -XX:InlineSmallCode=28422 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=56 -XX:MaxRecursiveInlineLevel=272 -XX:MinInliningThreshold=568
+2892816.02 ops/s (   +314.04%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=42729 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=21 -XX:MaxRecursiveInlineLevel=165 -XX:MinInliningThreshold=1082
+2813082.53 ops/s (   +302.63%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=76136 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=11 -XX:MaxRecursiveInlineLevel=210 -XX:MinInliningThreshold=369
+2706051.42 ops/s (   +287.31%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=42729 -XX:MaxInlineLevel=292 -XX:MaxInlineSize=83 -XX:MaxRecursiveInlineLevel=165 -XX:MinInliningThreshold=568
+2680492.85 ops/s (   +283.65%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=91802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=12 -XX:MaxRecursiveInlineLevel=165 -XX:MinInliningThreshold=294
+2473770.25 ops/s (   +254.07%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=13351 -XX:MaxInlineLevel=34 -XX:MaxInlineSize=21 -XX:MaxRecursiveInlineLevel=165 -XX:MinInliningThreshold=568
+1972689.63 ops/s (   +182.35%) -XX:FreqInlineSize=84 -XX:InlineSmallCode=42729 -XX:MaxInlineLevel=13 -XX:MaxInlineSize=21 -XX:MaxRecursiveInlineLevel=108 -XX:MinInliningThreshold=568
+
+Entering generation 24
+---------------------------------------
+Baseline score:  715505.31 ops/s
+3242077.63 ops/s (   +353.12%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=66063 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=1138
+3095386.60 ops/s (   +332.62%) -XX:FreqInlineSize=61 -XX:InlineSmallCode=6551 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=50 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+3093974.83 ops/s (   +332.42%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=42729 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=21 -XX:MaxRecursiveInlineLevel=165 -XX:MinInliningThreshold=691
+2994137.46 ops/s (   +318.46%) -XX:FreqInlineSize=20 -XX:InlineSmallCode=38074 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=21 -XX:MaxRecursiveInlineLevel=165 -XX:MinInliningThreshold=1306
+2922384.81 ops/s (   +308.44%) -XX:FreqInlineSize=37 -XX:InlineSmallCode=42729 -XX:MaxInlineLevel=297 -XX:MaxInlineSize=21 -XX:MaxRecursiveInlineLevel=165 -XX:MinInliningThreshold=691
+2919050.15 ops/s (   +307.97%) -XX:FreqInlineSize=439 -XX:InlineSmallCode=42729 -XX:MaxInlineLevel=97 -XX:MaxInlineSize=39 -XX:MaxRecursiveInlineLevel=165 -XX:MinInliningThreshold=1404
+2919036.85 ops/s (   +307.97%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=42729 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=36 -XX:MaxRecursiveInlineLevel=117 -XX:MinInliningThreshold=419
+ 134612.90 ops/s (    -81.19%) -XX:FreqInlineSize=11 -XX:InlineSmallCode=37529 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=23 -XX:MaxRecursiveInlineLevel=165 -XX:MinInliningThreshold=691
+ 133952.91 ops/s (    -81.28%) -XX:FreqInlineSize=2 -XX:InlineSmallCode=107079 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=21 -XX:MaxRecursiveInlineLevel=165 -XX:MinInliningThreshold=691
+ 132734.62 ops/s (    -81.45%) -XX:FreqInlineSize=10 -XX:InlineSmallCode=42729 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=21 -XX:MaxRecursiveInlineLevel=165 -XX:MinInliningThreshold=1317
+
+Entering generation 25
+---------------------------------------
+Baseline score:  726718.93 ops/s
+3242077.63 ops/s (   +346.13%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=66063 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=1138
+3095386.60 ops/s (   +325.94%) -XX:FreqInlineSize=61 -XX:InlineSmallCode=6551 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=50 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+3039017.64 ops/s (   +318.18%) -XX:FreqInlineSize=61 -XX:InlineSmallCode=6558 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=50 -XX:MaxRecursiveInlineLevel=114 -XX:MinInliningThreshold=650
+2928117.24 ops/s (   +302.92%) -XX:FreqInlineSize=527 -XX:InlineSmallCode=6551 -XX:MaxInlineLevel=77 -XX:MaxInlineSize=36 -XX:MaxRecursiveInlineLevel=25679 -XX:MinInliningThreshold=997
+2852196.41 ops/s (   +292.48%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=5500 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=50 -XX:MaxRecursiveInlineLevel=52 -XX:MinInliningThreshold=1330
+2835645.23 ops/s (   +290.20%) -XX:FreqInlineSize=38 -XX:InlineSmallCode=4681 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=26 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1428
+2619774.29 ops/s (   +260.49%) -XX:FreqInlineSize=61 -XX:InlineSmallCode=324 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=50 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=2997
+2566527.70 ops/s (   +253.17%) -XX:FreqInlineSize=61 -XX:InlineSmallCode=4827 -XX:MaxInlineLevel=47 -XX:MaxInlineSize=140 -XX:MaxRecursiveInlineLevel=112 -XX:MinInliningThreshold=997
+2322187.04 ops/s (   +219.54%) -XX:FreqInlineSize=61 -XX:InlineSmallCode=12395 -XX:MaxInlineLevel=103 -XX:MaxInlineSize=113 -XX:MaxRecursiveInlineLevel=22 -XX:MinInliningThreshold=997
+2070413.01 ops/s (   +184.90%) -XX:FreqInlineSize=61 -XX:InlineSmallCode=6551 -XX:MaxInlineLevel=15 -XX:MaxInlineSize=28 -XX:MaxRecursiveInlineLevel=127 -XX:MinInliningThreshold=997
+
+Entering generation 26
+---------------------------------------
+Baseline score:  734078.79 ops/s
+3242077.63 ops/s (   +341.65%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=66063 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=1138
+3095386.60 ops/s (   +321.67%) -XX:FreqInlineSize=61 -XX:InlineSmallCode=6551 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=50 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2870621.02 ops/s (   +291.05%) -XX:FreqInlineSize=61 -XX:InlineSmallCode=3146 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=53 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2859104.93 ops/s (   +289.48%) -XX:FreqInlineSize=61 -XX:InlineSmallCode=177749 -XX:MaxInlineLevel=120 -XX:MaxInlineSize=74 -XX:MaxRecursiveInlineLevel=684 -XX:MinInliningThreshold=997
+2849812.27 ops/s (   +288.22%) -XX:FreqInlineSize=57 -XX:InlineSmallCode=6551 -XX:MaxInlineLevel=156 -XX:MaxInlineSize=50 -XX:MaxRecursiveInlineLevel=122 -XX:MinInliningThreshold=5306
+2750861.43 ops/s (   +274.74%) -XX:FreqInlineSize=30 -XX:InlineSmallCode=3464 -XX:MaxInlineLevel=252 -XX:MaxInlineSize=50 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=630
+2731458.32 ops/s (   +272.09%) -XX:FreqInlineSize=61 -XX:InlineSmallCode=6551 -XX:MaxInlineLevel=139 -XX:MaxInlineSize=50 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2618154.17 ops/s (   +256.66%) -XX:FreqInlineSize=303 -XX:InlineSmallCode=6551 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=96 -XX:MaxRecursiveInlineLevel=64 -XX:MinInliningThreshold=997
+2258615.40 ops/s (   +207.68%) -XX:FreqInlineSize=61 -XX:InlineSmallCode=5238 -XX:MaxInlineLevel=21 -XX:MaxInlineSize=50 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+ 137349.46 ops/s (    -81.29%) -XX:FreqInlineSize=14 -XX:InlineSmallCode=4208 -XX:MaxInlineLevel=93 -XX:MaxInlineSize=33 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1447
+
+Entering generation 27
+---------------------------------------
+Baseline score:  719422.60 ops/s
+3242077.63 ops/s (   +350.65%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=66063 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=1138
+3095386.60 ops/s (   +330.26%) -XX:FreqInlineSize=61 -XX:InlineSmallCode=6551 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=50 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2839480.98 ops/s (   +294.69%) -XX:FreqInlineSize=61 -XX:InlineSmallCode=6969 -XX:MaxInlineLevel=78 -XX:MaxInlineSize=93 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1294
+2808103.79 ops/s (   +290.33%) -XX:FreqInlineSize=61 -XX:InlineSmallCode=6551 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=64 -XX:MinInliningThreshold=790
+2756087.08 ops/s (   +283.10%) -XX:FreqInlineSize=32 -XX:InlineSmallCode=10792 -XX:MaxInlineLevel=122 -XX:MaxInlineSize=50 -XX:MaxRecursiveInlineLevel=153 -XX:MinInliningThreshold=1055
+2672143.22 ops/s (   +271.43%) -XX:FreqInlineSize=61 -XX:InlineSmallCode=6551 -XX:MaxInlineLevel=52 -XX:MaxInlineSize=44 -XX:MaxRecursiveInlineLevel=99 -XX:MinInliningThreshold=997
+2617833.89 ops/s (   +263.88%) -XX:FreqInlineSize=60 -XX:InlineSmallCode=6551 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1991
+2616533.77 ops/s (   +263.70%) -XX:FreqInlineSize=53 -XX:InlineSmallCode=6551 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=50 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1510
+2549472.01 ops/s (   +254.38%) -XX:FreqInlineSize=61 -XX:InlineSmallCode=6551 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1413
+1774777.12 ops/s (   +146.69%) -XX:FreqInlineSize=439 -XX:InlineSmallCode=12880 -XX:MaxInlineLevel=11 -XX:MaxInlineSize=70 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+
+Entering generation 28
+---------------------------------------
+Baseline score:  688505.27 ops/s
+3242077.63 ops/s (   +370.89%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=66063 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=1138
+3240185.88 ops/s (   +370.61%) -XX:FreqInlineSize=63 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=25 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+3095386.60 ops/s (   +349.58%) -XX:FreqInlineSize=61 -XX:InlineSmallCode=6551 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=50 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2869739.85 ops/s (   +316.81%) -XX:FreqInlineSize=162 -XX:InlineSmallCode=6551 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=50 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=581
+2796612.09 ops/s (   +306.19%) -XX:FreqInlineSize=61 -XX:InlineSmallCode=9518 -XX:MaxInlineLevel=85 -XX:MaxInlineSize=50 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2795860.04 ops/s (   +306.08%) -XX:FreqInlineSize=61 -XX:InlineSmallCode=6551 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=50 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1773
+2750053.29 ops/s (   +299.42%) -XX:FreqInlineSize=61 -XX:InlineSmallCode=11761 -XX:MaxInlineLevel=48 -XX:MaxInlineSize=50 -XX:MaxRecursiveInlineLevel=252 -XX:MinInliningThreshold=969
+2705605.67 ops/s (   +292.97%) -XX:FreqInlineSize=112 -XX:InlineSmallCode=12004 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=29 -XX:MaxRecursiveInlineLevel=63 -XX:MinInliningThreshold=1074
+2705158.70 ops/s (   +292.90%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=6551 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=86 -XX:MaxRecursiveInlineLevel=62 -XX:MinInliningThreshold=997
+2578190.16 ops/s (   +274.46%) -XX:FreqInlineSize=61 -XX:InlineSmallCode=4519 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=50 -XX:MaxRecursiveInlineLevel=38 -XX:MinInliningThreshold=850
+
+Entering generation 29
+---------------------------------------
+Baseline score:  749486.96 ops/s
+3242077.63 ops/s (   +332.57%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=66063 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=1138
+3240185.88 ops/s (   +332.32%) -XX:FreqInlineSize=63 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=25 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+3222843.89 ops/s (   +330.01%) -XX:FreqInlineSize=74 -XX:InlineSmallCode=7453 -XX:MaxInlineLevel=197 -XX:MaxInlineSize=25 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1272
+2917637.10 ops/s (   +289.28%) -XX:FreqInlineSize=73 -XX:InlineSmallCode=50511 -XX:MaxInlineLevel=91 -XX:MaxInlineSize=25 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2850597.91 ops/s (   +280.34%) -XX:FreqInlineSize=63 -XX:InlineSmallCode=9319 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=14 -XX:MaxRecursiveInlineLevel=124 -XX:MinInliningThreshold=997
+2835739.44 ops/s (   +278.36%) -XX:FreqInlineSize=52 -XX:InlineSmallCode=5031 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=25 -XX:MaxRecursiveInlineLevel=63 -XX:MinInliningThreshold=997
+2827394.46 ops/s (   +277.24%) -XX:FreqInlineSize=63 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=25 -XX:MaxRecursiveInlineLevel=51 -XX:MinInliningThreshold=997
+2736431.26 ops/s (   +265.11%) -XX:FreqInlineSize=63 -XX:InlineSmallCode=7625 -XX:MaxInlineLevel=84 -XX:MaxInlineSize=17 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=7360
+2716807.49 ops/s (   +262.49%) -XX:FreqInlineSize=63 -XX:InlineSmallCode=6986 -XX:MaxInlineLevel=196 -XX:MaxInlineSize=25 -XX:MaxRecursiveInlineLevel=68 -XX:MinInliningThreshold=1140
+2643215.87 ops/s (   +252.67%) -XX:FreqInlineSize=63 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=178 -XX:MaxInlineSize=25 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+
+Entering generation 30
+---------------------------------------
+Baseline score:  713320.89 ops/s
+3242077.63 ops/s (   +354.50%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=66063 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=1138
+3240185.88 ops/s (   +354.24%) -XX:FreqInlineSize=63 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=25 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+3085668.22 ops/s (   +332.58%) -XX:FreqInlineSize=108 -XX:InlineSmallCode=6700 -XX:MaxInlineLevel=202 -XX:MaxInlineSize=25 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=619
+2901998.25 ops/s (   +306.83%) -XX:FreqInlineSize=63 -XX:InlineSmallCode=2040 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=25 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1005
+2778556.09 ops/s (   +289.52%) -XX:FreqInlineSize=63 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=108 -XX:MaxInlineSize=25 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=274
+2767071.07 ops/s (   +287.91%) -XX:FreqInlineSize=16 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=229 -XX:MaxInlineSize=13 -XX:MaxRecursiveInlineLevel=122 -XX:MinInliningThreshold=997
+2723071.74 ops/s (   +281.75%) -XX:FreqInlineSize=63 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=231 -XX:MaxInlineSize=76 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=5815
+2658353.91 ops/s (   +272.67%) -XX:FreqInlineSize=23 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=46 -XX:MaxInlineSize=25 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2596196.00 ops/s (   +263.96%) -XX:FreqInlineSize=159 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=252 -XX:MaxInlineSize=25 -XX:MaxRecursiveInlineLevel=62 -XX:MinInliningThreshold=1685
+1640180.51 ops/s (   +129.94%) -XX:FreqInlineSize=63 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=8 -XX:MaxInlineSize=25 -XX:MaxRecursiveInlineLevel=46 -XX:MinInliningThreshold=997
+
+Entering generation 31
+---------------------------------------
+Baseline score:  707150.69 ops/s
+3242077.63 ops/s (   +358.47%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=66063 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=1138
+3240185.88 ops/s (   +358.20%) -XX:FreqInlineSize=63 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=25 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+3040220.16 ops/s (   +329.93%) -XX:FreqInlineSize=63 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=37 -XX:MaxRecursiveInlineLevel=120 -XX:MinInliningThreshold=2304
+2959092.39 ops/s (   +318.45%) -XX:FreqInlineSize=63 -XX:InlineSmallCode=16394 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=25 -XX:MaxRecursiveInlineLevel=18246 -XX:MinInliningThreshold=571
+2836530.18 ops/s (   +301.12%) -XX:FreqInlineSize=289 -XX:InlineSmallCode=6754 -XX:MaxInlineLevel=72 -XX:MaxInlineSize=26 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2749634.65 ops/s (   +288.83%) -XX:FreqInlineSize=63 -XX:InlineSmallCode=10909 -XX:MaxInlineLevel=77 -XX:MaxInlineSize=304 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=813
+2699805.53 ops/s (   +281.79%) -XX:FreqInlineSize=63 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=176 -XX:MaxInlineSize=47 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=855
+2673507.47 ops/s (   +278.07%) -XX:FreqInlineSize=97 -XX:InlineSmallCode=2528 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=37 -XX:MaxRecursiveInlineLevel=77 -XX:MinInliningThreshold=576
+2660862.87 ops/s (   +276.28%) -XX:FreqInlineSize=63 -XX:InlineSmallCode=7018 -XX:MaxInlineLevel=248 -XX:MaxInlineSize=20 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2598546.49 ops/s (   +267.47%) -XX:FreqInlineSize=33 -XX:InlineSmallCode=9890 -XX:MaxInlineLevel=2415 -XX:MaxInlineSize=25 -XX:MaxRecursiveInlineLevel=45 -XX:MinInliningThreshold=682
+
+Entering generation 32
+---------------------------------------
+Baseline score:  729371.93 ops/s
+3388455.09 ops/s (   +364.57%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+3242077.63 ops/s (   +344.50%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=66063 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=1138
+3240185.88 ops/s (   +344.24%) -XX:FreqInlineSize=63 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=25 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2912361.29 ops/s (   +299.30%) -XX:FreqInlineSize=73 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=1793 -XX:MaxInlineSize=26 -XX:MaxRecursiveInlineLevel=196 -XX:MinInliningThreshold=316
+2748954.95 ops/s (   +276.89%) -XX:FreqInlineSize=63 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=227 -XX:MaxInlineSize=25 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2745670.62 ops/s (   +276.44%) -XX:FreqInlineSize=117 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=90 -XX:MaxInlineSize=25 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2710272.80 ops/s (   +271.59%) -XX:FreqInlineSize=107 -XX:InlineSmallCode=13612 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=25 -XX:MaxRecursiveInlineLevel=60 -XX:MinInliningThreshold=737
+2693822.93 ops/s (   +269.33%) -XX:FreqInlineSize=63 -XX:InlineSmallCode=9519 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=25 -XX:MaxRecursiveInlineLevel=56 -XX:MinInliningThreshold=997
+2650113.36 ops/s (   +263.34%) -XX:FreqInlineSize=63 -XX:InlineSmallCode=10392 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=25 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1408
+2554213.75 ops/s (   +250.19%) -XX:FreqInlineSize=63 -XX:InlineSmallCode=5183 -XX:MaxInlineLevel=72 -XX:MaxInlineSize=25 -XX:MaxRecursiveInlineLevel=42 -XX:MinInliningThreshold=997
+
+Entering generation 33
+---------------------------------------
+Baseline score:  750408.64 ops/s
+3388455.09 ops/s (   +351.55%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+3242077.63 ops/s (   +332.04%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=66063 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=1138
+2961832.19 ops/s (   +294.70%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=91899 -XX:MaxInlineLevel=6930 -XX:MaxInlineSize=149 -XX:MaxRecursiveInlineLevel=10476 -XX:MinInliningThreshold=1138
+2884660.04 ops/s (   +284.41%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=66063 -XX:MaxInlineLevel=223 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=33060 -XX:MinInliningThreshold=1138
+2871044.27 ops/s (   +282.60%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=37433 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=1138
+2770386.49 ops/s (   +269.18%) -XX:FreqInlineSize=28 -XX:InlineSmallCode=66063 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=78 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=1138
+2651623.67 ops/s (   +253.36%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=66063 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=1138
+2636014.10 ops/s (   +251.28%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=66063 -XX:MaxInlineLevel=66 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=136108 -XX:MinInliningThreshold=3190
+ 129191.30 ops/s (    -82.78%) -XX:FreqInlineSize=11 -XX:InlineSmallCode=59506 -XX:MaxInlineLevel=93 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=21971 -XX:MinInliningThreshold=1138
+ 128221.06 ops/s (    -82.91%) -XX:FreqInlineSize=14 -XX:InlineSmallCode=8404 -XX:MaxInlineLevel=527 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=1138
+
+Entering generation 34
+---------------------------------------
+Baseline score:  711579.49 ops/s
+3388455.09 ops/s (   +376.19%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+3242077.63 ops/s (   +355.62%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=66063 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=1138
+3143986.93 ops/s (   +341.83%) -XX:FreqInlineSize=17 -XX:InlineSmallCode=90447 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=4333 -XX:MaxRecursiveInlineLevel=17814 -XX:MinInliningThreshold=1138
+2895531.86 ops/s (   +306.92%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=66063 -XX:MaxInlineLevel=97 -XX:MaxInlineSize=592 -XX:MaxRecursiveInlineLevel=22830 -XX:MinInliningThreshold=1574
+2843822.33 ops/s (   +299.65%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=66063 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=17023 -XX:MinInliningThreshold=272
+2843366.29 ops/s (   +299.59%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=66063 -XX:MaxInlineLevel=520 -XX:MaxInlineSize=73 -XX:MaxRecursiveInlineLevel=18877 -XX:MinInliningThreshold=1138
+2739082.55 ops/s (   +284.93%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=322 -XX:MaxInlineLevel=143 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=15962 -XX:MinInliningThreshold=1395
+ 131174.55 ops/s (    -81.57%) -XX:FreqInlineSize=13 -XX:InlineSmallCode=66063 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=651
+ 129377.84 ops/s (    -81.82%) -XX:FreqInlineSize=14 -XX:InlineSmallCode=66063 -XX:MaxInlineLevel=200 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16635 -XX:MinInliningThreshold=923
+ 124943.65 ops/s (    -82.44%) -XX:FreqInlineSize=11 -XX:InlineSmallCode=66063 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=82 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=1138
+
+Entering generation 35
+---------------------------------------
+Baseline score:  718312.31 ops/s
+3388455.09 ops/s (   +371.72%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+3242077.63 ops/s (   +351.35%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=66063 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=1138
+3008839.50 ops/s (   +318.88%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=66063 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=1176 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=1138
+2972519.58 ops/s (   +313.82%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=66063 -XX:MaxInlineLevel=203 -XX:MaxInlineSize=93 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=1847
+2935309.18 ops/s (   +308.64%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=48815 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=15686 -XX:MinInliningThreshold=1333
+2930590.53 ops/s (   +307.98%) -XX:FreqInlineSize=41 -XX:InlineSmallCode=125952 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=30570 -XX:MinInliningThreshold=1138
+2922157.16 ops/s (   +306.81%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=66063 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=10777 -XX:MinInliningThreshold=1681
+2904370.53 ops/s (   +304.33%) -XX:FreqInlineSize=1191 -XX:InlineSmallCode=66063 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=171 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=1167
+2860160.29 ops/s (   +298.18%) -XX:FreqInlineSize=56 -XX:InlineSmallCode=71111 -XX:MaxInlineLevel=468 -XX:MaxInlineSize=74 -XX:MaxRecursiveInlineLevel=23844 -XX:MinInliningThreshold=1342
+2244742.15 ops/s (   +212.50%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=66063 -XX:MaxInlineLevel=21 -XX:MaxInlineSize=127 -XX:MaxRecursiveInlineLevel=31124 -XX:MinInliningThreshold=4401
+
+Entering generation 36
+---------------------------------------
+Baseline score:  744013.92 ops/s
+3388455.09 ops/s (   +355.43%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+3242077.63 ops/s (   +335.75%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=66063 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=1138
+3019385.82 ops/s (   +305.82%) -XX:FreqInlineSize=23 -XX:InlineSmallCode=45367 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=89 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=1138
+2950449.66 ops/s (   +296.56%) -XX:FreqInlineSize=32 -XX:InlineSmallCode=66063 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16651 -XX:MinInliningThreshold=1138
+2889238.13 ops/s (   +288.33%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=66063 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=109 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=786
+2876068.80 ops/s (   +286.56%) -XX:FreqInlineSize=15 -XX:InlineSmallCode=35308 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=1234
+2855612.96 ops/s (   +283.81%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=66063 -XX:MaxInlineLevel=103 -XX:MaxInlineSize=53 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=510
+2811384.77 ops/s (   +277.87%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=66063 -XX:MaxInlineLevel=114 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=1138
+2773627.61 ops/s (   +272.79%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=120769 -XX:MaxInlineLevel=87 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=1138
+ 123695.82 ops/s (    -83.37%) -XX:FreqInlineSize=10 -XX:InlineSmallCode=66063 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=139 -XX:MaxRecursiveInlineLevel=11060 -XX:MinInliningThreshold=1583
+
+Entering generation 37
+---------------------------------------
+Baseline score:  784185.88 ops/s
+3388455.09 ops/s (   +332.10%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+3242077.63 ops/s (   +313.43%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=66063 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=1138
+3192488.38 ops/s (   +307.11%) -XX:FreqInlineSize=15 -XX:InlineSmallCode=64265 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=123 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=762
+2928010.96 ops/s (   +273.38%) -XX:FreqInlineSize=38 -XX:InlineSmallCode=57425 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=34426 -XX:MinInliningThreshold=1138
+2890405.06 ops/s (   +268.59%) -XX:FreqInlineSize=50 -XX:InlineSmallCode=66063 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=155
+2890106.71 ops/s (   +268.55%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=17974 -XX:MaxInlineLevel=171 -XX:MaxInlineSize=100 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=1138
+2878556.58 ops/s (   +267.08%) -XX:FreqInlineSize=19 -XX:InlineSmallCode=66063 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=15 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=1138
+2813476.28 ops/s (   +258.78%) -XX:FreqInlineSize=34 -XX:InlineSmallCode=50725 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=750 -XX:MaxRecursiveInlineLevel=15830 -XX:MinInliningThreshold=768
+2637885.55 ops/s (   +236.39%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=66063 -XX:MaxInlineLevel=61 -XX:MaxInlineSize=224 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=1138
+2487950.24 ops/s (   +217.27%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=41845 -XX:MaxInlineLevel=58 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=1138
+
+Entering generation 38
+---------------------------------------
+Baseline score:  714910.80 ops/s
+3388455.09 ops/s (   +373.97%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+3242077.63 ops/s (   +353.49%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=66063 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=1138
+3049825.32 ops/s (   +326.60%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=39555 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=334 -XX:MaxRecursiveInlineLevel=15047 -XX:MinInliningThreshold=1147
+2922565.30 ops/s (   +308.80%) -XX:FreqInlineSize=50 -XX:InlineSmallCode=22036 -XX:MaxInlineLevel=282 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=10151 -XX:MinInliningThreshold=1246
+2899198.66 ops/s (   +305.53%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=66063 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=605
+2856829.99 ops/s (   +299.61%) -XX:FreqInlineSize=66 -XX:InlineSmallCode=66063 -XX:MaxInlineLevel=252 -XX:MaxInlineSize=60 -XX:MaxRecursiveInlineLevel=39262 -XX:MinInliningThreshold=1692
+2807085.49 ops/s (   +292.65%) -XX:FreqInlineSize=54 -XX:InlineSmallCode=54469 -XX:MaxInlineLevel=579 -XX:MaxInlineSize=91 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=2172
+2739761.62 ops/s (   +283.23%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=14038 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=8285 -XX:MinInliningThreshold=939
+2731310.52 ops/s (   +282.05%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=39610 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=753
+ 126548.42 ops/s (    -82.30%) -XX:FreqInlineSize=8 -XX:InlineSmallCode=59277 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=142 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=1149
+
+Entering generation 39
+---------------------------------------
+Baseline score:  787052.63 ops/s
+3388455.09 ops/s (   +330.52%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+3242077.63 ops/s (   +311.93%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=66063 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=1138
+2994672.13 ops/s (   +280.49%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=66063 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=9631 -XX:MinInliningThreshold=1138
+2936219.05 ops/s (   +273.07%) -XX:FreqInlineSize=33 -XX:InlineSmallCode=1558321 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=118 -XX:MaxRecursiveInlineLevel=39728 -XX:MinInliningThreshold=52
+2905757.99 ops/s (   +269.19%) -XX:FreqInlineSize=18 -XX:InlineSmallCode=46570 -XX:MaxInlineLevel=137 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=1138
+2880158.86 ops/s (   +265.94%) -XX:FreqInlineSize=38 -XX:InlineSmallCode=41799 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=327
+2864614.62 ops/s (   +263.97%) -XX:FreqInlineSize=28 -XX:InlineSmallCode=98118 -XX:MaxInlineLevel=3304 -XX:MaxInlineSize=63 -XX:MaxRecursiveInlineLevel=7988 -XX:MinInliningThreshold=1138
+2329581.52 ops/s (   +195.99%) -XX:FreqInlineSize=20 -XX:InlineSmallCode=56542 -XX:MaxInlineLevel=36 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=41722 -XX:MinInliningThreshold=1941
+ 142601.70 ops/s (    -81.88%) -XX:FreqInlineSize=12 -XX:InlineSmallCode=129174 -XX:MaxInlineLevel=149 -XX:MaxInlineSize=60 -XX:MaxRecursiveInlineLevel=6553 -XX:MinInliningThreshold=1920
+ 135129.63 ops/s (    -82.83%) -XX:FreqInlineSize=14 -XX:InlineSmallCode=114133 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=1138
+
+Entering generation 40
+---------------------------------------
+Baseline score:  708256.66 ops/s
+3388455.09 ops/s (   +378.42%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+3242077.63 ops/s (   +357.75%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=66063 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=1138
+3002171.07 ops/s (   +323.88%) -XX:FreqInlineSize=24 -XX:InlineSmallCode=66063 -XX:MaxInlineLevel=136 -XX:MaxInlineSize=55 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=1138
+2988595.79 ops/s (   +321.97%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=66063 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=40 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=449
+2945741.45 ops/s (   +315.91%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=66063 -XX:MaxInlineLevel=163 -XX:MaxInlineSize=2 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=1138
+2851548.60 ops/s (   +302.62%) -XX:FreqInlineSize=67 -XX:InlineSmallCode=66063 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=1138
+2845154.97 ops/s (   +301.71%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=66063 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=73 -XX:MaxRecursiveInlineLevel=11621 -XX:MinInliningThreshold=1770
+2782965.20 ops/s (   +292.93%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=7029 -XX:MaxInlineLevel=318 -XX:MaxInlineSize=3 -XX:MaxRecursiveInlineLevel=9315 -XX:MinInliningThreshold=1138
+2705502.60 ops/s (   +281.99%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=66063 -XX:MaxInlineLevel=62 -XX:MaxInlineSize=42 -XX:MaxRecursiveInlineLevel=7693 -XX:MinInliningThreshold=1791
+ 132416.66 ops/s (    -81.30%) -XX:FreqInlineSize=11 -XX:InlineSmallCode=118051 -XX:MaxInlineLevel=249 -XX:MaxInlineSize=9 -XX:MaxRecursiveInlineLevel=97234 -XX:MinInliningThreshold=1138
+
+Entering generation 41
+---------------------------------------
+Baseline score:  692926.09 ops/s
+3388455.09 ops/s (   +389.01%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+3369060.11 ops/s (   +386.21%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+3242077.63 ops/s (   +367.88%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=66063 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=1138
+3046962.15 ops/s (   +339.72%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=60894 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=45 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=2240
+2994572.43 ops/s (   +332.16%) -XX:FreqInlineSize=31 -XX:InlineSmallCode=66063 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=8966 -XX:MinInliningThreshold=11065
+2979052.86 ops/s (   +329.92%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=35538 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=59 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=1138
+2963840.10 ops/s (   +327.73%) -XX:FreqInlineSize=15 -XX:InlineSmallCode=335482 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=2767
+2931484.41 ops/s (   +323.06%) -XX:FreqInlineSize=33 -XX:InlineSmallCode=66063 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=33862 -XX:MinInliningThreshold=1138
+2716362.25 ops/s (   +292.01%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=66063 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=98 -XX:MaxRecursiveInlineLevel=30404 -XX:MinInliningThreshold=674
+ 135542.69 ops/s (    -80.44%) -XX:FreqInlineSize=12 -XX:InlineSmallCode=80690 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=701 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=1502
+
+Entering generation 42
+---------------------------------------
+Baseline score:  683396.82 ops/s
+3388455.09 ops/s (   +395.83%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+3369060.11 ops/s (   +392.99%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+2979593.29 ops/s (   +336.00%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=40291 -XX:MaxInlineLevel=99 -XX:MaxInlineSize=113 -XX:MaxRecursiveInlineLevel=16368 -XX:MinInliningThreshold=836
+2943516.32 ops/s (   +330.72%) -XX:FreqInlineSize=23 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=150 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=888
+2884614.31 ops/s (   +322.10%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=31999 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=1172
+2878752.44 ops/s (   +321.24%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=38341 -XX:MaxInlineLevel=295 -XX:MaxInlineSize=89 -XX:MaxRecursiveInlineLevel=14542 -XX:MinInliningThreshold=983
+2770090.28 ops/s (   +305.34%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=12492 -XX:MaxInlineLevel=97 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=12214 -XX:MinInliningThreshold=518
+2752864.87 ops/s (   +302.82%) -XX:FreqInlineSize=19 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=111 -XX:MaxInlineSize=20 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+2747074.38 ops/s (   +301.97%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=53951 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=18 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+ 146444.18 ops/s (    -78.57%) -XX:FreqInlineSize=6 -XX:InlineSmallCode=43319 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=10956 -XX:MinInliningThreshold=836
+
+Entering generation 43
+---------------------------------------
+Baseline score:  692424.58 ops/s
+3388455.09 ops/s (   +389.36%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+3369060.11 ops/s (   +386.56%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+2973923.29 ops/s (   +329.49%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=116 -XX:MaxInlineSize=214 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=827
+2948394.85 ops/s (   +325.81%) -XX:FreqInlineSize=31 -XX:InlineSmallCode=39573 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=100 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=798
+2923652.22 ops/s (   +322.23%) -XX:FreqInlineSize=43 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=80 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=521
+2920951.75 ops/s (   +321.84%) -XX:FreqInlineSize=20 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=165 -XX:MaxRecursiveInlineLevel=15190 -XX:MinInliningThreshold=767
+2919644.00 ops/s (   +321.66%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=72286 -XX:MaxInlineLevel=565 -XX:MaxInlineSize=57 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+2886946.47 ops/s (   +316.93%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=29559 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+2211991.11 ops/s (   +219.46%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=41097 -XX:MaxInlineLevel=24 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=854
+ 131038.65 ops/s (    -81.08%) -XX:FreqInlineSize=2 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=73 -XX:MaxRecursiveInlineLevel=12762 -XX:MinInliningThreshold=836
+
+Entering generation 44
+---------------------------------------
+Baseline score:  671870.84 ops/s
+3388455.09 ops/s (   +404.33%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+3369060.11 ops/s (   +401.44%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+3222719.68 ops/s (   +379.66%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=47969 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=28192 -XX:MinInliningThreshold=836
+2975697.21 ops/s (   +342.90%) -XX:FreqInlineSize=29 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=153 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=1239
+2889114.45 ops/s (   +330.01%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=171 -XX:MaxInlineSize=5 -XX:MaxRecursiveInlineLevel=8947 -XX:MinInliningThreshold=836
+2860566.26 ops/s (   +325.76%) -XX:FreqInlineSize=268 -XX:InlineSmallCode=64304 -XX:MaxInlineLevel=275 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=720
+2847085.56 ops/s (   +323.75%) -XX:FreqInlineSize=32 -XX:InlineSmallCode=20178 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=6663 -XX:MinInliningThreshold=836
+2827210.44 ops/s (   +320.80%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=29546 -XX:MaxInlineLevel=296 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+2656284.55 ops/s (   +295.36%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=1251 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+ 127186.75 ops/s (    -81.07%) -XX:FreqInlineSize=1 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=104 -XX:MaxInlineSize=142 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=1039
+
+Entering generation 45
+---------------------------------------
+Baseline score:  769866.36 ops/s
+3388455.09 ops/s (   +340.14%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+3369060.11 ops/s (   +337.62%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+3356964.81 ops/s (   +336.05%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=27618 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=69 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+2909432.19 ops/s (   +277.91%) -XX:FreqInlineSize=27 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=366 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+2905620.57 ops/s (   +277.42%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=77 -XX:MaxInlineSize=74 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=1063
+2793913.44 ops/s (   +262.91%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=21790 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=78 -XX:MaxRecursiveInlineLevel=12391 -XX:MinInliningThreshold=836
+2521410.54 ops/s (   +227.51%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=137 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=18136 -XX:MinInliningThreshold=4176
+ 132035.83 ops/s (    -82.85%) -XX:FreqInlineSize=9 -XX:InlineSmallCode=72576 -XX:MaxInlineLevel=76 -XX:MaxInlineSize=506 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+ 128668.64 ops/s (    -83.29%) -XX:FreqInlineSize=7 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=46 -XX:MaxRecursiveInlineLevel=25820 -XX:MinInliningThreshold=514
+ 126678.79 ops/s (    -83.55%) -XX:FreqInlineSize=1 -XX:InlineSmallCode=28077 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=46 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=534
+
+Entering generation 46
+---------------------------------------
+Baseline score:  678351.82 ops/s
+3388455.09 ops/s (   +399.51%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+3369060.11 ops/s (   +396.65%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+2950884.32 ops/s (   +335.01%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=79 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+2897525.76 ops/s (   +327.14%) -XX:FreqInlineSize=22 -XX:InlineSmallCode=4372408 -XX:MaxInlineLevel=396 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=24964 -XX:MinInliningThreshold=836
+2857270.00 ops/s (   +321.21%) -XX:FreqInlineSize=15 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=10278 -XX:MinInliningThreshold=836
+2847006.20 ops/s (   +319.69%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=28044 -XX:MaxInlineLevel=126 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+2815072.52 ops/s (   +314.99%) -XX:FreqInlineSize=35 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=114 -XX:MaxRecursiveInlineLevel=15727 -XX:MinInliningThreshold=836
+2802491.26 ops/s (   +313.13%) -XX:FreqInlineSize=15 -XX:InlineSmallCode=19784 -XX:MaxInlineLevel=241 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=35866 -XX:MinInliningThreshold=836
+2264441.55 ops/s (   +233.82%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=223553 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=30792 -XX:MinInliningThreshold=836
+ 139874.17 ops/s (    -79.38%) -XX:FreqInlineSize=11 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=526 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=1789
+
+Entering generation 47
+---------------------------------------
+Baseline score:  705235.70 ops/s
+3388455.09 ops/s (   +380.47%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+3369060.11 ops/s (   +377.72%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+2932578.79 ops/s (   +315.83%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=79946 -XX:MaxInlineLevel=88 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=1956
+2918069.35 ops/s (   +313.77%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=25175 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=1280
+2871115.30 ops/s (   +307.11%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=95 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+2834396.92 ops/s (   +301.91%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=103 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+2786244.50 ops/s (   +295.08%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=1141 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=514
+2728273.46 ops/s (   +286.86%) -XX:FreqInlineSize=36 -XX:InlineSmallCode=30969 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=2454 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=1284
+2396220.84 ops/s (   +239.78%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=40068 -XX:MaxInlineLevel=30 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=10186 -XX:MinInliningThreshold=1047
+ 136629.80 ops/s (    -80.63%) -XX:FreqInlineSize=13 -XX:InlineSmallCode=62017 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=37
+
+Entering generation 48
+---------------------------------------
+Baseline score:  730900.10 ops/s
+3465172.71 ops/s (   +374.10%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=355 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+3388455.09 ops/s (   +363.60%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+3369060.11 ops/s (   +360.95%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+3144410.72 ops/s (   +330.21%) -XX:FreqInlineSize=26 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=498
+3026743.63 ops/s (   +314.11%) -XX:FreqInlineSize=24 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=17658 -XX:MinInliningThreshold=836
+2979058.31 ops/s (   +307.59%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=31571 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=38889 -XX:MinInliningThreshold=836
+2913860.77 ops/s (   +298.67%) -XX:FreqInlineSize=19 -XX:InlineSmallCode=90915 -XX:MaxInlineLevel=89 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+2884961.45 ops/s (   +294.71%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=23180 -XX:MinInliningThreshold=476
+2824072.54 ops/s (   +286.38%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=26179 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=1049
+2736663.49 ops/s (   +274.42%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=77 -XX:MaxRecursiveInlineLevel=287721 -XX:MinInliningThreshold=836
+
+Entering generation 49
+---------------------------------------
+Baseline score:  734516.44 ops/s
+3465172.71 ops/s (   +371.76%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=355 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+3388455.09 ops/s (   +361.32%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2817062.83 ops/s (   +283.53%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=12195 -XX:MaxInlineLevel=64 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=516
+2809419.14 ops/s (   +282.49%) -XX:FreqInlineSize=66 -XX:InlineSmallCode=17866 -XX:MaxInlineLevel=119 -XX:MaxInlineSize=58 -XX:MaxRecursiveInlineLevel=143 -XX:MinInliningThreshold=997
+2721122.80 ops/s (   +270.46%) -XX:FreqInlineSize=47 -XX:InlineSmallCode=15478 -XX:MaxInlineLevel=48 -XX:MaxInlineSize=1 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2704387.67 ops/s (   +268.19%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=114 -XX:MaxInlineSize=5 -XX:MaxRecursiveInlineLevel=50 -XX:MinInliningThreshold=997
+2685582.18 ops/s (   +265.63%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=44010 -XX:MaxInlineLevel=124 -XX:MaxInlineSize=7 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2684525.50 ops/s (   +265.48%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=17 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=628
+2662058.24 ops/s (   +262.42%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=172 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=98 -XX:MinInliningThreshold=997
+2217821.49 ops/s (   +201.94%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=151 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=26 -XX:MinInliningThreshold=997
+
+Entering generation 50
+---------------------------------------
+Baseline score:  749020.70 ops/s
+3465172.71 ops/s (   +362.63%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=355 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+3388455.09 ops/s (   +352.38%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+3016661.50 ops/s (   +302.75%) -XX:FreqInlineSize=20 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=122 -XX:MaxInlineSize=1132 -XX:MaxRecursiveInlineLevel=103 -XX:MinInliningThreshold=997
+2909072.26 ops/s (   +288.38%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=7733 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=535
+2789707.34 ops/s (   +272.45%) -XX:FreqInlineSize=202 -XX:InlineSmallCode=54317 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2767341.85 ops/s (   +269.46%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1566
+2747702.83 ops/s (   +266.84%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2635738.22 ops/s (   +251.89%) -XX:FreqInlineSize=25 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=191 -XX:MaxInlineSize=10 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2567677.86 ops/s (   +242.80%) -XX:FreqInlineSize=53 -XX:InlineSmallCode=1609 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=6 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=4685
+ 134563.40 ops/s (    -82.03%) -XX:FreqInlineSize=8 -XX:InlineSmallCode=6784 -XX:MaxInlineLevel=68 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=42 -XX:MinInliningThreshold=997
+
+Entering generation 51
+---------------------------------------
+Baseline score:  741568.35 ops/s
+3465172.71 ops/s (   +367.28%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=355 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+3388455.09 ops/s (   +356.93%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+3125413.21 ops/s (   +321.46%) -XX:FreqInlineSize=73 -XX:InlineSmallCode=14565 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=124 -XX:MinInliningThreshold=997
+3050453.09 ops/s (   +311.35%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=254 -XX:MaxInlineSize=5 -XX:MaxRecursiveInlineLevel=211 -XX:MinInliningThreshold=1864
+2963184.79 ops/s (   +299.58%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=67 -XX:MaxRecursiveInlineLevel=292 -XX:MinInliningThreshold=997
+2833167.64 ops/s (   +282.05%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=5968 -XX:MaxInlineLevel=70 -XX:MaxInlineSize=7 -XX:MaxRecursiveInlineLevel=135 -XX:MinInliningThreshold=997
+2827895.25 ops/s (   +281.34%) -XX:FreqInlineSize=27 -XX:InlineSmallCode=4531 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=16 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1600
+2782060.03 ops/s (   +275.16%) -XX:FreqInlineSize=52 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=67 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=714
+2732378.10 ops/s (   +268.46%) -XX:FreqInlineSize=71 -XX:InlineSmallCode=2264 -XX:MaxInlineLevel=54 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2378879.46 ops/s (   +220.79%) -XX:FreqInlineSize=38 -XX:InlineSmallCode=8860 -XX:MaxInlineLevel=57 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=39 -XX:MinInliningThreshold=997
+
+Entering generation 52
+---------------------------------------
+Baseline score:  742736.04 ops/s
+3465172.71 ops/s (   +366.54%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=355 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+3388455.09 ops/s (   +356.21%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+3016647.44 ops/s (   +306.15%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=75 -XX:MinInliningThreshold=1118
+2813605.63 ops/s (   +278.82%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=244 -XX:MinInliningThreshold=997
+2801885.73 ops/s (   +277.24%) -XX:FreqInlineSize=30 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=3 -XX:MaxRecursiveInlineLevel=335 -XX:MinInliningThreshold=997
+2749583.09 ops/s (   +270.20%) -XX:FreqInlineSize=38 -XX:InlineSmallCode=14479 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=855
+2704376.85 ops/s (   +264.11%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=12560 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=9 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2699637.82 ops/s (   +263.47%) -XX:FreqInlineSize=51 -XX:InlineSmallCode=1036 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2639682.71 ops/s (   +255.40%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=1833 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=440 -XX:MinInliningThreshold=457
+2207717.37 ops/s (   +197.24%) -XX:FreqInlineSize=41 -XX:InlineSmallCode=10401 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=5 -XX:MaxRecursiveInlineLevel=23 -XX:MinInliningThreshold=997
+
+Entering generation 53
+---------------------------------------
+Baseline score:  701116.71 ops/s
+3465172.71 ops/s (   +394.24%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=355 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+3388455.09 ops/s (   +383.29%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+3309247.98 ops/s (   +372.00%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=15508 -XX:MaxInlineLevel=116 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=140 -XX:MinInliningThreshold=997
+3278090.25 ops/s (   +367.55%) -XX:FreqInlineSize=79 -XX:InlineSmallCode=15162 -XX:MaxInlineLevel=278 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1174
+2876061.67 ops/s (   +310.21%) -XX:FreqInlineSize=50 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=18 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1223
+2822114.09 ops/s (   +302.52%) -XX:FreqInlineSize=76 -XX:InlineSmallCode=10153 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=5 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2759730.89 ops/s (   +293.62%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=4879 -XX:MaxInlineLevel=130 -XX:MaxInlineSize=7 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2694816.76 ops/s (   +284.36%) -XX:FreqInlineSize=2002 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=530 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1699
+2680435.35 ops/s (   +282.31%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2582917.37 ops/s (   +268.40%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=5569 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=42 -XX:MinInliningThreshold=650
+
+Entering generation 54
+---------------------------------------
+Baseline score:  724998.34 ops/s
+3465172.71 ops/s (   +377.96%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=355 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+3388455.09 ops/s (   +367.37%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+3048784.27 ops/s (   +320.52%) -XX:FreqInlineSize=24 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=64 -XX:MinInliningThreshold=997
+2828919.63 ops/s (   +290.20%) -XX:FreqInlineSize=121 -XX:InlineSmallCode=8463 -XX:MaxInlineLevel=110 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=85 -XX:MinInliningThreshold=1939
+2723932.10 ops/s (   +275.72%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=55010 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=54 -XX:MinInliningThreshold=997
+2607802.91 ops/s (   +259.70%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=48 -XX:MaxRecursiveInlineLevel=2354840 -XX:MinInliningThreshold=2723
+2552849.17 ops/s (   +252.12%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=5529 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=4 -XX:MaxRecursiveInlineLevel=45 -XX:MinInliningThreshold=605
+2477417.73 ops/s (   +241.71%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=113288 -XX:MaxInlineLevel=39 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+1957111.60 ops/s (   +169.95%) -XX:FreqInlineSize=66 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=73 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=19 -XX:MinInliningThreshold=997
+ 133708.52 ops/s (    -81.56%) -XX:FreqInlineSize=0 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=26 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1134
+
+Entering generation 55
+---------------------------------------
+Baseline score:  797918.25 ops/s
+3465172.71 ops/s (   +334.28%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=355 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+3388455.09 ops/s (   +324.66%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+3060473.25 ops/s (   +283.56%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=13 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+3016326.07 ops/s (   +278.02%) -XX:FreqInlineSize=26 -XX:InlineSmallCode=6682 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=9 -XX:MaxRecursiveInlineLevel=224 -XX:MinInliningThreshold=997
+2904818.87 ops/s (   +264.05%) -XX:FreqInlineSize=206 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2833147.05 ops/s (   +255.07%) -XX:FreqInlineSize=33 -XX:InlineSmallCode=8946 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=54 -XX:MinInliningThreshold=168
+2801275.15 ops/s (   +251.07%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=5517 -XX:MaxInlineLevel=116 -XX:MaxInlineSize=5 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2535789.80 ops/s (   +217.80%) -XX:FreqInlineSize=20 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=41 -XX:MinInliningThreshold=501
+2508739.93 ops/s (   +214.41%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=8289 -XX:MaxInlineLevel=61 -XX:MaxInlineSize=53 -XX:MaxRecursiveInlineLevel=44 -XX:MinInliningThreshold=997
+2465355.02 ops/s (   +208.97%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=26669 -XX:MaxInlineLevel=144 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=43 -XX:MinInliningThreshold=1023
+
+Entering generation 56
+---------------------------------------
+Baseline score:  748467.39 ops/s
+3465172.71 ops/s (   +362.97%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=355 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+3396971.57 ops/s (   +353.86%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+3388455.09 ops/s (   +352.72%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2859506.75 ops/s (   +282.05%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=7101 -XX:MaxInlineLevel=100 -XX:MaxInlineSize=30 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2818948.48 ops/s (   +276.63%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=147 -XX:MinInliningThreshold=997
+2804882.61 ops/s (   +274.75%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=14529 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=9 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=549
+2792623.26 ops/s (   +273.11%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=7803 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=567
+2719507.15 ops/s (   +263.34%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=14304 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2710458.30 ops/s (   +262.13%) -XX:FreqInlineSize=43 -XX:InlineSmallCode=8360 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=10 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=750
+2691549.59 ops/s (   +259.61%) -XX:FreqInlineSize=33 -XX:InlineSmallCode=16520 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=4 -XX:MaxRecursiveInlineLevel=38 -XX:MinInliningThreshold=553
+
+Entering generation 57
+---------------------------------------
+Baseline score:  707931.99 ops/s
+3465172.71 ops/s (   +389.48%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=355 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+3396971.57 ops/s (   +379.84%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2839561.01 ops/s (   +301.11%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=1807 -XX:MaxInlineLevel=135 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1211
+2744555.77 ops/s (   +287.69%) -XX:FreqInlineSize=54 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=3760
+2652037.53 ops/s (   +274.62%) -XX:FreqInlineSize=34 -XX:InlineSmallCode=10993 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2646643.98 ops/s (   +273.86%) -XX:FreqInlineSize=22 -XX:InlineSmallCode=5732 -XX:MaxInlineLevel=120 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=45 -XX:MinInliningThreshold=553
+2594364.86 ops/s (   +266.47%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=4417 -XX:MaxInlineLevel=52 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2591585.31 ops/s (   +266.08%) -XX:FreqInlineSize=71 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=44 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=55 -XX:MinInliningThreshold=6706
+2561443.40 ops/s (   +261.82%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=12181 -XX:MaxInlineLevel=48 -XX:MaxInlineSize=19 -XX:MaxRecursiveInlineLevel=137 -XX:MinInliningThreshold=997
+2530089.81 ops/s (   +257.39%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2167 -XX:MaxInlineLevel=46 -XX:MaxInlineSize=4 -XX:MaxRecursiveInlineLevel=117 -XX:MinInliningThreshold=525
+
+Entering generation 58
+---------------------------------------
+Baseline score:  741761.11 ops/s
+3465172.71 ops/s (   +367.15%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=355 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+3396971.57 ops/s (   +357.96%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2922289.90 ops/s (   +293.97%) -XX:FreqInlineSize=20 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=110 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=93 -XX:MinInliningThreshold=997
+2892422.63 ops/s (   +289.94%) -XX:FreqInlineSize=73 -XX:InlineSmallCode=3521 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2855871.03 ops/s (   +285.01%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=103 -XX:MaxInlineSize=26 -XX:MaxRecursiveInlineLevel=131 -XX:MinInliningThreshold=997
+2775381.40 ops/s (   +274.16%) -XX:FreqInlineSize=82 -XX:InlineSmallCode=70108 -XX:MaxInlineLevel=65 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=813
+2773240.33 ops/s (   +273.87%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=40 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2733197.06 ops/s (   +268.47%) -XX:FreqInlineSize=342 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=92 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=204 -XX:MinInliningThreshold=997
+2710582.75 ops/s (   +265.43%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=123 -XX:MinInliningThreshold=834
+1231365.59 ops/s (    +66.01%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=5000 -XX:MaxInlineLevel=48 -XX:MaxInlineSize=16 -XX:MaxRecursiveInlineLevel=4 -XX:MinInliningThreshold=661
+
+Entering generation 59
+---------------------------------------
+Baseline score:  674520.04 ops/s
+3465172.71 ops/s (   +413.72%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=355 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+3396971.57 ops/s (   +403.61%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2948859.22 ops/s (   +337.18%) -XX:FreqInlineSize=35 -XX:InlineSmallCode=2828 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1297
+2900943.15 ops/s (   +330.08%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=5 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2785828.15 ops/s (   +313.01%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=36 -XX:MaxInlineSize=11 -XX:MaxRecursiveInlineLevel=432 -XX:MinInliningThreshold=997
+2771297.42 ops/s (   +310.85%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=3337 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=472 -XX:MinInliningThreshold=997
+2715667.76 ops/s (   +302.61%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=1941 -XX:MaxInlineLevel=48 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=126 -XX:MinInliningThreshold=997
+2709477.08 ops/s (   +301.69%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=15 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2662054.17 ops/s (   +294.66%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=41 -XX:MaxRecursiveInlineLevel=60 -XX:MinInliningThreshold=997
+2403221.72 ops/s (   +256.29%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=1708 -XX:MaxInlineLevel=86 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=137 -XX:MinInliningThreshold=1538
+
+Entering generation 60
+---------------------------------------
+Baseline score:  740208.82 ops/s
+3465172.71 ops/s (   +368.13%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=355 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+3396971.57 ops/s (   +358.92%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2857097.74 ops/s (   +285.99%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2552 -XX:MaxInlineLevel=458 -XX:MaxInlineSize=7 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2814636.39 ops/s (   +280.25%) -XX:FreqInlineSize=192 -XX:InlineSmallCode=2747 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=759
+2762263.99 ops/s (   +273.17%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=1670 -XX:MaxInlineLevel=150 -XX:MaxInlineSize=19 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=544
+2680328.28 ops/s (   +262.10%) -XX:FreqInlineSize=24 -XX:InlineSmallCode=2165 -XX:MaxInlineLevel=95 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=103 -XX:MinInliningThreshold=997
+2531579.48 ops/s (   +242.01%) -XX:FreqInlineSize=683 -XX:InlineSmallCode=2178 -XX:MaxInlineLevel=50 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=45 -XX:MinInliningThreshold=533
+2444166.05 ops/s (   +230.20%) -XX:FreqInlineSize=59 -XX:InlineSmallCode=1487 -XX:MaxInlineLevel=78 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=75 -XX:MinInliningThreshold=997
+2334629.59 ops/s (   +215.40%) -XX:FreqInlineSize=25 -XX:InlineSmallCode=4273 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=28 -XX:MinInliningThreshold=997
+1696660.78 ops/s (   +129.21%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=2 -XX:MaxRecursiveInlineLevel=6 -XX:MinInliningThreshold=792
+
+Entering generation 61
+---------------------------------------
+Baseline score:  732908.62 ops/s
+3465172.71 ops/s (   +372.80%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=355 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+3396971.57 ops/s (   +363.49%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2867309.92 ops/s (   +291.22%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=13 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2862777.08 ops/s (   +290.60%) -XX:FreqInlineSize=47 -XX:InlineSmallCode=3969 -XX:MaxInlineLevel=72 -XX:MaxInlineSize=15 -XX:MaxRecursiveInlineLevel=126 -XX:MinInliningThreshold=997
+2687669.65 ops/s (   +266.71%) -XX:FreqInlineSize=235 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=85 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=668
+2663037.62 ops/s (   +263.35%) -XX:FreqInlineSize=24 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=20 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1351
+2608453.30 ops/s (   +255.90%) -XX:FreqInlineSize=36 -XX:InlineSmallCode=3952 -XX:MaxInlineLevel=41 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1194
+2462408.68 ops/s (   +235.98%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=39 -XX:MaxInlineSize=11 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2364093.42 ops/s (   +222.56%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=26 -XX:MaxInlineSize=12 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+ 133303.99 ops/s (    -81.81%) -XX:FreqInlineSize=4 -XX:InlineSmallCode=1968 -XX:MaxInlineLevel=215 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=584
+
+Entering generation 62
+---------------------------------------
+Baseline score:  698151.81 ops/s
+3465172.71 ops/s (   +396.34%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=355 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+3396971.57 ops/s (   +386.57%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2924241.98 ops/s (   +318.85%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=57 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=751
+2899457.50 ops/s (   +315.30%) -XX:FreqInlineSize=18 -XX:InlineSmallCode=3793 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1221
+2855453.75 ops/s (   +309.00%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2511 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=6 -XX:MaxRecursiveInlineLevel=88 -XX:MinInliningThreshold=997
+2772496.99 ops/s (   +297.12%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=5 -XX:MaxRecursiveInlineLevel=12517 -XX:MinInliningThreshold=1780
+2650658.74 ops/s (   +279.67%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=41 -XX:MinInliningThreshold=439
+2511522.75 ops/s (   +259.74%) -XX:FreqInlineSize=61 -XX:InlineSmallCode=1306 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=12 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2285939.54 ops/s (   +227.43%) -XX:FreqInlineSize=35 -XX:InlineSmallCode=1483 -XX:MaxInlineLevel=112 -XX:MaxInlineSize=0 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+ 137288.41 ops/s (    -80.34%) -XX:FreqInlineSize=8 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=25 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+
+Entering generation 63
+---------------------------------------
+Baseline score:  731417.34 ops/s
+3465172.71 ops/s (   +373.76%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=355 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+3396971.57 ops/s (   +364.44%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2929879.49 ops/s (   +300.58%) -XX:FreqInlineSize=26 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=17 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2863228.74 ops/s (   +291.46%) -XX:FreqInlineSize=56 -XX:InlineSmallCode=5087 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=2737
+2839758.52 ops/s (   +288.25%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=0 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=3242
+2780199.03 ops/s (   +280.11%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=4244 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=54 -XX:MinInliningThreshold=1564
+2736236.34 ops/s (   +274.10%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=44 -XX:MaxInlineSize=10 -XX:MaxRecursiveInlineLevel=57 -XX:MinInliningThreshold=1056
+2553266.48 ops/s (   +249.08%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=47 -XX:MaxInlineSize=7 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2427226.70 ops/s (   +231.85%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2416 -XX:MaxInlineLevel=39 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1631
+2040281.15 ops/s (   +178.95%) -XX:FreqInlineSize=17 -XX:InlineSmallCode=2754 -XX:MaxInlineLevel=121 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=16 -XX:MinInliningThreshold=997
+
+Entering generation 64
+---------------------------------------
+Baseline score:  732148.19 ops/s
+3465172.71 ops/s (   +373.29%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=355 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+3396971.57 ops/s (   +363.97%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2911148.70 ops/s (   +297.62%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2330 -XX:MaxInlineLevel=93 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2776195.80 ops/s (   +279.18%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2745094.40 ops/s (   +274.94%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=1799 -XX:MaxInlineLevel=179 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1488
+2719991.41 ops/s (   +271.51%) -XX:FreqInlineSize=49 -XX:InlineSmallCode=5001 -XX:MaxInlineLevel=48 -XX:MaxInlineSize=7 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2685024.33 ops/s (   +266.73%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=7 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2517700.63 ops/s (   +243.88%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=3244 -XX:MaxInlineLevel=37 -XX:MaxInlineSize=7 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1223
+2493137.90 ops/s (   +240.52%) -XX:FreqInlineSize=78 -XX:InlineSmallCode=46924 -XX:MaxInlineLevel=34 -XX:MaxInlineSize=11 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1128
+2244784.90 ops/s (   +206.60%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=604 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=29 -XX:MinInliningThreshold=997
+
+Entering generation 65
+---------------------------------------
+Baseline score:  736607.36 ops/s
+3465172.71 ops/s (   +370.42%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=355 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+3396971.57 ops/s (   +361.16%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2976041.62 ops/s (   +304.02%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=127 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=1032 -XX:MinInliningThreshold=997
+2959014.73 ops/s (   +301.71%) -XX:FreqInlineSize=15 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1663
+2731330.12 ops/s (   +270.80%) -XX:FreqInlineSize=121 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=50 -XX:MinInliningThreshold=1178
+2710674.45 ops/s (   +267.99%) -XX:FreqInlineSize=72 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2683536.78 ops/s (   +264.31%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2643 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=22 -XX:MaxRecursiveInlineLevel=47 -XX:MinInliningThreshold=997
+2634854.49 ops/s (   +257.70%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=3648 -XX:MaxInlineLevel=104 -XX:MaxInlineSize=5 -XX:MaxRecursiveInlineLevel=43 -XX:MinInliningThreshold=997
+2601576.66 ops/s (   +253.18%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=929 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=4 -XX:MaxRecursiveInlineLevel=38 -XX:MinInliningThreshold=997
+2463458.06 ops/s (   +234.43%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=1506 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=2 -XX:MaxRecursiveInlineLevel=37 -XX:MinInliningThreshold=997
+
+Entering generation 66
+---------------------------------------
+Baseline score:  705293.66 ops/s
+3465172.71 ops/s (   +391.31%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=355 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+3396971.57 ops/s (   +381.64%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+3260951.82 ops/s (   +362.35%) -XX:FreqInlineSize=29 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1237
+2828802.94 ops/s (   +301.08%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=3124 -XX:MaxInlineLevel=78 -XX:MaxInlineSize=2 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2683332.81 ops/s (   +280.46%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=60 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2510650.06 ops/s (   +255.97%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=12349 -XX:MaxInlineLevel=48 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=36 -XX:MinInliningThreshold=630
+2414692.58 ops/s (   +242.37%) -XX:FreqInlineSize=68 -XX:InlineSmallCode=5034 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=32 -XX:MinInliningThreshold=852
+2214618.01 ops/s (   +214.00%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=3040 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=4 -XX:MaxRecursiveInlineLevel=24 -XX:MinInliningThreshold=696
+1758269.73 ops/s (   +149.30%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=10 -XX:MaxInlineSize=12 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=2568
+ 728360.50 ops/s (     +3.27%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=3039 -XX:MaxInlineLevel=0 -XX:MaxInlineSize=9 -XX:MaxRecursiveInlineLevel=10 -XX:MinInliningThreshold=609
+
+Entering generation 67
+---------------------------------------
+Baseline score:  730882.94 ops/s
+3465172.71 ops/s (   +374.11%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=355 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+3396971.57 ops/s (   +364.78%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+3271431.35 ops/s (   +347.60%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=108 -XX:MaxInlineSize=11 -XX:MaxRecursiveInlineLevel=165 -XX:MinInliningThreshold=997
+3091946.75 ops/s (   +323.04%) -XX:FreqInlineSize=47 -XX:InlineSmallCode=4112 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=4 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1157
+2823111.88 ops/s (   +286.26%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2801375.08 ops/s (   +283.29%) -XX:FreqInlineSize=44 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=815 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=204
+2660885.21 ops/s (   +264.06%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=1380 -XX:MaxInlineLevel=48 -XX:MaxInlineSize=12 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1727
+2597846.62 ops/s (   +255.44%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=1013 -XX:MaxInlineLevel=136 -XX:MaxInlineSize=0 -XX:MaxRecursiveInlineLevel=33 -XX:MinInliningThreshold=2110
+2490838.16 ops/s (   +240.80%) -XX:FreqInlineSize=58 -XX:InlineSmallCode=1387 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=100 -XX:MinInliningThreshold=997
+ 129695.21 ops/s (    -82.25%) -XX:FreqInlineSize=6 -XX:InlineSmallCode=3637 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=1390 -XX:MinInliningThreshold=1595
+
+Entering generation 68
+---------------------------------------
+Baseline score:  714157.96 ops/s
+3465172.71 ops/s (   +385.21%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=355 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+3396971.57 ops/s (   +375.66%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+3251737.12 ops/s (   +355.32%) -XX:FreqInlineSize=67 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=5 -XX:MaxRecursiveInlineLevel=101 -XX:MinInliningThreshold=773
+2855103.50 ops/s (   +299.79%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2143 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=95 -XX:MinInliningThreshold=1501
+2840074.43 ops/s (   +297.68%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=71 -XX:MinInliningThreshold=997
+2805892.00 ops/s (   +292.90%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=62 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=736
+2716176.28 ops/s (   +280.33%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=40 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=561
+2652908.30 ops/s (   +271.47%) -XX:FreqInlineSize=51 -XX:InlineSmallCode=1452 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=123 -XX:MinInliningThreshold=997
+2523135.75 ops/s (   +253.30%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2296 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=60 -XX:MinInliningThreshold=997
+2512735.03 ops/s (   +251.85%) -XX:FreqInlineSize=69 -XX:InlineSmallCode=84 -XX:MaxInlineLevel=53 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1694
+
+Entering generation 69
+---------------------------------------
+Baseline score:  693055.73 ops/s
+3465172.71 ops/s (   +399.98%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=355 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+3396971.57 ops/s (   +390.14%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2990783.06 ops/s (   +331.54%) -XX:FreqInlineSize=23 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=110 -XX:MaxInlineSize=2 -XX:MaxRecursiveInlineLevel=199 -XX:MinInliningThreshold=997
+2795041.78 ops/s (   +303.29%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=91 -XX:MaxInlineSize=4 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2793097.92 ops/s (   +303.01%) -XX:FreqInlineSize=20 -XX:InlineSmallCode=1992 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2775386.26 ops/s (   +300.46%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=6 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=600
+2605675.47 ops/s (   +275.97%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=1517 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2327464.54 ops/s (   +235.83%) -XX:FreqInlineSize=28 -XX:InlineSmallCode=1561 -XX:MaxInlineLevel=35 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2188370.89 ops/s (   +215.76%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=6 -XX:MaxRecursiveInlineLevel=14 -XX:MinInliningThreshold=997
+1593815.67 ops/s (   +129.97%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2767 -XX:MaxInlineLevel=7 -XX:MaxInlineSize=9 -XX:MaxRecursiveInlineLevel=131 -XX:MinInliningThreshold=997
+
+Entering generation 70
+---------------------------------------
+Baseline score:  685465.33 ops/s
+3465172.71 ops/s (   +405.52%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=355 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+3396971.57 ops/s (   +395.57%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2739140.56 ops/s (   +299.60%) -XX:FreqInlineSize=36 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=204 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=584
+2737060.26 ops/s (   +299.30%) -XX:FreqInlineSize=20 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=15 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=217
+2709618.86 ops/s (   +295.30%) -XX:FreqInlineSize=656 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=115 -XX:MinInliningThreshold=1764
+2618868.79 ops/s (   +282.06%) -XX:FreqInlineSize=25 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=53 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1852
+2470063.41 ops/s (   +260.35%) -XX:FreqInlineSize=91 -XX:InlineSmallCode=1764 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=41 -XX:MinInliningThreshold=266
+2120395.39 ops/s (   +209.34%) -XX:FreqInlineSize=96 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=15 -XX:MaxInlineSize=11 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2000892.93 ops/s (   +191.90%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=1300 -XX:MaxInlineLevel=14 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+ 130973.14 ops/s (    -80.89%) -XX:FreqInlineSize=12 -XX:InlineSmallCode=71635 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=15 -XX:MaxRecursiveInlineLevel=812 -XX:MinInliningThreshold=1118
+
+Entering generation 71
+---------------------------------------
+Baseline score:  744403.31 ops/s
+3465172.71 ops/s (   +365.50%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=355 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+3396971.57 ops/s (   +356.33%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+3152021.03 ops/s (   +323.43%) -XX:FreqInlineSize=20 -XX:InlineSmallCode=2387 -XX:MaxInlineLevel=71 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=861
+3048861.37 ops/s (   +309.57%) -XX:FreqInlineSize=41 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=67 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=88 -XX:MinInliningThreshold=481
+3036255.50 ops/s (   +307.88%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=4080 -XX:MaxInlineLevel=106 -XX:MaxInlineSize=20 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1296
+2904766.27 ops/s (   +290.21%) -XX:FreqInlineSize=60 -XX:InlineSmallCode=2188 -XX:MaxInlineLevel=71 -XX:MaxInlineSize=4 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1200
+2800134.91 ops/s (   +276.16%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=3491 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2769123.80 ops/s (   +271.99%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=62 -XX:MaxInlineSize=3 -XX:MaxRecursiveInlineLevel=74 -XX:MinInliningThreshold=997
+2640942.58 ops/s (   +254.77%) -XX:FreqInlineSize=90 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=40 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=909
+ 135288.44 ops/s (    -81.83%) -XX:FreqInlineSize=10 -XX:InlineSmallCode=1259 -XX:MaxInlineLevel=10 -XX:MaxInlineSize=4 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+
+Entering generation 72
+---------------------------------------
+Baseline score:  688948.37 ops/s
+3465172.71 ops/s (   +402.97%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=355 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+3396971.57 ops/s (   +393.07%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2775116.66 ops/s (   +302.80%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=5083 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=10 -XX:MaxRecursiveInlineLevel=197 -XX:MinInliningThreshold=1018
+2721644.24 ops/s (   +295.04%) -XX:FreqInlineSize=73 -XX:InlineSmallCode=3218 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=5 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2718128.79 ops/s (   +294.53%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=3696 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=54 -XX:MinInliningThreshold=997
+2678932.96 ops/s (   +288.84%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=3059 -XX:MaxInlineLevel=87 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=42 -XX:MinInliningThreshold=754
+2575851.44 ops/s (   +273.88%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=1830 -XX:MaxInlineLevel=102 -XX:MaxInlineSize=4125 -XX:MaxRecursiveInlineLevel=37 -XX:MinInliningThreshold=997
+2562522.13 ops/s (   +271.95%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=307 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=5 -XX:MaxRecursiveInlineLevel=64 -XX:MinInliningThreshold=997
+2540863.07 ops/s (   +268.80%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=3 -XX:MaxRecursiveInlineLevel=46 -XX:MinInliningThreshold=1798
+2351143.73 ops/s (   +241.27%) -XX:FreqInlineSize=200 -XX:InlineSmallCode=1276 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=23 -XX:MinInliningThreshold=997
+
+Entering generation 73
+---------------------------------------
+Baseline score:  721982.22 ops/s
+3465172.71 ops/s (   +379.95%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=355 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+3396971.57 ops/s (   +370.51%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+3060252.37 ops/s (   +323.87%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=6992 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2802707.08 ops/s (   +288.20%) -XX:FreqInlineSize=142 -XX:InlineSmallCode=5101 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=65 -XX:MinInliningThreshold=997
+2782601.43 ops/s (   +285.41%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=54 -XX:MaxRecursiveInlineLevel=100 -XX:MinInliningThreshold=997
+2772581.14 ops/s (   +284.02%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=3557 -XX:MaxInlineLevel=130 -XX:MaxInlineSize=6 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1495
+2724806.13 ops/s (   +277.41%) -XX:FreqInlineSize=22 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2630904.31 ops/s (   +264.40%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=104 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2588642.07 ops/s (   +258.55%) -XX:FreqInlineSize=35 -XX:InlineSmallCode=4338 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=54 -XX:MinInliningThreshold=997
+ 703888.84 ops/s (     -2.51%) -XX:FreqInlineSize=22 -XX:InlineSmallCode=10462 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=5 -XX:MaxRecursiveInlineLevel=1 -XX:MinInliningThreshold=997
+
+Entering generation 74
+---------------------------------------
+Baseline score:  706590.45 ops/s
+3465172.71 ops/s (   +390.41%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=355 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+3396971.57 ops/s (   +380.76%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2935652.37 ops/s (   +315.47%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=3533 -XX:MaxInlineLevel=213 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=136 -XX:MinInliningThreshold=910
+2842619.66 ops/s (   +302.30%) -XX:FreqInlineSize=22 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=113 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=94 -XX:MinInliningThreshold=1485
+2809330.48 ops/s (   +297.59%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=3368 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=7 -XX:MaxRecursiveInlineLevel=145 -XX:MinInliningThreshold=628
+2759208.81 ops/s (   +290.50%) -XX:FreqInlineSize=687 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=77 -XX:MinInliningThreshold=941
+2669987.33 ops/s (   +277.87%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=55 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=746
+2662977.30 ops/s (   +276.88%) -XX:FreqInlineSize=16 -XX:InlineSmallCode=3465 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2644912.34 ops/s (   +274.32%) -XX:FreqInlineSize=65 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=103 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2500242.88 ops/s (   +253.85%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=1030 -XX:MaxInlineLevel=37 -XX:MaxInlineSize=12 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=46
+
+Entering generation 75
+---------------------------------------
+Baseline score:  721221.17 ops/s
+3465172.71 ops/s (   +380.46%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=355 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+3396971.57 ops/s (   +371.00%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2849774.18 ops/s (   +295.13%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=96 -XX:MaxInlineSize=5 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2844764.33 ops/s (   +294.44%) -XX:FreqInlineSize=20 -XX:InlineSmallCode=3434 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=2688
+2803187.32 ops/s (   +288.67%) -XX:FreqInlineSize=51 -XX:InlineSmallCode=3131 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=143 -XX:MinInliningThreshold=1078
+2748144.32 ops/s (   +281.04%) -XX:FreqInlineSize=18 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=58 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1652
+2649915.86 ops/s (   +267.42%) -XX:FreqInlineSize=74 -XX:InlineSmallCode=1261 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=4 -XX:MaxRecursiveInlineLevel=51 -XX:MinInliningThreshold=1736
+2636912.46 ops/s (   +265.62%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=5 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=666
+ 988157.36 ops/s (    +37.01%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=10852 -XX:MaxInlineLevel=1 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=52 -XX:MinInliningThreshold=672
+ 152742.69 ops/s (    -78.82%) -XX:FreqInlineSize=9 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=138 -XX:MaxInlineSize=10 -XX:MaxRecursiveInlineLevel=38 -XX:MinInliningThreshold=997
+
+Entering generation 76
+---------------------------------------
+Baseline score:  695618.48 ops/s
+3465172.71 ops/s (   +398.14%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=355 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+3396971.57 ops/s (   +388.34%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2759516.83 ops/s (   +296.70%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2251 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=110 -XX:MinInliningThreshold=1350
+2729331.93 ops/s (   +292.36%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=60 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1243
+2690359.45 ops/s (   +286.76%) -XX:FreqInlineSize=219 -XX:InlineSmallCode=7219 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=42 -XX:MinInliningThreshold=518
+2684247.76 ops/s (   +285.88%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=51 -XX:MinInliningThreshold=997
+2648957.23 ops/s (   +280.81%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=2633 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2527282.53 ops/s (   +263.31%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=47 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2524048.10 ops/s (   +262.85%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=1084 -XX:MaxInlineLevel=53 -XX:MaxInlineSize=10 -XX:MaxRecursiveInlineLevel=112 -XX:MinInliningThreshold=555
+2456679.96 ops/s (   +253.16%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=44 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=67 -XX:MinInliningThreshold=997
+
+Entering generation 77
+---------------------------------------
+Baseline score:  722075.27 ops/s
+3465172.71 ops/s (   +379.89%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=355 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+3396971.57 ops/s (   +370.45%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2837545.42 ops/s (   +292.97%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=1 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2816959.66 ops/s (   +290.12%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=4049 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=75 -XX:MinInliningThreshold=997
+2798313.99 ops/s (   +287.54%) -XX:FreqInlineSize=119 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=72 -XX:MinInliningThreshold=997
+2757400.12 ops/s (   +281.87%) -XX:FreqInlineSize=24 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=103 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=135
+2684679.79 ops/s (   +271.80%) -XX:FreqInlineSize=41 -XX:InlineSmallCode=5163 -XX:MaxInlineLevel=51 -XX:MaxInlineSize=5 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=191
+2514127.00 ops/s (   +248.18%) -XX:FreqInlineSize=36 -XX:InlineSmallCode=4987 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=6 -XX:MaxRecursiveInlineLevel=80 -XX:MinInliningThreshold=997
+2471717.10 ops/s (   +242.31%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=295 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=36 -XX:MinInliningThreshold=885
+2444041.74 ops/s (   +238.47%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=34 -XX:MaxInlineSize=53 -XX:MaxRecursiveInlineLevel=145 -XX:MinInliningThreshold=997
+
+Entering generation 78
+---------------------------------------
+Baseline score:  725861.68 ops/s
+3465172.71 ops/s (   +377.39%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=355 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+3396971.57 ops/s (   +367.99%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2986741.31 ops/s (   +311.48%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=675 -XX:MaxInlineSize=14 -XX:MaxRecursiveInlineLevel=160 -XX:MinInliningThreshold=997
+2773576.27 ops/s (   +282.11%) -XX:FreqInlineSize=123 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=90 -XX:MinInliningThreshold=997
+2670764.88 ops/s (   +267.94%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=74 -XX:MinInliningThreshold=1644
+2668323.76 ops/s (   +267.61%) -XX:FreqInlineSize=19 -XX:InlineSmallCode=2891 -XX:MaxInlineLevel=45 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=276
+2632655.98 ops/s (   +262.69%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=4730 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=53 -XX:MinInliningThreshold=1899
+2602970.66 ops/s (   +258.60%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2574430.61 ops/s (   +254.67%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=1378 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=0 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2483583.13 ops/s (   +242.16%) -XX:FreqInlineSize=18958 -XX:InlineSmallCode=3433 -XX:MaxInlineLevel=44 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1306
+
+Entering generation 79
+---------------------------------------
+Baseline score:  743492.29 ops/s
+3465172.71 ops/s (   +366.07%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=355 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+3396971.57 ops/s (   +356.89%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2899391.66 ops/s (   +289.97%) -XX:FreqInlineSize=23 -XX:InlineSmallCode=1893 -XX:MaxInlineLevel=104 -XX:MaxInlineSize=25 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1320
+2880964.23 ops/s (   +287.49%) -XX:FreqInlineSize=74 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=41 -XX:MaxRecursiveInlineLevel=108 -XX:MinInliningThreshold=997
+2749671.39 ops/s (   +269.83%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=51 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=40 -XX:MinInliningThreshold=729
+2740009.15 ops/s (   +268.53%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2872 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=4 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2616037.01 ops/s (   +251.86%) -XX:FreqInlineSize=53 -XX:InlineSmallCode=949 -XX:MaxInlineLevel=68 -XX:MaxInlineSize=0 -XX:MaxRecursiveInlineLevel=41 -XX:MinInliningThreshold=608
+2498354.90 ops/s (   +236.03%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=856 -XX:MaxInlineLevel=110 -XX:MaxInlineSize=10 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=502
+2429554.82 ops/s (   +226.78%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=43 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=37 -XX:MinInliningThreshold=313
+2396361.68 ops/s (   +222.31%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=43 -XX:MinInliningThreshold=9975
+
+Entering generation 80
+---------------------------------------
+Baseline score:  712100.45 ops/s
+3465172.71 ops/s (   +386.61%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=355 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+3396971.57 ops/s (   +377.04%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2946750.18 ops/s (   +313.81%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=114 -XX:MaxInlineSize=6 -XX:MaxRecursiveInlineLevel=101 -XX:MinInliningThreshold=637
+2821093.95 ops/s (   +296.17%) -XX:FreqInlineSize=93 -XX:InlineSmallCode=5402 -XX:MaxInlineLevel=144 -XX:MaxInlineSize=6 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2819050.36 ops/s (   +295.88%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=1889 -XX:MaxInlineLevel=198 -XX:MaxInlineSize=6 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2724022.81 ops/s (   +282.53%) -XX:FreqInlineSize=64 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=4 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2718178.44 ops/s (   +281.71%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=3523 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=10 -XX:MaxRecursiveInlineLevel=112 -XX:MinInliningThreshold=342
+2716112.96 ops/s (   +281.42%) -XX:FreqInlineSize=54 -XX:InlineSmallCode=1735 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=47 -XX:MinInliningThreshold=997
+2575648.63 ops/s (   +261.70%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=44 -XX:MaxInlineSize=12 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1600
+2317372.39 ops/s (   +225.43%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=1448 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=23 -XX:MinInliningThreshold=10698
+
+Entering generation 81
+---------------------------------------
+Baseline score:  708624.13 ops/s
+3465172.71 ops/s (   +389.00%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=355 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+3396971.57 ops/s (   +379.38%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2960007.79 ops/s (   +317.71%) -XX:FreqInlineSize=27 -XX:InlineSmallCode=8199 -XX:MaxInlineLevel=204 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=111 -XX:MinInliningThreshold=1696
+2846149.03 ops/s (   +301.64%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1462
+2810212.84 ops/s (   +296.57%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=3695 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1499
+2743230.91 ops/s (   +287.12%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=4268 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=100 -XX:MinInliningThreshold=997
+2718049.45 ops/s (   +283.57%) -XX:FreqInlineSize=23 -XX:InlineSmallCode=1575 -XX:MaxInlineLevel=37 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2675917.67 ops/s (   +277.62%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=4 -XX:MaxRecursiveInlineLevel=40 -XX:MinInliningThreshold=767
+2582953.09 ops/s (   +264.50%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=422 -XX:MaxInlineLevel=53 -XX:MaxInlineSize=7 -XX:MaxRecursiveInlineLevel=58 -XX:MinInliningThreshold=997
+2491649.70 ops/s (   +251.62%) -XX:FreqInlineSize=42 -XX:InlineSmallCode=3560 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=39 -XX:MinInliningThreshold=1811
+
+Entering generation 82
+---------------------------------------
+Baseline score:  847479.76 ops/s
+3465172.71 ops/s (   +308.88%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=355 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+3396971.57 ops/s (   +300.83%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+3119087.88 ops/s (   +268.04%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=1283 -XX:MaxInlineLevel=81 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=37 -XX:MinInliningThreshold=997
+2829057.93 ops/s (   +233.82%) -XX:FreqInlineSize=58 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=982
+2809681.20 ops/s (   +231.53%) -XX:FreqInlineSize=185 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=9 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2673615.53 ops/s (   +215.48%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=7 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=881
+2653080.88 ops/s (   +213.06%) -XX:FreqInlineSize=28 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=4 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1611
+2487721.94 ops/s (   +193.54%) -XX:FreqInlineSize=31 -XX:InlineSmallCode=4863 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2360223.11 ops/s (   +178.50%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=4941 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=27 -XX:MinInliningThreshold=1102
+1571353.51 ops/s (    +85.41%) -XX:FreqInlineSize=63 -XX:InlineSmallCode=4258 -XX:MaxInlineLevel=7 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+
+Entering generation 83
+---------------------------------------
+Baseline score:  674493.28 ops/s
+3465172.71 ops/s (   +413.74%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=355 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+3396971.57 ops/s (   +403.63%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+3038560.12 ops/s (   +350.50%) -XX:FreqInlineSize=139 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=75 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1936
+2896015.59 ops/s (   +329.36%) -XX:FreqInlineSize=17 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=489 -XX:MaxInlineSize=6 -XX:MaxRecursiveInlineLevel=80 -XX:MinInliningThreshold=407
+2856153.06 ops/s (   +323.45%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=67 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=85 -XX:MinInliningThreshold=1214
+2778287.02 ops/s (   +311.91%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=4820 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1353
+2755066.95 ops/s (   +308.46%) -XX:FreqInlineSize=79 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=85 -XX:MaxInlineSize=6 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1862
+2737761.29 ops/s (   +305.90%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=68 -XX:MinInliningThreshold=1965
+2321280.07 ops/s (   +244.15%) -XX:FreqInlineSize=45 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=29 -XX:MaxInlineSize=23 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2263764.74 ops/s (   +235.62%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=20 -XX:MaxInlineSize=5 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+
+Entering generation 84
+---------------------------------------
+Baseline score:  744542.34 ops/s
+3465172.71 ops/s (   +365.41%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=355 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+3396971.57 ops/s (   +356.25%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2887722.50 ops/s (   +287.85%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=12 -XX:MaxRecursiveInlineLevel=96 -XX:MinInliningThreshold=997
+2880853.90 ops/s (   +286.93%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=658
+2857755.55 ops/s (   +283.83%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=3992 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=133 -XX:MinInliningThreshold=997
+2574630.39 ops/s (   +245.80%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=124 -XX:MinInliningThreshold=997
+2553313.50 ops/s (   +242.94%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=15 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2444813.43 ops/s (   +228.36%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=1343 -XX:MaxInlineLevel=34 -XX:MaxInlineSize=15 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1991
+2174424.77 ops/s (   +192.05%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=12 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+ 135279.55 ops/s (    -81.83%) -XX:FreqInlineSize=7 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=38 -XX:MinInliningThreshold=749
+
+Entering generation 85
+---------------------------------------
+Baseline score:  675966.97 ops/s
+3465172.71 ops/s (   +412.62%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=355 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+3396971.57 ops/s (   +402.54%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+3142177.90 ops/s (   +364.84%) -XX:FreqInlineSize=60 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=66 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=83 -XX:MinInliningThreshold=555
+2918252.36 ops/s (   +331.72%) -XX:FreqInlineSize=32 -XX:InlineSmallCode=107682 -XX:MaxInlineLevel=76 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2840321.41 ops/s (   +320.19%) -XX:FreqInlineSize=23 -XX:InlineSmallCode=14673 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=67 -XX:MinInliningThreshold=949
+2780838.84 ops/s (   +311.39%) -XX:FreqInlineSize=19 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=7 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2717296.27 ops/s (   +301.99%) -XX:FreqInlineSize=41 -XX:InlineSmallCode=234 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=5 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=979
+2661906.56 ops/s (   +293.79%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2657303.35 ops/s (   +293.11%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=499 -XX:MaxInlineLevel=74 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1250
+2648164.89 ops/s (   +291.76%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=15025 -XX:MaxInlineLevel=51 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1940
+
+Entering generation 86
+---------------------------------------
+Baseline score:  741174.10 ops/s
+3465172.71 ops/s (   +367.52%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=355 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+3396971.57 ops/s (   +358.32%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2871049.23 ops/s (   +287.37%) -XX:FreqInlineSize=118 -XX:InlineSmallCode=3453 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=10 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2863554.40 ops/s (   +286.35%) -XX:FreqInlineSize=29 -XX:InlineSmallCode=4391 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=3 -XX:MaxRecursiveInlineLevel=43 -XX:MinInliningThreshold=997
+2781106.66 ops/s (   +275.23%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=1826 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=10 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=505
+2758844.02 ops/s (   +272.23%) -XX:FreqInlineSize=67 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=6 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=773
+2725315.33 ops/s (   +267.70%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=11593 -XX:MaxInlineLevel=109 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=1073 -XX:MinInliningThreshold=997
+2681735.35 ops/s (   +261.82%) -XX:FreqInlineSize=23 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=7 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=519
+2659129.64 ops/s (   +258.77%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=1289 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=2 -XX:MaxRecursiveInlineLevel=47 -XX:MinInliningThreshold=997
+2641914.97 ops/s (   +256.45%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=67 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=96 -XX:MinInliningThreshold=997
+
+Entering generation 87
+---------------------------------------
+Baseline score:  789317.03 ops/s
+3465172.71 ops/s (   +339.01%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=355 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+3396971.57 ops/s (   +330.37%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2937647.97 ops/s (   +272.18%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=4529 -XX:MaxInlineLevel=124 -XX:MaxInlineSize=11 -XX:MaxRecursiveInlineLevel=60 -XX:MinInliningThreshold=1102
+2862162.82 ops/s (   +262.61%) -XX:FreqInlineSize=35 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=124 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1158
+2782181.59 ops/s (   +252.48%) -XX:FreqInlineSize=159 -XX:InlineSmallCode=2198 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2769287.64 ops/s (   +250.85%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=3413 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=7 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2675433.10 ops/s (   +238.96%) -XX:FreqInlineSize=50 -XX:InlineSmallCode=69 -XX:MaxInlineLevel=51 -XX:MaxInlineSize=17 -XX:MaxRecursiveInlineLevel=137 -XX:MinInliningThreshold=997
+2645323.94 ops/s (   +235.14%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=10 -XX:MaxRecursiveInlineLevel=43 -XX:MinInliningThreshold=997
+2632653.95 ops/s (   +233.54%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=4 -XX:MaxRecursiveInlineLevel=89 -XX:MinInliningThreshold=997
+2484420.50 ops/s (   +214.76%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=49 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1604
+
+Entering generation 88
+---------------------------------------
+Baseline score:  794106.11 ops/s
+3465172.71 ops/s (   +336.36%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=355 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+3396971.57 ops/s (   +327.77%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2939993.92 ops/s (   +270.23%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=3720 -XX:MaxInlineLevel=111 -XX:MaxInlineSize=6 -XX:MaxRecursiveInlineLevel=191 -XX:MinInliningThreshold=997
+2839353.44 ops/s (   +257.55%) -XX:FreqInlineSize=15 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=6 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2710266.56 ops/s (   +241.30%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2953 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2697113.72 ops/s (   +239.64%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=25207 -XX:MaxInlineLevel=53 -XX:MaxInlineSize=5 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1066
+2285488.40 ops/s (   +187.81%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=2 -XX:MaxRecursiveInlineLevel=24 -XX:MinInliningThreshold=1039
+2157165.28 ops/s (   +171.65%) -XX:FreqInlineSize=35 -XX:InlineSmallCode=2008 -XX:MaxInlineLevel=17 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=91 -XX:MinInliningThreshold=679
+1738192.81 ops/s (   +118.89%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=68 -XX:MaxRecursiveInlineLevel=11 -XX:MinInliningThreshold=273
+ 132442.19 ops/s (    -83.32%) -XX:FreqInlineSize=2 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=73 -XX:MaxInlineSize=19 -XX:MaxRecursiveInlineLevel=369 -XX:MinInliningThreshold=997
+
+Entering generation 89
+---------------------------------------
+Baseline score:  746932.12 ops/s
+3465172.71 ops/s (   +363.92%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=355 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+3396971.57 ops/s (   +354.79%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2958572.05 ops/s (   +296.10%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=1893 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2860829.30 ops/s (   +283.01%) -XX:FreqInlineSize=53 -XX:InlineSmallCode=3782 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2834432.25 ops/s (   +279.48%) -XX:FreqInlineSize=35 -XX:InlineSmallCode=2851 -XX:MaxInlineLevel=157 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2754342.44 ops/s (   +268.75%) -XX:FreqInlineSize=62 -XX:InlineSmallCode=16932 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=127 -XX:MinInliningThreshold=750
+2751460.07 ops/s (   +268.37%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1154
+2719347.33 ops/s (   +264.07%) -XX:FreqInlineSize=75 -XX:InlineSmallCode=2274 -XX:MaxInlineLevel=85 -XX:MaxInlineSize=122 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1202
+2677910.52 ops/s (   +258.52%) -XX:FreqInlineSize=23 -XX:InlineSmallCode=1600 -XX:MaxInlineLevel=62 -XX:MaxInlineSize=12 -XX:MaxRecursiveInlineLevel=438 -XX:MinInliningThreshold=997
+2621143.71 ops/s (   +250.92%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=2 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=3246
+
+Entering generation 90
+---------------------------------------
+Baseline score:  725032.89 ops/s
+3465172.71 ops/s (   +377.93%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=355 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+3396971.57 ops/s (   +368.53%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2868013.12 ops/s (   +295.57%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=3322 -XX:MaxInlineLevel=105 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=284 -XX:MinInliningThreshold=1516
+2861874.37 ops/s (   +294.72%) -XX:FreqInlineSize=203 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=6 -XX:MaxRecursiveInlineLevel=235 -XX:MinInliningThreshold=997
+2768056.15 ops/s (   +281.78%) -XX:FreqInlineSize=59 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=75 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2722829.04 ops/s (   +275.55%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=776
+2722736.69 ops/s (   +275.53%) -XX:FreqInlineSize=418 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=338
+2609560.90 ops/s (   +259.92%) -XX:FreqInlineSize=69 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=59 -XX:MinInliningThreshold=1957
+2555741.23 ops/s (   +252.50%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=3707 -XX:MaxInlineLevel=38 -XX:MaxInlineSize=10 -XX:MaxRecursiveInlineLevel=127 -XX:MinInliningThreshold=997
+ 134033.04 ops/s (    -81.51%) -XX:FreqInlineSize=5 -XX:InlineSmallCode=2071 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=153 -XX:MinInliningThreshold=997
+
+Entering generation 91
+---------------------------------------
+Baseline score:  725826.49 ops/s
+3465172.71 ops/s (   +377.41%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=355 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+3396971.57 ops/s (   +368.01%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2945612.44 ops/s (   +305.83%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2257 -XX:MaxInlineLevel=593 -XX:MaxInlineSize=7 -XX:MaxRecursiveInlineLevel=89 -XX:MinInliningThreshold=997
+2770765.77 ops/s (   +281.74%) -XX:FreqInlineSize=51 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=120 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2750639.93 ops/s (   +278.97%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=1452 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=4 -XX:MaxRecursiveInlineLevel=59 -XX:MinInliningThreshold=1447
+2673435.08 ops/s (   +268.33%) -XX:FreqInlineSize=76 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=4 -XX:MaxRecursiveInlineLevel=49 -XX:MinInliningThreshold=997
+2568810.09 ops/s (   +253.92%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=42 -XX:MaxInlineSize=12 -XX:MaxRecursiveInlineLevel=76 -XX:MinInliningThreshold=809
+2486807.05 ops/s (   +242.62%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=12 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=46 -XX:MinInliningThreshold=1690
+2432815.34 ops/s (   +235.18%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=35 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=95 -XX:MinInliningThreshold=997
+2189090.06 ops/s (   +201.60%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=22 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=772
+
+Entering generation 92
+---------------------------------------
+Baseline score:  750599.00 ops/s
+3465172.71 ops/s (   +361.65%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=355 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+3396971.57 ops/s (   +352.57%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+3171807.11 ops/s (   +322.57%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=134 -XX:MaxInlineSize=3 -XX:MaxRecursiveInlineLevel=138 -XX:MinInliningThreshold=4088
+3014107.75 ops/s (   +301.56%) -XX:FreqInlineSize=448 -XX:InlineSmallCode=2232 -XX:MaxInlineLevel=79 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2922222.24 ops/s (   +289.32%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=9 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=709
+2754075.43 ops/s (   +266.92%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2131 -XX:MaxInlineLevel=41 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2689335.39 ops/s (   +258.29%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=15 -XX:MaxRecursiveInlineLevel=49 -XX:MinInliningThreshold=997
+2688391.59 ops/s (   +258.17%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=1224 -XX:MaxInlineSize=6 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2335668.67 ops/s (   +211.17%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=33 -XX:MaxInlineSize=9 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1874
+ 130473.71 ops/s (    -82.62%) -XX:FreqInlineSize=7 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=91 -XX:MinInliningThreshold=1205
+
+Entering generation 93
+---------------------------------------
+Baseline score:  687436.34 ops/s
+3465172.71 ops/s (   +404.07%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=355 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+3396971.57 ops/s (   +394.15%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2964637.57 ops/s (   +331.26%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=3681 -XX:MaxInlineLevel=67 -XX:MaxInlineSize=11 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=8428
+2756710.46 ops/s (   +301.01%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=15 -XX:MaxRecursiveInlineLevel=78 -XX:MinInliningThreshold=1785
+2744791.91 ops/s (   +299.28%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1372
+2662911.11 ops/s (   +287.37%) -XX:FreqInlineSize=22 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=59 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=57 -XX:MinInliningThreshold=899
+2613032.78 ops/s (   +280.11%) -XX:FreqInlineSize=56 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=51 -XX:MinInliningThreshold=1738
+2356941.65 ops/s (   +242.86%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=136 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=25 -XX:MinInliningThreshold=604
+2230780.05 ops/s (   +224.51%) -XX:FreqInlineSize=121 -XX:InlineSmallCode=1758 -XX:MaxInlineLevel=17 -XX:MaxInlineSize=10 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1898
+1003049.10 ops/s (    +45.91%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=1200 -XX:MaxInlineLevel=2 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=75 -XX:MinInliningThreshold=997
+
+Entering generation 94
+---------------------------------------
+Baseline score:  707058.62 ops/s
+3465172.71 ops/s (   +390.08%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=355 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+3396971.57 ops/s (   +380.44%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2891532.86 ops/s (   +308.95%) -XX:FreqInlineSize=35 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=26 -XX:MaxRecursiveInlineLevel=228 -XX:MinInliningThreshold=634
+2838552.63 ops/s (   +301.46%) -XX:FreqInlineSize=26 -XX:InlineSmallCode=2674 -XX:MaxInlineLevel=240 -XX:MaxInlineSize=12 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2829896.80 ops/s (   +300.24%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2647 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=12 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=613
+2754931.67 ops/s (   +289.63%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=4367 -XX:MaxInlineLevel=118 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=477
+2748671.00 ops/s (   +288.75%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=63 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=552
+2678375.44 ops/s (   +278.81%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=1481 -XX:MaxInlineLevel=123 -XX:MaxInlineSize=7 -XX:MaxRecursiveInlineLevel=44 -XX:MinInliningThreshold=997
+2645152.72 ops/s (   +274.11%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=3366 -XX:MaxInlineLevel=102 -XX:MaxInlineSize=13 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2287858.23 ops/s (   +223.57%) -XX:FreqInlineSize=55 -XX:InlineSmallCode=4743 -XX:MaxInlineLevel=33 -XX:MaxInlineSize=15 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=515
+
+Entering generation 95
+---------------------------------------
+Baseline score:  694260.15 ops/s
+3465172.71 ops/s (   +399.12%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=355 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+3396971.57 ops/s (   +389.29%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2903435.92 ops/s (   +318.21%) -XX:FreqInlineSize=52 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=9 -XX:MaxRecursiveInlineLevel=101 -XX:MinInliningThreshold=997
+2851766.44 ops/s (   +310.76%) -XX:FreqInlineSize=35 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=92 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2798515.00 ops/s (   +303.09%) -XX:FreqInlineSize=79 -XX:InlineSmallCode=2816 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=279 -XX:MaxRecursiveInlineLevel=104 -XX:MinInliningThreshold=997
+2701689.09 ops/s (   +289.15%) -XX:FreqInlineSize=74 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=10 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2634051.60 ops/s (   +279.40%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2268 -XX:MaxInlineLevel=44 -XX:MaxInlineSize=118 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2557292.27 ops/s (   +268.35%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=1384 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2398193.51 ops/s (   +245.43%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=70 -XX:MinInliningThreshold=997
+2307757.26 ops/s (   +232.41%) -XX:FreqInlineSize=46 -XX:InlineSmallCode=3770 -XX:MaxInlineLevel=29 -XX:MaxInlineSize=5 -XX:MaxRecursiveInlineLevel=42 -XX:MinInliningThreshold=997
+
+Entering generation 96
+---------------------------------------
+Baseline score:  727435.23 ops/s
+3465172.71 ops/s (   +376.35%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=355 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+3396971.57 ops/s (   +366.98%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2830611.51 ops/s (   +289.12%) -XX:FreqInlineSize=96 -XX:InlineSmallCode=3698 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=888
+2823405.78 ops/s (   +288.13%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=5933 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=87 -XX:MinInliningThreshold=997
+2797009.98 ops/s (   +284.50%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=3964 -XX:MaxInlineLevel=128 -XX:MaxInlineSize=1 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2752477.99 ops/s (   +278.38%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=1348 -XX:MaxInlineLevel=58 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2747447.92 ops/s (   +277.69%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=1630 -XX:MaxInlineLevel=121 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=59 -XX:MinInliningThreshold=997
+2720157.87 ops/s (   +273.94%) -XX:FreqInlineSize=24 -XX:InlineSmallCode=4265 -XX:MaxInlineLevel=44 -XX:MaxInlineSize=16 -XX:MaxRecursiveInlineLevel=62 -XX:MinInliningThreshold=523
+2513510.21 ops/s (   +245.53%) -XX:FreqInlineSize=48 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=38 -XX:MaxInlineSize=5 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+ 123150.38 ops/s (    -83.07%) -XX:FreqInlineSize=1 -XX:InlineSmallCode=4824 -XX:MaxInlineLevel=55 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+
+Entering generation 97
+---------------------------------------
+Baseline score:  691471.13 ops/s
+3465172.71 ops/s (   +401.13%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=355 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+3396971.57 ops/s (   +391.27%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2857501.67 ops/s (   +313.25%) -XX:FreqInlineSize=110 -XX:InlineSmallCode=2660 -XX:MaxInlineLevel=77 -XX:MaxInlineSize=0 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2829955.09 ops/s (   +309.27%) -XX:FreqInlineSize=34 -XX:InlineSmallCode=1188 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=18 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2752298.94 ops/s (   +298.04%) -XX:FreqInlineSize=27 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1238
+2741930.87 ops/s (   +296.54%) -XX:FreqInlineSize=173 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=17 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=246
+2662625.36 ops/s (   +285.07%) -XX:FreqInlineSize=73 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=77 -XX:MaxInlineSize=12 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=556
+2630060.14 ops/s (   +280.36%) -XX:FreqInlineSize=36 -XX:InlineSmallCode=3096 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=9 -XX:MaxRecursiveInlineLevel=59 -XX:MinInliningThreshold=997
+2591788.31 ops/s (   +274.82%) -XX:FreqInlineSize=22 -XX:InlineSmallCode=984 -XX:MaxInlineLevel=110 -XX:MaxInlineSize=9 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=750
+ 123527.22 ops/s (    -82.14%) -XX:FreqInlineSize=14 -XX:InlineSmallCode=311 -XX:MaxInlineLevel=129 -XX:MaxInlineSize=15 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1523
+
+Entering generation 98
+---------------------------------------
+Baseline score:  741047.29 ops/s
+3465172.71 ops/s (   +367.60%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=355 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+3396971.57 ops/s (   +358.40%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2869307.76 ops/s (   +287.20%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2508 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=59 -XX:MinInliningThreshold=997
+2863760.71 ops/s (   +286.45%) -XX:FreqInlineSize=50 -XX:InlineSmallCode=1817 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=702
+2828528.66 ops/s (   +281.69%) -XX:FreqInlineSize=34 -XX:InlineSmallCode=1783 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=1 -XX:MaxRecursiveInlineLevel=95 -XX:MinInliningThreshold=997
+2764211.43 ops/s (   +273.01%) -XX:FreqInlineSize=18 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=93 -XX:MinInliningThreshold=997
+2750656.68 ops/s (   +271.19%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=1345 -XX:MaxInlineLevel=175 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2735659.79 ops/s (   +269.16%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=144 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2641084.12 ops/s (   +256.40%) -XX:FreqInlineSize=42 -XX:InlineSmallCode=1984 -XX:MaxInlineLevel=110 -XX:MaxInlineSize=11 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+ 127815.58 ops/s (    -82.75%) -XX:FreqInlineSize=13 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=64 -XX:MaxInlineSize=0 -XX:MaxRecursiveInlineLevel=59 -XX:MinInliningThreshold=1555
+
+Entering generation 99
+---------------------------------------
+Baseline score:  744390.34 ops/s
+3465172.71 ops/s (   +365.50%) -XX:FreqInlineSize=21 -XX:InlineSmallCode=36802 -XX:MaxInlineLevel=165 -XX:MaxInlineSize=355 -XX:MaxRecursiveInlineLevel=16598 -XX:MinInliningThreshold=836
+3396971.57 ops/s (   +356.34%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+2948588.51 ops/s (   +296.11%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=423 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=97 -XX:MinInliningThreshold=997
+2939716.76 ops/s (   +294.92%) -XX:FreqInlineSize=48 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=130 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=111 -XX:MinInliningThreshold=997
+2765846.89 ops/s (   +271.56%) -XX:FreqInlineSize=56 -XX:InlineSmallCode=3538 -XX:MaxInlineLevel=127 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=89 -XX:MinInliningThreshold=1682
+2736381.68 ops/s (   +267.60%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2754 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=1661
+2692806.02 ops/s (   +261.75%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=2451 -XX:MaxInlineLevel=80 -XX:MaxInlineSize=9 -XX:MaxRecursiveInlineLevel=46 -XX:MinInliningThreshold=997
+2530117.62 ops/s (   +239.89%) -XX:FreqInlineSize=24 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=77 -XX:MinInliningThreshold=607
+2257667.72 ops/s (   +203.29%) -XX:FreqInlineSize=40 -XX:InlineSmallCode=1588 -XX:MaxInlineLevel=69 -XX:MaxInlineSize=8 -XX:MaxRecursiveInlineLevel=27 -XX:MinInliningThreshold=997
+ 133772.74 ops/s (    -82.03%) -XX:FreqInlineSize=8 -XX:InlineSmallCode=2555 -XX:MaxInlineLevel=86 -XX:MaxInlineSize=14 -XX:MaxRecursiveInlineLevel=73 -XX:MinInliningThreshold=997
+

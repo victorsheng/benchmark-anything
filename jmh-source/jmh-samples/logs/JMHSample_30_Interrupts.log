@@ -1,0 +1,180 @@
+# JMH version: 1.22-SNAPSHOT
+# VM version: JDK 1.8.0_112, Java HotSpot(TM) 64-Bit Server VM, 25.112-b15
+# VM invoker: /home/hadoop/jdk1.8.0_112/jre/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 s per iteration, ***WARNING: The timeout might be too low!***
+# Threads: 2 threads (1 group; 1x "put", 1x "take" in each group), will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.openjdk.jmh.samples.JMHSample_30_Interrupts.Q
+
+# Run progress: 0.00% complete, ETA 00:08:20
+# Fork: 1 of 5
+# Warmup Iteration   1: 12121.462 ns/op
+# Warmup Iteration   2: 9743.026 ns/op
+# Warmup Iteration   3: (*interrupt*) 9870.516 ns/op
+# Warmup Iteration   4: 9944.338 ns/op
+# Warmup Iteration   5: 9885.224 ns/op
+Iteration   1: 9722.968 ns/op
+                 put:  9722.969 ns/op
+                 take: 9722.968 ns/op
+
+Iteration   2: 9899.095 ns/op
+                 put:  9899.092 ns/op
+                 take: 9899.097 ns/op
+
+Iteration   3: 10057.681 ns/op
+                 put:  10057.680 ns/op
+                 take: 10057.683 ns/op
+
+Iteration   4: 9771.204 ns/op
+                 put:  9771.221 ns/op
+                 take: 9771.188 ns/op
+
+Iteration   5: 9897.892 ns/op
+                 put:  9897.888 ns/op
+                 take: 9897.896 ns/op
+
+
+# Run progress: 20.00% complete, ETA 00:06:42
+# Fork: 2 of 5
+# Warmup Iteration   1: 10430.674 ns/op
+# Warmup Iteration   2: (*interrupt*) 9554.400 ns/op
+# Warmup Iteration   3: 9525.683 ns/op
+# Warmup Iteration   4: (*interrupt*) 9504.959 ns/op
+# Warmup Iteration   5: 9502.063 ns/op
+Iteration   1: (*interrupt*) 10046.262 ns/op
+                 put:  10046.269 ns/op
+                 take: 10046.255 ns/op
+
+Iteration   2: (*interrupt*) 9537.340 ns/op
+                 put:  9537.293 ns/op
+                 take: 9537.386 ns/op
+
+Iteration   3: 8788.634 ns/op
+                 put:  8788.639 ns/op
+                 take: 8788.630 ns/op
+
+Iteration   4: 8582.452 ns/op
+                 put:  8582.451 ns/op
+                 take: 8582.454 ns/op
+
+Iteration   5: 8794.595 ns/op
+                 put:  8794.594 ns/op
+                 take: 8794.595 ns/op
+
+
+# Run progress: 40.00% complete, ETA 00:05:02
+# Fork: 3 of 5
+# Warmup Iteration   1: 9950.438 ns/op
+# Warmup Iteration   2: 9692.124 ns/op
+# Warmup Iteration   3: 9403.412 ns/op
+# Warmup Iteration   4: (*interrupt*) 9662.245 ns/op
+# Warmup Iteration   5: 9713.933 ns/op
+Iteration   1: (*interrupt*) 9950.743 ns/op
+                 put:  9950.730 ns/op
+                 take: 9950.755 ns/op
+
+Iteration   2: 9334.728 ns/op
+                 put:  9334.780 ns/op
+                 take: 9334.676 ns/op
+
+Iteration   3: 9568.681 ns/op
+                 put:  9568.684 ns/op
+                 take: 9568.678 ns/op
+
+Iteration   4: 9249.917 ns/op
+                 put:  9249.920 ns/op
+                 take: 9249.913 ns/op
+
+Iteration   5: (*interrupt*) 9587.447 ns/op
+                 put:  9587.447 ns/op
+                 take: 9587.446 ns/op
+
+
+# Run progress: 60.00% complete, ETA 00:03:21
+# Fork: 4 of 5
+# Warmup Iteration   1: 10017.710 ns/op
+# Warmup Iteration   2: 9546.196 ns/op
+# Warmup Iteration   3: (*interrupt*) 10073.814 ns/op
+# Warmup Iteration   4: (*interrupt*) 9527.602 ns/op
+# Warmup Iteration   5: 10078.042 ns/op
+Iteration   1: (*interrupt*) 10013.428 ns/op
+                 put:  10013.429 ns/op
+                 take: 10013.426 ns/op
+
+Iteration   2: (*interrupt*) 9886.597 ns/op
+                 put:  9886.603 ns/op
+                 take: 9886.591 ns/op
+
+Iteration   3: (*interrupt*) 9377.667 ns/op
+                 put:  9377.621 ns/op
+                 take: 9377.714 ns/op
+
+Iteration   4: 9961.811 ns/op
+                 put:  9961.812 ns/op
+                 take: 9961.811 ns/op
+
+Iteration   5: (*interrupt*) 9736.110 ns/op
+                 put:  9736.110 ns/op
+                 take: 9736.109 ns/op
+
+
+# Run progress: 80.00% complete, ETA 00:01:40
+# Fork: 5 of 5
+# Warmup Iteration   1: 11647.337 ns/op
+# Warmup Iteration   2: (*interrupt*) 12306.723 ns/op
+# Warmup Iteration   3: 11172.232 ns/op
+# Warmup Iteration   4: 10154.531 ns/op
+# Warmup Iteration   5: (*interrupt*) 9746.796 ns/op
+Iteration   1: (*interrupt*) 9162.717 ns/op
+                 put:  9162.694 ns/op
+                 take: 9162.740 ns/op
+
+Iteration   2: 9783.528 ns/op
+                 put:  9783.468 ns/op
+                 take: 9783.587 ns/op
+
+Iteration   3: (*interrupt*) 9929.261 ns/op
+                 put:  9929.260 ns/op
+                 take: 9929.262 ns/op
+
+Iteration   4: (*interrupt*) 9856.138 ns/op
+                 put:  9856.066 ns/op
+                 take: 9856.210 ns/op
+
+Iteration   5: 9693.289 ns/op
+                 put:  9693.301 ns/op
+                 take: 9693.277 ns/op
+
+
+
+Result "org.openjdk.jmh.samples.JMHSample_30_Interrupts.Q":
+  9607.607 ±(99.9%) 311.595 ns/op [Average]
+  (min, avg, max) = (8582.452, 9607.607, 10057.681), stdev = 415.971
+  CI (99.9%): [9296.012, 9919.203] (assumes normal distribution)
+
+Secondary result "org.openjdk.jmh.samples.JMHSample_30_Interrupts.Q:put":
+  9607.601 ±(99.9%) 311.594 ns/op [Average]
+  (min, avg, max) = (8582.451, 9607.601, 10057.680), stdev = 415.969
+  CI (99.9%): [9296.007, 9919.195] (assumes normal distribution)
+
+Secondary result "org.openjdk.jmh.samples.JMHSample_30_Interrupts.Q:take":
+  9607.614 ±(99.9%) 311.597 ns/op [Average]
+  (min, avg, max) = (8582.454, 9607.614, 10057.683), stdev = 415.973
+  CI (99.9%): [9296.017, 9919.211] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:08:24
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                       Mode  Cnt     Score     Error  Units
+JMHSample_30_Interrupts.Q       avgt   25  9607.607 ± 311.595  ns/op
+JMHSample_30_Interrupts.Q:put   avgt   25  9607.601 ± 311.594  ns/op
+JMHSample_30_Interrupts.Q:take  avgt   25  9607.614 ± 311.597  ns/op

@@ -1,0 +1,105 @@
+# JMH version: 1.22-SNAPSHOT
+# VM version: JDK 1.8.0_112, Java HotSpot(TM) 64-Bit Server VM, 25.112-b15
+# VM invoker: /home/hadoop/jdk1.8.0_112/jre/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.openjdk.jmh.samples.JMHSample_28_BlackholeHelpers.baseline
+
+# Run progress: 0.00% complete, ETA 00:00:30
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.898 ns/op
+# Warmup Iteration   2: 0.960 ns/op
+# Warmup Iteration   3: 0.952 ns/op
+# Warmup Iteration   4: 0.893 ns/op
+# Warmup Iteration   5: 0.900 ns/op
+Iteration   1: 0.931 ns/op
+Iteration   2: 1.014 ns/op
+Iteration   3: 0.921 ns/op
+Iteration   4: 0.946 ns/op
+Iteration   5: 0.914 ns/op
+
+
+Result "org.openjdk.jmh.samples.JMHSample_28_BlackholeHelpers.baseline":
+  0.945 ±(99.9%) 0.155 ns/op [Average]
+  (min, avg, max) = (0.914, 0.945, 1.014), stdev = 0.040
+  CI (99.9%): [0.791, 1.100] (assumes normal distribution)
+
+
+# JMH version: 1.22-SNAPSHOT
+# VM version: JDK 1.8.0_112, Java HotSpot(TM) 64-Bit Server VM, 25.112-b15
+# VM invoker: /home/hadoop/jdk1.8.0_112/jre/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.openjdk.jmh.samples.JMHSample_28_BlackholeHelpers.measureRight
+
+# Run progress: 33.33% complete, ETA 00:00:20
+# Fork: 1 of 1
+# Warmup Iteration   1: 61.395 ns/op
+# Warmup Iteration   2: 62.606 ns/op
+# Warmup Iteration   3: 61.587 ns/op
+# Warmup Iteration   4: 61.111 ns/op
+# Warmup Iteration   5: 58.764 ns/op
+Iteration   1: 59.486 ns/op
+Iteration   2: 59.537 ns/op
+Iteration   3: 62.269 ns/op
+Iteration   4: 60.483 ns/op
+Iteration   5: 57.777 ns/op
+
+
+Result "org.openjdk.jmh.samples.JMHSample_28_BlackholeHelpers.measureRight":
+  59.910 ±(99.9%) 6.316 ns/op [Average]
+  (min, avg, max) = (57.777, 59.910, 62.269), stdev = 1.640
+  CI (99.9%): [53.595, 66.226] (assumes normal distribution)
+
+
+# JMH version: 1.22-SNAPSHOT
+# VM version: JDK 1.8.0_112, Java HotSpot(TM) 64-Bit Server VM, 25.112-b15
+# VM invoker: /home/hadoop/jdk1.8.0_112/jre/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.openjdk.jmh.samples.JMHSample_28_BlackholeHelpers.measureWrong
+
+# Run progress: 66.67% complete, ETA 00:00:10
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.893 ns/op
+# Warmup Iteration   2: 0.964 ns/op
+# Warmup Iteration   3: 1.003 ns/op
+# Warmup Iteration   4: 0.881 ns/op
+# Warmup Iteration   5: 0.922 ns/op
+Iteration   1: 0.952 ns/op
+Iteration   2: 0.922 ns/op
+Iteration   3: 0.919 ns/op
+Iteration   4: 0.917 ns/op
+Iteration   5: 0.924 ns/op
+
+
+Result "org.openjdk.jmh.samples.JMHSample_28_BlackholeHelpers.measureWrong":
+  0.927 ±(99.9%) 0.055 ns/op [Average]
+  (min, avg, max) = (0.917, 0.927, 0.952), stdev = 0.014
+  CI (99.9%): [0.871, 0.982] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:00:31
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                   Mode  Cnt   Score   Error  Units
+JMHSample_28_BlackholeHelpers.baseline      avgt    5   0.945 ± 0.155  ns/op
+JMHSample_28_BlackholeHelpers.measureRight  avgt    5  59.910 ± 6.316  ns/op
+JMHSample_28_BlackholeHelpers.measureWrong  avgt    5   0.927 ± 0.055  ns/op
