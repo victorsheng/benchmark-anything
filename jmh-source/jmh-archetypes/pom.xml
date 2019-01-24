@@ -1,0 +1,115 @@
+<!--
+Copyright (c) 2005, 2014, Oracle and/or its affiliates. All rights reserved.
+DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
+
+This code is free software; you can redistribute it and/or modify it
+under the terms of the GNU General Public License version 2 only, as
+published by the Free Software Foundation.  Oracle designates this
+particular file as subject to the "Classpath" exception as provided
+by Oracle in the LICENSE file that accompanied this code.
+
+This code is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License
+version 2 for more details (a copy is included in the LICENSE file that
+accompanied this code).
+
+You should have received a copy of the GNU General Public License version
+2 along with this work; if not, write to the Free Software Foundation,
+Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
+
+Please contact Oracle, 500 Oracle Parkway, Redwood Shores, CA 94065 USA
+or visit www.oracle.com if you need additional information or have any
+questions.
+-->
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.openjdk.jmh</groupId>
+        <artifactId>jmh-parent</artifactId>
+        <version>1.22-SNAPSHOT</version>
+    </parent>
+
+    <name>JMH Archetypes</name>
+    <artifactId>jmh-archetypes</artifactId>
+    <packaging>pom</packaging>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <profiles>
+        <profile>
+            <id>jdk8</id>
+            <activation>
+                <jdk>1.8</jdk>
+            </activation>
+            <build>
+                <pluginManagement>
+                    <plugins>
+                        <plugin>
+                            <artifactId>maven-archetype-plugin</artifactId>
+                            <version>3.0.1</version>
+                            <goals>
+                                <goal>integration-test</goal>
+                            </goals>
+                            <configuration>
+                                <skip>false</skip>
+                            </configuration>
+                        </plugin>
+                    </plugins>
+                </pluginManagement>
+            </build>
+        </profile>
+        <profile>
+            <id>others</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <build>
+                <pluginManagement>
+                    <plugins>
+                        <plugin>
+                            <artifactId>maven-archetype-plugin</artifactId>
+                            <version>3.0.1</version>
+                            <goals>
+                                <goal>integration-test</goal>
+                            </goals>
+                            <configuration>
+                                <skip>true</skip>
+                            </configuration>
+                        </plugin>
+                    </plugins>
+                </pluginManagement>
+            </build>
+        </profile>
+    </profiles>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-resources-plugin</artifactId>
+                    <configuration>
+                        <escapeString>\</escapeString>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+
+    <modules>
+        <module>jmh-java-benchmark-archetype</module>
+        <module>jmh-scala-benchmark-archetype</module>
+        <module>jmh-groovy-benchmark-archetype</module>
+        <module>jmh-kotlin-benchmark-archetype</module>
+    </modules>
+
+</project>
+
+
+

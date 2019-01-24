@@ -41,6 +41,10 @@ import org.openjdk.jmh.runner.options.OptionsBuilder;
 
 import java.util.concurrent.TimeUnit;
 
+/**
+ * 可以该目录下查看源代码
+ * target/generated-sources/annotations/...
+ */
 public class JMHSample_02_BenchmarkModes {
 
     /*

@@ -38,6 +38,10 @@ import org.openjdk.jmh.runner.RunnerException;
 import org.openjdk.jmh.runner.options.Options;
 import org.openjdk.jmh.runner.options.OptionsBuilder;
 
+/**
+ * 参数(状态)-->方法-->结果
+ * 不同的执行过程
+ */
 public class JMHSample_03_States {
 
     /*

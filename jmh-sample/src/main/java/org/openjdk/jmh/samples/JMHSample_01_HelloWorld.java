@@ -36,13 +36,16 @@ import org.openjdk.jmh.runner.RunnerException;
 import org.openjdk.jmh.runner.options.Options;
 import org.openjdk.jmh.runner.options.OptionsBuilder;
 
+/**
+ * 虽然没有测试任何代码,但是展示了包装的测量代码的消耗
+ */
 public class JMHSample_01_HelloWorld {
 
     /*
      * This is our first benchmark method.
      *
      * JMH works as follows: users annotate the methods with @Benchmark, and
-     * then JMH produces the generated code to run this particular benchmark as
+     * then JMH produces the generated code to run this particular特定 benchmark as
      * reliably as possible. In general one might think about @Benchmark methods
      * as the benchmark "payload", the things we want to measure. The
      * surrounding infrastructure is provided by the harness itself.
@@ -58,12 +61,13 @@ public class JMHSample_01_HelloWorld {
      * abruptly for this benchmark and JMH will run the next benchmark down the
      * list.
      *
-     * Although this benchmark measures "nothing" it is a good showcase for the
+     * Although this benchmark measures "nothing" it is a good showcase橱窗 for the
      * overheads the infrastructure bear on the code you measure in the method.
      * There are no magical infrastructures which incur no overhead, and it is
      * important to know what are the infra overheads you are dealing with. You
      * might find this thought unfolded in future examples by having the
      * "baseline" measurements to compare against.
+     *
      */
 
     @Benchmark

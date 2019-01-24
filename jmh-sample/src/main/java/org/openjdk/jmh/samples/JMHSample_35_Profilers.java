@@ -33,7 +33,7 @@ package org.openjdk.jmh.samples;
 import org.openjdk.jmh.annotations.*;
 import org.openjdk.jmh.infra.Blackhole;
 import org.openjdk.jmh.profile.ClassloaderProfiler;
-import org.openjdk.jmh.profile.DTraceAsmProfiler;
+//import org.openjdk.jmh.profile.DTraceAsmProfiler;
 import org.openjdk.jmh.profile.LinuxPerfProfiler;
 import org.openjdk.jmh.profile.StackProfiler;
 import org.openjdk.jmh.runner.Runner;
