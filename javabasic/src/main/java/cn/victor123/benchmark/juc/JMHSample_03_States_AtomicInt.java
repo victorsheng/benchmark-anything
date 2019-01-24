@@ -28,8 +28,12 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
  * THE POSSIBILITY OF SUCH DAMAGE.
  */
-package org.openjdk.jmh.samples;
+package cn.victor123.benchmark.juc;
 
+import java.util.Map;
+import java.util.Random;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.atomic.AtomicInteger;
 import org.openjdk.jmh.annotations.Benchmark;
 import org.openjdk.jmh.annotations.Scope;
 import org.openjdk.jmh.annotations.State;
@@ -38,15 +42,15 @@ import org.openjdk.jmh.runner.RunnerException;
 import org.openjdk.jmh.runner.options.Options;
 import org.openjdk.jmh.runner.options.OptionsBuilder;
 
-public class JMHSample_03_States {
+public class JMHSample_03_States_AtomicInt {
 
     /*
      * Most of the time, you need to maintain some state while the benchmark is
      * running. Since JMH is heavily used to build concurrent benchmarks, we
-     * opted选择 for an explicit notion of state-bearing objects.
+     * opted for an explicit notion of state-bearing objects.
      *
      * Below are two state objects. Their class names are not essential, it
-     * matters they are marked with @State. These objects will be instantiated实例化
+     * matters they are marked with @State. These objects will be instantiated
      * on demand, and reused during the entire benchmark trial.
      *
      * The important property is that state is always instantiated by one of
@@ -57,12 +61,13 @@ public class JMHSample_03_States {
 
     @State(Scope.Benchmark)
     public static class BenchmarkState {
-        volatile double x = Math.PI;
+        volatile AtomicInteger x =  new AtomicInteger();
+
     }
 
     @State(Scope.Thread)
     public static class ThreadState {
-        volatile double x = Math.PI;
+        volatile AtomicInteger x =  new AtomicInteger();
     }
 
     /*
@@ -81,7 +86,7 @@ public class JMHSample_03_States {
         // However, since ThreadState is the Scope.Thread, each thread
         // will have it's own copy of the state, and this benchmark
         // will measure unshared case.
-        state.x++;
+        state.x.incrementAndGet();
     }
 
     @Benchmark
@@ -91,7 +96,7 @@ public class JMHSample_03_States {
         // Since BenchmarkState is the Scope.Benchmark, all threads
         // will share the state instance, and we will end up measuring
         // shared case.
-        state.x++;
+        state.x.incrementAndGet();
     }
 
     /*
@@ -115,7 +120,7 @@ public class JMHSample_03_States {
 
     public static void main(String[] args) throws RunnerException {
         Options opt = new OptionsBuilder()
-                .include(JMHSample_03_States.class.getSimpleName())
+                .include(JMHSample_03_States_AtomicInt.class.getSimpleName())
                 .threads(4)
                 .forks(1)
                 .build();

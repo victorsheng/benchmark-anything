@@ -56,7 +56,7 @@ public class JMHSample_06_FixtureLevel {
 
     @TearDown(Level.Iteration)
     public void check() {
-        assert x > Math.PI : "Nothing changed?";
+        assert x      > Math.PI : "Nothing changed?";
     }
 
     @Benchmark

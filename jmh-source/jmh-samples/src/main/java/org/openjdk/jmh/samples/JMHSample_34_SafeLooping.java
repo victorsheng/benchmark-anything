@@ -50,6 +50,9 @@ import org.openjdk.jmh.runner.options.OptionsBuilder;
 
 import java.util.concurrent.TimeUnit;
 
+/**
+ * 对于测试用例,就不应该有返回值,如果有就是变相实现其他目的的方法,通常这种方式会干扰正常的测试
+ */
 @State(Scope.Thread)
 @Warmup(iterations = 5, time = 1, timeUnit = TimeUnit.SECONDS)
 @Measurement(iterations = 5, time = 1, timeUnit = TimeUnit.SECONDS)

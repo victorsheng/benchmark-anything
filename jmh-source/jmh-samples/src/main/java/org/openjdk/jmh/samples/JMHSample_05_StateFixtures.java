@@ -123,6 +123,7 @@ public class JMHSample_05_StateFixtures {
         Options opt = new OptionsBuilder()
                 .include(JMHSample_05_StateFixtures.class.getSimpleName())
                 .forks(1)
+                //启动断言
                 .jvmArgs("-ea")
                 .build();
 
