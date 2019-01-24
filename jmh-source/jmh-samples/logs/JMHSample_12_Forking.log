@@ -170,3 +170,11 @@ JMHSample_12_Forking.measure_2_c2         avgt    5  28.298 ± 0.253  ns/op
 JMHSample_12_Forking.measure_3_c1_again   avgt    5  27.643 ± 0.702  ns/op
 JMHSample_12_Forking.measure_4_forked_c1  avgt    5   5.974 ± 0.618  ns/op
 JMHSample_12_Forking.measure_5_forked_c2  avgt    5   5.734 ± 0.838  ns/op
+
+
+神奇的现象:
+Note that C1 is faster, C2 is slower, but the C1 is slow again! This is because the profiles for C1 and C2 had merged together.
+因为 uniformly bad(怎么不好的代码)
+
+更奇怪的现象
+fork的代码性能没有,not fork的代码性能好????

@@ -103,3 +103,5 @@ Benchmark                           Mode  Cnt   Score   Error  Units
 JMHSample_08_DeadCode.baseline      avgt    5   0.453 ± 0.029  ns/op
 JMHSample_08_DeadCode.measureRight  avgt    5  33.383 ± 1.619  ns/op
 JMHSample_08_DeadCode.measureWrong  avgt    5   0.453 ± 0.020  ns/op
+
+# measureWrong的性能指标近似baseline

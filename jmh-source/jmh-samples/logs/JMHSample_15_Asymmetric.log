@@ -66,3 +66,7 @@ Benchmark                      Mode  Cnt   Score    Error  Units
 JMHSample_15_Asymmetric.g      avgt    5  72.154 ± 14.057  ns/op
 JMHSample_15_Asymmetric.g:get  avgt    5  31.805 ± 22.248  ns/op
 JMHSample_15_Asymmetric.g:inc  avgt    5  85.603 ± 15.487  ns/op
+
+# 在Benchmark的类名和方法名中间,多了组的名字
+其中,g代表了g组的整体性能,g:方法 代表了具体方法的性能
+神奇的功能

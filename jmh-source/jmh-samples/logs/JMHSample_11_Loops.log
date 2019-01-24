@@ -231,3 +231,6 @@ JMHSample_11_Loops.measureWrong_100     avgt    5  0.048 ± 0.005  ns/op
 JMHSample_11_Loops.measureWrong_1000    avgt    5  0.046 ± 0.005  ns/op
 JMHSample_11_Loops.measureWrong_10000   avgt    5  0.031 ± 0.001  ns/op
 JMHSample_11_Loops.measureWrong_100000  avgt    5  0.029 ± 0.002  ns/op
+
+
+# 真实方法不应该循环越多,性能越好,是测试代码有错误造成的

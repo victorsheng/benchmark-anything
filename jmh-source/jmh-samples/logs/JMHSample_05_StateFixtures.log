@@ -89,3 +89,5 @@ Do not assume the numbers tell you what you want them to tell.
 Benchmark                                 Mode  Cnt           Score           Error  Units
 JMHSample_05_StateFixtures.measureRight  thrpt    5   243165940.381 ±   7934279.460  ops/s
 JMHSample_05_StateFixtures.measureWrong  thrpt    4  2237067322.295 ± 272229399.444  ops/s
+
+# measureWrong 的性能2237067322 近似于 2073089823,后者是第一个例子,测量空方法的性能指标
