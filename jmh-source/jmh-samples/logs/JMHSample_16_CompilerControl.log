@@ -132,3 +132,5 @@ JMHSample_16_CompilerControl.blank       avgt    3    0.448 ±  0.065  ns/op
 JMHSample_16_CompilerControl.dontinline  avgt    3    3.094 ±  6.098  ns/op
 JMHSample_16_CompilerControl.exclude     avgt    3  116.376 ± 97.913  ns/op
 JMHSample_16_CompilerControl.inline      avgt    3    0.465 ±  0.079  ns/op
+
+# 方法里的内容都是空

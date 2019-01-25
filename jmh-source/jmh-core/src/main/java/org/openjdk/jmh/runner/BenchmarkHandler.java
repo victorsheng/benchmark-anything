@@ -44,6 +44,7 @@ import java.util.concurrent.*;
 
 
 /**
+ * 核心类
  * Base class for all benchmarks handlers.
  */
 class BenchmarkHandler {

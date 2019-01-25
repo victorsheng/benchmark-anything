@@ -47,6 +47,12 @@ import org.openjdk.jmh.runner.options.OptionsBuilder;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
 
+/**
+ * 以下事例含义：
+ *  a)定义执行组"g"，它有3个线程来执行inc()，1个线程来执行get()，每个分组共有4个线程；
+ *  b)如果我们用4个线程来运行这个测试用例，我们将会有一个单独的执行组。通常，用4*N个线程来创建N个执行组。
+ *  c)每个执行组内共享一个@State实例：也就是执行组内共享counter，而不是跨组共享。
+ */
 @State(Scope.Group)
 @BenchmarkMode(Mode.AverageTime)
 @OutputTimeUnit(TimeUnit.NANOSECONDS)

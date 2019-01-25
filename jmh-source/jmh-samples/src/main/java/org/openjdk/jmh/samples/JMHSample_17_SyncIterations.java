@@ -42,6 +42,12 @@ import org.openjdk.jmh.runner.options.TimeValue;
 
 import java.util.concurrent.TimeUnit;
 
+/**
+ * 让所有的线程都挂起在一些有序的屏障上，然后让他们一起开始。
+ * 然而，这种做法是不奏效的：没有谁能够保证工作线程在同一时间开始，这就意味着其他工作线程在更好的条件下运行，从而扭曲了结果。
+ *
+ * 更好的解决方案是引入虚假迭代，增加执行迭代的线程，然后将系统原子地转换为测量内容。在减速期间可以做同样的事情。
+ */
 @State(Scope.Thread)
 @OutputTimeUnit(TimeUnit.MILLISECONDS)
 public class JMHSample_17_SyncIterations {
