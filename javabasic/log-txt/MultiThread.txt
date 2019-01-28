@@ -1,0 +1,196 @@
+/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=62878:/Applications/IntelliJ IDEA.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/lib/tools.jar:/Users/victor/code/vicProjects/benchmark-anything/javabasic/target/classes:/Users/victor/.m2/repository/org/openjdk/jmh/jmh-core/1.19/jmh-core-1.19.jar:/Users/victor/.m2/repository/net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6.jar:/Users/victor/.m2/repository/org/apache/commons/commons-math3/3.2/commons-math3-3.2.jar:/Users/victor/.m2/repository/org/openjdk/jmh/jmh-generator-annprocess/1.19/jmh-generator-annprocess-1.19.jar cn.victor123.benchmark.multithread.MultiThreadTest
+objc[88002]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/bin/java (0x10ec124c0) and /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/libinstrument.dylib (0x10ec9e4e0). One of the two will be used. Which one is undefined.
+# JMH version: 1.19
+# VM version: JDK 1.8.0_151, VM 25.151-b12
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java
+# VM options: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=62878:/Applications/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: cn.victor123.benchmark.multithread.MultiThreadTest.run1
+
+# Run progress: 0.00% complete, ETA 00:02:00
+# Fork: 1 of 1
+objc[88003]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java (0x10417d4c0) and /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/libinstrument.dylib (0x1061c04e0). One of the two will be used. Which one is undefined.
+# Warmup Iteration   1: 2787055317.742 ops/s
+# Warmup Iteration   2: 3474613286.657 ops/s
+# Warmup Iteration   3: 3598464669.994 ops/s
+# Warmup Iteration   4: 3578731027.180 ops/s
+# Warmup Iteration   5: 3610801751.755 ops/s
+# Warmup Iteration   6: 3591388552.711 ops/s
+# Warmup Iteration   7: 3535636277.854 ops/s
+# Warmup Iteration   8: 3583781039.069 ops/s
+# Warmup Iteration   9: 3560607137.990 ops/s
+# Warmup Iteration  10: 3622520248.284 ops/s
+# Warmup Iteration  11: 3589486615.130 ops/s
+# Warmup Iteration  12: 3613567274.324 ops/s
+# Warmup Iteration  13: 3619913806.414 ops/s
+# Warmup Iteration  14: 3587310298.799 ops/s
+# Warmup Iteration  15: 3611015220.282 ops/s
+# Warmup Iteration  16: 3598094297.967 ops/s
+# Warmup Iteration  17: 3551369354.853 ops/s
+# Warmup Iteration  18: 3577870143.043 ops/s
+# Warmup Iteration  19: 3624079403.358 ops/s
+# Warmup Iteration  20: 3610041645.993 ops/s
+Iteration   1: 3624588472.962 ops/s
+Iteration   2: 3600496150.154 ops/s
+Iteration   3: 3618108111.381 ops/s
+Iteration   4: 3555941086.043 ops/s
+Iteration   5: 3592789142.851 ops/s
+Iteration   6: 3461693940.954 ops/s
+Iteration   7: 3522809915.436 ops/s
+Iteration   8: 3564231046.826 ops/s
+Iteration   9: 3558929696.022 ops/s
+Iteration  10: 3582674733.791 ops/s
+Iteration  11: 3590346282.110 ops/s
+Iteration  12: 3593515438.688 ops/s
+Iteration  13: 3611292653.894 ops/s
+Iteration  14: 3610335187.959 ops/s
+Iteration  15: 3602153129.192 ops/s
+Iteration  16: 3603003047.990 ops/s
+Iteration  17: 3556703349.935 ops/s
+Iteration  18: 3602110187.852 ops/s
+Iteration  19: 3592035880.033 ops/s
+Iteration  20: 3579571032.490 ops/s
+
+
+Result "cn.victor123.benchmark.multithread.MultiThreadTest.run1":
+  3581166424.328 ±(99.9%) 32690698.295 ops/s [Average]
+  (min, avg, max) = (3461693940.954, 3581166424.328, 3624588472.962), stdev = 37646656.772
+  CI (99.9%): [3548475726.033, 3613857122.623] (assumes normal distribution)
+
+
+# JMH version: 1.19
+# VM version: JDK 1.8.0_151, VM 25.151-b12
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java
+# VM options: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=62878:/Applications/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 2 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: cn.victor123.benchmark.multithread.MultiThreadTest.run2
+
+# Run progress: 33.33% complete, ETA 00:01:21
+# Fork: 1 of 1
+objc[88005]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java (0x10e9204c0) and /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/libinstrument.dylib (0x10e9ac4e0). One of the two will be used. Which one is undefined.
+# Warmup Iteration   1: 6963521660.435 ops/s
+# Warmup Iteration   2: 6940548977.827 ops/s
+# Warmup Iteration   3: 7024082038.612 ops/s
+# Warmup Iteration   4: 7037392040.494 ops/s
+# Warmup Iteration   5: 7046998686.127 ops/s
+# Warmup Iteration   6: 6978977674.737 ops/s
+# Warmup Iteration   7: 7014940208.367 ops/s
+# Warmup Iteration   8: 7045175020.440 ops/s
+# Warmup Iteration   9: 7018939613.160 ops/s
+# Warmup Iteration  10: 7036300914.413 ops/s
+# Warmup Iteration  11: 7023920023.759 ops/s
+# Warmup Iteration  12: 7040939237.098 ops/s
+# Warmup Iteration  13: 7032737169.331 ops/s
+# Warmup Iteration  14: 7056271165.067 ops/s
+# Warmup Iteration  15: 6989369593.648 ops/s
+# Warmup Iteration  16: 6980454132.986 ops/s
+# Warmup Iteration  17: 6945956841.595 ops/s
+# Warmup Iteration  18: 6996600822.117 ops/s
+# Warmup Iteration  19: 7015913921.450 ops/s
+# Warmup Iteration  20: 7024714457.001 ops/s
+Iteration   1: 7007302914.790 ops/s
+Iteration   2: 7019821677.414 ops/s
+Iteration   3: 7015849117.453 ops/s
+Iteration   4: 7031364016.224 ops/s
+Iteration   5: 7006787017.456 ops/s
+Iteration   6: 6914883476.228 ops/s
+Iteration   7: 6994243570.486 ops/s
+Iteration   8: 6978259984.893 ops/s
+Iteration   9: 6996698462.429 ops/s
+Iteration  10: 7052314986.116 ops/s
+Iteration  11: 6953300844.581 ops/s
+Iteration  12: 7034614860.011 ops/s
+Iteration  13: 6967339038.439 ops/s
+Iteration  14: 7058703753.118 ops/s
+Iteration  15: 7048133817.116 ops/s
+Iteration  16: 6989135868.736 ops/s
+Iteration  17: 6891212108.710 ops/s
+Iteration  18: 7038339346.555 ops/s
+Iteration  19: 7021036111.021 ops/s
+Iteration  20: 7045616802.212 ops/s
+
+
+Result "cn.victor123.benchmark.multithread.MultiThreadTest.run2":
+  7003247888.699 ±(99.9%) 38920544.058 ops/s [Average]
+  (min, avg, max) = (6891212108.710, 7003247888.699, 7058703753.118), stdev = 44820956.417
+  CI (99.9%): [6964327344.642, 7042168432.757] (assumes normal distribution)
+
+
+# JMH version: 1.19
+# VM version: JDK 1.8.0_151, VM 25.151-b12
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java
+# VM options: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=62878:/Applications/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 4 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: cn.victor123.benchmark.multithread.MultiThreadTest.run4
+
+# Run progress: 66.67% complete, ETA 00:00:40
+# Fork: 1 of 1
+objc[88006]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java (0x100b354c0) and /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/libinstrument.dylib (0x100bc14e0). One of the two will be used. Which one is undefined.
+# Warmup Iteration   1: 13369648751.192 ops/s
+# Warmup Iteration   2: 13341398382.278 ops/s
+# Warmup Iteration   3: 13622680847.617 ops/s
+# Warmup Iteration   4: 13273540264.782 ops/s
+# Warmup Iteration   5: 13364345060.521 ops/s
+# Warmup Iteration   6: 13418506739.554 ops/s
+# Warmup Iteration   7: 13709127075.111 ops/s
+# Warmup Iteration   8: 13406163072.495 ops/s
+# Warmup Iteration   9: 13656991164.216 ops/s
+# Warmup Iteration  10: 13560453254.927 ops/s
+# Warmup Iteration  11: 13537574385.504 ops/s
+# Warmup Iteration  12: 13420144952.635 ops/s
+# Warmup Iteration  13: 13228354668.101 ops/s
+# Warmup Iteration  14: 13294666011.218 ops/s
+# Warmup Iteration  15: 13265102987.994 ops/s
+# Warmup Iteration  16: 13328294645.618 ops/s
+# Warmup Iteration  17: 13283660631.136 ops/s
+# Warmup Iteration  18: 13451571649.469 ops/s
+# Warmup Iteration  19: 13242384611.588 ops/s
+# Warmup Iteration  20: 13434563785.322 ops/s
+Iteration   1: 13316181196.098 ops/s
+Iteration   2: 13230725419.322 ops/s
+Iteration   3: 13401309091.203 ops/s
+Iteration   4: 12927587923.784 ops/s
+Iteration   5: 13275991312.387 ops/s
+Iteration   6: 13210115031.383 ops/s
+Iteration   7: 13309178978.178 ops/s
+Iteration   8: 13287792269.985 ops/s
+Iteration   9: 12511176717.067 ops/s
+Iteration  10: 13198576555.804 ops/s
+Iteration  11: 13381335579.853 ops/s
+Iteration  12: 13289825750.108 ops/s
+Iteration  13: 13361631168.447 ops/s
+Iteration  14: 12913702943.964 ops/s
+Iteration  15: 13149626227.400 ops/s
+Iteration  16: 13234128327.482 ops/s
+Iteration  17: 12707957117.856 ops/s
+Iteration  18: 13232830122.527 ops/s
+Iteration  19: 13241118015.055 ops/s
+Iteration  20: 13004403979.126 ops/s
+
+
+Result "cn.victor123.benchmark.multithread.MultiThreadTest.run4":
+  13159259686.351 ±(99.9%) 202361266.904 ops/s [Average]
+  (min, avg, max) = (12511176717.067, 13159259686.351, 13401309091.203), stdev = 233039535.905
+  CI (99.9%): [12956898419.448, 13361620953.255] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:02:02
+
+Benchmark              Mode  Cnt            Score           Error  Units
+MultiThreadTest.run1  thrpt   20   3581166424.328 ±  32690698.295  ops/s
+MultiThreadTest.run2  thrpt   20   7003247888.699 ±  38920544.058  ops/s
+MultiThreadTest.run4  thrpt   20  13159259686.351 ± 202361266.904  ops/s
+
+Process finished with exit code 0

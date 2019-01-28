@@ -52,6 +52,9 @@ import java.util.concurrent.TimeUnit;
 @Warmup(iterations = 5, time = 1, timeUnit = TimeUnit.SECONDS)
 @Measurement(iterations = 5, time = 1, timeUnit = TimeUnit.SECONDS)
 @Fork(5)
+/**
+ * 伪共享
+ */
 public class JMHSample_22_FalseSharing {
 
     /*
@@ -68,14 +71,14 @@ public class JMHSample_22_FalseSharing {
 
     /*
      * Suppose we have two threads:
-     *   a) innocuous reader which blindly reads its own field
-     *   b) furious writer which updates its own field
+     *   a) innocuous reader which blindly reads its own field 读取
+     *   b) furious writer which updates its own field 写入
      */
 
     /*
      * BASELINE EXPERIMENT:
      * Because of the false sharing, both reader and writer will experience
-     * penalties.
+     * penalties处罚.
      */
 
     @State(Scope.Group)

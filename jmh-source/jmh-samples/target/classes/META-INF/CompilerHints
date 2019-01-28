@@ -3,9 +3,4 @@ dontinline,*.*_avgt_jmhStub
 dontinline,*.*_sample_jmhStub
 dontinline,*.*_ss_jmhStub
 dontinline,*.*_thrpt_jmhStub
-dontinline,org/openjdk/jmh/samples/JMHSample_34_SafeLooping.sink
-inline,org/openjdk/jmh/samples/JMHSample_34_SafeLooping.measureRight_1
-inline,org/openjdk/jmh/samples/JMHSample_34_SafeLooping.measureRight_2
-inline,org/openjdk/jmh/samples/JMHSample_34_SafeLooping.measureWrong_1
-inline,org/openjdk/jmh/samples/JMHSample_34_SafeLooping.measureWrong_2
-inline,org/openjdk/jmh/samples/JMHSample_34_SafeLooping.setup
+inline,org/openjdk/jmh/samples/JMHSample_17_SyncIterations.test

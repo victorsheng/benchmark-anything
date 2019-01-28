@@ -1,0 +1,205 @@
+/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=58398:/Applications/IntelliJ IDEA.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/lib/tools.jar:/Users/victor/code/vicProjects/benchmark-anything/javabasic/target/classes:/Users/victor/.m2/repository/org/openjdk/jmh/jmh-core/1.19/jmh-core-1.19.jar:/Users/victor/.m2/repository/net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6.jar:/Users/victor/.m2/repository/org/apache/commons/commons-math3/3.2/commons-math3-3.2.jar:/Users/victor/.m2/repository/org/openjdk/jmh/jmh-generator-annprocess/1.19/jmh-generator-annprocess-1.19.jar cn.victor123.benchmark.FalseSharing.FalseSharingTest1
+objc[96119]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/bin/java (0x10152c4c0) and /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/libinstrument.dylib (0x1015b84e0). One of the two will be used. Which one is undefined.
+# JMH version: 1.19
+# VM version: JDK 1.8.0_151, VM 25.151-b12
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java
+# VM options: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=58398:/Applications/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads (4 groups; 1x "w1", 1x "w2" in each group), will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: cn.victor123.benchmark.FalseSharing.FalseSharingTest1.conflict
+
+# Run progress: 0.00% complete, ETA 00:01:20
+# Fork: 1 of 1
+objc[96120]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java (0x10c02e4c0) and /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/libinstrument.dylib (0x10c0ba4e0). One of the two will be used. Which one is undefined.
+# Warmup Iteration   1: 511122190.358 ops/s
+# Warmup Iteration   2: 591137465.335 ops/s
+# Warmup Iteration   3: 611045882.786 ops/s
+# Warmup Iteration   4: 598897354.221 ops/s
+# Warmup Iteration   5: 646110790.315 ops/s
+# Warmup Iteration   6: 617872936.868 ops/s
+# Warmup Iteration   7: 609403024.362 ops/s
+# Warmup Iteration   8: 602718542.470 ops/s
+# Warmup Iteration   9: 603080796.193 ops/s
+# Warmup Iteration  10: 464091317.845 ops/s
+# Warmup Iteration  11: 599193081.336 ops/s
+# Warmup Iteration  12: 618388173.322 ops/s
+# Warmup Iteration  13: 611337135.589 ops/s
+# Warmup Iteration  14: 598037542.227 ops/s
+# Warmup Iteration  15: 596773163.044 ops/s
+# Warmup Iteration  16: 590258384.020 ops/s
+# Warmup Iteration  17: 557923933.078 ops/s
+# Warmup Iteration  18: 554499036.344 ops/s
+# Warmup Iteration  19: 569567969.013 ops/s
+# Warmup Iteration  20: 587943030.689 ops/s
+Iteration   1: 580522608.512 ops/s
+                 w1: 288607827.773 ops/s
+                 w2: 291914780.739 ops/s
+
+Iteration   2: 542851368.294 ops/s
+                 w1: 271665041.052 ops/s
+                 w2: 271186327.242 ops/s
+
+Iteration   3: 559701157.229 ops/s
+                 w1: 274214910.619 ops/s
+                 w2: 285486246.610 ops/s
+
+Iteration   4: 592384487.244 ops/s
+                 w1: 296852730.904 ops/s
+                 w2: 295531756.340 ops/s
+
+Iteration   5: 561968584.501 ops/s
+                 w1: 279311087.643 ops/s
+                 w2: 282657496.858 ops/s
+
+Iteration   6: 544251377.284 ops/s
+                 w1: 277006824.942 ops/s
+                 w2: 267244552.342 ops/s
+
+Iteration   7: 571211695.321 ops/s
+                 w1: 284815368.959 ops/s
+                 w2: 286396326.362 ops/s
+
+Iteration   8: 554578066.438 ops/s
+                 w1: 288167420.641 ops/s
+                 w2: 266410645.797 ops/s
+
+Iteration   9: 567743645.209 ops/s
+                 w1: 284974928.132 ops/s
+                 w2: 282768717.077 ops/s
+
+Iteration  10: 572234163.381 ops/s
+                 w1: 281478578.851 ops/s
+                 w2: 290755584.530 ops/s
+
+Iteration  11: 566615469.907 ops/s
+                 w1: 287824752.454 ops/s
+                 w2: 278790717.452 ops/s
+
+Iteration  12: 542161161.672 ops/s
+                 w1: 269102044.705 ops/s
+                 w2: 273059116.967 ops/s
+
+Iteration  13: 556191164.389 ops/s
+                 w1: 278408425.880 ops/s
+                 w2: 277782738.509 ops/s
+
+Iteration  14: 587146119.001 ops/s
+                 w1: 301300534.825 ops/s
+                 w2: 285845584.175 ops/s
+
+Iteration  15: 595172288.799 ops/s
+                 w1: 295661696.694 ops/s
+                 w2: 299510592.106 ops/s
+
+Iteration  16: 569932279.020 ops/s
+                 w1: 284029252.502 ops/s
+                 w2: 285903026.518 ops/s
+
+Iteration  17: 541941033.471 ops/s
+                 w1: 268375731.945 ops/s
+                 w2: 273565301.526 ops/s
+
+Iteration  18: 542182124.762 ops/s
+                 w1: 264393201.844 ops/s
+                 w2: 277788922.917 ops/s
+
+Iteration  19: 575501369.391 ops/s
+                 w1: 288254936.232 ops/s
+                 w2: 287246433.158 ops/s
+
+Iteration  20: 585110353.176 ops/s
+                 w1: 289632408.446 ops/s
+                 w2: 295477944.730 ops/s
+
+
+
+Result "cn.victor123.benchmark.FalseSharing.FalseSharingTest1.conflict":
+  565470025.850 ±(99.9%) 15100774.851 ops/s [Average]
+  (min, avg, max) = (541941033.471, 565470025.850, 595172288.799), stdev = 17390074.776
+  CI (99.9%): [550369250.999, 580570800.701] (assumes normal distribution)
+
+Secondary result "cn.victor123.benchmark.FalseSharing.FalseSharingTest1.conflict:w1":
+  282703885.252 ±(99.9%) 8634236.585 ops/s [Average]
+  (min, avg, max) = (264393201.844, 282703885.252, 301300534.825), stdev = 9943199.692
+  CI (99.9%): [274069648.667, 291338121.837] (assumes normal distribution)
+
+Secondary result "cn.victor123.benchmark.FalseSharing.FalseSharingTest1.conflict:w2":
+  282766140.598 ±(99.9%) 8212008.524 ops/s [Average]
+  (min, avg, max) = (266410645.797, 282766140.598, 299510592.106), stdev = 9456961.229
+  CI (99.9%): [274554132.074, 290978149.122] (assumes normal distribution)
+
+
+# JMH version: 1.19
+# VM version: JDK 1.8.0_151, VM 25.151-b12
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java
+# VM options: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=58398:/Applications/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: cn.victor123.benchmark.FalseSharing.FalseSharingTest1.noconflict
+
+# Run progress: 50.00% complete, ETA 00:00:41
+# Fork: 1 of 1
+objc[96137]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java (0x1011794c0) and /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/libinstrument.dylib (0x1012054e0). One of the two will be used. Which one is undefined.
+# Warmup Iteration   1: 898563375.049 ops/s
+# Warmup Iteration   2: 791682739.677 ops/s
+# Warmup Iteration   3: 1062370982.775 ops/s
+# Warmup Iteration   4: 1163697884.362 ops/s
+# Warmup Iteration   5: 1043502780.611 ops/s
+# Warmup Iteration   6: 889913514.425 ops/s
+# Warmup Iteration   7: 1138082246.985 ops/s
+# Warmup Iteration   8: 1021139348.959 ops/s
+# Warmup Iteration   9: 762799014.132 ops/s
+# Warmup Iteration  10: 1098612042.068 ops/s
+# Warmup Iteration  11: 1201654893.721 ops/s
+# Warmup Iteration  12: 1078791233.825 ops/s
+# Warmup Iteration  13: 1053392473.127 ops/s
+# Warmup Iteration  14: 965238886.578 ops/s
+# Warmup Iteration  15: 1149505360.134 ops/s
+# Warmup Iteration  16: 1145070777.276 ops/s
+# Warmup Iteration  17: 1157317116.695 ops/s
+# Warmup Iteration  18: 1350472799.585 ops/s
+# Warmup Iteration  19: 1314937648.580 ops/s
+# Warmup Iteration  20: 1313588869.146 ops/s
+Iteration   1: 1348152705.848 ops/s
+Iteration   2: 1361147355.574 ops/s
+Iteration   3: 1194821297.613 ops/s
+Iteration   4: 1154429677.897 ops/s
+Iteration   5: 1129639390.843 ops/s
+Iteration   6: 1048439340.921 ops/s
+Iteration   7: 1150419537.213 ops/s
+Iteration   8: 1307572720.826 ops/s
+Iteration   9: 1324333625.111 ops/s
+Iteration  10: 1340824428.544 ops/s
+Iteration  11: 1338152030.092 ops/s
+Iteration  12: 1235851626.730 ops/s
+Iteration  13: 1091177635.472 ops/s
+Iteration  14: 1147967367.236 ops/s
+Iteration  15: 1316546307.304 ops/s
+Iteration  16: 1225054603.715 ops/s
+Iteration  17: 1255905959.042 ops/s
+Iteration  18: 1218207760.183 ops/s
+Iteration  19: 1046380206.696 ops/s
+Iteration  20: 1118724416.063 ops/s
+
+
+Result "cn.victor123.benchmark.FalseSharing.FalseSharingTest1.noconflict":
+  1217687399.646 ±(99.9%) 89933733.073 ops/s [Average]
+  (min, avg, max) = (1046380206.696, 1217687399.646, 1361147355.574), stdev = 103567820.751
+  CI (99.9%): [1127753666.573, 1307621132.719] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:01:23
+
+Benchmark                                    Mode  Cnt           Score          Error  Units
+FalseSharing.FalseSharingTest1.conflict     thrpt   20   565470025.850 ± 15100774.851  ops/s
+FalseSharing.FalseSharingTest1.conflict:w1  thrpt   20   282703885.252 ±  8634236.585  ops/s
+FalseSharing.FalseSharingTest1.conflict:w2  thrpt   20   282766140.598 ±  8212008.524  ops/s
+FalseSharing.FalseSharingTest1.noconflict   thrpt   20  1217687399.646 ± 89933733.073  ops/s
+
+Process finished with exit code 0

@@ -1,0 +1,95 @@
+/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=50468:/Applications/IntelliJ IDEA.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/lib/tools.jar:/Users/victor/code/vicProjects/benchmark-anything/javabasic/target/classes:/Users/victor/.m2/repository/org/openjdk/jmh/jmh-core/1.19/jmh-core-1.19.jar:/Users/victor/.m2/repository/net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6.jar:/Users/victor/.m2/repository/org/apache/commons/commons-math3/3.2/commons-math3-3.2.jar:/Users/victor/.m2/repository/org/openjdk/jmh/jmh-generator-annprocess/1.19/jmh-generator-annprocess-1.19.jar cn.victor123.benchmark.demo.IterationsTest
+objc[90901]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/bin/java (0x103f944c0) and /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/libinstrument.dylib (0x103feb4e0). One of the two will be used. Which one is undefined.
+# JMH version: 1.19
+# VM version: JDK 1.8.0_151, VM 25.151-b12
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java
+# VM options: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=50468:/Applications/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8
+# Warmup: <none>
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: cn.victor123.benchmark.demo.IterationsTest.Iterations1
+
+# Run progress: 0.00% complete, ETA 00:00:23
+# Fork: 1 of 1
+objc[90904]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java (0x10e5074c0) and /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/libinstrument.dylib (0x10e5934e0). One of the two will be used. Which one is undefined.
+Iteration   1: 2962943747.636 ops/s
+
+
+Result "cn.victor123.benchmark.demo.IterationsTest.Iterations1":
+  2962943747.636 ops/s
+
+
+# JMH version: 1.19
+# VM version: JDK 1.8.0_151, VM 25.151-b12
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java
+# VM options: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=50468:/Applications/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8
+# Warmup: <none>
+# Measurement: 2 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: cn.victor123.benchmark.demo.IterationsTest.Iterations2
+
+# Run progress: 4.35% complete, ETA 00:00:39
+# Fork: 1 of 1
+objc[90906]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java (0x10bfbb4c0) and /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/libinstrument.dylib (0x10dff54e0). One of the two will be used. Which one is undefined.
+Iteration   1: 3480864518.250 ops/s
+Iteration   2: 3324366538.205 ops/s
+
+
+Result "cn.victor123.benchmark.demo.IterationsTest.Iterations2":
+  3402615528.228 ops/s
+
+
+# JMH version: 1.19
+# VM version: JDK 1.8.0_151, VM 25.151-b12
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java
+# VM options: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=50468:/Applications/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8
+# Warmup: <none>
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: cn.victor123.benchmark.demo.IterationsTest.defaultIterations
+
+# Run progress: 13.04% complete, ETA 00:00:30
+# Fork: 1 of 1
+objc[90907]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java (0x1022304c0) and /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/libinstrument.dylib (0x1022bc4e0). One of the two will be used. Which one is undefined.
+Iteration   1: 3396547603.576 ops/s
+Iteration   2: 3347520703.665 ops/s
+Iteration   3: 3445442476.424 ops/s
+Iteration   4: 3460157656.146 ops/s
+Iteration   5: 3454584941.351 ops/s
+Iteration   6: 3400598746.107 ops/s
+Iteration   7: 3460728914.078 ops/s
+Iteration   8: 3468859498.044 ops/s
+Iteration   9: 3477479859.479 ops/s
+Iteration  10: 3472220357.588 ops/s
+Iteration  11: 3468303654.536 ops/s
+Iteration  12: 3470525981.205 ops/s
+Iteration  13: 3446232887.367 ops/s
+Iteration  14: 3511137142.056 ops/s
+Iteration  15: 3221482692.247 ops/s
+Iteration  16: 3440353214.767 ops/s
+Iteration  17: 3517229861.459 ops/s
+Iteration  18: 3523894931.660 ops/s
+Iteration  19: 3515718502.840 ops/s
+Iteration  20: 3499442944.425 ops/s
+
+
+Result "cn.victor123.benchmark.demo.IterationsTest.defaultIterations":
+  3449923128.451 ±(99.9%) 60171201.108 ops/s [Average]
+  (min, avg, max) = (3221482692.247, 3449923128.451, 3523894931.660), stdev = 69293244.679
+  CI (99.9%): [3389751927.343, 3510094329.559] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:00:25
+
+Benchmark                          Mode  Cnt           Score          Error  Units
+IterationsTest.Iterations1        thrpt       2962943747.636                 ops/s
+IterationsTest.Iterations2        thrpt    2  3402615528.228                 ops/s
+IterationsTest.defaultIterations  thrpt   20  3449923128.451 ± 60171201.108  ops/s
+
+Process finished with exit code 0
