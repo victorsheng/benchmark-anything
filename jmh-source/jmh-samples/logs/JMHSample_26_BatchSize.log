@@ -100,7 +100,7 @@ Result "org.openjdk.jmh.samples.JMHSample_26_BatchSize.measureRight":
     [0.020, 0.021) = 1 
     [0.021, 0.022) = 0 
 
-  Percentiles, s/op:
+  Percentiles百分, s/op:
       p(0.0000) =      0.016 s/op
      p(50.0000) =      0.016 s/op
      p(90.0000) =      0.022 s/op
