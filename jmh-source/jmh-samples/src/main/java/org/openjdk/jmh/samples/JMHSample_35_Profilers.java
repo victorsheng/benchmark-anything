@@ -54,7 +54,7 @@ public class JMHSample_35_Profilers {
     /*
      * This sample serves as the profiler overview.
      *
-     * JMH has a few very handy profilers that help to understand your benchmarks. While
+     * JMH has a few very handy便利的 profilers that help to understand your benchmarks. While
      * these profilers are not the substitute for full-fledged external profilers, in many
      * cases, these are handy to quickly dig into the benchmark behavior. When you are
      * doing many cycles of tuning up the benchmark code itself, it is important to have
