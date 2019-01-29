@@ -57,9 +57,9 @@ public class JMHSample_31_InfraParams {
     /*
      * There is a way to query JMH about the current running mode. This is
      * possible with three infrastructure objects we can request to be injected:
-     *   - BenchmarkParams: covers the benchmark-global configuration
-     *   - IterationParams: covers the current iteration configuration
-     *   - ThreadParams: covers the specifics about threading
+     *   - BenchmarkParams全局: covers the benchmark-global configuration
+     *   - IterationParams迭代: covers the current iteration configuration
+     *   - ThreadParams线程: covers the specifics about threading
      *
      * Suppose we want to check how the ConcurrentHashMap scales under different
      * parallelism levels. We can put concurrencyLevel in @Param, but it sometimes

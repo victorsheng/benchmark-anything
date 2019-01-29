@@ -47,6 +47,9 @@ import java.util.concurrent.TimeUnit;
 @Measurement(iterations = 5, time = 1, timeUnit = TimeUnit.SECONDS)
 @Fork(5)
 @State(Scope.Benchmark)
+/**
+ * 分支预测
+ */
 public class JMHSample_36_BranchPrediction {
 
     /*

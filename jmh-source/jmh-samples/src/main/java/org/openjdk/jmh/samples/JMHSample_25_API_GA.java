@@ -50,12 +50,12 @@ import java.util.List;
 public class JMHSample_25_API_GA {
 
     /**
-     * This example shows the rather convoluted, but fun way to exploit
+     * This example shows the rather convoluted令人费解, but fun way to exploit
      * JMH API in complex scenarios. Up to this point, we haven't consumed
      * the results programmatically, and hence we are missing all the fun.
      *
      * Let's consider this naive code, which obviously suffers from the
-     * performance anomalies, since current HotSpot is resistant to make
+     * performance anomalies异常, since current HotSpot is resistant to make
      * the tail-call optimizations.
      */
 

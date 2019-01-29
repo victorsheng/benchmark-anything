@@ -47,6 +47,9 @@ import org.openjdk.jmh.runner.options.OptionsBuilder;
 
 import java.util.concurrent.TimeUnit;
 
+/**
+ * 利用模板方法进行测试
+ */
 public class JMHSample_24_Inheritance {
 
     /*

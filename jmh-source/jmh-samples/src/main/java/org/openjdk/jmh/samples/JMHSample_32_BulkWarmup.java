@@ -51,7 +51,7 @@ import java.util.concurrent.TimeUnit;
 public class JMHSample_32_BulkWarmup {
 
     /*
-     * This is an addendum to JMHSample_12_Forking test.
+     * This is an addendum附录 to JMHSample_12_Forking test.
      *
      * Sometimes you want an opposite configuration: instead of separating the profiles
      * for different benchmarks, you want to mix them together to test the worst-case

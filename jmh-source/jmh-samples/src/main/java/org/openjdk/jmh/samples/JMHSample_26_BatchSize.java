@@ -47,6 +47,9 @@ import org.openjdk.jmh.runner.options.OptionsBuilder;
 import java.util.LinkedList;
 import java.util.List;
 
+/**
+ * list.add(list.size() / 2, "something");该操作是线性增长的,如果每次迭代清空list的内容,则list的元素较少
+ */
 @State(Scope.Thread)
 public class JMHSample_26_BatchSize {
 
