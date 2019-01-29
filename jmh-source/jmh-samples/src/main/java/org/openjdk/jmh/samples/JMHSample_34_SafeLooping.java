@@ -158,6 +158,7 @@ public class JMHSample_34_SafeLooping {
      * In these cases, one may try to do a make-shift "sinker" with non-inlineable method. This trick is
      * *very* VM-specific, and can only be used if you are verifying the generated code (that's a good
      * strategy when dealing with nano-benchmarks anyway).
+     * 尽量不用这种方式
      *
      * You SHOULD NOT use this trick in most cases. Apply only where needed.
      */
@@ -172,7 +173,7 @@ public class JMHSample_34_SafeLooping {
     @CompilerControl(CompilerControl.Mode.DONT_INLINE)
     public static void sink(int v) {
         // IT IS VERY IMPORTANT TO MATCH THE SIGNATURE TO AVOID AUTOBOXING.
-        // The method intentionally does nothing.
+        // The method intentionally故意的 does nothing.
     }
 
 

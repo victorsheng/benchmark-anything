@@ -85,3 +85,14 @@ Do not assume the numbers tell you what you want them to tell.
 Benchmark                           Mode  Cnt   Score   Error  Units
 JMHSample_32_BulkWarmup.measure_c1  avgt    5  30.796 ± 1.956  ns/op
 JMHSample_32_BulkWarmup.measure_c2  avgt    5  27.260 ± 2.837  ns/op
+
+#sample 12的结果
+Benchmark                                 Mode  Cnt   Score   Error  Units
+JMHSample_12_Forking.measure_1_c1         avgt    5   3.940 ± 0.097  ns/op
+JMHSample_12_Forking.measure_2_c2         avgt    5  28.298 ± 0.253  ns/op
+JMHSample_12_Forking.measure_3_c1_again   avgt    5  27.643 ± 0.702  ns/op
+JMHSample_12_Forking.measure_4_forked_c1  avgt    5   5.974 ± 0.618  ns/op
+JMHSample_12_Forking.measure_5_forked_c2  avgt    5   5.734 ± 0.838  ns/op
+
+# fork中的0是为了debug用的,而大于零是为了多进行几次测试
+# 所以需要bulk来混合,多个benchmark的预热结果

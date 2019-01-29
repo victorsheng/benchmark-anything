@@ -1,4 +1,4 @@
-package cn.victor123.benchmark.demo;
+package cn.victor123.benchmark.timeout;
 
 import java.util.concurrent.TimeUnit;
 import org.openjdk.jmh.annotations.Benchmark;

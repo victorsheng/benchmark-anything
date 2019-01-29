@@ -28,86 +28,86 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
  * THE POSSIBILITY OF SUCH DAMAGE.
  */
-package org.openjdk.jmh.samples;
+package cn.victor123.benchmark.timeout;
 
+import java.util.concurrent.ArrayBlockingQueue;
+import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.TimeUnit;
 import org.openjdk.jmh.annotations.Benchmark;
+import org.openjdk.jmh.annotations.BenchmarkMode;
+import org.openjdk.jmh.annotations.Group;
+import org.openjdk.jmh.annotations.Mode;
+import org.openjdk.jmh.annotations.OutputTimeUnit;
 import org.openjdk.jmh.annotations.Scope;
+import org.openjdk.jmh.annotations.Setup;
 import org.openjdk.jmh.annotations.State;
-import org.openjdk.jmh.annotations.Threads;
 import org.openjdk.jmh.runner.Runner;
 import org.openjdk.jmh.runner.RunnerException;
 import org.openjdk.jmh.runner.options.Options;
 import org.openjdk.jmh.runner.options.OptionsBuilder;
+import org.openjdk.jmh.runner.options.TimeValue;
 
-public class JMHSample_03_States {
-
-    /*
-     * Most of the time, you need to maintain some state while the benchmark is
-     * running. Since JMH is heavily used to build concurrent benchmarks, we
-     * opted选择 for an explicit notion of state-bearing objects.
-     *
-     * Below are two state objects. Their class names are not essential, it
-     * matters they are marked with @State. These objects will be instantiated实例化
-     * on demand, and reused during the entire benchmark trial.
-     *
-     * The important property is that state is always instantiated by one of
-     * those benchmark threads which will then have the access to that state.
-     * That means you can initialize the fields as if you do that in worker
-     * threads (ThreadLocals are yours, etc).
-     */
-
-    @State(Scope.Benchmark)
-    public static class BenchmarkState {
-        volatile double x = Math.PI;
-    }
-
-    @State(Scope.Thread)
-    public static class ThreadState {
-        volatile double x = Math.PI;
-    }
+@BenchmarkMode(Mode.AverageTime)
+@OutputTimeUnit(TimeUnit.NANOSECONDS)
+@State(Scope.Group)
+public class Interrupts {
 
     /*
-     * Benchmark methods can reference the states, and JMH will inject the
-     * appropriate states while calling these methods. You can have no states at
-     * all, or have only one state, or have multiple states referenced. This
-     * makes building multi-threaded benchmark a breeze.
-     *
-     * For this exercise, we have two methods.
+     * JMH can also detect when threads are stuck in the benchmarks, and try
+     * to forcefully interrupt the benchmark thread. JMH tries to do that
+     * when it is arguably sure it would not affect the measurement.
      */
 
-    @Benchmark
-    public void measureUnshared(ThreadState state) {
-        // All benchmark threads will call in this method.
-        //
-        // However, since ThreadState is the Scope.Thread, each thread
-        // will have it's own copy of the state, and this benchmark
-        // will measure unshared case.
-        state.x++;
+    /*
+     * In this example, we want to measure the simple performance characteristics
+     * of the ArrayBlockingQueue. Unfortunately, doing that without a harness
+     * support will deadlock one of the threads, because the executions of
+     * take/put are not paired perfectly. Fortunately for us, both methods react
+     * to interrupts well, and therefore we can rely on JMH to terminate the
+     * measurement for us. JMH will notify users about the interrupt actions
+     * nevertheless, so users can see if those interrupts affected the measurement.
+     * JMH will start issuing interrupts after the default or user-specified timeout
+     * had been reached.
+     *
+     * This is a variant of org.openjdk.jmh.samples.JMHSample_18_Control, but without
+     * the explicit control objects. This example is suitable for the methods which
+     * react to interrupts gracefully.
+     */
+
+    private BlockingQueue<Integer> q;
+
+    @Setup
+    public void setup() {
+        q = new ArrayBlockingQueue<>(1);
     }
 
+    @Group("Q")
     @Benchmark
-    public void measureShared(BenchmarkState state) {
-        // All benchmark threads will call in this method.
-        //
-        // Since BenchmarkState is the Scope.Benchmark, all threads
-        // will share the state instance, and we will end up measuring
-        // shared case.
-        state.x++;
+    public Integer take1() throws InterruptedException {
+        return q.take();
+    }
+
+    @Group("Q")
+    @Benchmark
+    public Integer take2() throws InterruptedException {
+        return q.take();
+    }
+
+    @Group("Q")
+    @Benchmark
+    public void put() throws InterruptedException {
+        q.put(42);
     }
 
     /*
      * ============================== HOW TO RUN THIS TEST: ====================================
      *
-     * You are expected to see the drastic difference in shared and unshared cases,
-     * because you either contend for single memory location, or not. This effect
-     * is more articulated on large machines.
-     *
      * You can run this test:
      *
      * a) Via the command line:
      *    $ mvn clean install
-     *    $ java -jar target/benchmarks.jar JMHSample_03 -t 4 -f 1
-     *    (we requested 4 threads, single fork; there are also other options, see -h)
+     *    $ java -jar target/benchmarks.jar JMHSample_30 -t 2 -f 5 -to 10
+     *    (we requested 2 threads, 5 forks, and 10 sec timeout)
      *
      * b) Via the Java API:
      *    (see the JMH homepage for possible caveats when running from IDE:
@@ -116,9 +116,10 @@ public class JMHSample_03_States {
 
     public static void main(String[] args) throws RunnerException {
         Options opt = new OptionsBuilder()
-                .include(JMHSample_03_States.class.getSimpleName())
-                .threads(4)
-                .forks(1)
+                .include(Interrupts.class.getSimpleName())
+                .threads(2)
+                .forks(5)
+                .timeout(TimeValue.seconds(1))
                 .build();
 
         new Runner(opt).run();

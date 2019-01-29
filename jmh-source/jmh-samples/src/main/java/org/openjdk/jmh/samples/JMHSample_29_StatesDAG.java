@@ -68,7 +68,7 @@ public class JMHSample_29_StatesDAG {
     /**
      * There are weird cases when the benchmark state is more cleanly described
      * by the set of @States, and those @States reference each other. JMH allows
-     * linking @States in directed acyclic graphs (DAGs) by referencing @States
+     * linking @States in directed acyclic graphs 有向无环图 (DAGs) by referencing @States
      * in helper method signatures. (Note that {@link org.openjdk.jmh.samples.JMHSample_28_BlackholeHelpers}
      * is just a special case of that.
      *
@@ -134,6 +134,7 @@ public class JMHSample_29_StatesDAG {
     public static class Local {
         Counter cnt;
 
+        //需要@State(Scope.Benchmark)级别的参数注入
         @Setup
         public void setup(Shared shared) {
             cnt = shared.getMine();

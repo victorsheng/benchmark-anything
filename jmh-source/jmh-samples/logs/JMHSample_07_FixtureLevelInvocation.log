@@ -71,3 +71,5 @@ Do not assume the numbers tell you what you want them to tell.
 Benchmark                                        Mode  Cnt   Score    Error  Units
 JMHSample_07_FixtureLevelInvocation.measureCold  avgt    5  39.560 ± 17.493  us/op
 JMHSample_07_FixtureLevelInvocation.measureHot   avgt    5   7.501 ±  1.621  us/op
+
+# 为什么会抵消??
