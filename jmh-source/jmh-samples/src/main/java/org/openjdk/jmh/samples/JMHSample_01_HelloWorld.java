@@ -31,6 +31,7 @@
 package org.openjdk.jmh.samples;
 
 import org.openjdk.jmh.annotations.Benchmark;
+import org.openjdk.jmh.annotations.Measurement;
 import org.openjdk.jmh.runner.Runner;
 import org.openjdk.jmh.runner.RunnerException;
 import org.openjdk.jmh.runner.options.Options;
@@ -67,6 +68,7 @@ public class JMHSample_01_HelloWorld {
      */
 
     @Benchmark
+    @Measurement
     public void wellHelloThere() {
         // this method was intentionally left blank.
     }
