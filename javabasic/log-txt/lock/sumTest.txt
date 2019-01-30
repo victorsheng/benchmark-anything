@@ -1,0 +1,193 @@
+/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=59095:/Applications/IntelliJ IDEA.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/lib/tools.jar:/Users/victor/code/vicProjects/benchmark-anything/javabasic/target/classes:/Users/victor/.m2/repository/org/openjdk/jmh/jmh-core/1.19/jmh-core-1.19.jar:/Users/victor/.m2/repository/net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6.jar:/Users/victor/.m2/repository/org/apache/commons/commons-math3/3.2/commons-math3-3.2.jar:/Users/victor/.m2/repository/org/openjdk/jmh/jmh-generator-annprocess/1.19/jmh-generator-annprocess-1.19.jar cn.victor123.benchmark.lock.SumTest
+objc[28964]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/bin/java (0x10a9204c0) and /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/libinstrument.dylib (0x10a9ac4e0). One of the two will be used. Which one is undefined.
+# JMH version: 1.19
+# VM version: JDK 1.8.0_151, VM 25.151-b12
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java
+# VM options: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=59095:/Applications/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8
+# Warmup: 4 iterations, 1 s each
+# Measurement: 4 iterations, 1 s each, 1000 calls per op
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: cn.victor123.benchmark.lock.SumTest.test
+
+# Run progress: 0.00% complete, ETA 00:00:48
+# Fork: 1 of 1
+objc[28965]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java (0x10a3494c0) and /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/libinstrument.dylib (0x10a3d54e0). One of the two will be used. Which one is undefined.
+# Warmup Iteration   1: 653908914.868 ops/s
+# Warmup Iteration   2: 637891723.258 ops/s
+# Warmup Iteration   3: 651815598.309 ops/s
+# Warmup Iteration   4: 665731489.280 ops/s
+Iteration   1: 665978.074 ops/s
+Iteration   2: 664797.826 ops/s
+Iteration   3: 664129.365 ops/s
+Iteration   4: 642415.240 ops/s
+
+
+Result "cn.victor123.benchmark.lock.SumTest.test":
+  659330.126 ±(99.9%) 73036.395 ops/s [Average]
+  (min, avg, max) = (642415.240, 659330.126, 665978.074), stdev = 11302.463
+  CI (99.9%): [586293.731, 732366.521] (assumes normal distribution)
+
+
+# JMH version: 1.19
+# VM version: JDK 1.8.0_151, VM 25.151-b12
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java
+# VM options: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=59095:/Applications/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8
+# Warmup: 4 iterations, 1 s each
+# Measurement: 4 iterations, 1 s each, 1000 calls per op
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: cn.victor123.benchmark.lock.SumTest.test1
+
+# Run progress: 16.67% complete, ETA 00:00:44
+# Fork: 1 of 1
+objc[28973]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java (0x10c56f4c0) and /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/libinstrument.dylib (0x10e5c04e0). One of the two will be used. Which one is undefined.
+# Warmup Iteration   1: 136755261.985 ops/s
+# Warmup Iteration   2: 138384106.963 ops/s
+# Warmup Iteration   3: 139732924.333 ops/s
+# Warmup Iteration   4: 139433655.084 ops/s
+Iteration   1: 140024.023 ops/s
+Iteration   2: 143322.413 ops/s
+Iteration   3: 145812.044 ops/s
+Iteration   4: 144365.877 ops/s
+
+
+Result "cn.victor123.benchmark.lock.SumTest.test1":
+  143381.089 ±(99.9%) 15895.568 ops/s [Average]
+  (min, avg, max) = (140024.023, 143381.089, 145812.044), stdev = 2459.857
+  CI (99.9%): [127485.522, 159276.657] (assumes normal distribution)
+
+
+# JMH version: 1.19
+# VM version: JDK 1.8.0_151, VM 25.151-b12
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java
+# VM options: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=59095:/Applications/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8
+# Warmup: 4 iterations, 1 s each
+# Measurement: 4 iterations, 1 s each, 1000 calls per op
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: cn.victor123.benchmark.lock.SumTest.test2
+
+# Run progress: 33.33% complete, ETA 00:00:35
+# Fork: 1 of 1
+objc[28975]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java (0x10422c4c0) and /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/libinstrument.dylib (0x1042b84e0). One of the two will be used. Which one is undefined.
+# Warmup Iteration   1: 52349606.394 ops/s
+# Warmup Iteration   2: 52483288.752 ops/s
+# Warmup Iteration   3: 53091860.371 ops/s
+# Warmup Iteration   4: 53141024.579 ops/s
+Iteration   1: 53464.278 ops/s
+Iteration   2: 51871.525 ops/s
+Iteration   3: 53380.024 ops/s
+Iteration   4: 53028.070 ops/s
+
+
+Result "cn.victor123.benchmark.lock.SumTest.test2":
+  52935.974 ±(99.9%) 4745.374 ops/s [Average]
+  (min, avg, max) = (51871.525, 52935.974, 53464.278), stdev = 734.352
+  CI (99.9%): [48190.600, 57681.348] (assumes normal distribution)
+
+
+# JMH version: 1.19
+# VM version: JDK 1.8.0_151, VM 25.151-b12
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java
+# VM options: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=59095:/Applications/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8
+# Warmup: 4 iterations, 1 s each
+# Measurement: 4 iterations, 1 s each, 1000 calls per op
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: cn.victor123.benchmark.lock.SumTest.test3
+
+# Run progress: 50.00% complete, ETA 00:00:26
+# Fork: 1 of 1
+objc[28976]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java (0x10a9754c0) and /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/libinstrument.dylib (0x10c9c04e0). One of the two will be used. Which one is undefined.
+# Warmup Iteration   1: 231758947.106 ops/s
+# Warmup Iteration   2: 266027337.089 ops/s
+# Warmup Iteration   3: 406539065.423 ops/s
+# Warmup Iteration   4: 406471097.439 ops/s
+Iteration   1: 404379.024 ops/s
+Iteration   2: 402240.625 ops/s
+Iteration   3: 405720.349 ops/s
+Iteration   4: 405977.713 ops/s
+
+
+Result "cn.victor123.benchmark.lock.SumTest.test3":
+  404579.428 ±(99.9%) 11046.704 ops/s [Average]
+  (min, avg, max) = (402240.625, 404579.428, 405977.713), stdev = 1709.490
+  CI (99.9%): [393532.723, 415626.132] (assumes normal distribution)
+
+
+# JMH version: 1.19
+# VM version: JDK 1.8.0_151, VM 25.151-b12
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java
+# VM options: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=59095:/Applications/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8
+# Warmup: 4 iterations, 1 s each
+# Measurement: 4 iterations, 1 s each, 1000 calls per op
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: cn.victor123.benchmark.lock.SumTest.test4
+
+# Run progress: 66.67% complete, ETA 00:00:17
+# Fork: 1 of 1
+objc[28977]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java (0x1017de4c0) and /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/libinstrument.dylib (0x10186a4e0). One of the two will be used. Which one is undefined.
+# Warmup Iteration   1: 90014624.133 ops/s
+# Warmup Iteration   2: 102893364.943 ops/s
+# Warmup Iteration   3: 131336963.550 ops/s
+# Warmup Iteration   4: 130757422.831 ops/s
+Iteration   1: 131784.972 ops/s
+Iteration   2: 128727.845 ops/s
+Iteration   3: 129893.437 ops/s
+Iteration   4: 129435.421 ops/s
+
+
+Result "cn.victor123.benchmark.lock.SumTest.test4":
+  129960.419 ±(99.9%) 8448.782 ops/s [Average]
+  (min, avg, max) = (128727.845, 129960.419, 131784.972), stdev = 1307.458
+  CI (99.9%): [121511.636, 138409.201] (assumes normal distribution)
+
+
+# JMH version: 1.19
+# VM version: JDK 1.8.0_151, VM 25.151-b12
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java
+# VM options: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=59095:/Applications/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8
+# Warmup: 4 iterations, 1 s each
+# Measurement: 4 iterations, 1 s each, 1000 calls per op
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: cn.victor123.benchmark.lock.SumTest.test5
+
+# Run progress: 83.33% complete, ETA 00:00:08
+# Fork: 1 of 1
+objc[28978]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java (0x101d5b4c0) and /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/libinstrument.dylib (0x101de74e0). One of the two will be used. Which one is undefined.
+# Warmup Iteration   1: 47744381.290 ops/s
+# Warmup Iteration   2: 51970279.257 ops/s
+# Warmup Iteration   3: 51484773.995 ops/s
+# Warmup Iteration   4: 51673725.375 ops/s
+Iteration   1: 51541.456 ops/s
+Iteration   2: 51495.164 ops/s
+Iteration   3: 51447.493 ops/s
+Iteration   4: 51647.069 ops/s
+
+
+Result "cn.victor123.benchmark.lock.SumTest.test5":
+  51532.795 ±(99.9%) 551.179 ops/s [Average]
+  (min, avg, max) = (51447.493, 51532.795, 51647.069), stdev = 85.296
+  CI (99.9%): [50981.616, 52083.975] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:00:52
+
+Benchmark       Mode  Cnt       Score       Error  Units
+SumTest.test   thrpt    4  659330.126 ± 73036.395  ops/s
+SumTest.test1  thrpt    4  143381.089 ± 15895.568  ops/s
+SumTest.test2  thrpt    4   52935.974 ±  4745.374  ops/s
+SumTest.test3  thrpt    4  404579.428 ± 11046.704  ops/s
+SumTest.test4  thrpt    4  129960.419 ±  8448.782  ops/s
+SumTest.test5  thrpt    4   51532.795 ±   551.179  ops/s
+
+Process finished with exit code 0

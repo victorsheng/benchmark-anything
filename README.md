@@ -11,3 +11,7 @@ https://github.com/Valloric/jmh-playground
 
 # 邮件列表
 http://mail.openjdk.java.net/pipermail/jmh-dev/
+
+
+# sample目录
+[icon.png](jmh-source/jmh-samples/src/main/java/org/openjdk/jmh/samples/README.md)

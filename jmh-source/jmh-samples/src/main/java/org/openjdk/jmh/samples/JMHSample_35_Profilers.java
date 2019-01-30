@@ -147,7 +147,7 @@ public class JMHSample_35_Profilers {
               JMHSample_35_Profilers.Maps.test     hashmap  avgt    5  1553.201 ±   6.199   ns/op
               JMHSample_35_Profilers.Maps.test     treemap  avgt    5  5177.065 ± 361.278   ns/op
 
-            Running with -prof stack will yield:
+            Running with -prof stack will yield产生:
 
               ....[Thread state: RUNNABLE]........................................................................
                99.0%  99.0% org.openjdk.jmh.samples.JMHSample_35_Profilers$Maps.test
@@ -191,9 +191,10 @@ public class JMHSample_35_Profilers {
               JMHSample_35_Profilers.Maps.test:·gc.count                         treemap  avgt    5    25.000            counts
               JMHSample_35_Profilers.Maps.test:·gc.time                          treemap  avgt    5    26.000                ms
 
-            There, we can see that the tests are producing quite some garbage. "gc.alloc" would say we are allocating 1257
-            and 377 MB of objects per second, or 2048 bytes per benchmark operation. "gc.churn" would say that GC removes
-            the same amount of garbage from Eden space every second. In other words, we are producing 2048 bytes of garbage per
+            There, we can see that the tests are producing quite some garbage.
+            "gc.alloc" would say we are allocating 1257 and 377 MB of objects per second, or 2048 bytes per benchmark operation.
+            "gc.churn" would say that GC removes the same amount of garbage from Eden space every second.
+             In other words, we are producing 2048 bytes of garbage per
             benchmark operation.
 
             If you look closely at the test, you can get a (correct) hypothesis this is due to Integer autoboxing.
@@ -209,7 +210,7 @@ public class JMHSample_35_Profilers {
             for your configuration!), and normalized counters to see the more precise benchmark behavior.
 
             As most profilers, both "stack" and "gc" profile are able to aggregate samples from multiple forks. It is a good
-            idea to run multiple forks with the profilers enabled, as it improves results error estimates.
+            idea to run multiple forks with the profilers enabled, as it improves results error estimates估计.
         */
     }
 
@@ -373,11 +374,11 @@ public class JMHSample_35_Profilers {
         }
 
         /*
-            Dealing with nanobenchmarks like these requires looking into the abyss of runtime, hardware, and
+            Dealing with nanobenchmarks like these requires looking into the abyss深渊 of runtime, hardware, and
             generated code. Luckily, JMH has a few handy tools that ease the pain. If you are running Linux,
             then perf_events are probably available as standard package. This kernel facility taps into
             hardware counters, and provides the data for user space programs like JMH. Windows has less
-            sophisticated facilities, but also usable, see below.
+            sophisticated复杂的 facilities, but also usable, see below.
 
             One can simply run "perf stat java -jar ..." to get the first idea how the workload behaves. In
             JMH case, however, this will cause perf to profile both host and forked JVMs.
