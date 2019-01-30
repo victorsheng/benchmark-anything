@@ -68,6 +68,7 @@ public class Main {
             }
 
             try {
+                //core method
                 runner.run();
             } catch (NoBenchmarksException e) {
                 System.err.println("No matching benchmarks. Miss-spelled regexp?");

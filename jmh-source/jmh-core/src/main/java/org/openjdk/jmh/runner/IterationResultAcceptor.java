@@ -27,6 +27,9 @@ package org.openjdk.jmh.runner;
 import org.openjdk.jmh.results.BenchmarkResultMetaData;
 import org.openjdk.jmh.results.IterationResult;
 
+/**
+ * 结果接受接口
+ */
 interface IterationResultAcceptor {
     void accept(IterationResult iterationData);
 

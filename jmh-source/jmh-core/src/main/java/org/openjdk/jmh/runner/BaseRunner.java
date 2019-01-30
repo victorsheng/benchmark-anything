@@ -55,6 +55,7 @@ abstract class BaseRunner {
     private long benchmarkStart;
 
     protected final Options options;
+    //日志输出接口
     protected final OutputFormat out;
 
     public BaseRunner(Options options, OutputFormat handler) {
@@ -72,7 +73,7 @@ abstract class BaseRunner {
         for (Action action : actionPlan.getActions()) {
             BenchmarkParams params = action.getParams();
             ActionMode mode = action.getMode();
-
+            //执行
             doSingle(params, mode, acceptor);
         }
     }

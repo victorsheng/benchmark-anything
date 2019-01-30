@@ -44,6 +44,7 @@ class ForkedRunner extends BaseRunner {
     }
 
     public void run() throws IOException, ClassNotFoundException {
+        //请求测试计划
         ActionPlan actionPlan = link.requestPlan();
 
         try {

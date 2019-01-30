@@ -36,10 +36,15 @@ import java.util.concurrent.atomic.AtomicReference;
 
 /**
  * Main program entry point for forked JVM instance
+ * fork 程序的main方法
  */
 class ForkedMain {
 
     private static final AtomicBoolean hangupFuse = new AtomicBoolean();
+    /**
+     * BinaryLinkClient
+     * 与父进程通信的客户端
+     */
     private static final AtomicReference<BinaryLinkClient> linkRef = new AtomicReference<>();
 
     private static volatile boolean gracefullyFinished;
@@ -81,6 +86,7 @@ class ForkedMain {
 
                 // run!
                 ForkedRunner runner = new ForkedRunner(options, link);
+                //开始执行
                 runner.run();
 
                 gracefullyFinished = true;
@@ -160,7 +166,7 @@ class ForkedMain {
 
     /**
      * Shutdown timeout thread will forcefully exit the VM in two cases:
-     *   - stray non-daemon thread prevents the VM from exiting
+     *   - stray流浪 non-daemon thread prevents the VM from exiting
      *   - all user threads have finished, but we are stuck in some shutdown hook or finalizer
      *
      * In all other "normal" cases, VM will exit before the timeout expires.

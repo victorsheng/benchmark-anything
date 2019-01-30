@@ -72,7 +72,7 @@ class BenchmarkHandler {
         this.profilers = ProfilerFactory.getSupportedInternal(options.getProfilers());
         this.profilersRev = new ArrayList<>(profilers);
         Collections.reverse(profilersRev);
-
+        //阻塞队列,元素树=线程数
         final BlockingQueue<ThreadParams> tps = new ArrayBlockingQueue<>(executionParams.getThreads());
         tps.addAll(distributeThreads(executionParams.getThreads(), executionParams.getThreadGroups()));
 
@@ -302,6 +302,8 @@ class BenchmarkHandler {
 
     /**
      * Runs an iteration on the handled benchmark.
+     * 迭代级别执行
+     * 最最最核心,多看几遍
      *
      * @param benchmarkParams Benchmark parameters
      * @param params  Iteration parameters
@@ -334,7 +336,7 @@ class BenchmarkHandler {
         // the edge behaviors.
         startProfilers(benchmarkParams, params);
 
-        // submit tasks to threadpool
+        // submit tasks to threadpool 提交任务到线程池
         List<Future<BenchmarkTaskResult>> completed = new ArrayList<>();
         CompletionService<BenchmarkTaskResult> srv = new ExecutorCompletionService<>(executor);
         for (BenchmarkTask runner : runners) {
@@ -433,6 +435,7 @@ class BenchmarkHandler {
     }
 
     /**
+     * 核心任务类
      * Worker body.
      */
     class BenchmarkTask implements Callable<BenchmarkTaskResult> {

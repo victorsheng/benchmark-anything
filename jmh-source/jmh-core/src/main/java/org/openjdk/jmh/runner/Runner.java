@@ -205,7 +205,7 @@ public class Runner extends BaseRunner {
                     throw new RunnerException("ERROR: " + msg + ", exiting. Use -Djmh.ignoreLock=true to forcefully continue.");
                 }
             }
-
+            //core internal  method
             return internalRun();
         } catch (IOException e) {
             String msg = "Exception while trying to acquire the JMH lock (" + JMH_LOCK_FILE + "): " + e.getMessage();
@@ -259,7 +259,7 @@ public class Runner extends BaseRunner {
                 throw new RunnerException("Can not touch the result file: " + resultFile);
             }
         }
-
+        //获得 要执行的基准测试列表
         SortedSet<BenchmarkListEntry> benchmarks = list.find(out, options.getIncludes(), options.getExcludes());
 
         if (benchmarks.isEmpty()) {
@@ -317,6 +317,7 @@ public class Runner extends BaseRunner {
             benchmarks.addAll(newBenchmarks);
         }
 
+        //运行所有的基准测试
         Collection<RunResult> results = runBenchmarks(benchmarks);
 
         // If user requested the result file, write it out.
@@ -555,8 +556,10 @@ public class Runner extends BaseRunner {
                 Multimap<BenchmarkParams, BenchmarkResult> res;
                 switch (r.getType()) {
                     case EMBEDDED:
+                        //嵌入模式
                         res = runBenchmarksEmbedded(r);
                         break;
+                        //fork 模式
                     case FORKED:
                         res = runSeparate(r);
                         break;
@@ -642,6 +645,7 @@ public class Runner extends BaseRunner {
                 TempFile stdErr = FileUtils.weakTempFile("stderr");
                 TempFile stdOut = FileUtils.weakTempFile("stdout");
 
+                //profilers
                 if (!profilers.isEmpty()) {
                     out.print("# Preparing profilers: ");
                     for (ExternalProfiler profiler : profilers) {
@@ -659,7 +663,7 @@ public class Runner extends BaseRunner {
                 }
 
                 long startTime = System.currentTimeMillis();
-
+                //fork执行
                 List<IterationResult> result = doFork(server, forkedString, stdOut.file(), stdErr.file(), printOut, printErr);
                 if (!result.isEmpty()) {
                     long pid = server.getClientPid();
@@ -690,7 +694,7 @@ public class Runner extends BaseRunner {
                 etaAfterBenchmark(params);
                 out.println("");
 
-                // we know these are not needed anymore, proactively delete
+                // we know these are not needed anymore, proactively主动 delete
                 stdOut.delete();
                 stdErr.delete();
             }
