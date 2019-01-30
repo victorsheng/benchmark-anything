@@ -302,7 +302,7 @@ class BenchmarkHandler {
 
     /**
      * Runs an iteration on the handled benchmark.
-     * 迭代级别执行
+     * 迭代级别执行,既可以是热身,也可以是真实测量
      * 最最最核心,多看几遍
      *
      * @param benchmarkParams Benchmark parameters
@@ -312,6 +312,7 @@ class BenchmarkHandler {
      */
     public IterationResult runIteration(BenchmarkParams benchmarkParams, IterationParams params, boolean last) {
         int numThreads = benchmarkParams.getThreads();
+        //iteration执行时间
         TimeValue runtime = params.getTime();
 
         CountDownLatch preSetupBarrier = new CountDownLatch(numThreads);
@@ -329,7 +330,7 @@ class BenchmarkHandler {
         for (int i = 0; i < runners.length; i++) {
             runners[i] = new BenchmarkTask(control);
         }
-
+        //benchmarkParams级别的timeout
         long waitDeadline = System.nanoTime() + benchmarkParams.getTimeout().convertTo(TimeUnit.NANOSECONDS);
 
         // profilers start way before the workload starts to capture
@@ -353,6 +354,8 @@ class BenchmarkHandler {
                 break;
             default:
                 try {
+                    //poll = 轮训
+                    //等待runtime 的时间,此时得到的一定是发生错误的,正常的还在while true中执行
                     Future<BenchmarkTaskResult> failing = srv.poll(runtime.convertTo(TimeUnit.NANOSECONDS), TimeUnit.NANOSECONDS);
                     if (failing != null) {
                         // Oops, some task has exited prematurely, without isDone check.
@@ -367,6 +370,7 @@ class BenchmarkHandler {
         }
 
         // now we communicate all worker threads should stop
+        //宣布完成,此时内部的do {xxx} while(!isDone) while会跳出
         control.announceDone();
 
         // wait for all workers to transit to teardown
@@ -376,6 +380,7 @@ class BenchmarkHandler {
         while (completed.size() < numThreads) {
             try {
                 long waitFor = Math.max(TimeUnit.MILLISECONDS.toNanos(100), waitDeadline - System.nanoTime());
+                //poll:获取future,可以等一会
                 Future<BenchmarkTaskResult> fr = srv.poll(waitFor, TimeUnit.NANOSECONDS);
                 if (fr == null) {
                     // We are in the timeout mode now, kick all the still running threads.
@@ -400,6 +405,7 @@ class BenchmarkHandler {
         long measuredOps = 0;
 
         List<Throwable> errors = new ArrayList<>();
+        //收取结果
         for (Future<BenchmarkTaskResult> fr : completed) {
             try {
                 BenchmarkTaskResult btr = fr.get();
@@ -454,9 +460,11 @@ class BenchmarkHandler {
 
                 // go for the run
                 ThreadData td = threadData.get();
+                //开始调用jmh 生成的代码
                 return (BenchmarkTaskResult) method.invoke(td.instance, control, td.params);
             } catch (Throwable e) {
                 // about to fail the iteration;
+                //失败处理
 
                 // notify other threads we have failed
                 control.isFailing = true;
@@ -464,7 +472,6 @@ class BenchmarkHandler {
                 // compensate for missed sync-iteration latches, we don't care about that anymore
                 control.preSetupForce();
                 control.preTearDownForce();
-
                 if (control.benchmarkParams.shouldSynchIterations()) {
                     try {
                         control.announceWarmupReady();

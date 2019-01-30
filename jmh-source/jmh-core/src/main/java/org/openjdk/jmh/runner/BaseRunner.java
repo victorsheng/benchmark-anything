@@ -250,7 +250,7 @@ abstract class BaseRunner {
         long allWarmup = 0;
         long allMeasurement = 0;
 
-        // warmup
+        // warmup热身
         IterationParams wp = benchParams.getWarmup();
         for (int i = 1; i <= wp.getCount(); i++) {
             // will run system gc if we should
@@ -268,7 +268,7 @@ abstract class BaseRunner {
 
         long measurementTime = System.currentTimeMillis();
 
-        // measurement
+        // measurement测量
         IterationParams mp = benchParams.getMeasurement();
         for (int i = 1; i <= mp.getCount(); i++) {
             // will run system gc if we should
