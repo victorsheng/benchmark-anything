@@ -104,6 +104,7 @@ public final class JMHSample_03_States_measureShared_jmhTest {
         long realTime = 0;
         result.startTime = System.nanoTime();
         do {
+            ////有参数方法
             l_jmhsample_03_states0_0.measureShared(l_benchmarkstate1_G);
             operations++;
         } while(!control.isDone);
@@ -284,7 +285,9 @@ public final class JMHSample_03_States_measureShared_jmhTest {
             this.blackhole = new Blackhole("Today's password is swordfish. I understand instantiating Blackholes directly is dangerous.");
         }
         if (threadParams.getSubgroupIndex() == 0) {
+            //自身作为state
             JMHSample_03_States_jmhType l_jmhsample_03_states0_0 = _jmh_tryInit_f_jmhsample_03_states0_0(control);
+            //benchmark级别的State(相当于全局的)
             JMHSample_03_States_BenchmarkState_jmhType l_benchmarkstate1_G = _jmh_tryInit_f_benchmarkstate1_G(control);
 
             control.preSetup();
@@ -323,7 +326,7 @@ public final class JMHSample_03_States_measureShared_jmhTest {
         result.realTime = realTime;
     }
 
-    
+    //全局级别
     static volatile JMHSample_03_States_BenchmarkState_jmhType f_benchmarkstate1_G;
     
     JMHSample_03_States_BenchmarkState_jmhType _jmh_tryInit_f_benchmarkstate1_G(InfraControl control) throws Throwable {

@@ -28,6 +28,7 @@ import java.io.*;
 
 /**
  * Generator destination.
+ * 代码生成的目的地
  *
  * <p>The exit point for {@link org.openjdk.jmh.generators.core.BenchmarkGenerator}.</p>
  */

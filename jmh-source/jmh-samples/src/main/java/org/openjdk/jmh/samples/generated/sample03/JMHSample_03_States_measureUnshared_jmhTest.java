@@ -102,6 +102,7 @@ public final class JMHSample_03_States_measureUnshared_jmhTest {
         long realTime = 0;
         result.startTime = System.nanoTime();
         do {
+            //有参数方法
             l_jmhsample_03_states0_0.measureUnshared(l_threadstate1_1);
             operations++;
         } while(!control.isDone);
@@ -278,7 +279,9 @@ public final class JMHSample_03_States_measureUnshared_jmhTest {
             this.blackhole = new Blackhole("Today's password is swordfish. I understand instantiating Blackholes directly is dangerous.");
         }
         if (threadParams.getSubgroupIndex() == 0) {
+            //自身作为state
             JMHSample_03_States_jmhType l_jmhsample_03_states0_0 = _jmh_tryInit_f_jmhsample_03_states0_0(control);
+            //thread级别的State
             JMHSample_03_States_ThreadState_jmhType l_threadstate1_1 = _jmh_tryInit_f_threadstate1_1(control);
 
             control.preSetup();
@@ -327,7 +330,7 @@ public final class JMHSample_03_States_measureUnshared_jmhTest {
         }
         return val;
     }
-    
+    //线程级别
     JMHSample_03_States_ThreadState_jmhType f_threadstate1_1;
     
     JMHSample_03_States_ThreadState_jmhType _jmh_tryInit_f_threadstate1_1(InfraControl control) throws Throwable {

@@ -951,7 +951,7 @@ class StateObjectHandler {
                             "AtomicIntegerFieldUpdater.newUpdater(" + so.type + "_B2.class, \"tear" + level + "Mutex\");");
                     pw.println("");
                 }
-
+                //处理什么级别的state
                 switch (so.scope) {
                     case Benchmark:
                     case Group:

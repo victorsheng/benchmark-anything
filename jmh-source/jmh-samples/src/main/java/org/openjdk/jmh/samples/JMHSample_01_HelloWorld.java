@@ -31,6 +31,7 @@
 package org.openjdk.jmh.samples;
 
 import org.openjdk.jmh.annotations.Benchmark;
+import org.openjdk.jmh.annotations.Fork;
 import org.openjdk.jmh.annotations.Measurement;
 import org.openjdk.jmh.runner.Runner;
 import org.openjdk.jmh.runner.RunnerException;
@@ -68,7 +69,6 @@ public class JMHSample_01_HelloWorld {
      */
 
     @Benchmark
-    @Measurement
     public void wellHelloThere() {
         // this method was intentionally left blank.
     }
@@ -97,7 +97,7 @@ public class JMHSample_01_HelloWorld {
     public static void main(String[] args) throws RunnerException {
         Options opt = new OptionsBuilder()
                 .include(JMHSample_01_HelloWorld.class.getSimpleName())
-                .forks(1)
+                .forks(0)
                 .build();
 
         new Runner(opt).run();

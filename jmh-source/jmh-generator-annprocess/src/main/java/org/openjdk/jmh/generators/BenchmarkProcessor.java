@@ -49,10 +49,17 @@ public class BenchmarkProcessor extends AbstractProcessor {
         return SourceVersion.latest();
     }
 
+    /**
+     *
+     * @param annotations 注解
+     * @param roundEnv 抽象语法树
+     * @return
+     */
     @Override
     public boolean process(Set<? extends TypeElement> annotations, RoundEnvironment roundEnv) {
         GeneratorSource source = new APGeneratorSource(roundEnv, processingEnv);
         GeneratorDestination destination = new APGeneratorDestinaton(roundEnv, processingEnv);
+        //processingOver:如果循环处理完成返回true，否则返回false。
         if (!roundEnv.processingOver()) {
             generator.generate(source, destination);
         } else {

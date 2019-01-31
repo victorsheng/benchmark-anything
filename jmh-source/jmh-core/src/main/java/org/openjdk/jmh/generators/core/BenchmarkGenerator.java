@@ -41,6 +41,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * Benchmark generator.
+ * 代码生成的核心类
  *
  * <p>Benchmark generator is the agnostic piece of code which generates
  * synthetic Java code for JMH benchmarks. {@link GeneratorSource} is
@@ -71,6 +72,7 @@ public class BenchmarkGenerator {
      */
     public void generate(GeneratorSource source, GeneratorDestination destination) {
         try {
+            //Multimap  key:类,value:方法的集合
             // Build a Set of classes with a list of annotated methods
             Multimap<ClassInfo, MethodInfo> clazzes = buildAnnotatedSet(source);
 
@@ -78,9 +80,12 @@ public class BenchmarkGenerator {
             for (ClassInfo clazz : clazzes.keys()) {
                 if (!processedBenchmarks.add(clazz.getQualifiedName())) continue;
                 try {
+                    //校验
                     validateBenchmark(clazz, clazzes.get(clazz));
+                    //Collection<BenchmarkInfo> infos 待测试的方法集合
                     Collection<BenchmarkInfo> infos = makeBenchmarkInfo(clazz, clazzes.get(clazz));
                     for (BenchmarkInfo info : infos) {
+                        //核心方法
                         generateClass(destination, clazz, info);
                     }
                     benchmarkInfos.addAll(infos);
@@ -109,6 +114,7 @@ public class BenchmarkGenerator {
     }
 
     /**
+     * 最终调用一次完成方法
      * Finish generating the benchmarks.
      * Must be called at the end of generation.
      *
@@ -435,6 +441,7 @@ public class BenchmarkGenerator {
 
     /**
      * Create and generate Java code for a class and it's methods
+     * 生成java code
      */
     private void generateClass(GeneratorDestination destination, ClassInfo classInfo, BenchmarkInfo info) throws IOException {
         StateObjectHandler states = new StateObjectHandler(compilerControl);
