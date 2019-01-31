@@ -48,11 +48,12 @@ hf clone https://hg.openjdk.java.net/code-tools/jmh 下载
 生成至target/generateted-sources/annotations/目录下
 
 具体文件如下:
-[JMHSample_01_HelloWorld_jmhType.java](jmh-samples/src/main/java/org/openjdk/jmh/samples/generated/sample01/JMHSample_01_HelloWorld_jmhType.java)
-[JMHSample_01_HelloWorld_jmhType_B1.java](jmh-samples/src/main/java/org/openjdk/jmh/samples/generated/sample01/JMHSample_01_HelloWorld_jmhType_B1.java)
-[JMHSample_01_HelloWorld_jmhType_B2.java](jmh-samples/src/main/java/org/openjdk/jmh/samples/generated/sample01/JMHSample_01_HelloWorld_jmhType_B2.java)
-[JMHSample_01_HelloWorld_jmhType_B3.java](jmh-samples/src/main/java/org/openjdk/jmh/samples/generated/sample01/JMHSample_01_HelloWorld_jmhType_B3.java)
-[JMHSample_01_HelloWorld_wellHelloThere_jmhTest.java](jmh-samples/src/main/java/org/openjdk/jmh/samples/generated/sample01/JMHSample_01_HelloWorld_wellHelloThere_jmhTest.java)
+
+- [JMHSample_01_HelloWorld_jmhType.java](jmh-samples/src/main/java/org/openjdk/jmh/samples/generated/sample01/JMHSample_01_HelloWorld_jmhType.java)
+- [JMHSample_01_HelloWorld_jmhType_B1.java](jmh-samples/src/main/java/org/openjdk/jmh/samples/generated/sample01/JMHSample_01_HelloWorld_jmhType_B1.java)
+- [JMHSample_01_HelloWorld_jmhType_B2.java](jmh-samples/src/main/java/org/openjdk/jmh/samples/generated/sample01/JMHSample_01_HelloWorld_jmhType_B2.java)
+- [JMHSample_01_HelloWorld_jmhType_B3.java](jmh-samples/src/main/java/org/openjdk/jmh/samples/generated/sample01/JMHSample_01_HelloWorld_jmhType_B3.java)
+- [JMHSample_01_HelloWorld_wellHelloThere_jmhTest.java](jmh-samples/src/main/java/org/openjdk/jmh/samples/generated/sample01/JMHSample_01_HelloWorld_wellHelloThere_jmhTest.java)
 
 
 ### jmh-samples
