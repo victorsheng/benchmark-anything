@@ -70,6 +70,7 @@ public class JMHSample_01_HelloWorld {
 
     @Benchmark
     public void wellHelloThere() {
+        System.out.println(1);
         // this method was intentionally left blank.
     }
 

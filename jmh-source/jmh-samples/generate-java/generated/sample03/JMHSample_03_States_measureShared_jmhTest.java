@@ -1,40 +1,53 @@
-package org.openjdk.jmh.samples.generated;
+/*
+ * Copyright (c) 2015, Oracle America, Inc.
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions are met:
+ *
+ *  * Redistributions of source code must retain the above copyright notice,
+ *    this list of conditions and the following disclaimer.
+ *
+ *  * Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in the
+ *    documentation and/or other materials provided with the distribution.
+ *
+ *  * Neither the name of Oracle nor the names of its contributors may be used
+ *    to endorse or promote products derived from this software without
+ *    specific prior written permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+ * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ * ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
+ * LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+ * CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+ * SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+ * INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+ * CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
+ * THE POSSIBILITY OF SUCH DAMAGE.
+ */
+package org.openjdk.jmh.samples.generated.sample03;
 
-import java.util.List;
-import java.util.concurrent.atomic.AtomicInteger;
-import java.util.Collection;
-import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
-import org.openjdk.jmh.annotations.CompilerControl;
-import org.openjdk.jmh.runner.InfraControl;
-import org.openjdk.jmh.infra.ThreadParams;
-import org.openjdk.jmh.results.BenchmarkTaskResult;
-import org.openjdk.jmh.results.Result;
-import org.openjdk.jmh.results.ThroughputResult;
-import org.openjdk.jmh.results.AverageTimeResult;
-import org.openjdk.jmh.results.SampleTimeResult;
-import org.openjdk.jmh.results.SingleShotResult;
-import org.openjdk.jmh.util.SampleBuffer;
-import org.openjdk.jmh.annotations.Mode;
-import org.openjdk.jmh.annotations.Fork;
-import org.openjdk.jmh.annotations.Measurement;
-import org.openjdk.jmh.annotations.Threads;
-import org.openjdk.jmh.annotations.Warmup;
-import org.openjdk.jmh.annotations.BenchmarkMode;
-import org.openjdk.jmh.results.RawResults;
-import org.openjdk.jmh.results.ResultRole;
-import java.lang.reflect.Field;
 import org.openjdk.jmh.infra.BenchmarkParams;
-import org.openjdk.jmh.infra.IterationParams;
 import org.openjdk.jmh.infra.Blackhole;
 import org.openjdk.jmh.infra.Control;
-import org.openjdk.jmh.results.ScalarResult;
-import org.openjdk.jmh.results.AggregationPolicy;
+import org.openjdk.jmh.infra.IterationParams;
+import org.openjdk.jmh.infra.ThreadParams;
+import org.openjdk.jmh.results.AverageTimeResult;
+import org.openjdk.jmh.results.BenchmarkTaskResult;
+import org.openjdk.jmh.results.RawResults;
+import org.openjdk.jmh.results.ResultRole;
+import org.openjdk.jmh.results.SampleTimeResult;
+import org.openjdk.jmh.results.SingleShotResult;
+import org.openjdk.jmh.results.ThroughputResult;
 import org.openjdk.jmh.runner.FailureAssistException;
+import org.openjdk.jmh.runner.InfraControl;
+import org.openjdk.jmh.util.SampleBuffer;
 
-import org.openjdk.jmh.samples.generated.JMHSample_13_RunToRun_jmhType;
-import org.openjdk.jmh.samples.generated.JMHSample_13_RunToRun_SleepyState_jmhType;
-public final class JMHSample_13_RunToRun_baseline_jmhTest {
+public final class JMHSample_03_States_measureShared_jmhTest {
 
     boolean p000, p001, p002, p003, p004, p005, p006, p007, p008, p009, p010, p011, p012, p013, p014, p015;
     boolean p016, p017, p018, p019, p020, p021, p022, p023, p024, p025, p026, p027, p028, p029, p030, p031;
@@ -59,7 +72,7 @@ public final class JMHSample_13_RunToRun_baseline_jmhTest {
     Blackhole blackhole;
     Control notifyControl;
 
-    public BenchmarkTaskResult baseline_Throughput(InfraControl control, ThreadParams threadParams) throws Throwable {
+    public BenchmarkTaskResult measureShared_Throughput(InfraControl control, ThreadParams threadParams) throws Throwable {
         this.benchmarkParams = control.benchmarkParams;
         this.iterationParams = control.iterationParams;
         this.threadParams    = threadParams;
@@ -69,25 +82,25 @@ public final class JMHSample_13_RunToRun_baseline_jmhTest {
         }
         if (threadParams.getSubgroupIndex() == 0) {
             RawResults res = new RawResults();
-            JMHSample_13_RunToRun_jmhType l_jmhsample_13_runtorun0_0 = _jmh_tryInit_f_jmhsample_13_runtorun0_0(control);
-            JMHSample_13_RunToRun_SleepyState_jmhType l_sleepystate1_1 = _jmh_tryInit_f_sleepystate1_1(control);
+            JMHSample_03_States_jmhType l_jmhsample_03_states0_0 = _jmh_tryInit_f_jmhsample_03_states0_0(control);
+            JMHSample_03_States_BenchmarkState_jmhType l_benchmarkstate1_G = _jmh_tryInit_f_benchmarkstate1_G(control);
 
             control.preSetup();
 
 
             control.announceWarmupReady();
             while (control.warmupShouldWait) {
-                l_jmhsample_13_runtorun0_0.baseline(l_sleepystate1_1);
+                l_jmhsample_03_states0_0.measureShared(l_benchmarkstate1_G);
                 res.allOps++;
             }
 
             notifyControl.startMeasurement = true;
-            baseline_thrpt_jmhStub(control, res, benchmarkParams, iterationParams, threadParams, blackhole, notifyControl, startRndMask, l_sleepystate1_1, l_jmhsample_13_runtorun0_0);
+            measureShared_thrpt_jmhStub(control, res, benchmarkParams, iterationParams, threadParams, blackhole, notifyControl, startRndMask, l_benchmarkstate1_G, l_jmhsample_03_states0_0);
             notifyControl.stopMeasurement = true;
             control.announceWarmdownReady();
             try {
                 while (control.warmdownShouldWait) {
-                    l_jmhsample_13_runtorun0_0.baseline(l_sleepystate1_1);
+                    l_jmhsample_03_states0_0.measureShared(l_benchmarkstate1_G);
                     res.allOps++;
                 }
                 control.preTearDown();
@@ -96,8 +109,10 @@ public final class JMHSample_13_RunToRun_baseline_jmhTest {
             }
 
             if (control.isLastIteration()) {
-                f_sleepystate1_1 = null;
-                f_jmhsample_13_runtorun0_0 = null;
+                synchronized(this.getClass()) {
+                    f_benchmarkstate1_G = null;
+                }
+                f_jmhsample_03_states0_0 = null;
             }
             res.allOps += res.measuredOps;
             int batchSize = iterationParams.getBatchSize();
@@ -107,19 +122,20 @@ public final class JMHSample_13_RunToRun_baseline_jmhTest {
             res.measuredOps *= opsPerInv;
             res.measuredOps /= batchSize;
             BenchmarkTaskResult results = new BenchmarkTaskResult(res.allOps, res.measuredOps);
-            results.add(new ThroughputResult(ResultRole.PRIMARY, "baseline", res.measuredOps, res.getTime(), benchmarkParams.getTimeUnit()));
+            results.add(new ThroughputResult(ResultRole.PRIMARY, "measureShared", res.measuredOps, res.getTime(), benchmarkParams.getTimeUnit()));
             this.blackhole.evaporate("Yes, I am Stephen Hawking, and know a thing or two about black holes.");
             return results;
         } else
             throw new IllegalStateException("Harness failed to distribute threads among groups properly");
     }
 
-    public static void baseline_thrpt_jmhStub(InfraControl control, RawResults result, BenchmarkParams benchmarkParams, IterationParams iterationParams, ThreadParams threadParams, Blackhole blackhole, Control notifyControl, int startRndMask, JMHSample_13_RunToRun_SleepyState_jmhType l_sleepystate1_1, JMHSample_13_RunToRun_jmhType l_jmhsample_13_runtorun0_0) throws Throwable {
+    public static void measureShared_thrpt_jmhStub(InfraControl control, RawResults result, BenchmarkParams benchmarkParams, IterationParams iterationParams, ThreadParams threadParams, Blackhole blackhole, Control notifyControl, int startRndMask, JMHSample_03_States_BenchmarkState_jmhType l_benchmarkstate1_G, JMHSample_03_States_jmhType l_jmhsample_03_states0_0) throws Throwable {
         long operations = 0;
         long realTime = 0;
         result.startTime = System.nanoTime();
         do {
-            l_jmhsample_13_runtorun0_0.baseline(l_sleepystate1_1);
+            ////有参数方法
+            l_jmhsample_03_states0_0.measureShared(l_benchmarkstate1_G);
             operations++;
         } while(!control.isDone);
         result.stopTime = System.nanoTime();
@@ -128,7 +144,7 @@ public final class JMHSample_13_RunToRun_baseline_jmhTest {
     }
 
 
-    public BenchmarkTaskResult baseline_AverageTime(InfraControl control, ThreadParams threadParams) throws Throwable {
+    public BenchmarkTaskResult measureShared_AverageTime(InfraControl control, ThreadParams threadParams) throws Throwable {
         this.benchmarkParams = control.benchmarkParams;
         this.iterationParams = control.iterationParams;
         this.threadParams    = threadParams;
@@ -138,25 +154,25 @@ public final class JMHSample_13_RunToRun_baseline_jmhTest {
         }
         if (threadParams.getSubgroupIndex() == 0) {
             RawResults res = new RawResults();
-            JMHSample_13_RunToRun_jmhType l_jmhsample_13_runtorun0_0 = _jmh_tryInit_f_jmhsample_13_runtorun0_0(control);
-            JMHSample_13_RunToRun_SleepyState_jmhType l_sleepystate1_1 = _jmh_tryInit_f_sleepystate1_1(control);
+            JMHSample_03_States_jmhType l_jmhsample_03_states0_0 = _jmh_tryInit_f_jmhsample_03_states0_0(control);
+            JMHSample_03_States_BenchmarkState_jmhType l_benchmarkstate1_G = _jmh_tryInit_f_benchmarkstate1_G(control);
 
             control.preSetup();
 
 
             control.announceWarmupReady();
             while (control.warmupShouldWait) {
-                l_jmhsample_13_runtorun0_0.baseline(l_sleepystate1_1);
+                l_jmhsample_03_states0_0.measureShared(l_benchmarkstate1_G);
                 res.allOps++;
             }
 
             notifyControl.startMeasurement = true;
-            baseline_avgt_jmhStub(control, res, benchmarkParams, iterationParams, threadParams, blackhole, notifyControl, startRndMask, l_sleepystate1_1, l_jmhsample_13_runtorun0_0);
+            measureShared_avgt_jmhStub(control, res, benchmarkParams, iterationParams, threadParams, blackhole, notifyControl, startRndMask, l_benchmarkstate1_G, l_jmhsample_03_states0_0);
             notifyControl.stopMeasurement = true;
             control.announceWarmdownReady();
             try {
                 while (control.warmdownShouldWait) {
-                    l_jmhsample_13_runtorun0_0.baseline(l_sleepystate1_1);
+                    l_jmhsample_03_states0_0.measureShared(l_benchmarkstate1_G);
                     res.allOps++;
                 }
                 control.preTearDown();
@@ -165,8 +181,10 @@ public final class JMHSample_13_RunToRun_baseline_jmhTest {
             }
 
             if (control.isLastIteration()) {
-                f_sleepystate1_1 = null;
-                f_jmhsample_13_runtorun0_0 = null;
+                synchronized(this.getClass()) {
+                    f_benchmarkstate1_G = null;
+                }
+                f_jmhsample_03_states0_0 = null;
             }
             res.allOps += res.measuredOps;
             int batchSize = iterationParams.getBatchSize();
@@ -176,19 +194,19 @@ public final class JMHSample_13_RunToRun_baseline_jmhTest {
             res.measuredOps *= opsPerInv;
             res.measuredOps /= batchSize;
             BenchmarkTaskResult results = new BenchmarkTaskResult(res.allOps, res.measuredOps);
-            results.add(new AverageTimeResult(ResultRole.PRIMARY, "baseline", res.measuredOps, res.getTime(), benchmarkParams.getTimeUnit()));
+            results.add(new AverageTimeResult(ResultRole.PRIMARY, "measureShared", res.measuredOps, res.getTime(), benchmarkParams.getTimeUnit()));
             this.blackhole.evaporate("Yes, I am Stephen Hawking, and know a thing or two about black holes.");
             return results;
         } else
             throw new IllegalStateException("Harness failed to distribute threads among groups properly");
     }
 
-    public static void baseline_avgt_jmhStub(InfraControl control, RawResults result, BenchmarkParams benchmarkParams, IterationParams iterationParams, ThreadParams threadParams, Blackhole blackhole, Control notifyControl, int startRndMask, JMHSample_13_RunToRun_SleepyState_jmhType l_sleepystate1_1, JMHSample_13_RunToRun_jmhType l_jmhsample_13_runtorun0_0) throws Throwable {
+    public static void measureShared_avgt_jmhStub(InfraControl control, RawResults result, BenchmarkParams benchmarkParams, IterationParams iterationParams, ThreadParams threadParams, Blackhole blackhole, Control notifyControl, int startRndMask, JMHSample_03_States_BenchmarkState_jmhType l_benchmarkstate1_G, JMHSample_03_States_jmhType l_jmhsample_03_states0_0) throws Throwable {
         long operations = 0;
         long realTime = 0;
         result.startTime = System.nanoTime();
         do {
-            l_jmhsample_13_runtorun0_0.baseline(l_sleepystate1_1);
+            l_jmhsample_03_states0_0.measureShared(l_benchmarkstate1_G);
             operations++;
         } while(!control.isDone);
         result.stopTime = System.nanoTime();
@@ -197,7 +215,7 @@ public final class JMHSample_13_RunToRun_baseline_jmhTest {
     }
 
 
-    public BenchmarkTaskResult baseline_SampleTime(InfraControl control, ThreadParams threadParams) throws Throwable {
+    public BenchmarkTaskResult measureShared_SampleTime(InfraControl control, ThreadParams threadParams) throws Throwable {
         this.benchmarkParams = control.benchmarkParams;
         this.iterationParams = control.iterationParams;
         this.threadParams    = threadParams;
@@ -207,15 +225,15 @@ public final class JMHSample_13_RunToRun_baseline_jmhTest {
         }
         if (threadParams.getSubgroupIndex() == 0) {
             RawResults res = new RawResults();
-            JMHSample_13_RunToRun_jmhType l_jmhsample_13_runtorun0_0 = _jmh_tryInit_f_jmhsample_13_runtorun0_0(control);
-            JMHSample_13_RunToRun_SleepyState_jmhType l_sleepystate1_1 = _jmh_tryInit_f_sleepystate1_1(control);
+            JMHSample_03_States_jmhType l_jmhsample_03_states0_0 = _jmh_tryInit_f_jmhsample_03_states0_0(control);
+            JMHSample_03_States_BenchmarkState_jmhType l_benchmarkstate1_G = _jmh_tryInit_f_benchmarkstate1_G(control);
 
             control.preSetup();
 
 
             control.announceWarmupReady();
             while (control.warmupShouldWait) {
-                l_jmhsample_13_runtorun0_0.baseline(l_sleepystate1_1);
+                l_jmhsample_03_states0_0.measureShared(l_benchmarkstate1_G);
                 res.allOps++;
             }
 
@@ -224,12 +242,12 @@ public final class JMHSample_13_RunToRun_baseline_jmhTest {
             int batchSize = iterationParams.getBatchSize();
             int opsPerInv = benchmarkParams.getOpsPerInvocation();
             SampleBuffer buffer = new SampleBuffer();
-            baseline_sample_jmhStub(control, res, benchmarkParams, iterationParams, threadParams, blackhole, notifyControl, startRndMask, buffer, targetSamples, opsPerInv, batchSize, l_sleepystate1_1, l_jmhsample_13_runtorun0_0);
+            measureShared_sample_jmhStub(control, res, benchmarkParams, iterationParams, threadParams, blackhole, notifyControl, startRndMask, buffer, targetSamples, opsPerInv, batchSize, l_benchmarkstate1_G, l_jmhsample_03_states0_0);
             notifyControl.stopMeasurement = true;
             control.announceWarmdownReady();
             try {
                 while (control.warmdownShouldWait) {
-                    l_jmhsample_13_runtorun0_0.baseline(l_sleepystate1_1);
+                    l_jmhsample_03_states0_0.measureShared(l_benchmarkstate1_G);
                     res.allOps++;
                 }
                 control.preTearDown();
@@ -238,22 +256,24 @@ public final class JMHSample_13_RunToRun_baseline_jmhTest {
             }
 
             if (control.isLastIteration()) {
-                f_sleepystate1_1 = null;
-                f_jmhsample_13_runtorun0_0 = null;
+                synchronized(this.getClass()) {
+                    f_benchmarkstate1_G = null;
+                }
+                f_jmhsample_03_states0_0 = null;
             }
             res.allOps += res.measuredOps * batchSize;
             res.allOps *= opsPerInv;
             res.allOps /= batchSize;
             res.measuredOps *= opsPerInv;
             BenchmarkTaskResult results = new BenchmarkTaskResult(res.allOps, res.measuredOps);
-            results.add(new SampleTimeResult(ResultRole.PRIMARY, "baseline", buffer, benchmarkParams.getTimeUnit()));
+            results.add(new SampleTimeResult(ResultRole.PRIMARY, "measureShared", buffer, benchmarkParams.getTimeUnit()));
             this.blackhole.evaporate("Yes, I am Stephen Hawking, and know a thing or two about black holes.");
             return results;
         } else
             throw new IllegalStateException("Harness failed to distribute threads among groups properly");
     }
 
-    public static void baseline_sample_jmhStub(InfraControl control, RawResults result, BenchmarkParams benchmarkParams, IterationParams iterationParams, ThreadParams threadParams, Blackhole blackhole, Control notifyControl, int startRndMask, SampleBuffer buffer, int targetSamples, long opsPerInv, int batchSize, JMHSample_13_RunToRun_SleepyState_jmhType l_sleepystate1_1, JMHSample_13_RunToRun_jmhType l_jmhsample_13_runtorun0_0) throws Throwable {
+    public static void measureShared_sample_jmhStub(InfraControl control, RawResults result, BenchmarkParams benchmarkParams, IterationParams iterationParams, ThreadParams threadParams, Blackhole blackhole, Control notifyControl, int startRndMask, SampleBuffer buffer, int targetSamples, long opsPerInv, int batchSize, JMHSample_03_States_BenchmarkState_jmhType l_benchmarkstate1_G, JMHSample_03_States_jmhType l_jmhsample_03_states0_0) throws Throwable {
         long realTime = 0;
         long operations = 0;
         int rnd = (int)System.nanoTime();
@@ -268,7 +288,7 @@ public final class JMHSample_13_RunToRun_baseline_jmhTest {
             }
             for (int b = 0; b < batchSize; b++) {
                 if (control.volatileSpoiler) return;
-                l_jmhsample_13_runtorun0_0.baseline(l_sleepystate1_1);
+                l_jmhsample_03_states0_0.measureShared(l_benchmarkstate1_G);
             }
             if (sample) {
                 buffer.add((System.nanoTime() - time) / opsPerInv);
@@ -286,7 +306,7 @@ public final class JMHSample_13_RunToRun_baseline_jmhTest {
     }
 
 
-    public BenchmarkTaskResult baseline_SingleShotTime(InfraControl control, ThreadParams threadParams) throws Throwable {
+    public BenchmarkTaskResult measureShared_SingleShotTime(InfraControl control, ThreadParams threadParams) throws Throwable {
         this.benchmarkParams = control.benchmarkParams;
         this.iterationParams = control.iterationParams;
         this.threadParams    = threadParams;
@@ -295,8 +315,10 @@ public final class JMHSample_13_RunToRun_baseline_jmhTest {
             this.blackhole = new Blackhole("Today's password is swordfish. I understand instantiating Blackholes directly is dangerous.");
         }
         if (threadParams.getSubgroupIndex() == 0) {
-            JMHSample_13_RunToRun_jmhType l_jmhsample_13_runtorun0_0 = _jmh_tryInit_f_jmhsample_13_runtorun0_0(control);
-            JMHSample_13_RunToRun_SleepyState_jmhType l_sleepystate1_1 = _jmh_tryInit_f_sleepystate1_1(control);
+            //自身作为state
+            JMHSample_03_States_jmhType l_jmhsample_03_states0_0 = _jmh_tryInit_f_jmhsample_03_states0_0(control);
+            //benchmark级别的State(相当于全局的)
+            JMHSample_03_States_BenchmarkState_jmhType l_benchmarkstate1_G = _jmh_tryInit_f_benchmarkstate1_G(control);
 
             control.preSetup();
 
@@ -304,56 +326,70 @@ public final class JMHSample_13_RunToRun_baseline_jmhTest {
             notifyControl.startMeasurement = true;
             RawResults res = new RawResults();
             int batchSize = iterationParams.getBatchSize();
-            baseline_ss_jmhStub(control, res, benchmarkParams, iterationParams, threadParams, blackhole, notifyControl, startRndMask, batchSize, l_sleepystate1_1, l_jmhsample_13_runtorun0_0);
+            measureShared_ss_jmhStub(control, res, benchmarkParams, iterationParams, threadParams, blackhole, notifyControl, startRndMask, batchSize, l_benchmarkstate1_G, l_jmhsample_03_states0_0);
             control.preTearDown();
 
             if (control.isLastIteration()) {
-                f_sleepystate1_1 = null;
-                f_jmhsample_13_runtorun0_0 = null;
+                synchronized(this.getClass()) {
+                    f_benchmarkstate1_G = null;
+                }
+                f_jmhsample_03_states0_0 = null;
             }
             int opsPerInv = control.benchmarkParams.getOpsPerInvocation();
             long totalOps = opsPerInv;
             BenchmarkTaskResult results = new BenchmarkTaskResult(totalOps, totalOps);
-            results.add(new SingleShotResult(ResultRole.PRIMARY, "baseline", res.getTime(), benchmarkParams.getTimeUnit()));
+            results.add(new SingleShotResult(ResultRole.PRIMARY, "measureShared", res.getTime(), benchmarkParams.getTimeUnit()));
             this.blackhole.evaporate("Yes, I am Stephen Hawking, and know a thing or two about black holes.");
             return results;
         } else
             throw new IllegalStateException("Harness failed to distribute threads among groups properly");
     }
 
-    public static void baseline_ss_jmhStub(InfraControl control, RawResults result, BenchmarkParams benchmarkParams, IterationParams iterationParams, ThreadParams threadParams, Blackhole blackhole, Control notifyControl, int startRndMask, int batchSize, JMHSample_13_RunToRun_SleepyState_jmhType l_sleepystate1_1, JMHSample_13_RunToRun_jmhType l_jmhsample_13_runtorun0_0) throws Throwable {
+    public static void measureShared_ss_jmhStub(InfraControl control, RawResults result, BenchmarkParams benchmarkParams, IterationParams iterationParams, ThreadParams threadParams, Blackhole blackhole, Control notifyControl, int startRndMask, int batchSize, JMHSample_03_States_BenchmarkState_jmhType l_benchmarkstate1_G, JMHSample_03_States_jmhType l_jmhsample_03_states0_0) throws Throwable {
         long realTime = 0;
         result.startTime = System.nanoTime();
         for (int b = 0; b < batchSize; b++) {
             if (control.volatileSpoiler) return;
-            l_jmhsample_13_runtorun0_0.baseline(l_sleepystate1_1);
+            l_jmhsample_03_states0_0.measureShared(l_benchmarkstate1_G);
         }
         result.stopTime = System.nanoTime();
         result.realTime = realTime;
     }
 
+    //全局级别
+    static volatile JMHSample_03_States_BenchmarkState_jmhType f_benchmarkstate1_G;
     
-    JMHSample_13_RunToRun_jmhType f_jmhsample_13_runtorun0_0;
-    
-    JMHSample_13_RunToRun_jmhType _jmh_tryInit_f_jmhsample_13_runtorun0_0(InfraControl control) throws Throwable {
-        if (control.isFailing) throw new FailureAssistException();
-        JMHSample_13_RunToRun_jmhType val = f_jmhsample_13_runtorun0_0;
-        if (val == null) {
-            val = new JMHSample_13_RunToRun_jmhType();
-            f_jmhsample_13_runtorun0_0 = val;
+    JMHSample_03_States_BenchmarkState_jmhType _jmh_tryInit_f_benchmarkstate1_G(InfraControl control) throws Throwable {
+        JMHSample_03_States_BenchmarkState_jmhType val = f_benchmarkstate1_G;
+        if (val != null) {
+            return val;
+        }
+        synchronized(this.getClass()) {
+            try {
+            if (control.isFailing) throw new FailureAssistException();
+            val = f_benchmarkstate1_G;
+            if (val != null) {
+                return val;
+            }
+            val = new JMHSample_03_States_BenchmarkState_jmhType();
+            val.readyTrial = true;
+            f_benchmarkstate1_G = val;
+            } catch (Throwable t) {
+                control.isFailing = true;
+                throw t;
+            }
         }
         return val;
     }
     
-    JMHSample_13_RunToRun_SleepyState_jmhType f_sleepystate1_1;
+    JMHSample_03_States_jmhType f_jmhsample_03_states0_0;
     
-    JMHSample_13_RunToRun_SleepyState_jmhType _jmh_tryInit_f_sleepystate1_1(InfraControl control) throws Throwable {
+    JMHSample_03_States_jmhType _jmh_tryInit_f_jmhsample_03_states0_0(InfraControl control) throws Throwable {
         if (control.isFailing) throw new FailureAssistException();
-        JMHSample_13_RunToRun_SleepyState_jmhType val = f_sleepystate1_1;
+        JMHSample_03_States_jmhType val = f_jmhsample_03_states0_0;
         if (val == null) {
-            val = new JMHSample_13_RunToRun_SleepyState_jmhType();
-            val.setup();
-            f_sleepystate1_1 = val;
+            val = new JMHSample_03_States_jmhType();
+            f_jmhsample_03_states0_0 = val;
         }
         return val;
     }

@@ -1,4 +1,0 @@
-package org.openjdk.jmh.benchmarks.generated;
-public class LevelInvocationBench_BenchmarkTeardown_jmhType extends LevelInvocationBench_BenchmarkTeardown_jmhType_B3 {
-}
-
