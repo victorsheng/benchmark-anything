@@ -89,19 +89,19 @@ public final class JMHSample_01_HelloWorld_wellHelloThere_jmhTest {
 
 
             control.announceWarmupReady();
+            //如果需要虚拟同步的话,可以多执行几次(开始阶段)
             while (control.warmupShouldWait) {
                 l_jmhsample_01_helloworld0_0.wellHelloThere();
                 res.allOps++;
             }
 
             notifyControl.startMeasurement = true;
-            //stub
-            //整个才是 真正的测量方法调用
+            //这个才是 真正的测量方法调用
             wellHelloThere_thrpt_jmhStub(control, res, benchmarkParams, iterationParams, threadParams, blackhole, notifyControl, startRndMask, l_jmhsample_01_helloworld0_0);
             notifyControl.stopMeasurement = true;
             control.announceWarmdownReady();
             try {
-                //关键的开关,如果true则一直循环
+                //如果需要虚拟同步的话,可以多执行几次(结束阶段)
                 while (control.warmdownShouldWait) {
                     //调用用户所测试的代码
                     l_jmhsample_01_helloworld0_0.wellHelloThere();
