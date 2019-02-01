@@ -297,6 +297,7 @@ org/openjdk/jmh/samples/JMHSample_25_API_GA.class
 org/openjdk/jmh/samples/generated/JMHSample_02_BenchmarkModes_measureSingleShot_jmhTest.class
 org/openjdk/jmh/samples/generated/JMHSample_37_CacheAccess_colFirst_jmhTest.class
 org/openjdk/jmh/samples/generated/JMHSample_33_SecurityManager_jmhType.class
+org/openjdk/jmh/samples/generated/JMHSample_12_Forking_measure_6_jmhTest.class
 org/openjdk/jmh/samples/JMHSample_31_InfraParams.class
 org/openjdk/jmh/samples/generated/JMHSample_22_FalseSharing_jmhType_B1.class
 org/openjdk/jmh/samples/generated/JMHSample_13_RunToRun_baseline_jmhTest.class

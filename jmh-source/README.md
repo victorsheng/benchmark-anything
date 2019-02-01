@@ -77,6 +77,66 @@ scala,grooby,kotlin都是通过这个入口生成的测量代码
             source = src;
 ```
 
+## jmh-core-it
+集成测试
+pom文件中定义了三个profile,分别是:
+- default:jmh-generator-annprocess
+- asm
+- reflection
+```` 
+benchmark
+blackhole
+collisions
+exceptions
+multsession
+other
+params
+states
+````
+
+
+## jmh-core-ct
+针对所有注解的测试,各种情况的测试
+```
+annsteal
+asymm
+auxcounters
+batchsize
+bulkwarmup
+ccontrol
+control
+dagorder
+errors
+fails
+footprint
+fork
+infraparams
+interorder
+intraorder
+parameters
+params
+profilers
+races
+result
+security
+sharing
+synciter
+threadparams
+threads
+times 
+```
+
+## jmh-core-benchmarks
+这个测试显示了可以测量的最小单个时间。这通常只影响采样时间和单一基准模式。吞吐量/ AverageTime测试可以做得更好，因为它们在完整的迭代之前和之后只执行一些时间戳。
+
+## jmh-archetypes
+包含groovy,java,kotlin,scala语言的模板工程
+
+
+## jmh-ant-sample
+ant集成jmh框架
+
+
 # 我理解的jmh架构
 
 ## 运行时架构图

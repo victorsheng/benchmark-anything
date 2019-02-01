@@ -1,3 +1,0 @@
-Exception in thread "main" org.openjdk.jmh.runner.RunnerException: ERROR: Unable to acquire the JMH lock (/var/folders/ky/bxkqd1m55zj3zybvmjwrrxdw0000gn/T//jmh.lock): already taken by another JMH instance, exiting. Use -Djmh.ignoreLock=true to forcefully continue.
-	at org.openjdk.jmh.runner.Runner.run(Runner.java:205)
-	at org.openjdk.jmh.samples.JMHSample_15_Asymmetric.main(JMHSample_15_Asymmetric.java:124)
