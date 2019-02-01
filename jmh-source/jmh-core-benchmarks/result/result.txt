@@ -1,0 +1,371 @@
+JMH Core Benchmarks, Validation Tests
+----------------------------------------------------------------------------------------------------------
+
+# JMH 1.22-SNAPSHOT (released today)
+# JDK 1.8.0_112, VM 25.112-b15
+# Linux, amd64, 3.10.0-327.18.2.el7.x86_64
+
+  These tests assess the current benchmarking environment health, including hardware, 
+  OS, JVM, and JMH itself. While the failure on these tests does not immediately means 
+  the problem with environment, it is instructive to understand and follow up on oddities 
+  in these tests. 
+
+  If you are sharing this report, please share it in full, including the JVM version, 
+  OS flavor and version, plus some data on used hardware. 
+
+  Use -h to get help on available options.
+
+--------- TIMING MEASUREMENTS TEST
+
+  This test shows the minimal individual timings possible to measure. This normally 
+  affects only SampleTime and SingleShot benchmark modes. Throughput/AverageTime tests 
+  can do better since they do only a few timestamps before and after the complete iteration. 
+  
+
+                  nanoTime() latency, one thread:      37.45 ±       1.07 ns
+                  nanoTime() latency, max thread:      52.70 ±       0.49 ns
+
+         currentTimeMillis() latency, one thread:      41.36 ±       1.73 ns
+         currentTimeMillis() latency, max thread:      53.26 ±       0.47 ns
+
+              nanoTime() granularity, one thread:      36.20 ±       1.95 ns
+              nanoTime() granularity, max thread:      54.59 ±       0.79 ns
+
+     currentTimeMillis() granularity, one thread:  998358.90 ±     505.95 ns
+     currentTimeMillis() granularity, max thread: 1005686.16 ±    3075.30 ns
+
+         Throughput, empty benchmark, one thread:       2.35 ±       0.06 ops/ns
+        AverageTime, empty benchmark, one thread:       0.43 ±       0.01 ns/op
+         SampleTime, empty benchmark, one thread:      71.99 ±       3.94 ns/op
+     SingleShotTime, empty benchmark, one thread:    1359.76 ±    2495.13 ns/op
+
+         Throughput, empty benchmark, max thread:      46.83 ±       0.25 ops/ns
+        AverageTime, empty benchmark, max thread:       0.85 ±       0.00 ns/op
+         SampleTime, empty benchmark, max thread:     104.50 ±       8.51 ns/op
+     SingleShotTime, empty benchmark, max thread:     560.06 ±     203.51 ns/op
+
+--------- COMPILER HINTS TEST
+
+  This tests verifies compiler hints are working as expected. Two baseline tests 
+  run the workload in inlined and non-inlined regiments. When the workload is inlined, 
+  the optimizations should kill the workload body. Compiler hints should successfully 
+  survive in both regiments: INLINE should always inline, and DONT_INLINE should always 
+  break inlining. EXCLUDE should be neutral to inlining policy completely. 
+
+                           Default inline policy: 0.43 ± 0.02 ns
+                      + @CompilerControl(INLINE): 0.44 ± 0.02 ns
+                 + @CompilerControl(DONT_INLINE): 27.89 ± 1.24 ns
+                     + @CompilerControl(EXCLUDE): 105.22 ± 8.36 ns
+
+                        Default no inline policy: 29.37 ± 0.82 ns
+                      + @CompilerControl(INLINE): 0.43 ± 0.02 ns
+                 + @CompilerControl(DONT_INLINE): 28.74 ± 1.16 ns
+                     + @CompilerControl(EXCLUDE): 102.76 ± 3.55 ns
+
+--------- THERMAL RUNDOWN TEST
+
+  This test tries to heat the machine up, trying to kick in the thermal throttling. 
+  If you see the diminishing performance over time, then your system throttles, and 
+  many benchmark experiments are unreliable. 
+
+   3.22 ± 0.03 ms/op
+   3.22 ± 0.03 ms/op
+   3.23 ± 0.03 ms/op
+   3.21 ± 0.03 ms/op
+   3.21 ± 0.02 ms/op
+   3.22 ± 0.03 ms/op
+   3.21 ± 0.02 ms/op
+   3.21 ± 0.02 ms/op
+   3.21 ± 0.02 ms/op
+   3.21 ± 0.02 ms/op
+   3.22 ± 0.02 ms/op
+   3.28 ± 0.06 ms/op
+   3.21 ± 0.03 ms/op
+   3.21 ± 0.02 ms/op
+   3.21 ± 0.02 ms/op
+   3.21 ± 0.02 ms/op
+   3.21 ± 0.02 ms/op
+   3.21 ± 0.02 ms/op
+
+--------- SCORE STABILITY TEST
+
+  This test verifies the performance for a large busy benchmark is the same, regardless 
+  of the benchmark mode, and delay before the iteration. The performance should be 
+  the same across all delay values, and comparable across different benchmark modes. 
+  If there is a significant difference on different delay levels, this is usually indicative 
+  of power-saving features enabled, making bursty benchmarks unreliable. 
+
+  Scores are milliseconds per benchmark operation, or the reciprocal to it.
+  Delays are injected before each iteration, and are measured in milliseconds.
+
+                                   0               1              10             100            1000
+        Throughput:      0.33 ± 0.02     0.33 ± 0.02     0.34 ± 0.02     0.31 ± 0.02     0.30 ± 0.02   ops/ms
+       AverageTime:      3.02 ± 0.15     3.13 ± 0.20     2.79 ± 0.08     3.02 ± 0.12     3.20 ± 0.14   ms/op
+        SampleTime:      2.91 ± 0.02     2.92 ± 0.02     3.01 ± 0.02     3.13 ± 0.03     3.24 ± 0.04   ms/op
+    SingleShotTime:      3.59 ± 0.62     3.94 ± 0.75     3.60 ± 0.59     5.61 ± 0.20     5.63 ± 0.15   ms/op
+
+--------- THREAD SCALING TEST
+
+  This test verifies the performance when scaling in multiple threads. In Throughput 
+  mode, the benchmark should scale almost linearly, at least before the number of physical 
+  cores is reached. In other modes, the timings for individual ops should stay roughly 
+  the same, at least before the number of physical cores is reached. The departure 
+  from the expected behavior might be indicative of scheduling irregularities, power 
+  saving features being enabled, process affinity enforced in virtualized environments, 
+  etc. -- these may potentially disrupt multi-threaded benchmarks correctness. 
+
+  Scores are relative to a single-threaded case.
+  Threads are scaled from 1 to the number of hardware threads.
+
+                                   1               2               5              10              20              40
+        Throughput:    1.00x ± 0.06x   1.96x ± 0.10x   4.65x ± 0.21x   9.30x ± 0.40x  18.74x ± 0.82x  35.15x ± 1.50x
+       AverageTime:    1.00x ± 0.07x   1.05x ± 0.07x   1.07x ± 0.06x   1.08x ± 0.06x   1.06x ± 0.06x   1.13x ± 0.06x
+        SampleTime:    1.00x ± 0.01x   0.93x ± 0.01x   0.96x ± 0.01x   0.96x ± 0.01x   0.96x ± 0.01x   1.02x ± 0.01x
+    SingleShotTime:    1.00x ± 0.18x   0.92x ± 0.14x   0.86x ± 0.12x   0.84x ± 0.11x   0.77x ± 0.10x   0.77x ± 0.10x
+
+--------- HELPER METHOD TEST
+
+  These tests show the overheads of using the benchmark methods. Normally, only Level.Invocation 
+  helpers should affect the benchmark performance, since other helpers execute outside 
+  the benchmark path. 
+
+                          running empty benchmark: 0.42 ± 0.02 ns
+
+     Scope.Benchmark,      Level.Trial,     @Setup: 0.45 ± 0.02 ns
+     Scope.Benchmark,      Level.Trial,  @TearDown: 0.42 ± 0.02 ns
+     Scope.Benchmark,  Level.Iteration,     @Setup: 0.41 ± 0.02 ns
+     Scope.Benchmark,  Level.Iteration,  @TearDown: 0.42 ± 0.01 ns
+     Scope.Benchmark, Level.Invocation,     @Setup: 33.39 ± 1.83 ns
+     Scope.Benchmark, Level.Invocation,  @TearDown: 31.60 ± 1.29 ns
+
+         Scope.Group,      Level.Trial,     @Setup: 0.43 ± 0.01 ns
+         Scope.Group,      Level.Trial,  @TearDown: 0.43 ± 0.01 ns
+         Scope.Group,  Level.Iteration,     @Setup: 0.43 ± 0.01 ns
+         Scope.Group,  Level.Iteration,  @TearDown: 0.43 ± 0.01 ns
+         Scope.Group, Level.Invocation,     @Setup: 33.57 ± 1.12 ns
+         Scope.Group, Level.Invocation,  @TearDown: 32.75 ± 0.99 ns
+
+        Scope.Thread,      Level.Trial,     @Setup: 0.42 ± 0.02 ns
+        Scope.Thread,      Level.Trial,  @TearDown: 0.44 ± 0.02 ns
+        Scope.Thread,  Level.Iteration,     @Setup: 0.44 ± 0.03 ns
+        Scope.Thread,  Level.Iteration,  @TearDown: 0.43 ± 0.02 ns
+        Scope.Thread, Level.Invocation,     @Setup: 32.70 ± 1.19 ns
+        Scope.Thread, Level.Invocation,  @TearDown: 32.74 ± 1.00 ns
+
+
+--------- BLACKHOLE CONSUME CPU TEST
+
+  This test assesses the Blackhole.consumeCPU performance, that should be linear 
+  to the number of tokens. The performance can be slightly different on low token counts. 
+  Otherwise, the backoffs with consumeCPU are not reliable. 
+
+  Scores are (normalized) nanoseconds per token.
+
+           #Tokens: 
+                 1: 4.41 ± 0.18 ns
+                 2: 2.74 ± 0.13 ns
+                 3: 2.31 ± 0.15 ns
+                 4: 2.10 ± 0.09 ns
+                 5: 2.05 ± 0.13 ns
+                 6: 1.90 ± 0.11 ns
+                 7: 1.92 ± 0.11 ns
+                 8: 1.86 ± 0.05 ns
+                 9: 1.96 ± 0.09 ns
+                10: 2.01 ± 0.11 ns
+                20: 2.36 ± 0.09 ns
+                30: 2.54 ± 0.10 ns
+                40: 2.69 ± 0.08 ns
+                50: 2.95 ± 0.15 ns
+                60: 2.89 ± 0.10 ns
+                70: 2.78 ± 0.08 ns
+                80: 2.90 ± 0.11 ns
+                90: 2.92 ± 0.08 ns
+               100: 2.96 ± 0.14 ns
+               500: 2.97 ± 0.11 ns
+              1000: 3.13 ± 0.16 ns
+              5000: 3.11 ± 0.15 ns
+             10000: 3.05 ± 0.12 ns
+             50000: 2.97 ± 0.10 ns
+            100000: 3.08 ± 0.15 ns
+            500000: 3.03 ± 0.19 ns
+           1000000: 3.09 ± 0.11 ns
+           5000000: 3.07 ± 0.16 ns
+          10000000: 3.01 ± 0.15 ns
+
+--------- BLACKHOLE SINGLE INVOCATION TEST
+
+  This test shows the Blackhole overheads, when using a single invocation in the 
+  method, whether implicitly via return from @Benchmark, or explicitly via consume(). 
+  The performance should be the same for implicit and explicit cases, and comparable 
+  across all data types. 
+
+  Scores are nanoseconds per benchmark op.
+
+                                implicit            explicit
+           boolean:       3.37 ± 0.18 ns      3.38 ± 0.13 ns
+              byte:       3.23 ± 0.13 ns      3.33 ± 0.23 ns
+             short:       3.32 ± 0.12 ns      3.38 ± 0.14 ns
+              char:       3.42 ± 0.20 ns      3.38 ± 0.16 ns
+               int:       3.30 ± 0.21 ns      3.39 ± 0.16 ns
+             float:       3.88 ± 0.09 ns      3.70 ± 0.24 ns
+              long:       3.31 ± 0.15 ns      3.41 ± 0.27 ns
+            double:       3.88 ± 0.18 ns      3.63 ± 0.17 ns
+            Object:       4.30 ± 0.33 ns      4.37 ± 0.37 ns
+             Array:       4.21 ± 0.21 ns      4.04 ± 0.12 ns
+
+--------- BLACKHOLE PIPELINED TEST (NORMAL)
+
+  This test shows the Blackhole performance in a loop with a given number of iterations. 
+  We should normally see the uniform numbers across most data types and number of iterations. 
+  If the numbers are wildly non-uniform across the number of iteration, this is indicative 
+  of Blackhole failure, and may point to a serious JMH issue. Scores are nanoseconds 
+  per loop iteration. 
+
+
+  Scores are nanoseconds per (normalized) benchmark op.
+  Trying loops with [1, 10, 100, 1000, 10000] iterations.
+
+                           1              10             100            1000           10000
+   boolean:      5.25 ± 0.12     4.31 ± 0.22     4.37 ± 0.22     4.29 ± 0.20     3.77 ± 0.26
+      byte:      5.46 ± 0.29     4.35 ± 0.24     4.31 ± 0.14     4.24 ± 0.13     3.83 ± 0.28
+     short:      5.27 ± 0.17     4.20 ± 0.21     4.21 ± 0.17     3.86 ± 0.10     3.56 ± 0.17
+      char:      5.35 ± 0.35     4.09 ± 0.13     4.00 ± 0.11     5.05 ± 1.85     3.74 ± 0.31
+       int:      5.26 ± 0.22     4.03 ± 0.18     4.09 ± 0.20     3.89 ± 0.14     3.78 ± 0.31
+     float:      5.58 ± 0.53     4.39 ± 0.26     4.47 ± 0.15     4.44 ± 0.15     4.07 ± 0.17
+      long:      5.34 ± 0.20     4.25 ± 0.27     4.05 ± 0.09     4.18 ± 0.15     3.85 ± 0.28
+    double:      5.44 ± 0.37     4.69 ± 0.21     4.55 ± 0.21     4.40 ± 0.28     4.21 ± 0.22
+    Object:      5.74 ± 0.30     4.65 ± 0.17     4.94 ± 0.38     4.90 ± 0.37     4.29 ± 0.17
+     Array:      5.71 ± 0.35     4.74 ± 0.16     4.65 ± 0.17     4.69 ± 0.17     4.38 ± 0.24
+
+--------- BLACKHOLE PIPELINED TEST + REAL PAYLOAD (NORMAL)
+
+  This test shows the Blackhole performance in a loop with a given number of iterations. 
+  We should normally see the uniform numbers across most data types and number of iterations. 
+  If the numbers are wildly non-uniform across the number of iteration, this is indicative 
+  of Blackhole failure, and may point to a serious JMH issue. Scores are nanoseconds 
+  per loop iteration. 
+
+  Real payload is being injected into the benchmark.
+
+
+  Scores are nanoseconds per (normalized) benchmark op.
+  Trying loops with [1, 10, 100, 1000, 10000] iterations.
+
+                           1              10             100            1000           10000
+   boolean:     59.53 ± 2.15    38.24 ± 1.08    33.61 ± 0.99    33.82 ± 1.09    33.58 ± 1.26
+      byte:     63.36 ± 2.94    41.86 ± 1.68    38.20 ± 1.28    48.08 ± 1.89    50.45 ± 2.11
+     short:     64.28 ± 1.95    41.49 ± 1.52    38.88 ± 1.44    38.74 ± 1.47    39.46 ± 1.92
+      char:     63.58 ± 2.47    42.01 ± 1.59    39.60 ± 1.26    39.02 ± 1.85    37.87 ± 0.78
+       int:     63.26 ± 2.12    42.23 ± 1.55    39.09 ± 1.24    39.50 ± 1.71    39.03 ± 1.22
+     float:     58.51 ± 2.04    42.13 ± 1.28    39.09 ± 1.92    39.54 ± 1.37    38.98 ± 1.35
+      long:     60.99 ± 2.03    42.51 ± 2.30    38.83 ± 0.96    38.56 ± 0.71    39.64 ± 1.56
+    double:     57.77 ± 1.33    38.08 ± 1.63    32.91 ± 1.45    34.26 ± 1.31    33.03 ± 1.64
+    Object:     64.96 ± 2.85    43.92 ± 2.35    39.66 ± 1.91    37.62 ± 2.38    38.15 ± 2.04
+     Array:     70.61 ± 2.22    49.11 ± 2.06    43.66 ± 2.23    42.24 ± 2.17    43.82 ± 2.53
+
+--------- BLACKHOLE PIPELINED TEST (INLINE HINTS BROKEN)
+
+  This test shows the Blackhole performance in a loop with a given number of iterations. 
+  We should normally see the uniform numbers across most data types and number of iterations. 
+  If the numbers are wildly non-uniform across the number of iteration, this is indicative 
+  of Blackhole failure, and may point to a serious JMH issue. Scores are nanoseconds 
+  per loop iteration. 
+
+  This particular test mode forces the inline of Blackhole methods, and so demolishes 
+  one of the layers in defence in depth. If this layer is broken, Blackhole should 
+  also survive. If it isn't, then JMH will have to provide more contingencies. 
+
+
+  Scores are nanoseconds per (normalized) benchmark op.
+  Trying loops with [1, 10, 100, 1000, 10000] iterations.
+
+                           1              10             100            1000           10000
+   boolean:      2.61 ± 0.09     2.25 ± 0.12     2.01 ± 0.06     1.85 ± 0.09     1.75 ± 0.06
+      byte:      2.60 ± 0.10     2.22 ± 0.08     1.95 ± 0.08     1.78 ± 0.04     1.77 ± 0.09
+     short:      2.61 ± 0.07     2.25 ± 0.07     2.02 ± 0.06     1.71 ± 0.06     1.75 ± 0.07
+      char:      2.57 ± 0.09     2.21 ± 0.10     1.99 ± 0.06     1.74 ± 0.04     1.76 ± 0.08
+       int:      2.46 ± 0.08     1.89 ± 0.06     1.82 ± 0.07     1.84 ± 0.10     1.74 ± 0.04
+     float:      2.86 ± 0.12     2.35 ± 0.09     2.15 ± 0.07     2.04 ± 0.06     2.01 ± 0.09
+      long:      2.67 ± 0.07     2.27 ± 0.07     2.04 ± 0.05     1.78 ± 0.04     1.73 ± 0.06
+    double:      2.87 ± 0.11     2.38 ± 0.16     2.17 ± 0.11     2.00 ± 0.08     2.01 ± 0.12
+    Object:      3.99 ± 0.14     4.01 ± 0.17     3.93 ± 0.09     3.92 ± 0.19     3.91 ± 0.12
+     Array:      3.92 ± 0.16     3.87 ± 0.18     3.89 ± 0.13     4.01 ± 0.17     4.00 ± 0.19
+
+--------- BLACKHOLE PIPELINED TEST + REAL PAYLOAD (INLINE HINTS BROKEN)
+
+  This test shows the Blackhole performance in a loop with a given number of iterations. 
+  We should normally see the uniform numbers across most data types and number of iterations. 
+  If the numbers are wildly non-uniform across the number of iteration, this is indicative 
+  of Blackhole failure, and may point to a serious JMH issue. Scores are nanoseconds 
+  per loop iteration. 
+
+  Real payload is being injected into the benchmark.
+
+  This particular test mode forces the inline of Blackhole methods, and so demolishes 
+  one of the layers in defence in depth. If this layer is broken, Blackhole should 
+  also survive. If it isn't, then JMH will have to provide more contingencies. 
+
+
+  Scores are nanoseconds per (normalized) benchmark op.
+  Trying loops with [1, 10, 100, 1000, 10000] iterations.
+
+                           1              10             100            1000           10000
+   boolean:     55.69 ± 1.78    34.24 ± 0.92    31.06 ± 0.98    29.85 ± 1.24    29.63 ± 0.97
+      byte:     58.91 ± 2.65    41.66 ± 1.49    37.83 ± 1.15    48.36 ± 1.43    48.26 ± 1.32
+     short:     57.11 ± 2.14    40.55 ± 1.15    38.20 ± 1.04    37.33 ± 1.16    38.90 ± 1.86
+      char:     59.25 ± 1.85    40.43 ± 1.18    38.43 ± 1.65    38.52 ± 1.43    38.90 ± 1.61
+       int:     58.69 ± 2.74    40.29 ± 1.06    38.83 ± 1.55    37.82 ± 1.21    39.16 ± 2.27
+     float:     53.81 ± 2.67    42.14 ± 1.57    37.39 ± 1.65    37.47 ± 1.41    38.14 ± 1.97
+      long:     57.73 ± 1.64    41.51 ± 2.17    39.20 ± 1.23    37.76 ± 2.53    40.08 ± 1.11
+    double:     54.01 ± 1.73    35.00 ± 0.80    32.13 ± 1.05    31.53 ± 0.88    29.83 ± 0.86
+    Object:     59.74 ± 2.99    37.32 ± 1.96    34.74 ± 1.12    36.86 ± 2.02    36.84 ± 2.79
+     Array:     64.66 ± 2.86    42.36 ± 2.27    38.95 ± 1.34    39.68 ± 2.32    39.88 ± 2.23
+
+--------- BLACKHOLE MERGING TEST (NORMAL)
+
+  This test verifies that calling the Blackhole.consume with the same result is not 
+  susceptible for merging. We expect the similar performance across all data types, 
+  and the number of consecutive calls. If there are significant differences, this is 
+  indicative of Blackhole failure, and it is a serious JMH issue. 
+
+  Scores are nanoseconds per Blackhole call.
+  Trying [1, 4, 8] consecutive Blackhole calls.
+
+                               1                   4                   8
+   boolean:          7.26 ± 0.42         7.17 ± 0.20         6.99 ± 0.28
+      byte:          6.92 ± 0.34         6.06 ± 0.31         6.11 ± 0.19
+     short:          6.79 ± 0.38         6.45 ± 0.37         6.01 ± 0.30
+      char:          7.01 ± 0.29         6.83 ± 0.23         6.93 ± 0.27
+       int:          7.13 ± 0.43         6.40 ± 0.39         6.28 ± 0.38
+     float:          8.32 ± 0.32         7.32 ± 0.42         7.03 ± 0.31
+      long:          6.43 ± 0.33         6.45 ± 0.26         6.28 ± 0.20
+    double:          8.60 ± 0.33         6.68 ± 0.26         7.08 ± 0.25
+    Object:         10.58 ± 0.38        10.13 ± 0.36         9.76 ± 0.36
+     Array:         15.77 ± 0.48        14.43 ± 0.80        14.50 ± 0.72
+
+--------- BLACKHOLE MERGING TEST (INLINE HINTS BROKEN)
+
+  This test verifies that calling the Blackhole.consume with the same result is not 
+  susceptible for merging. We expect the similar performance across all data types, 
+  and the number of consecutive calls. If there are significant differences, this is 
+  indicative of Blackhole failure, and it is a serious JMH issue. 
+
+  This particular test mode forces the inline of Blackhole methods, and so demolishes 
+  one of the layers in defence in depth. If this layer is broken, Blackhole should 
+  also survive. If it isn't, then JMH will have to provide more contingencies. 
+
+  Scores are nanoseconds per Blackhole call.
+  Trying [1, 4, 8] consecutive Blackhole calls.
+
+                               1                   4                   8
+   boolean:          4.71 ± 0.32         4.29 ± 0.22         4.48 ± 0.32
+      byte:          5.05 ± 0.19         4.83 ± 0.19         4.87 ± 0.45
+     short:          5.29 ± 0.25         4.98 ± 0.29         4.86 ± 0.32
+      char:          5.58 ± 0.40         5.15 ± 0.32         4.77 ± 0.23
+       int:          4.89 ± 0.41         4.75 ± 0.21         4.80 ± 0.38
+     float:          5.37 ± 0.36         5.27 ± 0.34         4.84 ± 0.24
+      long:          5.49 ± 0.37         4.66 ± 0.29         4.61 ± 0.22
+    double:          5.23 ± 0.21         5.00 ± 0.19         4.94 ± 0.26
+    Object:          9.42 ± 0.48         8.33 ± 0.36         8.28 ± 0.33
+     Array:         12.00 ± 0.61        12.51 ± 0.64        12.13 ± 0.58
+
