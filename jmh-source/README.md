@@ -25,6 +25,9 @@ hf clone https://hg.openjdk.java.net/code-tools/jmh 下载
 - [JMHSample_01_HelloWorld_jmhType_B3.java](jmh-samples/src/main/java/org/openjdk/jmh/samples/generated/sample01/JMHSample_01_HelloWorld_jmhType_B3.java)
 - [JMHSample_01_HelloWorld_wellHelloThere_jmhTest.java](jmh-samples/src/main/java/org/openjdk/jmh/samples/generated/sample01/JMHSample_01_HelloWorld_wellHelloThere_jmhTest.java)
 
+![生成的代码](../doc/uml/JMHSample_01_HelloWorld_jmhType.png)
+
+
 # 目录结构
 
 ##  jmh-samples包:
@@ -35,13 +38,44 @@ hf clone https://hg.openjdk.java.net/code-tools/jmh 下载
 
 做了一些中文注释
 
-##  jmh-jmh-generator-annprocess包:
-当编译扫描到jmh的注解时,触发org.openjdk.jmh.generators.BenchmarkProcessor类工作
+##  jmh-jmh-generator-annprocess包
+当java编译时,扫描到jmh的注解,触发org.openjdk.jmh.generators.BenchmarkProcessor类工作
 
-#### 触发机制:
+### 触发机制:
 - org.openjdk.jmh.generators.BenchmarkProcessor 继承 javax.annotation.processing.AbstractProcessor
 - META-INF/services/javax.annotation.processing.Processor中注册了org.openjdk.jmh.generators.BenchmarkProcessor
 
+## jmh-jmh-generator-bytecode
+通过JmhBytecodeGenerator的main方法生成
+scala,grooby,kotlin都是通过这个入口生成的测量代码
+```
+        BenchmarkGenerator gen = new BenchmarkGenerator();
+        gen.generate(source, destination);
+        gen.complete(source, destination);
+```
+
+## jmh-jmh-generator-asm
+以asm为实现,生成字节码
+```
+            ASMGeneratorSource src = new ASMGeneratorSource();
+            src.processClasses(classes);
+            source = src;
+```
+
+## jmh-jmh-generator-reflection
+以反射为实现,生成字节码
+```
+            RFGeneratorSource src = new RFGeneratorSource();
+            for (File f : classes) {
+                String name = f.getAbsolutePath().substring(compiledBytecodeDirectory.getAbsolutePath().length() + 1);
+                name = name.replaceAll("\\\\", ".");
+                name = name.replaceAll("/", ".");
+                if (name.endsWith(".class")) {
+                    src.processClasses(Class.forName(name.substring(0, name.length() - 6), false, amendedCL));
+                }
+            }
+            source = src;
+```
 
 # 我理解的jmh架构
 
@@ -56,8 +90,6 @@ hf clone https://hg.openjdk.java.net/code-tools/jmh 下载
 ![首先是入口类Runner](../doc/uml/Main.png)
 ForkedMain类:
 ![ForkedMain](../doc/uml/Main.png)
-生成的测量代码:
-![生成的代码](../doc/uml/JMHSample_01_HelloWorld_jmhType.png)
 
 
 ## 时序图
