@@ -48,6 +48,7 @@ hf clone https://hg.openjdk.java.net/code-tools/jmh 下载
 ## jmh-jmh-generator-bytecode
 通过JmhBytecodeGenerator的main方法生成
 scala,grooby,kotlin都是通过这个入口生成的测量代码
+
 ```
         BenchmarkGenerator gen = new BenchmarkGenerator();
         gen.generate(source, destination);
@@ -157,15 +158,11 @@ ForkedMain类:
 ![ForkedMain](../doc/uml/Main.png)
 
 
-## 时序图
+## 代码分析
 
 ### 生成测试代码
-BenchmarkProcessor的process方法
-![](../doc/sequence-pic/org.openjdk.jmh.generators.BenchmarkProcessor#process.png)
-CompilerControlPlugin的process方法
-![](../doc/sequence-pic/org.openjdk.jmh.generators.core.CompilerControlPlugin#process.png)
-CompilerControlPlugin的finish方法
-![](../doc/sequence-pic/org.openjdk.jmh.generators.core.CompilerControlPlugin#finish.png)
+
+![](../doc/sequence-pic/注解编译器.png)
 
 ### 入口方法:
 
@@ -393,7 +390,7 @@ protected void runBenchmark(BenchmarkParams benchParams, BenchmarkHandler handle
 通过线程池调用BenchmarkTask的call方法
 ![](../doc/sequence-pic/org.openjdk.jmh.runner.BenchmarkHandler.BenchmarkTask#call.png)
 
-```java
+```
 class BenchmarkTask implements Callable<BenchmarkTaskResult> {
         private volatile Thread runner;
         private final InfraControl control;
