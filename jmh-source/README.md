@@ -78,11 +78,11 @@ scala,grooby,kotlin都是通过这个入口生成的测量代码
 ```
 
 ## jmh-core-it
-集成测试
 pom文件中定义了三个profile,分别是:
 - default:jmh-generator-annprocess
 - asm
 - reflection
+测试核心的注释
 ```` 
 benchmark
 blackhole
@@ -96,7 +96,12 @@ states
 
 
 ## jmh-core-ct
-针对所有注解的测试,各种情况的测试
+pom文件中定义了三个profile,分别是:
+- default:jmh-generator-annprocess
+- asm
+- reflection
+
+测试其他的注释
 ```
 annsteal
 asymm
