@@ -34,6 +34,7 @@ import org.openjdk.jmh.annotations.*;
 import org.openjdk.jmh.infra.Blackhole;
 import org.openjdk.jmh.profile.ClassloaderProfiler;
 import org.openjdk.jmh.profile.DTraceAsmProfiler;
+import org.openjdk.jmh.profile.GCProfiler;
 import org.openjdk.jmh.profile.LinuxPerfProfiler;
 import org.openjdk.jmh.profile.StackProfiler;
 import org.openjdk.jmh.runner.Runner;
@@ -71,6 +72,7 @@ public class JMHSample_35_Profilers {
 
     /*
      * ================================ MAPS BENCHMARK ================================
+     * map中有256个元素,遍历取值
      */
 
     @State(Scope.Thread)
@@ -133,6 +135,7 @@ public class JMHSample_35_Profilers {
         public static void main(String[] args) throws RunnerException {
             Options opt = new OptionsBuilder()
                     .include(JMHSample_35_Profilers.Maps.class.getSimpleName())
+                    .forks(0)
                     .addProfiler(StackProfiler.class)
 //                    .addProfiler(GCProfiler.class)
                     .build();
@@ -166,6 +169,7 @@ public class JMHSample_35_Profilers {
             Stack profiler is useful to quickly see if the code we are stressing actually executes. As many other
             sampling profilers, it is susceptible for sampling bias: it can fail to notice quickly executing methods,
             for example. In the benchmark above, it does not notice HashMap.get.
+            Stack profiler可以快速查看我们所强调的代码是否实际执行。与许多其他采样分析器一样，它容易受到采样偏差的影响：例如，它无法快速注意到执行方法。在上面的基准测试中，它没有注意到HashMap.get
 
             Next up, GC profiler. Running with -prof gc will yield:
 
@@ -192,8 +196,8 @@ public class JMHSample_35_Profilers {
               JMHSample_35_Profilers.Maps.test:·gc.time                          treemap  avgt    5    26.000                ms
 
             There, we can see that the tests are producing quite some garbage.
-            "gc.alloc" would say we are allocating 1257 and 377 MB of objects per second, or 2048 bytes per benchmark operation.
-            "gc.churn" would say that GC removes the same amount of garbage from Eden space every second.
+            "gc.alloc申请的地址空间" would say we are allocating 1257 and 377 MB of objects per second, or 2048 bytes per benchmark operation.
+            "gc.churn移除的垃圾量" would say that GC removes the same amount of garbage from Eden space every second.
              In other words, we are producing 2048 bytes of garbage per
             benchmark operation.
 
@@ -204,13 +208,15 @@ public class JMHSample_35_Profilers {
             data, running longer and/or with small heap would help. But anyhow, always cross-reference "gc.alloc" and "gc.churn"
             values with each other to get a complete picture.
 
-            It is also worth noticing that non-normalized counters are dependent on benchmark performance! Here, "treemap"
+            It is also worth noticing that non-normalized counters(非标准化的测试,或者说不标准的测试) are dependent on benchmark performance! Here, "treemap"
             tests are 3x slower, and thus both allocation and churn rates are also comparably lower. It is often useful to look
             into non-normalized counters to see if the test is allocation/GC-bound (figure the allocation pressure "ceiling"
             for your configuration!), and normalized counters to see the more precise benchmark behavior.
+            可能是gc的瓶颈(天花板效应),造成的性能问题
 
             As most profilers, both "stack" and "gc" profile are able to aggregate samples from multiple forks. It is a good
             idea to run multiple forks with the profilers enabled, as it improves results error estimates估计.
+            多跑几个fork,结果更准确
         */
     }
 

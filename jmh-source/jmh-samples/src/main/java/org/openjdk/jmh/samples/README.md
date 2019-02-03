@@ -144,7 +144,8 @@ fork中的0是为了debug用的,而大于零是为了多进行几次测试
 安全循环的方法
 
 # JMHSample_35_Profilers.java
-
+可能是gc的瓶颈(天花板效应),造成的性能问题,要消除错误的影响
+因此要做profiler测试
 
 # JMHSample_36_BranchPrediction.java
 
