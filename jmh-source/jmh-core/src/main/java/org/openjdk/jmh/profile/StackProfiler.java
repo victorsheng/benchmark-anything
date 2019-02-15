@@ -133,6 +133,7 @@ public class StackProfiler implements InternalProfiler {
         return "Simple and naive Java stack profiler";
     }
 
+    //抽样任务
     public class SamplingTask implements Runnable {
 
         private final Thread thread;

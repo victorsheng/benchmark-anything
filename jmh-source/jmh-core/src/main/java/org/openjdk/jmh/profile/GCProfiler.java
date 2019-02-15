@@ -59,7 +59,7 @@ public class GCProfiler implements InternalProfiler {
     @Override
     public void beforeIteration(BenchmarkParams benchmarkParams, IterationParams iterationParams) {
         VMSupport.startChurnProfile();
-
+        //计数器归零
         long gcTime = 0;
         long gcCount = 0;
         for (GarbageCollectorMXBean bean : ManagementFactory.getGarbageCollectorMXBeans()) {
@@ -77,13 +77,14 @@ public class GCProfiler implements InternalProfiler {
         VMSupport.finishChurnProfile();
         long afterTime = System.nanoTime();
 
+        //gcTime,gcCount指标计算
         long gcTime = 0;
         long gcCount = 0;
         for (GarbageCollectorMXBean bean : ManagementFactory.getGarbageCollectorMXBeans()) {
             gcCount += bean.getCollectionCount();
             gcTime += bean.getCollectionTime();
         }
-
+        //gc.alloc.rate指标计算
         List<ScalarResult> results = new ArrayList<>();
 
         if (beforeAllocated == HotspotAllocationSnapshot.EMPTY) {
@@ -93,6 +94,7 @@ public class GCProfiler implements InternalProfiler {
                     "MB/sec", AggregationPolicy.AVG));
         } else {
             HotspotAllocationSnapshot newSnapshot = VMSupport.getSnapshot();
+            //前后两次快照作对比
             long allocated = newSnapshot.subtract(beforeAllocated);
             // When no allocations measured, we still need to report results to avoid user confusion
             results.add(new ScalarResult(Defaults.PREFIX + "gc.alloc.rate",
@@ -123,7 +125,7 @@ public class GCProfiler implements InternalProfiler {
                     "ms",
                     AggregationPolicy.SUM));
         }
-
+        //Churn指标计算
         Multiset<String> churn = VMSupport.getChurn();
         for (String space : churn.keys()) {
             double churnRate = (afterTime != beforeTime) ?
@@ -201,6 +203,8 @@ public class GCProfiler implements InternalProfiler {
     static class VMSupport {
         private static final boolean ALLOC_AVAILABLE;
         private static ThreadMXBean ALLOC_MX_BEAN;
+        //Returns an approximation of the total amount of memory, in bytes, allocated in heap memory for the thread of the specified ID.
+        //返回指定ID的线程在堆内存中分配的内存总量（以字节为单位）的近似值。
         private static Method ALLOC_MX_BEAN_GETTER;
         private static final boolean CHURN_AVAILABLE;
         private static NotificationListener listener;
@@ -211,6 +215,7 @@ public class GCProfiler implements InternalProfiler {
             CHURN_AVAILABLE = tryInitChurn();
         }
 
+        //内存申请
         private static boolean tryInitAlloc() {
             try {
                 Class<?> internalIntf = Class.forName("com.sun.management.ThreadMXBean");
@@ -284,6 +289,7 @@ public class GCProfiler implements InternalProfiler {
                                     MemoryUsage before = mapBefore.get(name);
                                     long c = before.getUsed() - after.getUsed();
                                     if (c > 0) {
+                                        //记录不同种类的gc时间
                                         churn.add(name, c);
                                     }
                                 }
