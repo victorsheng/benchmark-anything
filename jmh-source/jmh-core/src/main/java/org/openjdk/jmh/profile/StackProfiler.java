@@ -191,6 +191,7 @@ public class StackProfiler implements InternalProfiler {
                 }
 
                 try {
+                    //休眠
                     TimeUnit.MILLISECONDS.sleep(periodMsec);
                 } catch (InterruptedException e) {
                     return;
@@ -298,7 +299,7 @@ public class StackProfiler implements InternalProfiler {
 
             StringBuilder builder = new StringBuilder();
             builder.append("Stack profiler:\n\n");
-
+            //线程状态统计
             builder.append(dottedLine("Thread state distributions"));
             for (Thread.State state : sortedStates) {
                 if (isSignificant(stacks.get(state).size(), totalSize)) {
@@ -306,7 +307,6 @@ public class StackProfiler implements InternalProfiler {
                 }
             }
             builder.append("\n");
-
             for (Thread.State state : sortedStates) {
                 Multiset<StackRecord> stateStacks = stacks.get(state);
                 if (isSignificant(stateStacks.size(), totalSize)) {
