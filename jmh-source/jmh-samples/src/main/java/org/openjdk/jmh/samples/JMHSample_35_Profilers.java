@@ -293,6 +293,7 @@ public class JMHSample_35_Profilers {
 
         /*
             Running with -prof cl will yield:
+            比较类加载器的性能(装载,卸载)
 
                 Benchmark                                              Mode  Cnt      Score      Error        Units
                 JMHSample_35_Profilers.Classy.load                     avgt   15  34215.363 ±  545.892        ns/op
@@ -312,6 +313,7 @@ public class JMHSample_35_Profilers {
 
             Another useful profiler that could tell if compiler is doing a heavy work in background, and thus interfering
             with measurement, -prof comp:
+            指的是 JIT compiler
 
                 Benchmark                                                   Mode  Cnt      Score      Error  Units
                 JMHSample_35_Profilers.Classy.load                          avgt    5  33523.875 ± 3026.025  ns/op
@@ -503,7 +505,7 @@ public class JMHSample_35_Profilers {
             benchmark is a daunting task. But we have "perf" that can tell what program addresses are really hot!
             This enables us to contrast the assembly output.
 
-            -prof perfasm would indeed contrast out the hottest loop in the generated code! It will also point
+            -prof perfasm would indeed contrast out the hottest loop(最热的循环) in the generated code! It will also point
             fingers at "lock xadd" as the hottest instruction in our code. Hardware counters are not very precise
             about the instruction addresses, so sometimes they attribute the events to the adjacent code lines.
 
@@ -561,6 +563,7 @@ public class JMHSample_35_Profilers {
 
             perfasm would also print the hottest methods to show if we indeed spending time in our benchmark. Most of the time,
             it can demangle VM and kernel symbols as well:
+            让java和系统内核的方法,一起比较
 
                 ....[Hottest Methods (after inlining)]..............................................................
                  96.03%   95.10%  org.openjdk.jmh.samples.generated.JMHSample_35_Profilers_Atomic_test::test_avgt_jmhStub
