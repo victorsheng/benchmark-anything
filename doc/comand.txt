@@ -62,7 +62,7 @@ Usage: java -jar ... [regexp*] [options]
 
   -lrf                        List machine-readable result formats.
 
-  -o <filename>               Redirect human-readable output to a given file.
+  -o <filename>               Redirect human-readable output to a given file.将人类可读输出重定向到指定文件。
 
   -opi <int>                  Override operations per invocation, see @OperationsPerInvocation
                               Javadoc for details.
