@@ -1,0 +1,3 @@
+"Benchmark","Mode","Threads","Samples","Score","Score Error (99.9%)","Unit"
+"cn.victor123.benchmark.HelloWorld.wellHelloThere","thrpt",1,1,26523.509532,NaN,"ops/s"
+"cn.victor123.benchmark.output.HelloWorld.wellHelloThere","thrpt",1,1,40162.399328,NaN,"ops/s"

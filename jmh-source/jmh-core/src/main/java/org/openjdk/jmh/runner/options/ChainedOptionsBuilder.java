@@ -91,6 +91,7 @@ public interface ChainedOptionsBuilder {
 
     /**
      * Should do GC between measurementIterations?
+     * 在迭代间是否进行gc
      * @param value flag
      * @return builder
      * @see org.openjdk.jmh.runner.Defaults#DO_GC
@@ -99,6 +100,7 @@ public interface ChainedOptionsBuilder {
 
     /**
      * Add the profiler in the run
+     * 添加profiler
      * @param profiler profiler class
      * @return builder
      */
@@ -128,7 +130,7 @@ public interface ChainedOptionsBuilder {
     ChainedOptionsBuilder addProfiler(String profiler, String initLine);
 
     /**
-     * Control verbosity level.
+     * Control verbosity冗余 level.
      * @param mode flag
      * @return builder
      * @see org.openjdk.jmh.runner.Defaults#VERBOSITY
