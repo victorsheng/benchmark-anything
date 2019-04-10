@@ -541,3 +541,6 @@ https://bugs.openjdk.java.net/projects/CODETOOLS/issues/CODETOOLS-7901999?filter
 
 ## 详细的英文参数介绍
 https://github.com/Valloric/jmh-playground
+
+## 邮件信息
+https://mail.openjdk.java.net/mailman/listinfo/jmh-dev
