@@ -1,6 +1,8 @@
 package cn.victor123.benchmark.client;
 
 import cn.victor123.benchmark.constant.Constant;
+import java.util.Map;
+import java.util.Map.Entry;
 import org.apache.http.HttpEntity;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
@@ -12,9 +14,14 @@ import org.apache.http.util.EntityUtils;
 public class ApacheClientClient extends AbstractClient {
 
   @Override
-  public String getMethod(String url) throws Exception {
+  public String getMethod(Map<String, String> headerMap) throws Exception {
     CloseableHttpClient httpclient = HttpClients.createDefault();
     HttpGet httpGet = new HttpGet(Constant.LOCALHOST_GET_URL);
+    if (headerMap != null) {
+      for (Entry<String, String> stringStringEntry : headerMap.entrySet()) {
+        httpGet.addHeader(stringStringEntry.getKey(), stringStringEntry.getValue());
+      }
+    }
     CloseableHttpResponse response1 = httpclient.execute(httpGet);
     try {
       HttpEntity entity1 = response1.getEntity();
