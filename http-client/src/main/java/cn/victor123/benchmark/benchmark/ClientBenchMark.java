@@ -1,7 +1,11 @@
 package cn.victor123.benchmark.benchmark;
 
+import static cn.victor123.benchmark.constant.Constant.LOCALHOST_NOW_URL;
+import static cn.victor123.benchmark.constant.Constant.LOCALHOST_SLEEP5_URL;
+import static cn.victor123.benchmark.constant.Constant.LOCALHOST_SLEEP1_URL;
+import static cn.victor123.benchmark.constant.Constant.LOCALHOST_SLEEP10_URL;
+
 import cn.victor123.benchmark.client.AbstractClient;
-import cn.victor123.benchmark.constant.Constant;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 import java.util.HashMap;
@@ -36,6 +40,9 @@ public class ClientBenchMark {
   @Param({"KEEP_ALIVE", "NULL"})
   protected String diffFeature;
 
+  @Param({LOCALHOST_NOW_URL, LOCALHOST_SLEEP1_URL, LOCALHOST_SLEEP5_URL, LOCALHOST_SLEEP10_URL})
+  private String url;
+
   protected Map<String, String> headerMap;
 
   @Setup
@@ -66,7 +73,7 @@ public class ClientBenchMark {
   @Warmup(iterations = 1, time = 1, timeUnit = TimeUnit.SECONDS)
   @Measurement(iterations = 1, time = 1, timeUnit = TimeUnit.SECONDS)
   public void test(Blackhole bh) throws Exception {
-    bh.consume(abstractClient.getMethod(Constant.LOCALHOST_GET_URL,headerMap));
+    bh.consume(abstractClient.getMethod(url, headerMap));
   }
 
 

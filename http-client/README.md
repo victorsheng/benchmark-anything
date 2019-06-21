@@ -1,41 +1,135 @@
 
 ```
-Benchmark                                                        (className)  (diffFeature)  Mode  Cnt   Score   Error  Units
-ClientBenchMark.test   cn.victor123.benchmark.client.ApacheClientClient     KEEP_ALIVE  avgt        1.915          ms/op
-ClientBenchMark.test   cn.victor123.benchmark.client.ApacheClientClient           NULL  avgt        2.553          ms/op
-ClientBenchMark.test      cn.victor123.benchmark.client.JdkClientClient     KEEP_ALIVE  avgt        0.653          ms/op
-ClientBenchMark.test      cn.victor123.benchmark.client.JdkClientClient           NULL  avgt        0.725          ms/op
-ClientBenchMark.test   cn.victor123.benchmark.client.OkHttpClientClient     KEEP_ALIVE  avgt        0.171          ms/op
-ClientBenchMark.test   cn.victor123.benchmark.client.OkHttpClientClient           NULL  avgt        0.154          ms/op
-ClientBenchMark.test        cn.victor123.benchmark.client.UnirestClient     KEEP_ALIVE  avgt        0.196          ms/op
-ClientBenchMark.test        cn.victor123.benchmark.client.UnirestClient           NULL  avgt        0.178          ms/op
-ClientBenchMark2.test  cn.victor123.benchmark.client.ApacheClientClient     KEEP_ALIVE  avgt        2.212          ms/op
+# Run complete. Total time: 00:05:55
 
-ClientBenchMark2.test  cn.victor123.benchmark.client.ApacheClientClient           NULL  avgt        2.566          ms/op
-ClientBenchMark2.test     cn.victor123.benchmark.client.JdkClientClient     KEEP_ALIVE  avgt        1.933          ms/op
-ClientBenchMark2.test     cn.victor123.benchmark.client.JdkClientClient           NULL  avgt        1.402          ms/op
-ClientBenchMark2.test  cn.victor123.benchmark.client.OkHttpClientClient     KEEP_ALIVE  avgt        0.185          ms/op
-ClientBenchMark2.test  cn.victor123.benchmark.client.OkHttpClientClient           NULL  avgt        0.186          ms/op
-ClientBenchMark2.test       cn.victor123.benchmark.client.UnirestClient     KEEP_ALIVE  avgt        0.205          ms/op
-ClientBenchMark2.test       cn.victor123.benchmark.client.UnirestClient           NULL  avgt        0.206          ms/op
-
-ClientBenchMark4.test  cn.victor123.benchmark.client.ApacheClientClient     KEEP_ALIVE  avgt        3.086          ms/op
-ClientBenchMark4.test  cn.victor123.benchmark.client.ApacheClientClient           NULL  avgt        3.128          ms/op
-ClientBenchMark4.test     cn.victor123.benchmark.client.JdkClientClient     KEEP_ALIVE  avgt        4.065          ms/op
-ClientBenchMark4.test     cn.victor123.benchmark.client.JdkClientClient           NULL  avgt        6.318          ms/op
-ClientBenchMark4.test  cn.victor123.benchmark.client.OkHttpClientClient     KEEP_ALIVE  avgt        0.248          ms/op
-ClientBenchMark4.test  cn.victor123.benchmark.client.OkHttpClientClient           NULL  avgt        0.206          ms/op
-ClientBenchMark4.test       cn.victor123.benchmark.client.UnirestClient     KEEP_ALIVE  avgt        0.263          ms/op
-ClientBenchMark4.test       cn.victor123.benchmark.client.UnirestClient           NULL  avgt        0.252          ms/op
-
-ClientBenchMark8.test  cn.victor123.benchmark.client.ApacheClientClient     KEEP_ALIVE  avgt        6.584          ms/op
-ClientBenchMark8.test  cn.victor123.benchmark.client.ApacheClientClient           NULL  avgt       10.064          ms/op
-ClientBenchMark8.test     cn.victor123.benchmark.client.JdkClientClient     KEEP_ALIVE  avgt        3.581          ms/op
-ClientBenchMark8.test     cn.victor123.benchmark.client.JdkClientClient           NULL  avgt        5.001          ms/op
-ClientBenchMark8.test  cn.victor123.benchmark.client.OkHttpClientClient     KEEP_ALIVE  avgt        0.293          ms/op
-ClientBenchMark8.test  cn.victor123.benchmark.client.OkHttpClientClient           NULL  avgt        0.294          ms/op
-ClientBenchMark8.test       cn.victor123.benchmark.client.UnirestClient     KEEP_ALIVE  avgt        0.337          ms/op
-ClientBenchMark8.test       cn.victor123.benchmark.client.UnirestClient           NULL  avgt        0.341          ms/op
-
+Benchmark                                                   (className)  (diffFeature)                                 (url)  Mode  Cnt   Score   Error  Units
+ClientBenchMark.test   cn.victor123.benchmark.client.ApacheClientClient     KEEP_ALIVE        http://localhost:8080/mock/now  avgt        3.210          ms/op
+ClientBenchMark.test   cn.victor123.benchmark.client.ApacheClientClient     KEEP_ALIVE   http://localhost:8080/mock/sleep1ms  avgt        4.268          ms/op
+ClientBenchMark.test   cn.victor123.benchmark.client.ApacheClientClient     KEEP_ALIVE   http://localhost:8080/mock/sleep5ms  avgt        9.431          ms/op
+ClientBenchMark.test   cn.victor123.benchmark.client.ApacheClientClient     KEEP_ALIVE  http://localhost:8080/mock/sleep10ms  avgt       15.070          ms/op
+ClientBenchMark.test   cn.victor123.benchmark.client.ApacheClientClient           NULL        http://localhost:8080/mock/now  avgt        2.528          ms/op
+ClientBenchMark.test   cn.victor123.benchmark.client.ApacheClientClient           NULL   http://localhost:8080/mock/sleep1ms  avgt        3.685          ms/op
+ClientBenchMark.test   cn.victor123.benchmark.client.ApacheClientClient           NULL   http://localhost:8080/mock/sleep5ms  avgt        9.694          ms/op
+ClientBenchMark.test   cn.victor123.benchmark.client.ApacheClientClient           NULL  http://localhost:8080/mock/sleep10ms  avgt       15.540          ms/op
+ClientBenchMark.test      cn.victor123.benchmark.client.JdkClientClient     KEEP_ALIVE        http://localhost:8080/mock/now  avgt        1.400          ms/op
+ClientBenchMark.test      cn.victor123.benchmark.client.JdkClientClient     KEEP_ALIVE   http://localhost:8080/mock/sleep1ms  avgt        2.839          ms/op
+ClientBenchMark.test      cn.victor123.benchmark.client.JdkClientClient     KEEP_ALIVE   http://localhost:8080/mock/sleep5ms  avgt        6.747          ms/op
+ClientBenchMark.test      cn.victor123.benchmark.client.JdkClientClient     KEEP_ALIVE  http://localhost:8080/mock/sleep10ms  avgt       12.249          ms/op
+ClientBenchMark.test      cn.victor123.benchmark.client.JdkClientClient           NULL        http://localhost:8080/mock/now  avgt        1.114          ms/op
+ClientBenchMark.test      cn.victor123.benchmark.client.JdkClientClient           NULL   http://localhost:8080/mock/sleep1ms  avgt        3.531          ms/op
+ClientBenchMark.test      cn.victor123.benchmark.client.JdkClientClient           NULL   http://localhost:8080/mock/sleep5ms  avgt        6.547          ms/op
+ClientBenchMark.test      cn.victor123.benchmark.client.JdkClientClient           NULL  http://localhost:8080/mock/sleep10ms  avgt       12.274          ms/op
+ClientBenchMark.test   cn.victor123.benchmark.client.OkHttpClientClient     KEEP_ALIVE        http://localhost:8080/mock/now  avgt        0.216          ms/op
+ClientBenchMark.test   cn.victor123.benchmark.client.OkHttpClientClient     KEEP_ALIVE   http://localhost:8080/mock/sleep1ms  avgt        2.181          ms/op
+ClientBenchMark.test   cn.victor123.benchmark.client.OkHttpClientClient     KEEP_ALIVE   http://localhost:8080/mock/sleep5ms  avgt        6.821          ms/op
+ClientBenchMark.test   cn.victor123.benchmark.client.OkHttpClientClient     KEEP_ALIVE  http://localhost:8080/mock/sleep10ms  avgt       12.599          ms/op
+ClientBenchMark.test   cn.victor123.benchmark.client.OkHttpClientClient           NULL        http://localhost:8080/mock/now  avgt        0.160          ms/op
+ClientBenchMark.test   cn.victor123.benchmark.client.OkHttpClientClient           NULL   http://localhost:8080/mock/sleep1ms  avgt        2.145          ms/op
+ClientBenchMark.test   cn.victor123.benchmark.client.OkHttpClientClient           NULL   http://localhost:8080/mock/sleep5ms  avgt        7.285          ms/op
+ClientBenchMark.test   cn.victor123.benchmark.client.OkHttpClientClient           NULL  http://localhost:8080/mock/sleep10ms  avgt       12.513          ms/op
+ClientBenchMark.test        cn.victor123.benchmark.client.UnirestClient     KEEP_ALIVE        http://localhost:8080/mock/now  avgt        0.157          ms/op
+ClientBenchMark.test        cn.victor123.benchmark.client.UnirestClient     KEEP_ALIVE   http://localhost:8080/mock/sleep1ms  avgt        2.293          ms/op
+ClientBenchMark.test        cn.victor123.benchmark.client.UnirestClient     KEEP_ALIVE   http://localhost:8080/mock/sleep5ms  avgt        7.381          ms/op
+ClientBenchMark.test        cn.victor123.benchmark.client.UnirestClient     KEEP_ALIVE  http://localhost:8080/mock/sleep10ms  avgt       12.953          ms/op
+ClientBenchMark.test        cn.victor123.benchmark.client.UnirestClient           NULL        http://localhost:8080/mock/now  avgt        0.154          ms/op
+ClientBenchMark.test        cn.victor123.benchmark.client.UnirestClient           NULL   http://localhost:8080/mock/sleep1ms  avgt        2.300          ms/op
+ClientBenchMark.test        cn.victor123.benchmark.client.UnirestClient           NULL   http://localhost:8080/mock/sleep5ms  avgt        7.382          ms/op
+ClientBenchMark.test        cn.victor123.benchmark.client.UnirestClient           NULL  http://localhost:8080/mock/sleep10ms  avgt       12.885          ms/op
+ClientBenchMark2.test  cn.victor123.benchmark.client.ApacheClientClient     KEEP_ALIVE        http://localhost:8080/mock/now  avgt        2.163          ms/op
+ClientBenchMark2.test  cn.victor123.benchmark.client.ApacheClientClient     KEEP_ALIVE   http://localhost:8080/mock/sleep1ms  avgt        3.706          ms/op
+ClientBenchMark2.test  cn.victor123.benchmark.client.ApacheClientClient     KEEP_ALIVE   http://localhost:8080/mock/sleep5ms  avgt        9.596          ms/op
+ClientBenchMark2.test  cn.victor123.benchmark.client.ApacheClientClient     KEEP_ALIVE  http://localhost:8080/mock/sleep10ms  avgt       15.712          ms/op
+ClientBenchMark2.test  cn.victor123.benchmark.client.ApacheClientClient           NULL        http://localhost:8080/mock/now  avgt        2.875          ms/op
+ClientBenchMark2.test  cn.victor123.benchmark.client.ApacheClientClient           NULL   http://localhost:8080/mock/sleep1ms  avgt        3.638          ms/op
+ClientBenchMark2.test  cn.victor123.benchmark.client.ApacheClientClient           NULL   http://localhost:8080/mock/sleep5ms  avgt        9.403          ms/op
+ClientBenchMark2.test  cn.victor123.benchmark.client.ApacheClientClient           NULL  http://localhost:8080/mock/sleep10ms  avgt       15.568          ms/op
+ClientBenchMark2.test     cn.victor123.benchmark.client.JdkClientClient     KEEP_ALIVE        http://localhost:8080/mock/now  avgt        2.040          ms/op
+ClientBenchMark2.test     cn.victor123.benchmark.client.JdkClientClient     KEEP_ALIVE   http://localhost:8080/mock/sleep1ms  avgt        3.096          ms/op
+ClientBenchMark2.test     cn.victor123.benchmark.client.JdkClientClient     KEEP_ALIVE   http://localhost:8080/mock/sleep5ms  avgt        7.733          ms/op
+ClientBenchMark2.test     cn.victor123.benchmark.client.JdkClientClient     KEEP_ALIVE  http://localhost:8080/mock/sleep10ms  avgt       13.136          ms/op
+ClientBenchMark2.test     cn.victor123.benchmark.client.JdkClientClient           NULL        http://localhost:8080/mock/now  avgt        0.946          ms/op
+ClientBenchMark2.test     cn.victor123.benchmark.client.JdkClientClient           NULL   http://localhost:8080/mock/sleep1ms  avgt        3.261          ms/op
+ClientBenchMark2.test     cn.victor123.benchmark.client.JdkClientClient           NULL   http://localhost:8080/mock/sleep5ms  avgt        7.734          ms/op
+ClientBenchMark2.test     cn.victor123.benchmark.client.JdkClientClient           NULL  http://localhost:8080/mock/sleep10ms  avgt       13.302          ms/op
+ClientBenchMark2.test  cn.victor123.benchmark.client.OkHttpClientClient     KEEP_ALIVE        http://localhost:8080/mock/now  avgt        0.159          ms/op
+ClientBenchMark2.test  cn.victor123.benchmark.client.OkHttpClientClient     KEEP_ALIVE   http://localhost:8080/mock/sleep1ms  avgt        1.951          ms/op
+ClientBenchMark2.test  cn.victor123.benchmark.client.OkHttpClientClient     KEEP_ALIVE   http://localhost:8080/mock/sleep5ms  avgt        7.057          ms/op
+ClientBenchMark2.test  cn.victor123.benchmark.client.OkHttpClientClient     KEEP_ALIVE  http://localhost:8080/mock/sleep10ms  avgt       12.371          ms/op
+ClientBenchMark2.test  cn.victor123.benchmark.client.OkHttpClientClient           NULL        http://localhost:8080/mock/now  avgt        0.154          ms/op
+ClientBenchMark2.test  cn.victor123.benchmark.client.OkHttpClientClient           NULL   http://localhost:8080/mock/sleep1ms  avgt        1.946          ms/op
+ClientBenchMark2.test  cn.victor123.benchmark.client.OkHttpClientClient           NULL   http://localhost:8080/mock/sleep5ms  avgt        6.984          ms/op
+ClientBenchMark2.test  cn.victor123.benchmark.client.OkHttpClientClient           NULL  http://localhost:8080/mock/sleep10ms  avgt       12.474          ms/op
+ClientBenchMark2.test       cn.victor123.benchmark.client.UnirestClient     KEEP_ALIVE        http://localhost:8080/mock/now  avgt        0.188          ms/op
+ClientBenchMark2.test       cn.victor123.benchmark.client.UnirestClient     KEEP_ALIVE   http://localhost:8080/mock/sleep1ms  avgt        2.004          ms/op
+ClientBenchMark2.test       cn.victor123.benchmark.client.UnirestClient     KEEP_ALIVE   http://localhost:8080/mock/sleep5ms  avgt        7.218          ms/op
+ClientBenchMark2.test       cn.victor123.benchmark.client.UnirestClient     KEEP_ALIVE  http://localhost:8080/mock/sleep10ms  avgt       12.986          ms/op
+ClientBenchMark2.test       cn.victor123.benchmark.client.UnirestClient           NULL        http://localhost:8080/mock/now  avgt        0.189          ms/op
+ClientBenchMark2.test       cn.victor123.benchmark.client.UnirestClient           NULL   http://localhost:8080/mock/sleep1ms  avgt        2.019          ms/op
+ClientBenchMark2.test       cn.victor123.benchmark.client.UnirestClient           NULL   http://localhost:8080/mock/sleep5ms  avgt        7.328          ms/op
+ClientBenchMark2.test       cn.victor123.benchmark.client.UnirestClient           NULL  http://localhost:8080/mock/sleep10ms  avgt       12.675          ms/op
+ClientBenchMark4.test  cn.victor123.benchmark.client.ApacheClientClient     KEEP_ALIVE        http://localhost:8080/mock/now  avgt        4.066          ms/op
+ClientBenchMark4.test  cn.victor123.benchmark.client.ApacheClientClient     KEEP_ALIVE   http://localhost:8080/mock/sleep1ms  avgt        6.985          ms/op
+ClientBenchMark4.test  cn.victor123.benchmark.client.ApacheClientClient     KEEP_ALIVE   http://localhost:8080/mock/sleep5ms  avgt        9.780          ms/op
+ClientBenchMark4.test  cn.victor123.benchmark.client.ApacheClientClient     KEEP_ALIVE  http://localhost:8080/mock/sleep10ms  avgt       16.178          ms/op
+ClientBenchMark4.test  cn.victor123.benchmark.client.ApacheClientClient           NULL        http://localhost:8080/mock/now  avgt        3.989          ms/op
+ClientBenchMark4.test  cn.victor123.benchmark.client.ApacheClientClient           NULL   http://localhost:8080/mock/sleep1ms  avgt        7.513          ms/op
+ClientBenchMark4.test  cn.victor123.benchmark.client.ApacheClientClient           NULL   http://localhost:8080/mock/sleep5ms  avgt        9.918          ms/op
+ClientBenchMark4.test  cn.victor123.benchmark.client.ApacheClientClient           NULL  http://localhost:8080/mock/sleep10ms  avgt       15.132          ms/op
+ClientBenchMark4.test     cn.victor123.benchmark.client.JdkClientClient     KEEP_ALIVE        http://localhost:8080/mock/now  avgt        2.769          ms/op
+ClientBenchMark4.test     cn.victor123.benchmark.client.JdkClientClient     KEEP_ALIVE   http://localhost:8080/mock/sleep1ms  avgt        3.387          ms/op
+ClientBenchMark4.test     cn.victor123.benchmark.client.JdkClientClient     KEEP_ALIVE   http://localhost:8080/mock/sleep5ms  avgt        9.642          ms/op
+ClientBenchMark4.test     cn.victor123.benchmark.client.JdkClientClient     KEEP_ALIVE  http://localhost:8080/mock/sleep10ms  avgt       13.168          ms/op
+ClientBenchMark4.test     cn.victor123.benchmark.client.JdkClientClient           NULL        http://localhost:8080/mock/now  avgt        1.956          ms/op
+ClientBenchMark4.test     cn.victor123.benchmark.client.JdkClientClient           NULL   http://localhost:8080/mock/sleep1ms  avgt        3.072          ms/op
+ClientBenchMark4.test     cn.victor123.benchmark.client.JdkClientClient           NULL   http://localhost:8080/mock/sleep5ms  avgt        8.568          ms/op
+ClientBenchMark4.test     cn.victor123.benchmark.client.JdkClientClient           NULL  http://localhost:8080/mock/sleep10ms  avgt       13.555          ms/op
+ClientBenchMark4.test  cn.victor123.benchmark.client.OkHttpClientClient     KEEP_ALIVE        http://localhost:8080/mock/now  avgt        0.183          ms/op
+ClientBenchMark4.test  cn.victor123.benchmark.client.OkHttpClientClient     KEEP_ALIVE   http://localhost:8080/mock/sleep1ms  avgt        1.854          ms/op
+ClientBenchMark4.test  cn.victor123.benchmark.client.OkHttpClientClient     KEEP_ALIVE   http://localhost:8080/mock/sleep5ms  avgt        6.635          ms/op
+ClientBenchMark4.test  cn.victor123.benchmark.client.OkHttpClientClient     KEEP_ALIVE  http://localhost:8080/mock/sleep10ms  avgt       12.217          ms/op
+ClientBenchMark4.test  cn.victor123.benchmark.client.OkHttpClientClient           NULL        http://localhost:8080/mock/now  avgt        0.174          ms/op
+ClientBenchMark4.test  cn.victor123.benchmark.client.OkHttpClientClient           NULL   http://localhost:8080/mock/sleep1ms  avgt        1.914          ms/op
+ClientBenchMark4.test  cn.victor123.benchmark.client.OkHttpClientClient           NULL   http://localhost:8080/mock/sleep5ms  avgt        6.584          ms/op
+ClientBenchMark4.test  cn.victor123.benchmark.client.OkHttpClientClient           NULL  http://localhost:8080/mock/sleep10ms  avgt       12.094          ms/op
+ClientBenchMark4.test       cn.victor123.benchmark.client.UnirestClient     KEEP_ALIVE        http://localhost:8080/mock/now  avgt        0.236          ms/op
+ClientBenchMark4.test       cn.victor123.benchmark.client.UnirestClient     KEEP_ALIVE   http://localhost:8080/mock/sleep1ms  avgt        1.683          ms/op
+ClientBenchMark4.test       cn.victor123.benchmark.client.UnirestClient     KEEP_ALIVE   http://localhost:8080/mock/sleep5ms  avgt        6.847          ms/op
+ClientBenchMark4.test       cn.victor123.benchmark.client.UnirestClient     KEEP_ALIVE  http://localhost:8080/mock/sleep10ms  avgt       12.383          ms/op
+ClientBenchMark4.test       cn.victor123.benchmark.client.UnirestClient           NULL        http://localhost:8080/mock/now  avgt        0.258          ms/op
+ClientBenchMark4.test       cn.victor123.benchmark.client.UnirestClient           NULL   http://localhost:8080/mock/sleep1ms  avgt        1.756          ms/op
+ClientBenchMark4.test       cn.victor123.benchmark.client.UnirestClient           NULL   http://localhost:8080/mock/sleep5ms  avgt        6.642          ms/op
+ClientBenchMark4.test       cn.victor123.benchmark.client.UnirestClient           NULL  http://localhost:8080/mock/sleep10ms  avgt       12.232          ms/op
+ClientBenchMark8.test  cn.victor123.benchmark.client.ApacheClientClient     KEEP_ALIVE        http://localhost:8080/mock/now  avgt        5.923          ms/op
+ClientBenchMark8.test  cn.victor123.benchmark.client.ApacheClientClient     KEEP_ALIVE   http://localhost:8080/mock/sleep1ms  avgt        6.778          ms/op
+ClientBenchMark8.test  cn.victor123.benchmark.client.ApacheClientClient     KEEP_ALIVE   http://localhost:8080/mock/sleep5ms  avgt       10.487          ms/op
+ClientBenchMark8.test  cn.victor123.benchmark.client.ApacheClientClient     KEEP_ALIVE  http://localhost:8080/mock/sleep10ms  avgt       19.305          ms/op
+ClientBenchMark8.test  cn.victor123.benchmark.client.ApacheClientClient           NULL        http://localhost:8080/mock/now  avgt        9.089          ms/op
+ClientBenchMark8.test  cn.victor123.benchmark.client.ApacheClientClient           NULL   http://localhost:8080/mock/sleep1ms  avgt        6.792          ms/op
+ClientBenchMark8.test  cn.victor123.benchmark.client.ApacheClientClient           NULL   http://localhost:8080/mock/sleep5ms  avgt       11.898          ms/op
+ClientBenchMark8.test  cn.victor123.benchmark.client.ApacheClientClient           NULL  http://localhost:8080/mock/sleep10ms  avgt       16.533          ms/op
+ClientBenchMark8.test     cn.victor123.benchmark.client.JdkClientClient     KEEP_ALIVE        http://localhost:8080/mock/now  avgt        3.740          ms/op
+ClientBenchMark8.test     cn.victor123.benchmark.client.JdkClientClient     KEEP_ALIVE   http://localhost:8080/mock/sleep1ms  avgt        4.277          ms/op
+ClientBenchMark8.test     cn.victor123.benchmark.client.JdkClientClient     KEEP_ALIVE   http://localhost:8080/mock/sleep5ms  avgt        9.454          ms/op
+ClientBenchMark8.test     cn.victor123.benchmark.client.JdkClientClient     KEEP_ALIVE  http://localhost:8080/mock/sleep10ms  avgt       18.275          ms/op
+ClientBenchMark8.test     cn.victor123.benchmark.client.JdkClientClient           NULL        http://localhost:8080/mock/now  avgt        9.242          ms/op
+ClientBenchMark8.test     cn.victor123.benchmark.client.JdkClientClient           NULL   http://localhost:8080/mock/sleep1ms  avgt        5.187          ms/op
+ClientBenchMark8.test     cn.victor123.benchmark.client.JdkClientClient           NULL   http://localhost:8080/mock/sleep5ms  avgt        8.410          ms/op
+ClientBenchMark8.test     cn.victor123.benchmark.client.JdkClientClient           NULL  http://localhost:8080/mock/sleep10ms  avgt       15.666          ms/op
+ClientBenchMark8.test  cn.victor123.benchmark.client.OkHttpClientClient     KEEP_ALIVE        http://localhost:8080/mock/now  avgt        0.278          ms/op
+ClientBenchMark8.test  cn.victor123.benchmark.client.OkHttpClientClient     KEEP_ALIVE   http://localhost:8080/mock/sleep1ms  avgt        1.610          ms/op
+ClientBenchMark8.test  cn.victor123.benchmark.client.OkHttpClientClient     KEEP_ALIVE   http://localhost:8080/mock/sleep5ms  avgt        6.775          ms/op
+ClientBenchMark8.test  cn.victor123.benchmark.client.OkHttpClientClient     KEEP_ALIVE  http://localhost:8080/mock/sleep10ms  avgt       11.989          ms/op
+ClientBenchMark8.test  cn.victor123.benchmark.client.OkHttpClientClient           NULL        http://localhost:8080/mock/now  avgt        0.290          ms/op
+ClientBenchMark8.test  cn.victor123.benchmark.client.OkHttpClientClient           NULL   http://localhost:8080/mock/sleep1ms  avgt        1.579          ms/op
+ClientBenchMark8.test  cn.victor123.benchmark.client.OkHttpClientClient           NULL   http://localhost:8080/mock/sleep5ms  avgt        6.694          ms/op
+ClientBenchMark8.test  cn.victor123.benchmark.client.OkHttpClientClient           NULL  http://localhost:8080/mock/sleep10ms  avgt       12.006          ms/op
+ClientBenchMark8.test       cn.victor123.benchmark.client.UnirestClient     KEEP_ALIVE        http://localhost:8080/mock/now  avgt        0.329          ms/op
+ClientBenchMark8.test       cn.victor123.benchmark.client.UnirestClient     KEEP_ALIVE   http://localhost:8080/mock/sleep1ms  avgt        1.583          ms/op
+ClientBenchMark8.test       cn.victor123.benchmark.client.UnirestClient     KEEP_ALIVE   http://localhost:8080/mock/sleep5ms  avgt        6.786          ms/op
+ClientBenchMark8.test       cn.victor123.benchmark.client.UnirestClient     KEEP_ALIVE  http://localhost:8080/mock/sleep10ms  avgt       12.245          ms/op
+ClientBenchMark8.test       cn.victor123.benchmark.client.UnirestClient           NULL        http://localhost:8080/mock/now  avgt        0.318          ms/op
+ClientBenchMark8.test       cn.victor123.benchmark.client.UnirestClient           NULL   http://localhost:8080/mock/sleep1ms  avgt        1.584          ms/op
+ClientBenchMark8.test       cn.victor123.benchmark.client.UnirestClient           NULL   http://localhost:8080/mock/sleep5ms  avgt        6.707          ms/op
+ClientBenchMark8.test       cn.victor123.benchmark.client.UnirestClient           NULL  http://localhost:8080/mock/sleep10ms  avgt       12.066          ms/op
 ```
 可以看出UnirestClient和OkHttpClientClient在开启KEEP_ALIVE参数后,性能是一样的,因此可以推断,UnirestClient和OkHttpClientClient是默认开启的
