@@ -11,10 +11,10 @@ public class Main {
 
   public static void main(String[] args) throws RunnerException {
     Options opt = new OptionsBuilder()
-//        .include(OkHttpClientClient.class.getSimpleName())
-//        .include(UnirestClient.class.getSimpleName())
-//        .include(JdkClientClient.class.getSimpleName())
-//        .include(ApacheClientClient.class.getSimpleName())
+//        .include(OkHttpClientt.class.getSimpleName())
+//        .include(UnirestHttpClient.class.getSimpleName())
+//        .include(JdkHttpClient.class.getSimpleName())
+//        .include(ApacheHttpClient.class.getSimpleName())
         .include(ClientBenchMark.class.getSimpleName())
         .forks(1)
         .build();

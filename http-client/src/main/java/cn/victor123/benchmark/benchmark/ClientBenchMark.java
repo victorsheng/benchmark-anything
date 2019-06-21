@@ -1,11 +1,11 @@
 package cn.victor123.benchmark.benchmark;
 
-import static cn.victor123.benchmark.constant.Constant.LOCALHOST_NOW_URL;
-import static cn.victor123.benchmark.constant.Constant.LOCALHOST_SLEEP5_URL;
-import static cn.victor123.benchmark.constant.Constant.LOCALHOST_SLEEP1_URL;
-import static cn.victor123.benchmark.constant.Constant.LOCALHOST_SLEEP10_URL;
+import static cn.victor123.benchmark.constant.Constant.LOCALHOST_DOWNLOAD_LARGE_URL;
+import static cn.victor123.benchmark.constant.Constant.LOCALHOST_DOWNLOAD_SMALL_URL;
 
 import cn.victor123.benchmark.client.AbstractClient;
+import cn.victor123.benchmark.util.FileUtils;
+import java.io.File;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 import java.util.HashMap;
@@ -26,24 +26,28 @@ import org.openjdk.jmh.infra.Blackhole;
 @State(Scope.Benchmark)
 @BenchmarkMode(Mode.AverageTime)
 @OutputTimeUnit(TimeUnit.MILLISECONDS)
+@Warmup(iterations = 1, time = 1, timeUnit = TimeUnit.SECONDS)
+@Measurement(iterations = 1, time = 1, timeUnit = TimeUnit.SECONDS)
 public class ClientBenchMark {
 
-  @Param({"cn.victor123.benchmark.client.ApacheClientClient",
-      "cn.victor123.benchmark.client.JdkClientClient"
-      , "cn.victor123.benchmark.client.OkHttpClientClient",
-      "cn.victor123.benchmark.client.UnirestClient"})
+  @Param({"cn.victor123.benchmark.client.ApacheHttpClient",
+      "cn.victor123.benchmark.client.JdkHttpClient"
+      , "cn.victor123.benchmark.client.OkHttpClientt"
+      , "cn.victor123.benchmark.client.SpringHttpClient",
+      "cn.victor123.benchmark.client.UnirestHttpClient"})
   protected String className;
 
   protected AbstractClient abstractClient;
 
 
-  @Param({"KEEP_ALIVE", "NULL"})
+  @Param({"NULL"})
   protected String diffFeature;
 
-  @Param({LOCALHOST_NOW_URL, LOCALHOST_SLEEP1_URL, LOCALHOST_SLEEP5_URL, LOCALHOST_SLEEP10_URL})
-  private String url;
-
   protected Map<String, String> headerMap;
+
+  protected File smallFile = FileUtils.get("/Users/victor/tmp/dataset.csv");
+
+  protected File largeFile = FileUtils.get("/Users/victor/tmp/dataset2.csv");
 
   @Setup
   public void init()
@@ -60,21 +64,44 @@ public class ClientBenchMark {
       hashMap.put("Connection", "keep-alive");
       headerMap = hashMap;
     } else {
-//      System.out.println(c);
-//      System.out.println("diffFeature:" + diffFeature);
       throw new RuntimeException();
     }
 
-//    .header("accept-encoding", "gzip, deflate")
 
+  }
+
+//  @Benchmark
+//  public void get_return_now(Blackhole bh) throws Exception {
+//    bh.consume(abstractClient.getMethod(LOCALHOST_NOW_URL, headerMap));
+//  }
+//
+//
+//  @Benchmark
+//  public void get_return_sleep5ms(Blackhole bh) throws Exception {
+//    bh.consume(abstractClient.getMethod(LOCALHOST_SLEEP5_URL, headerMap));
+//  }
+
+
+  @Benchmark
+  public void download_210KB(Blackhole bh) throws Exception {
+    bh.consume(abstractClient.getMethod(LOCALHOST_DOWNLOAD_SMALL_URL, headerMap));
   }
 
   @Benchmark
-  @Warmup(iterations = 1, time = 1, timeUnit = TimeUnit.SECONDS)
-  @Measurement(iterations = 1, time = 1, timeUnit = TimeUnit.SECONDS)
-  public void test(Blackhole bh) throws Exception {
-    bh.consume(abstractClient.getMethod(url, headerMap));
+  public void download_420KB(Blackhole bh) throws Exception {
+    bh.consume(abstractClient.getMethod(LOCALHOST_DOWNLOAD_LARGE_URL, headerMap));
   }
+
+//  @Benchmark
+//  public void post_upload_210KB(Blackhole bh) throws Exception {
+//    bh.consume(abstractClient.postMethod(LOCALHOST_UPLOAD_URL, headerMap, smallFile));
+//  }
+//
+//
+//  @Benchmark
+//  public void post_upload_420KB(Blackhole bh) throws Exception {
+//    bh.consume(abstractClient.postMethod(LOCALHOST_UPLOAD_URL, headerMap, largeFile));
+//  }
 
 
 }

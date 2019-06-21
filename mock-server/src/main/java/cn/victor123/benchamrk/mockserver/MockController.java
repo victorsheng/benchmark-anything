@@ -1,7 +1,15 @@
 package cn.victor123.benchamrk.mockserver;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
+import org.apache.commons.io.FileUtils;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -32,6 +40,32 @@ public class MockController {
     return "Hello,World!";
   }
 
+
+  @RequestMapping(value = "/upload", method = RequestMethod.POST)
+  public String upload() throws InterruptedException {
+    return "Hello,World!";
+  }
+
+
+  @RequestMapping(value = "/download_small", method = RequestMethod.GET)
+  public ResponseEntity download_small() throws IOException {
+    File file = new File("/Users/victor/tmp/dataset.csv");
+    HttpHeaders headers = new HttpHeaders();
+    headers.setContentType(MediaType.APPLICATION_OCTET_STREAM);
+    headers.setContentDispositionFormData("attachment", "model");
+    return new ResponseEntity<>(FileUtils.readFileToByteArray(file), headers,
+        HttpStatus.CREATED);
+  }
+
+  @RequestMapping(value = "/download_large", method = RequestMethod.GET)
+  public ResponseEntity download_large() throws IOException {
+    File file = new File("/Users/victor/tmp/dataset2.csv");
+    HttpHeaders headers = new HttpHeaders();
+    headers.setContentType(MediaType.APPLICATION_OCTET_STREAM);
+    headers.setContentDispositionFormData("attachment", "model");
+    return new ResponseEntity<>(FileUtils.readFileToByteArray(file), headers,
+        HttpStatus.CREATED);
+  }
 
 
 }
