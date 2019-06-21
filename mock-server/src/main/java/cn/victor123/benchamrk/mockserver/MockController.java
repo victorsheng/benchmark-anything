@@ -7,10 +7,32 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MockController {
 
-    @RequestMapping("/")
-    public String sayHello() throws InterruptedException {
+  @RequestMapping("/now")
+  public String now() throws InterruptedException {
 //      TimeUnit.MILLISECONDS.sleep(500);
-      return "Hello,World!";
-    }
+    return "Hello,World!";
   }
+
+  @RequestMapping("/sleep1ms")
+  public String sleep10() throws InterruptedException {
+    TimeUnit.MILLISECONDS.sleep(1);
+    return "Hello,World!";
+  }
+
+  @RequestMapping("/sleep5ms")
+  public String sleep100() throws InterruptedException {
+    TimeUnit.MILLISECONDS.sleep(5);
+    return "Hello,World!";
+  }
+
+
+  @RequestMapping("/sleep10ms")
+  public String sleep500() throws InterruptedException {
+    TimeUnit.MILLISECONDS.sleep(10);
+    return "Hello,World!";
+  }
+
+
+
+}
 
