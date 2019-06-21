@@ -14,9 +14,9 @@ import org.apache.http.util.EntityUtils;
 public class ApacheClientClient extends AbstractClient {
 
   @Override
-  public String getMethod(Map<String, String> headerMap) throws Exception {
+  public String getMethod(String accessUrl, Map<String, String> headerMap) throws Exception {
     CloseableHttpClient httpclient = HttpClients.createDefault();
-    HttpGet httpGet = new HttpGet(Constant.LOCALHOST_GET_URL);
+    HttpGet httpGet = new HttpGet(accessUrl);
     if (headerMap != null) {
       for (Entry<String, String> stringStringEntry : headerMap.entrySet()) {
         httpGet.addHeader(stringStringEntry.getKey(), stringStringEntry.getValue());

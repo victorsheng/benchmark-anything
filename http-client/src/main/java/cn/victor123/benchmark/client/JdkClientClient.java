@@ -10,8 +10,8 @@ public class JdkClientClient extends AbstractClient {
 
 
   @Override
-  public String getMethod(Map<String, String> headerMap) throws Exception {
-    URL getUrl = new URL(Constant.LOCALHOST_GET_URL);
+  public String getMethod(String accessUrl, Map<String, String> headerMap) throws Exception {
+    URL getUrl = new URL(accessUrl);
     HttpURLConnection urlConnection = (HttpURLConnection) getUrl.openConnection();
     urlConnection.setRequestMethod("GET");// 设置请求方法
 

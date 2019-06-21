@@ -1,6 +1,7 @@
 package cn.victor123.benchmark.benchmark;
 
 import cn.victor123.benchmark.client.AbstractClient;
+import cn.victor123.benchmark.constant.Constant;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 import java.util.HashMap;
@@ -65,7 +66,7 @@ public class ClientBenchMark {
   @Warmup(iterations = 1, time = 1, timeUnit = TimeUnit.SECONDS)
   @Measurement(iterations = 1, time = 1, timeUnit = TimeUnit.SECONDS)
   public void test(Blackhole bh) throws Exception {
-    bh.consume(abstractClient.getMethod(headerMap));
+    bh.consume(abstractClient.getMethod(Constant.LOCALHOST_GET_URL,headerMap));
   }
 
 

@@ -8,6 +8,6 @@ import org.openjdk.jmh.annotations.State;
 @State(Scope.Benchmark)
 public abstract class AbstractClient {
 
-  public abstract String getMethod(Map<String,String> headerMap) throws Exception;
+  public abstract String getMethod(String accessUrl, Map<String, String> headerMap) throws Exception;
 
 }

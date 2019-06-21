@@ -15,9 +15,9 @@ public class OkHttpClientClient extends AbstractClient {
 
 
   @Override
-  public String getMethod(Map<String, String> headerMap) throws Exception {
+  public String getMethod(String accessUrl, Map<String, String> headerMap) throws Exception {
     Builder url = new Builder()
-        .url(Constant.LOCALHOST_GET_URL);
+        .url(accessUrl);
 
     if (headerMap != null) {
       for (Entry<String, String> stringStringEntry : headerMap.entrySet()) {
