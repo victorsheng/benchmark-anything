@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>cn.victor123.benchamrk</groupId>
-	<artifactId>mock-server</artifactId>
+	<artifactId>http-client-benchmark-mock-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>mock-server</name>
 	<packaging>war</packaging>
