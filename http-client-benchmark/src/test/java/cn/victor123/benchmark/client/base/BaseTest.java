@@ -1,6 +1,5 @@
 package cn.victor123.benchmark.client.base;
 
-import static cn.victor123.benchmark.constant.Constant.LOCALHOST_DOWNLOAD_SMALL_URL;
 
 import cn.victor123.benchmark.client.AbstractClient;
 import cn.victor123.benchmark.constant.Constant;
@@ -17,7 +16,7 @@ public abstract class BaseTest {
 
   @Test
   public void get() throws Exception {
-    String rs = getClient().getMethod(Constant.LOCALHOST_NOW_URL, null);
+    String rs = getClient().getMethod(Constant.i.getNow_url(), null);
     System.out.println(rs);
 
   }
@@ -25,13 +24,13 @@ public abstract class BaseTest {
 
   @Test
   public void upload() throws Exception {
-    String rs = getClient().postMethod(Constant.LOCALHOST_UPLOAD_URL, null, file);
+    String rs = getClient().postMethod(Constant.i.getUpload_url(), null, file);
     System.out.println(rs);
   }
 
   @Test
   public void download() throws Exception {
-    String rs = getClient().getMethod(LOCALHOST_DOWNLOAD_SMALL_URL, null);
+    String rs = getClient().getMethod(Constant.i.getDownload_small_url(), null);
     System.out.println(rs);
   }
 

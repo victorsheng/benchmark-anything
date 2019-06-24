@@ -11,7 +11,7 @@
 	<groupId>cn.victor123.benchamrk</groupId>
 	<artifactId>http-client-benchmark-mock-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>mock-server</name>
+	<name>http-client-benchmark-mock-server</name>
 	<packaging>war</packaging>
 	<description>Demo project for Spring Boot</description>
 
@@ -66,7 +66,7 @@
 				<version>9.4.9.v20180320</version>
 				<configuration>
 					<httpConnector>
-						<port>8080</port>
+						<port>3000</port>
 					</httpConnector>
 					<stopKey>shutdown</stopKey>
 					<stopPort>9967</stopPort>

@@ -1,9 +1,8 @@
 package cn.victor123.benchmark.benchmark;
 
-import static cn.victor123.benchmark.constant.Constant.LOCALHOST_DOWNLOAD_LARGE_URL;
-import static cn.victor123.benchmark.constant.Constant.LOCALHOST_DOWNLOAD_SMALL_URL;
 
 import cn.victor123.benchmark.client.AbstractClient;
+import cn.victor123.benchmark.constant.Constant;
 import cn.victor123.benchmark.util.FileUtils;
 import java.io.File;
 import java.lang.reflect.Constructor;
@@ -70,28 +69,27 @@ public class ClientBenchMark {
 
   }
 
-//  @Benchmark
-//  public void get_return_now(Blackhole bh) throws Exception {
-//    bh.consume(abstractClient.getMethod(LOCALHOST_NOW_URL, headerMap));
-//  }
-//
-//
-//  @Benchmark
-//  public void get_return_sleep5ms(Blackhole bh) throws Exception {
-//    bh.consume(abstractClient.getMethod(LOCALHOST_SLEEP5_URL, headerMap));
-//  }
+  @Benchmark
+  public void get_return_now(Blackhole bh) throws Exception {
+    bh.consume(abstractClient.getMethod(Constant.i.getNow_url(), headerMap));
+  }
 
 
   @Benchmark
-  public void download_210KB(Blackhole bh) throws Exception {
-    bh.consume(abstractClient.getMethod(LOCALHOST_DOWNLOAD_SMALL_URL, headerMap));
+  public void get_return_sleep5ms(Blackhole bh) throws Exception {
+    bh.consume(abstractClient.getMethod(Constant.i.getSleep5_url(), headerMap));
   }
 
-  @Benchmark
-  public void download_420KB(Blackhole bh) throws Exception {
-    bh.consume(abstractClient.getMethod(LOCALHOST_DOWNLOAD_LARGE_URL, headerMap));
-  }
-
+//  @Benchmark
+//  public void download_210KB(Blackhole bh) throws Exception {
+//    bh.consume(abstractClient.getMethod(LOCALHOST_DOWNLOAD_SMALL_URL, headerMap));
+//  }
+//
+//  @Benchmark
+//  public void download_420KB(Blackhole bh) throws Exception {
+//    bh.consume(abstractClient.getMethod(LOCALHOST_DOWNLOAD_LARGE_URL, headerMap));
+//  }
+//
 //  @Benchmark
 //  public void post_upload_210KB(Blackhole bh) throws Exception {
 //    bh.consume(abstractClient.postMethod(LOCALHOST_UPLOAD_URL, headerMap, smallFile));

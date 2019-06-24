@@ -1,0 +1,1 @@
+java -cp http-client-benchmark-1.0-SNAPSHOT.jar cn.victor123.benchmark.main.LocalMain
