@@ -20,6 +20,7 @@ public class Constant {
     sleep10_url = "http://" + host + ":" + port + "/" + url + "/sleep10ms";
 
     download_small_url = "http://" + host + ":" + port + "/" + url + "/download_small";
+    download_mid_url = "http://" + host + ":" + port + "/" + url + "/download_mid";
     download_large_url = "http://" + host + ":" + port + "/" + url + "/download_large";
 
     upload_url = "http://" + host + ":" + port + "/" + url + "/upload";
@@ -34,6 +35,7 @@ public class Constant {
   private String sleep5_url;
   private String sleep10_url;
   private String download_small_url;
+  private String download_mid_url;
   private String download_large_url;
   private String upload_url;
 
@@ -91,5 +93,13 @@ public class Constant {
 
   public void setUpload_url(String upload_url) {
     this.upload_url = upload_url;
+  }
+
+  public String getDownload_mid_url() {
+    return download_mid_url;
+  }
+
+  public void setDownload_mid_url(String download_mid_url) {
+    this.download_mid_url = download_mid_url;
   }
 }

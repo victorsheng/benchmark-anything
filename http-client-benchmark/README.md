@@ -5,9 +5,9 @@
 
 
 Benchmark                                                   (className)  (diffFeature)                                (url)  Mode  Cnt   Score   Error  Units
-ClientBenchMark.test   cn.victor123.benchmark.client.ApacheHttpClient           NULL       http://localhost:8080/mock/now  avgt        1.923          ms/op
-ClientBenchMark.test   cn.victor123.benchmark.client.ApacheHttpClient           NULL  http://localhost:8080/mock/sleep1ms  avgt        4.369          ms/op
-ClientBenchMark.test   cn.victor123.benchmark.client.ApacheHttpClient           NULL  http://localhost:8080/mock/sleep5ms  avgt        9.404          ms/op
+ClientBenchMark.test   cn.victor123.benchmark.client.ApacheHttpNoShareClient           NULL       http://localhost:8080/mock/now  avgt        1.923          ms/op
+ClientBenchMark.test   cn.victor123.benchmark.client.ApacheHttpNoShareClient           NULL  http://localhost:8080/mock/sleep1ms  avgt        4.369          ms/op
+ClientBenchMark.test   cn.victor123.benchmark.client.ApacheHttpNoShareClient           NULL  http://localhost:8080/mock/sleep5ms  avgt        9.404          ms/op
 ClientBenchMark.test      cn.victor123.benchmark.client.JdkHttpClient           NULL       http://localhost:8080/mock/now  avgt        0.827          ms/op
 ClientBenchMark.test      cn.victor123.benchmark.client.JdkHttpClient           NULL  http://localhost:8080/mock/sleep1ms  avgt        2.561          ms/op
 ClientBenchMark.test      cn.victor123.benchmark.client.JdkHttpClient           NULL  http://localhost:8080/mock/sleep5ms  avgt        7.875          ms/op
@@ -20,9 +20,9 @@ ClientBenchMark.test         cn.victor123.benchmark.client.SpringHttpClient     
 ClientBenchMark.test        cn.victor123.benchmark.client.UnirestHttpClient           NULL       http://localhost:8080/mock/now  avgt        0.186          ms/op
 ClientBenchMark.test        cn.victor123.benchmark.client.UnirestHttpClient           NULL  http://localhost:8080/mock/sleep1ms  avgt        2.039          ms/op
 ClientBenchMark.test        cn.victor123.benchmark.client.UnirestHttpClient           NULL  http://localhost:8080/mock/sleep5ms  avgt        7.132          ms/op
-ClientBenchMark2.test  cn.victor123.benchmark.client.ApacheHttpClient           NULL       http://localhost:8080/mock/now  avgt        2.147          ms/op
-ClientBenchMark2.test  cn.victor123.benchmark.client.ApacheHttpClient           NULL  http://localhost:8080/mock/sleep1ms  avgt        3.663          ms/op
-ClientBenchMark2.test  cn.victor123.benchmark.client.ApacheHttpClient           NULL  http://localhost:8080/mock/sleep5ms  avgt        8.922          ms/op
+ClientBenchMark2.test  cn.victor123.benchmark.client.ApacheHttpNoShareClient           NULL       http://localhost:8080/mock/now  avgt        2.147          ms/op
+ClientBenchMark2.test  cn.victor123.benchmark.client.ApacheHttpNoShareClient           NULL  http://localhost:8080/mock/sleep1ms  avgt        3.663          ms/op
+ClientBenchMark2.test  cn.victor123.benchmark.client.ApacheHttpNoShareClient           NULL  http://localhost:8080/mock/sleep5ms  avgt        8.922          ms/op
 ClientBenchMark2.test     cn.victor123.benchmark.client.JdkHttpClient           NULL       http://localhost:8080/mock/now  avgt        1.573          ms/op
 ClientBenchMark2.test     cn.victor123.benchmark.client.JdkHttpClient           NULL  http://localhost:8080/mock/sleep1ms  avgt        3.047          ms/op
 ClientBenchMark2.test     cn.victor123.benchmark.client.JdkHttpClient           NULL  http://localhost:8080/mock/sleep5ms  avgt        7.414          ms/op
@@ -35,9 +35,9 @@ ClientBenchMark2.test        cn.victor123.benchmark.client.SpringHttpClient     
 ClientBenchMark2.test       cn.victor123.benchmark.client.UnirestHttpClient           NULL       http://localhost:8080/mock/now  avgt        0.168          ms/op
 ClientBenchMark2.test       cn.victor123.benchmark.client.UnirestHttpClient           NULL  http://localhost:8080/mock/sleep1ms  avgt        1.896          ms/op
 ClientBenchMark2.test       cn.victor123.benchmark.client.UnirestHttpClient           NULL  http://localhost:8080/mock/sleep5ms  avgt        6.645          ms/op
-ClientBenchMark4.test  cn.victor123.benchmark.client.ApacheHttpClient           NULL       http://localhost:8080/mock/now  avgt        3.610          ms/op
-ClientBenchMark4.test  cn.victor123.benchmark.client.ApacheHttpClient           NULL  http://localhost:8080/mock/sleep1ms  avgt        4.479          ms/op
-ClientBenchMark4.test  cn.victor123.benchmark.client.ApacheHttpClient           NULL  http://localhost:8080/mock/sleep5ms  avgt        9.751          ms/op
+ClientBenchMark4.test  cn.victor123.benchmark.client.ApacheHttpNoShareClient           NULL       http://localhost:8080/mock/now  avgt        3.610          ms/op
+ClientBenchMark4.test  cn.victor123.benchmark.client.ApacheHttpNoShareClient           NULL  http://localhost:8080/mock/sleep1ms  avgt        4.479          ms/op
+ClientBenchMark4.test  cn.victor123.benchmark.client.ApacheHttpNoShareClient           NULL  http://localhost:8080/mock/sleep5ms  avgt        9.751          ms/op
 ClientBenchMark4.test     cn.victor123.benchmark.client.JdkHttpClient           NULL       http://localhost:8080/mock/now  avgt        3.102          ms/op
 ClientBenchMark4.test     cn.victor123.benchmark.client.JdkHttpClient           NULL  http://localhost:8080/mock/sleep1ms  avgt        7.385          ms/op
 ClientBenchMark4.test     cn.victor123.benchmark.client.JdkHttpClient           NULL  http://localhost:8080/mock/sleep5ms  avgt        8.174          ms/op
@@ -50,9 +50,9 @@ ClientBenchMark4.test        cn.victor123.benchmark.client.SpringHttpClient     
 ClientBenchMark4.test       cn.victor123.benchmark.client.UnirestHttpClient           NULL       http://localhost:8080/mock/now  avgt        0.234          ms/op
 ClientBenchMark4.test       cn.victor123.benchmark.client.UnirestHttpClient           NULL  http://localhost:8080/mock/sleep1ms  avgt        1.808          ms/op
 ClientBenchMark4.test       cn.victor123.benchmark.client.UnirestHttpClient           NULL  http://localhost:8080/mock/sleep5ms  avgt        6.708          ms/op
-ClientBenchMark8.test  cn.victor123.benchmark.client.ApacheHttpClient           NULL       http://localhost:8080/mock/now  avgt        5.995          ms/op
-ClientBenchMark8.test  cn.victor123.benchmark.client.ApacheHttpClient           NULL  http://localhost:8080/mock/sleep1ms  avgt        7.612          ms/op
-ClientBenchMark8.test  cn.victor123.benchmark.client.ApacheHttpClient           NULL  http://localhost:8080/mock/sleep5ms  avgt       15.526          ms/op
+ClientBenchMark8.test  cn.victor123.benchmark.client.ApacheHttpNoShareClient           NULL       http://localhost:8080/mock/now  avgt        5.995          ms/op
+ClientBenchMark8.test  cn.victor123.benchmark.client.ApacheHttpNoShareClient           NULL  http://localhost:8080/mock/sleep1ms  avgt        7.612          ms/op
+ClientBenchMark8.test  cn.victor123.benchmark.client.ApacheHttpNoShareClient           NULL  http://localhost:8080/mock/sleep5ms  avgt       15.526          ms/op
 ClientBenchMark8.test     cn.victor123.benchmark.client.JdkHttpClient           NULL       http://localhost:8080/mock/now  avgt        3.496          ms/op
 ClientBenchMark8.test     cn.victor123.benchmark.client.JdkHttpClient           NULL  http://localhost:8080/mock/sleep1ms  avgt        6.096          ms/op
 ClientBenchMark8.test     cn.victor123.benchmark.client.JdkHttpClient           NULL  http://localhost:8080/mock/sleep5ms  avgt        9.880          ms/op
@@ -164,22 +164,22 @@ public static void refresh() {
 ```
 
 Benchmark                                                    (className)  (diffFeature)                              (url)  Mode  Cnt   Score   Error  Units
-ClientBenchMark.upload    cn.victor123.benchmark.client.ApacheHttpClient           NULL  http://localhost:8080/mock/upload  avgt        6.466          ms/op
+ClientBenchMark.upload    cn.victor123.benchmark.client.ApacheHttpNoShareClient           NULL  http://localhost:8080/mock/upload  avgt        6.466          ms/op
 ClientBenchMark.upload       cn.victor123.benchmark.client.JdkHttpClient           NULL  http://localhost:8080/mock/upload  avgt        4.880          ms/op
 ClientBenchMark.upload       cn.victor123.benchmark.client.OkHttpClientt           NULL  http://localhost:8080/mock/upload  avgt        5.963          ms/op
 ClientBenchMark.upload    cn.victor123.benchmark.client.SpringHttpClient           NULL  http://localhost:8080/mock/upload  avgt        6.186          ms/op
 ClientBenchMark.upload   cn.victor123.benchmark.client.UnirestHttpClient           NULL  http://localhost:8080/mock/upload  avgt        3.402          ms/op
-ClientBenchMark2.upload   cn.victor123.benchmark.client.ApacheHttpClient           NULL  http://localhost:8080/mock/upload  avgt        4.115          ms/op
+ClientBenchMark2.upload   cn.victor123.benchmark.client.ApacheHttpNoShareClient           NULL  http://localhost:8080/mock/upload  avgt        4.115          ms/op
 ClientBenchMark2.upload      cn.victor123.benchmark.client.JdkHttpClient           NULL  http://localhost:8080/mock/upload  avgt        3.914          ms/op
 ClientBenchMark2.upload      cn.victor123.benchmark.client.OkHttpClientt           NULL  http://localhost:8080/mock/upload  avgt        5.262          ms/op
 ClientBenchMark2.upload   cn.victor123.benchmark.client.SpringHttpClient           NULL  http://localhost:8080/mock/upload  avgt        5.457          ms/op
 ClientBenchMark2.upload  cn.victor123.benchmark.client.UnirestHttpClient           NULL  http://localhost:8080/mock/upload  avgt        4.583          ms/op
-ClientBenchMark4.upload   cn.victor123.benchmark.client.ApacheHttpClient           NULL  http://localhost:8080/mock/upload  avgt        9.837          ms/op
+ClientBenchMark4.upload   cn.victor123.benchmark.client.ApacheHttpNoShareClient           NULL  http://localhost:8080/mock/upload  avgt        9.837          ms/op
 ClientBenchMark4.upload      cn.victor123.benchmark.client.JdkHttpClient           NULL  http://localhost:8080/mock/upload  avgt        4.585          ms/op
 ClientBenchMark4.upload      cn.victor123.benchmark.client.OkHttpClientt           NULL  http://localhost:8080/mock/upload  avgt        5.551          ms/op
 ClientBenchMark4.upload   cn.victor123.benchmark.client.SpringHttpClient           NULL  http://localhost:8080/mock/upload  avgt        5.731          ms/op
 ClientBenchMark4.upload  cn.victor123.benchmark.client.UnirestHttpClient           NULL  http://localhost:8080/mock/upload  avgt        4.739          ms/op
-ClientBenchMark8.upload   cn.victor123.benchmark.client.ApacheHttpClient           NULL  http://localhost:8080/mock/upload  avgt       16.073          ms/op
+ClientBenchMark8.upload   cn.victor123.benchmark.client.ApacheHttpNoShareClient           NULL  http://localhost:8080/mock/upload  avgt       16.073          ms/op
 ClientBenchMark8.upload      cn.victor123.benchmark.client.JdkHttpClient           NULL  http://localhost:8080/mock/upload  avgt        8.605          ms/op
 ClientBenchMark8.upload      cn.victor123.benchmark.client.OkHttpClientt           NULL  http://localhost:8080/mock/upload  avgt       13.457          ms/op
 ClientBenchMark8.upload   cn.victor123.benchmark.client.SpringHttpClient           NULL  http://localhost:8080/mock/upload  avgt       10.690          ms/op
@@ -190,42 +190,42 @@ ClientBenchMark8.upload  cn.victor123.benchmark.client.UnirestHttpClient        
 # 下载
 ```
 Benchmark                                                            (className)  (diffFeature)  Mode  Cnt  Score   Error  Units
-ClientBenchMark.download_210KB    cn.victor123.benchmark.client.ApacheHttpClient           NULL  avgt       1.557          ms/op
+ClientBenchMark.download_210KB    cn.victor123.benchmark.client.ApacheHttpNoShareClient           NULL  avgt       1.557          ms/op
 ClientBenchMark.download_210KB       cn.victor123.benchmark.client.JdkHttpClient           NULL  avgt       1.316          ms/op
 ClientBenchMark.download_210KB       cn.victor123.benchmark.client.OkHttpClientt           NULL  avgt       0.976          ms/op
 ClientBenchMark.download_210KB    cn.victor123.benchmark.client.SpringHttpClient           NULL  avgt       1.088          ms/op
 ClientBenchMark.download_210KB   cn.victor123.benchmark.client.UnirestHttpClient           NULL  avgt       1.552          ms/op
-ClientBenchMark.download_420KB    cn.victor123.benchmark.client.ApacheHttpClient           NULL  avgt       1.498          ms/op
+ClientBenchMark.download_420KB    cn.victor123.benchmark.client.ApacheHttpNoShareClient           NULL  avgt       1.498          ms/op
 ClientBenchMark.download_420KB       cn.victor123.benchmark.client.JdkHttpClient           NULL  avgt       2.393          ms/op
 ClientBenchMark.download_420KB       cn.victor123.benchmark.client.OkHttpClientt           NULL  avgt       2.275          ms/op
 ClientBenchMark.download_420KB    cn.victor123.benchmark.client.SpringHttpClient           NULL  avgt       6.793          ms/op
 ClientBenchMark.download_420KB   cn.victor123.benchmark.client.UnirestHttpClient           NULL  avgt       2.783          ms/op
-ClientBenchMark2.download_210KB   cn.victor123.benchmark.client.ApacheHttpClient           NULL  avgt       1.160          ms/op
+ClientBenchMark2.download_210KB   cn.victor123.benchmark.client.ApacheHttpNoShareClient           NULL  avgt       1.160          ms/op
 ClientBenchMark2.download_210KB      cn.victor123.benchmark.client.JdkHttpClient           NULL  avgt       1.568          ms/op
 ClientBenchMark2.download_210KB      cn.victor123.benchmark.client.OkHttpClientt           NULL  avgt       0.770          ms/op
 ClientBenchMark2.download_210KB   cn.victor123.benchmark.client.SpringHttpClient           NULL  avgt       1.079          ms/op
 ClientBenchMark2.download_210KB  cn.victor123.benchmark.client.UnirestHttpClient           NULL  avgt       1.606          ms/op
-ClientBenchMark2.download_420KB   cn.victor123.benchmark.client.ApacheHttpClient           NULL  avgt       1.428          ms/op
+ClientBenchMark2.download_420KB   cn.victor123.benchmark.client.ApacheHttpNoShareClient           NULL  avgt       1.428          ms/op
 ClientBenchMark2.download_420KB      cn.victor123.benchmark.client.JdkHttpClient           NULL  avgt       3.024          ms/op
 ClientBenchMark2.download_420KB      cn.victor123.benchmark.client.OkHttpClientt           NULL  avgt       3.716          ms/op
 ClientBenchMark2.download_420KB   cn.victor123.benchmark.client.SpringHttpClient           NULL  avgt       1.973          ms/op
 ClientBenchMark2.download_420KB  cn.victor123.benchmark.client.UnirestHttpClient           NULL  avgt       2.994          ms/op
-ClientBenchMark4.download_210KB   cn.victor123.benchmark.client.ApacheHttpClient           NULL  avgt       1.511          ms/op
+ClientBenchMark4.download_210KB   cn.victor123.benchmark.client.ApacheHttpNoShareClient           NULL  avgt       1.511          ms/op
 ClientBenchMark4.download_210KB      cn.victor123.benchmark.client.JdkHttpClient           NULL  avgt       2.051          ms/op
 ClientBenchMark4.download_210KB      cn.victor123.benchmark.client.OkHttpClientt           NULL  avgt       2.081          ms/op
 ClientBenchMark4.download_210KB   cn.victor123.benchmark.client.SpringHttpClient           NULL  avgt       1.948          ms/op
 ClientBenchMark4.download_210KB  cn.victor123.benchmark.client.UnirestHttpClient           NULL  avgt       2.673          ms/op
-ClientBenchMark4.download_420KB   cn.victor123.benchmark.client.ApacheHttpClient           NULL  avgt       4.119          ms/op
+ClientBenchMark4.download_420KB   cn.victor123.benchmark.client.ApacheHttpNoShareClient           NULL  avgt       4.119          ms/op
 ClientBenchMark4.download_420KB      cn.victor123.benchmark.client.JdkHttpClient           NULL  avgt       3.510          ms/op
 ClientBenchMark4.download_420KB      cn.victor123.benchmark.client.OkHttpClientt           NULL  avgt       5.082          ms/op
 ClientBenchMark4.download_420KB   cn.victor123.benchmark.client.SpringHttpClient           NULL  avgt       3.436          ms/op
 ClientBenchMark4.download_420KB  cn.victor123.benchmark.client.UnirestHttpClient           NULL  avgt       5.381          ms/op
-ClientBenchMark8.download_210KB   cn.victor123.benchmark.client.ApacheHttpClient           NULL  avgt       3.145          ms/op
+ClientBenchMark8.download_210KB   cn.victor123.benchmark.client.ApacheHttpNoShareClient           NULL  avgt       3.145          ms/op
 ClientBenchMark8.download_210KB      cn.victor123.benchmark.client.JdkHttpClient           NULL  avgt       3.094          ms/op
 ClientBenchMark8.download_210KB      cn.victor123.benchmark.client.OkHttpClientt           NULL  avgt       2.183          ms/op
 ClientBenchMark8.download_210KB   cn.victor123.benchmark.client.SpringHttpClient           NULL  avgt       3.160          ms/op
 ClientBenchMark8.download_210KB  cn.victor123.benchmark.client.UnirestHttpClient           NULL  avgt       4.619          ms/op
-ClientBenchMark8.download_420KB   cn.victor123.benchmark.client.ApacheHttpClient           NULL  avgt       9.196          ms/op
+ClientBenchMark8.download_420KB   cn.victor123.benchmark.client.ApacheHttpNoShareClient           NULL  avgt       9.196          ms/op
 ClientBenchMark8.download_420KB      cn.victor123.benchmark.client.JdkHttpClient           NULL  avgt       5.811          ms/op
 ClientBenchMark8.download_420KB      cn.victor123.benchmark.client.OkHttpClientt           NULL  avgt       4.940          ms/op
 ClientBenchMark8.download_420KB   cn.victor123.benchmark.client.SpringHttpClient           NULL  avgt       5.935          ms/op

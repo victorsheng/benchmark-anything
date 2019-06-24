@@ -18,7 +18,6 @@ public class LocalMain {
 
     //本地配置
     Constant.i = new Constant("localhost", "3000", "mock");
-
     long s = System.currentTimeMillis();
     Options opt = new OptionsBuilder()
         .include(ClientBenchMark.class.getSimpleName())
@@ -26,7 +25,7 @@ public class LocalMain {
         .addProfiler(GCProfiler.class)
         .addProfiler(StackProfiler.class)
         .addProfiler(PausesProfiler.class)
-        .result(s + "-result.csv")
+        .result("result/" + s + "-result.csv")
         .forks(1)
         .build();
 

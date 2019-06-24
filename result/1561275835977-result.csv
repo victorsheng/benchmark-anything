@@ -19,7 +19,7 @@
         "measurementTime" : "1 s",
         "measurementBatchSize" : 1,
         "params" : {
-            "className" : "cn.victor123.benchmark.client.ApacheHttpClient",
+            "className" : "cn.victor123.benchmark.client.ApacheHttpNoShareClient",
             "diffFeature" : "NULL"
         },
         "primaryMetric" : {
@@ -2567,7 +2567,7 @@
         "measurementTime" : "1 s",
         "measurementBatchSize" : 1,
         "params" : {
-            "className" : "cn.victor123.benchmark.client.ApacheHttpClient",
+            "className" : "cn.victor123.benchmark.client.ApacheHttpNoShareClient",
             "diffFeature" : "NULL"
         },
         "primaryMetric" : {
@@ -4777,7 +4777,7 @@
         "measurementTime" : "1 s",
         "measurementBatchSize" : 1,
         "params" : {
-            "className" : "cn.victor123.benchmark.client.ApacheHttpClient",
+            "className" : "cn.victor123.benchmark.client.ApacheHttpNoShareClient",
             "diffFeature" : "NULL"
         },
         "primaryMetric" : {
@@ -7585,7 +7585,7 @@
         "measurementTime" : "1 s",
         "measurementBatchSize" : 1,
         "params" : {
-            "className" : "cn.victor123.benchmark.client.ApacheHttpClient",
+            "className" : "cn.victor123.benchmark.client.ApacheHttpNoShareClient",
             "diffFeature" : "NULL"
         },
         "primaryMetric" : {

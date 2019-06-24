@@ -15,7 +15,7 @@ import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
 
 
-public class ApacheHttpClient extends AbstractClient {
+public class ApacheHttpShareClient extends AbstractClient {
 
 
   private CloseableHttpClient httpclient = HttpClients.createDefault();

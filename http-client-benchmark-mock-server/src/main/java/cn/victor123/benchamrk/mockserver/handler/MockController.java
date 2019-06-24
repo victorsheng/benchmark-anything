@@ -57,9 +57,19 @@ public class MockController {
         HttpStatus.CREATED);
   }
 
+  @RequestMapping(value = "/download_mid", method = RequestMethod.GET)
+  public ResponseEntity download_mid() throws IOException {
+    File file = new File("/Users/victor/tmp/dataset2.csv");
+    HttpHeaders headers = new HttpHeaders();
+    headers.setContentType(MediaType.APPLICATION_OCTET_STREAM);
+    headers.setContentDispositionFormData("attachment", "model");
+    return new ResponseEntity<>(FileUtils.readFileToByteArray(file), headers,
+        HttpStatus.CREATED);
+  }
+
   @RequestMapping(value = "/download_large", method = RequestMethod.GET)
   public ResponseEntity download_large() throws IOException {
-    File file = new File("/Users/victor/tmp/dataset2.csv");
+    File file = new File("/Users/victor/tmp/sm2.pdf");
     HttpHeaders headers = new HttpHeaders();
     headers.setContentType(MediaType.APPLICATION_OCTET_STREAM);
     headers.setContentDispositionFormData("attachment", "model");
