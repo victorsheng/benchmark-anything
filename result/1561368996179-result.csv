@@ -1,0 +1,1894 @@
+[
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "cn.victor123.benchmark.benchmark.ClientBenchMarkDownload.download_large",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA-2.app/Contents/lib/idea_rt.jar=54357:/Applications/IntelliJ IDEA-2.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_151",
+        "vmVersion" : "25.151-b12",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "className" : "cn.victor123.benchmark.client.ApacheHttpShareClient",
+            "diffFeature" : "NULL"
+        },
+        "primaryMetric" : {
+            "score" : 2.252099568163841,
+            "scoreError" : 0.5741356582436893,
+            "scoreConfidence" : [
+                1.6779639099201518,
+                2.8262352264075306
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2.2224423706666667,
+                "50.0" : 2.2487424977517985,
+                "90.0" : 2.285113836073059,
+                "95.0" : 2.285113836073059,
+                "99.0" : 2.285113836073059,
+                "99.9" : 2.285113836073059,
+                "99.99" : 2.285113836073059,
+                "99.999" : 2.285113836073059,
+                "99.9999" : 2.285113836073059,
+                "100.0" : 2.285113836073059
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    2.285113836073059,
+                    2.2487424977517985,
+                    2.2224423706666667
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "cn.victor123.benchmark.benchmark.ClientBenchMarkDownload.download_large",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA-2.app/Contents/lib/idea_rt.jar=54357:/Applications/IntelliJ IDEA-2.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_151",
+        "vmVersion" : "25.151-b12",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "className" : "cn.victor123.benchmark.client.JdkHttpClient",
+            "diffFeature" : "NULL"
+        },
+        "primaryMetric" : {
+            "score" : 28.013580502611024,
+            "scoreError" : 1.972822900865762,
+            "scoreConfidence" : [
+                26.040757601745263,
+                29.986403403476785
+            ],
+            "scorePercentiles" : {
+                "0.0" : 27.91723128888889,
+                "50.0" : 27.99297102793296,
+                "90.0" : 28.130539191011238,
+                "95.0" : 28.130539191011238,
+                "99.0" : 28.130539191011238,
+                "99.9" : 28.130539191011238,
+                "99.99" : 28.130539191011238,
+                "99.999" : 28.130539191011238,
+                "99.9999" : 28.130539191011238,
+                "100.0" : 28.130539191011238
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    27.91723128888889,
+                    28.130539191011238,
+                    27.99297102793296
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "cn.victor123.benchmark.benchmark.ClientBenchMarkDownload.download_large",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA-2.app/Contents/lib/idea_rt.jar=54357:/Applications/IntelliJ IDEA-2.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_151",
+        "vmVersion" : "25.151-b12",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "className" : "cn.victor123.benchmark.client.OkHttpClientt",
+            "diffFeature" : "NULL"
+        },
+        "primaryMetric" : {
+            "score" : 13.354189011020544,
+            "scoreError" : 2.8444093307154974,
+            "scoreConfidence" : [
+                10.509779680305048,
+                16.19859834173604
+            ],
+            "scorePercentiles" : {
+                "0.0" : 13.263105177248677,
+                "50.0" : 13.265245793650793,
+                "90.0" : 13.534216062162162,
+                "95.0" : 13.534216062162162,
+                "99.0" : 13.534216062162162,
+                "99.9" : 13.534216062162162,
+                "99.99" : 13.534216062162162,
+                "99.999" : 13.534216062162162,
+                "99.9999" : 13.534216062162162,
+                "100.0" : 13.534216062162162
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    13.263105177248677,
+                    13.265245793650793,
+                    13.534216062162162
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "cn.victor123.benchmark.benchmark.ClientBenchMarkDownload.download_large",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA-2.app/Contents/lib/idea_rt.jar=54357:/Applications/IntelliJ IDEA-2.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_151",
+        "vmVersion" : "25.151-b12",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "className" : "cn.victor123.benchmark.client.SpringHttpClient",
+            "diffFeature" : "NULL"
+        },
+        "primaryMetric" : {
+            "score" : 3.470674511155243,
+            "scoreError" : 2.4521858318315575,
+            "scoreConfidence" : [
+                1.0184886793236854,
+                5.9228603429868
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3.342211700267023,
+                "50.0" : 3.459475675190048,
+                "90.0" : 3.610336158008658,
+                "95.0" : 3.610336158008658,
+                "99.0" : 3.610336158008658,
+                "99.9" : 3.610336158008658,
+                "99.99" : 3.610336158008658,
+                "99.999" : 3.610336158008658,
+                "99.9999" : 3.610336158008658,
+                "100.0" : 3.610336158008658
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    3.342211700267023,
+                    3.459475675190048,
+                    3.610336158008658
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "cn.victor123.benchmark.benchmark.ClientBenchMarkDownload.download_large",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA-2.app/Contents/lib/idea_rt.jar=54357:/Applications/IntelliJ IDEA-2.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_151",
+        "vmVersion" : "25.151-b12",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "className" : "cn.victor123.benchmark.client.UnirestHttpClient",
+            "diffFeature" : "NULL"
+        },
+        "primaryMetric" : {
+            "score" : 17.35284242737465,
+            "scoreError" : 5.183624100334101,
+            "scoreConfidence" : [
+                12.16921832704055,
+                22.53646652770875
+            ],
+            "scorePercentiles" : {
+                "0.0" : 17.064186272108845,
+                "50.0" : 17.36211803114187,
+                "90.0" : 17.63222297887324,
+                "95.0" : 17.63222297887324,
+                "99.0" : 17.63222297887324,
+                "99.9" : 17.63222297887324,
+                "99.99" : 17.63222297887324,
+                "99.999" : 17.63222297887324,
+                "99.9999" : 17.63222297887324,
+                "100.0" : 17.63222297887324
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    17.63222297887324,
+                    17.36211803114187,
+                    17.064186272108845
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "cn.victor123.benchmark.benchmark.ClientBenchMarkDownload.download_mid",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA-2.app/Contents/lib/idea_rt.jar=54357:/Applications/IntelliJ IDEA-2.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_151",
+        "vmVersion" : "25.151-b12",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "className" : "cn.victor123.benchmark.client.ApacheHttpShareClient",
+            "diffFeature" : "NULL"
+        },
+        "primaryMetric" : {
+            "score" : 0.9925744515574723,
+            "scoreError" : 0.8554150504052638,
+            "scoreConfidence" : [
+                0.13715940115220848,
+                1.847989501962736
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.9647859221429947,
+                "50.0" : 0.9662275662673879,
+                "90.0" : 1.0467098662620342,
+                "95.0" : 1.0467098662620342,
+                "99.0" : 1.0467098662620342,
+                "99.9" : 1.0467098662620342,
+                "99.99" : 1.0467098662620342,
+                "99.999" : 1.0467098662620342,
+                "99.9999" : 1.0467098662620342,
+                "100.0" : 1.0467098662620342
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    0.9662275662673879,
+                    0.9647859221429947,
+                    1.0467098662620342
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "cn.victor123.benchmark.benchmark.ClientBenchMarkDownload.download_mid",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA-2.app/Contents/lib/idea_rt.jar=54357:/Applications/IntelliJ IDEA-2.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_151",
+        "vmVersion" : "25.151-b12",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "className" : "cn.victor123.benchmark.client.JdkHttpClient",
+            "diffFeature" : "NULL"
+        },
+        "primaryMetric" : {
+            "score" : 1.413941269602147,
+            "scoreError" : 0.13940089387420135,
+            "scoreConfidence" : [
+                1.2745403757279457,
+                1.5533421634763482
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1.4093606992671928,
+                "50.0" : 1.4097009213641487,
+                "90.0" : 1.4227621881750996,
+                "95.0" : 1.4227621881750996,
+                "99.0" : 1.4227621881750996,
+                "99.9" : 1.4227621881750996,
+                "99.99" : 1.4227621881750996,
+                "99.999" : 1.4227621881750996,
+                "99.9999" : 1.4227621881750996,
+                "100.0" : 1.4227621881750996
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    1.4227621881750996,
+                    1.4093606992671928,
+                    1.4097009213641487
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "cn.victor123.benchmark.benchmark.ClientBenchMarkDownload.download_mid",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA-2.app/Contents/lib/idea_rt.jar=54357:/Applications/IntelliJ IDEA-2.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_151",
+        "vmVersion" : "25.151-b12",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "className" : "cn.victor123.benchmark.client.OkHttpClientt",
+            "diffFeature" : "NULL"
+        },
+        "primaryMetric" : {
+            "score" : 1.113891327408292,
+            "scoreError" : 0.1064640975500137,
+            "scoreConfidence" : [
+                1.0074272298582783,
+                1.2203554249583057
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1.1072590039831822,
+                "50.0" : 1.116175936649565,
+                "90.0" : 1.1182390415921288,
+                "95.0" : 1.1182390415921288,
+                "99.0" : 1.1182390415921288,
+                "99.9" : 1.1182390415921288,
+                "99.99" : 1.1182390415921288,
+                "99.999" : 1.1182390415921288,
+                "99.9999" : 1.1182390415921288,
+                "100.0" : 1.1182390415921288
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    1.1072590039831822,
+                    1.1182390415921288,
+                    1.116175936649565
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "cn.victor123.benchmark.benchmark.ClientBenchMarkDownload.download_mid",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA-2.app/Contents/lib/idea_rt.jar=54357:/Applications/IntelliJ IDEA-2.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_151",
+        "vmVersion" : "25.151-b12",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "className" : "cn.victor123.benchmark.client.SpringHttpClient",
+            "diffFeature" : "NULL"
+        },
+        "primaryMetric" : {
+            "score" : 1.9237437157019652,
+            "scoreError" : 8.836668112091928,
+            "scoreConfidence" : [
+                -6.912924396389963,
+                10.760411827793893
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1.3646258862830651,
+                "50.0" : 2.190957232049037,
+                "90.0" : 2.215648028773794,
+                "95.0" : 2.215648028773794,
+                "99.0" : 2.215648028773794,
+                "99.9" : 2.215648028773794,
+                "99.99" : 2.215648028773794,
+                "99.999" : 2.215648028773794,
+                "99.9999" : 2.215648028773794,
+                "100.0" : 2.215648028773794
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    1.3646258862830651,
+                    2.190957232049037,
+                    2.215648028773794
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "cn.victor123.benchmark.benchmark.ClientBenchMarkDownload.download_mid",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA-2.app/Contents/lib/idea_rt.jar=54357:/Applications/IntelliJ IDEA-2.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_151",
+        "vmVersion" : "25.151-b12",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "className" : "cn.victor123.benchmark.client.UnirestHttpClient",
+            "diffFeature" : "NULL"
+        },
+        "primaryMetric" : {
+            "score" : 2.1631549685890477,
+            "scoreError" : 0.10649126899694097,
+            "scoreConfidence" : [
+                2.056663699592107,
+                2.2696462375859885
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2.1596870996978854,
+                "50.0" : 2.1598836373056995,
+                "90.0" : 2.1698941687635576,
+                "95.0" : 2.1698941687635576,
+                "99.0" : 2.1698941687635576,
+                "99.9" : 2.1698941687635576,
+                "99.99" : 2.1698941687635576,
+                "99.999" : 2.1698941687635576,
+                "99.9999" : 2.1698941687635576,
+                "100.0" : 2.1698941687635576
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    2.1596870996978854,
+                    2.1598836373056995,
+                    2.1698941687635576
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "cn.victor123.benchmark.benchmark.ClientBenchMarkDownload.download_small",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA-2.app/Contents/lib/idea_rt.jar=54357:/Applications/IntelliJ IDEA-2.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_151",
+        "vmVersion" : "25.151-b12",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "className" : "cn.victor123.benchmark.client.ApacheHttpShareClient",
+            "diffFeature" : "NULL"
+        },
+        "primaryMetric" : {
+            "score" : 0.5041474665743332,
+            "scoreError" : 0.06582666863544541,
+            "scoreConfidence" : [
+                0.4383207979388878,
+                0.5699741352097786
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.50068500070014,
+                "50.0" : 0.5038718428470754,
+                "90.0" : 0.507885556175784,
+                "95.0" : 0.507885556175784,
+                "99.0" : 0.507885556175784,
+                "99.9" : 0.507885556175784,
+                "99.99" : 0.507885556175784,
+                "99.999" : 0.507885556175784,
+                "99.9999" : 0.507885556175784,
+                "100.0" : 0.507885556175784
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    0.507885556175784,
+                    0.50068500070014,
+                    0.5038718428470754
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "cn.victor123.benchmark.benchmark.ClientBenchMarkDownload.download_small",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA-2.app/Contents/lib/idea_rt.jar=54357:/Applications/IntelliJ IDEA-2.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_151",
+        "vmVersion" : "25.151-b12",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "className" : "cn.victor123.benchmark.client.JdkHttpClient",
+            "diffFeature" : "NULL"
+        },
+        "primaryMetric" : {
+            "score" : 0.8055273856035098,
+            "scoreError" : 0.06733908331225441,
+            "scoreConfidence" : [
+                0.7381883022912554,
+                0.8728664689157641
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.8018396407051283,
+                "50.0" : 0.805520719665272,
+                "90.0" : 0.8092217964401295,
+                "95.0" : 0.8092217964401295,
+                "99.0" : 0.8092217964401295,
+                "99.9" : 0.8092217964401295,
+                "99.99" : 0.8092217964401295,
+                "99.999" : 0.8092217964401295,
+                "99.9999" : 0.8092217964401295,
+                "100.0" : 0.8092217964401295
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    0.8092217964401295,
+                    0.8018396407051283,
+                    0.805520719665272
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "cn.victor123.benchmark.benchmark.ClientBenchMarkDownload.download_small",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA-2.app/Contents/lib/idea_rt.jar=54357:/Applications/IntelliJ IDEA-2.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_151",
+        "vmVersion" : "25.151-b12",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "className" : "cn.victor123.benchmark.client.OkHttpClientt",
+            "diffFeature" : "NULL"
+        },
+        "primaryMetric" : {
+            "score" : 0.6172155671355765,
+            "scoreError" : 0.2162175339919588,
+            "scoreConfidence" : [
+                0.40099803314361765,
+                0.8334331011275353
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.6049211765061698,
+                "50.0" : 0.6181573142221674,
+                "90.0" : 0.628568210678392,
+                "95.0" : 0.628568210678392,
+                "99.0" : 0.628568210678392,
+                "99.9" : 0.628568210678392,
+                "99.99" : 0.628568210678392,
+                "99.999" : 0.628568210678392,
+                "99.9999" : 0.628568210678392,
+                "100.0" : 0.628568210678392
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    0.628568210678392,
+                    0.6049211765061698,
+                    0.6181573142221674
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "cn.victor123.benchmark.benchmark.ClientBenchMarkDownload.download_small",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA-2.app/Contents/lib/idea_rt.jar=54357:/Applications/IntelliJ IDEA-2.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_151",
+        "vmVersion" : "25.151-b12",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "className" : "cn.victor123.benchmark.client.SpringHttpClient",
+            "diffFeature" : "NULL"
+        },
+        "primaryMetric" : {
+            "score" : 0.8374485768042487,
+            "scoreError" : 2.550876312986048,
+            "scoreConfidence" : [
+                -1.7134277361817993,
+                3.3883248897902964
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.7339534205045468,
+                "50.0" : 0.7818798243475543,
+                "90.0" : 0.9965124855606453,
+                "95.0" : 0.9965124855606453,
+                "99.0" : 0.9965124855606453,
+                "99.9" : 0.9965124855606453,
+                "99.99" : 0.9965124855606453,
+                "99.999" : 0.9965124855606453,
+                "99.9999" : 0.9965124855606453,
+                "100.0" : 0.9965124855606453
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    0.7339534205045468,
+                    0.7818798243475543,
+                    0.9965124855606453
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "cn.victor123.benchmark.benchmark.ClientBenchMarkDownload.download_small",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA-2.app/Contents/lib/idea_rt.jar=54357:/Applications/IntelliJ IDEA-2.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_151",
+        "vmVersion" : "25.151-b12",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "className" : "cn.victor123.benchmark.client.UnirestHttpClient",
+            "diffFeature" : "NULL"
+        },
+        "primaryMetric" : {
+            "score" : 1.3232670020146706,
+            "scoreError" : 1.1210318792743674,
+            "scoreConfidence" : [
+                0.2022351227403032,
+                2.444298881289038
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1.265297920839656,
+                "50.0" : 1.3168186567517768,
+                "90.0" : 1.387684428452579,
+                "95.0" : 1.387684428452579,
+                "99.0" : 1.387684428452579,
+                "99.9" : 1.387684428452579,
+                "99.99" : 1.387684428452579,
+                "99.999" : 1.387684428452579,
+                "99.9999" : 1.387684428452579,
+                "100.0" : 1.387684428452579
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    1.387684428452579,
+                    1.3168186567517768,
+                    1.265297920839656
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "cn.victor123.benchmark.benchmark.ClientBenchMarkGET.get_return_now",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA-2.app/Contents/lib/idea_rt.jar=54357:/Applications/IntelliJ IDEA-2.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_151",
+        "vmVersion" : "25.151-b12",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "className" : "cn.victor123.benchmark.client.ApacheHttpShareClient",
+            "diffFeature" : "NULL"
+        },
+        "primaryMetric" : {
+            "score" : 0.08957132042489968,
+            "scoreError" : 0.026615593420761165,
+            "scoreConfidence" : [
+                0.06295572700413851,
+                0.11618691384566085
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.08805189213977643,
+                "50.0" : 0.08970106257283729,
+                "90.0" : 0.09096100656208532,
+                "95.0" : 0.09096100656208532,
+                "99.0" : 0.09096100656208532,
+                "99.9" : 0.09096100656208532,
+                "99.99" : 0.09096100656208532,
+                "99.999" : 0.09096100656208532,
+                "99.9999" : 0.09096100656208532,
+                "100.0" : 0.09096100656208532
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    0.09096100656208532,
+                    0.08805189213977643,
+                    0.08970106257283729
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "cn.victor123.benchmark.benchmark.ClientBenchMarkGET.get_return_now",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA-2.app/Contents/lib/idea_rt.jar=54357:/Applications/IntelliJ IDEA-2.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_151",
+        "vmVersion" : "25.151-b12",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "className" : "cn.victor123.benchmark.client.JdkHttpClient",
+            "diffFeature" : "NULL"
+        },
+        "primaryMetric" : {
+            "score" : 0.12766942886695085,
+            "scoreError" : 0.0480805060614988,
+            "scoreConfidence" : [
+                0.07958892280545204,
+                0.17574993492844965
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.12475281735182599,
+                "50.0" : 0.12837563434042662,
+                "90.0" : 0.12987983490859992,
+                "95.0" : 0.12987983490859992,
+                "99.0" : 0.12987983490859992,
+                "99.9" : 0.12987983490859992,
+                "99.99" : 0.12987983490859992,
+                "99.999" : 0.12987983490859992,
+                "99.9999" : 0.12987983490859992,
+                "100.0" : 0.12987983490859992
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    0.12837563434042662,
+                    0.12987983490859992,
+                    0.12475281735182599
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "cn.victor123.benchmark.benchmark.ClientBenchMarkGET.get_return_now",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA-2.app/Contents/lib/idea_rt.jar=54357:/Applications/IntelliJ IDEA-2.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_151",
+        "vmVersion" : "25.151-b12",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "className" : "cn.victor123.benchmark.client.OkHttpClientt",
+            "diffFeature" : "NULL"
+        },
+        "primaryMetric" : {
+            "score" : 0.10399336957822443,
+            "scoreError" : 0.030499542180829564,
+            "scoreConfidence" : [
+                0.07349382739739486,
+                0.13449291175905398
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.10231549531773942,
+                "50.0" : 0.10400561977747738,
+                "90.0" : 0.1056589936394565,
+                "95.0" : 0.1056589936394565,
+                "99.0" : 0.1056589936394565,
+                "99.9" : 0.1056589936394565,
+                "99.99" : 0.1056589936394565,
+                "99.999" : 0.1056589936394565,
+                "99.9999" : 0.1056589936394565,
+                "100.0" : 0.1056589936394565
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    0.1056589936394565,
+                    0.10231549531773942,
+                    0.10400561977747738
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "cn.victor123.benchmark.benchmark.ClientBenchMarkGET.get_return_now",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA-2.app/Contents/lib/idea_rt.jar=54357:/Applications/IntelliJ IDEA-2.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_151",
+        "vmVersion" : "25.151-b12",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "className" : "cn.victor123.benchmark.client.SpringHttpClient",
+            "diffFeature" : "NULL"
+        },
+        "primaryMetric" : {
+            "score" : 0.12053838444870242,
+            "scoreError" : 0.05284206991109737,
+            "scoreConfidence" : [
+                0.06769631453760505,
+                0.1733804543597998
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.11846924986968678,
+                "50.0" : 0.11929733167278447,
+                "90.0" : 0.12384857180363601,
+                "95.0" : 0.12384857180363601,
+                "99.0" : 0.12384857180363601,
+                "99.9" : 0.12384857180363601,
+                "99.99" : 0.12384857180363601,
+                "99.999" : 0.12384857180363601,
+                "99.9999" : 0.12384857180363601,
+                "100.0" : 0.12384857180363601
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    0.12384857180363601,
+                    0.11846924986968678,
+                    0.11929733167278447
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "cn.victor123.benchmark.benchmark.ClientBenchMarkGET.get_return_now",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA-2.app/Contents/lib/idea_rt.jar=54357:/Applications/IntelliJ IDEA-2.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_151",
+        "vmVersion" : "25.151-b12",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "className" : "cn.victor123.benchmark.client.UnirestHttpClient",
+            "diffFeature" : "NULL"
+        },
+        "primaryMetric" : {
+            "score" : 0.09850034058434091,
+            "scoreError" : 0.010783926628351499,
+            "scoreConfidence" : [
+                0.08771641395598942,
+                0.10928426721269241
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.09802354303403146,
+                "50.0" : 0.09831577209119496,
+                "90.0" : 0.09916170662779629,
+                "95.0" : 0.09916170662779629,
+                "99.0" : 0.09916170662779629,
+                "99.9" : 0.09916170662779629,
+                "99.99" : 0.09916170662779629,
+                "99.999" : 0.09916170662779629,
+                "99.9999" : 0.09916170662779629,
+                "100.0" : 0.09916170662779629
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    0.09916170662779629,
+                    0.09831577209119496,
+                    0.09802354303403146
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "cn.victor123.benchmark.benchmark.ClientBenchMarkGET.get_return_sleep5ms",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA-2.app/Contents/lib/idea_rt.jar=54357:/Applications/IntelliJ IDEA-2.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_151",
+        "vmVersion" : "25.151-b12",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "className" : "cn.victor123.benchmark.client.ApacheHttpShareClient",
+            "diffFeature" : "NULL"
+        },
+        "primaryMetric" : {
+            "score" : 6.690515555095001,
+            "scoreError" : 0.7781809099570243,
+            "scoreConfidence" : [
+                5.912334645137976,
+                7.468696465052025
+            ],
+            "scorePercentiles" : {
+                "0.0" : 6.6466817290836655,
+                "50.0" : 6.692980680481283,
+                "90.0" : 6.731884255720054,
+                "95.0" : 6.731884255720054,
+                "99.0" : 6.731884255720054,
+                "99.9" : 6.731884255720054,
+                "99.99" : 6.731884255720054,
+                "99.999" : 6.731884255720054,
+                "99.9999" : 6.731884255720054,
+                "100.0" : 6.731884255720054
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    6.6466817290836655,
+                    6.692980680481283,
+                    6.731884255720054
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "cn.victor123.benchmark.benchmark.ClientBenchMarkGET.get_return_sleep5ms",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA-2.app/Contents/lib/idea_rt.jar=54357:/Applications/IntelliJ IDEA-2.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_151",
+        "vmVersion" : "25.151-b12",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "className" : "cn.victor123.benchmark.client.JdkHttpClient",
+            "diffFeature" : "NULL"
+        },
+        "primaryMetric" : {
+            "score" : 6.420070247981765,
+            "scoreError" : 4.7781059459392905,
+            "scoreConfidence" : [
+                1.6419643020424743,
+                11.198176193921055
+            ],
+            "scorePercentiles" : {
+                "0.0" : 6.144721381595092,
+                "50.0" : 6.449434875,
+                "90.0" : 6.6660544873502,
+                "95.0" : 6.6660544873502,
+                "99.0" : 6.6660544873502,
+                "99.9" : 6.6660544873502,
+                "99.99" : 6.6660544873502,
+                "99.999" : 6.6660544873502,
+                "99.9999" : 6.6660544873502,
+                "100.0" : 6.6660544873502
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    6.6660544873502,
+                    6.449434875,
+                    6.144721381595092
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "cn.victor123.benchmark.benchmark.ClientBenchMarkGET.get_return_sleep5ms",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA-2.app/Contents/lib/idea_rt.jar=54357:/Applications/IntelliJ IDEA-2.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_151",
+        "vmVersion" : "25.151-b12",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "className" : "cn.victor123.benchmark.client.OkHttpClientt",
+            "diffFeature" : "NULL"
+        },
+        "primaryMetric" : {
+            "score" : 6.548945638488011,
+            "scoreError" : 2.3256859300325985,
+            "scoreConfidence" : [
+                4.223259708455412,
+                8.87463156852061
+            ],
+            "scorePercentiles" : {
+                "0.0" : 6.411988362820513,
+                "50.0" : 6.5707033412073494,
+                "90.0" : 6.66414521143617,
+                "95.0" : 6.66414521143617,
+                "99.0" : 6.66414521143617,
+                "99.9" : 6.66414521143617,
+                "99.99" : 6.66414521143617,
+                "99.999" : 6.66414521143617,
+                "99.9999" : 6.66414521143617,
+                "100.0" : 6.66414521143617
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    6.66414521143617,
+                    6.411988362820513,
+                    6.5707033412073494
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "cn.victor123.benchmark.benchmark.ClientBenchMarkGET.get_return_sleep5ms",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA-2.app/Contents/lib/idea_rt.jar=54357:/Applications/IntelliJ IDEA-2.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_151",
+        "vmVersion" : "25.151-b12",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "className" : "cn.victor123.benchmark.client.SpringHttpClient",
+            "diffFeature" : "NULL"
+        },
+        "primaryMetric" : {
+            "score" : 6.63623610428601,
+            "scoreError" : 1.7479115248387174,
+            "scoreConfidence" : [
+                4.888324579447293,
+                8.384147629124728
+            ],
+            "scorePercentiles" : {
+                "0.0" : 6.545673547120419,
+                "50.0" : 6.626488588079471,
+                "90.0" : 6.736546177658143,
+                "95.0" : 6.736546177658143,
+                "99.0" : 6.736546177658143,
+                "99.9" : 6.736546177658143,
+                "99.99" : 6.736546177658143,
+                "99.999" : 6.736546177658143,
+                "99.9999" : 6.736546177658143,
+                "100.0" : 6.736546177658143
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    6.736546177658143,
+                    6.545673547120419,
+                    6.626488588079471
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "cn.victor123.benchmark.benchmark.ClientBenchMarkGET.get_return_sleep5ms",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA-2.app/Contents/lib/idea_rt.jar=54357:/Applications/IntelliJ IDEA-2.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_151",
+        "vmVersion" : "25.151-b12",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "className" : "cn.victor123.benchmark.client.UnirestHttpClient",
+            "diffFeature" : "NULL"
+        },
+        "primaryMetric" : {
+            "score" : 6.56063178739462,
+            "scoreError" : 0.22620463934230622,
+            "scoreConfidence" : [
+                6.334427148052313,
+                6.786836426736926
+            ],
+            "scorePercentiles" : {
+                "0.0" : 6.550197840314136,
+                "50.0" : 6.557358428571429,
+                "90.0" : 6.574339093298292,
+                "95.0" : 6.574339093298292,
+                "99.0" : 6.574339093298292,
+                "99.9" : 6.574339093298292,
+                "99.99" : 6.574339093298292,
+                "99.999" : 6.574339093298292,
+                "99.9999" : 6.574339093298292,
+                "100.0" : 6.574339093298292
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    6.550197840314136,
+                    6.574339093298292,
+                    6.557358428571429
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "cn.victor123.benchmark.benchmark.ClientBenchMarkUpload.post_upload_210KB",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA-2.app/Contents/lib/idea_rt.jar=54357:/Applications/IntelliJ IDEA-2.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_151",
+        "vmVersion" : "25.151-b12",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "className" : "cn.victor123.benchmark.client.ApacheHttpShareClient",
+            "diffFeature" : "NULL"
+        },
+        "primaryMetric" : {
+            "score" : 3.0059719062945405,
+            "scoreError" : 3.5636194025479435,
+            "scoreConfidence" : [
+                -0.557647496253403,
+                6.569591308842484
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2.8851118080691642,
+                "50.0" : 2.901477728115942,
+                "90.0" : 3.231326182698515,
+                "95.0" : 3.231326182698515,
+                "99.0" : 3.231326182698515,
+                "99.9" : 3.231326182698515,
+                "99.99" : 3.231326182698515,
+                "99.999" : 3.231326182698515,
+                "99.9999" : 3.231326182698515,
+                "100.0" : 3.231326182698515
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    2.901477728115942,
+                    3.231326182698515,
+                    2.8851118080691642
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "cn.victor123.benchmark.benchmark.ClientBenchMarkUpload.post_upload_210KB",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA-2.app/Contents/lib/idea_rt.jar=54357:/Applications/IntelliJ IDEA-2.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_151",
+        "vmVersion" : "25.151-b12",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "className" : "cn.victor123.benchmark.client.JdkHttpClient",
+            "diffFeature" : "NULL"
+        },
+        "primaryMetric" : {
+            "score" : 3.4151596473203107,
+            "scoreError" : 0.2705499770338809,
+            "scoreConfidence" : [
+                3.14460967028643,
+                3.6857096243541916
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3.3982920991847827,
+                "50.0" : 3.421036848940533,
+                "90.0" : 3.4261499938356166,
+                "95.0" : 3.4261499938356166,
+                "99.0" : 3.4261499938356166,
+                "99.9" : 3.4261499938356166,
+                "99.99" : 3.4261499938356166,
+                "99.999" : 3.4261499938356166,
+                "99.9999" : 3.4261499938356166,
+                "100.0" : 3.4261499938356166
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    3.421036848940533,
+                    3.3982920991847827,
+                    3.4261499938356166
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "cn.victor123.benchmark.benchmark.ClientBenchMarkUpload.post_upload_210KB",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA-2.app/Contents/lib/idea_rt.jar=54357:/Applications/IntelliJ IDEA-2.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_151",
+        "vmVersion" : "25.151-b12",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "className" : "cn.victor123.benchmark.client.OkHttpClientt",
+            "diffFeature" : "NULL"
+        },
+        "primaryMetric" : {
+            "score" : 5.1847471379130186,
+            "scoreError" : 1.2406530751469074,
+            "scoreConfidence" : [
+                3.944094062766111,
+                6.425400213059926
+            ],
+            "scorePercentiles" : {
+                "0.0" : 5.126625968270215,
+                "50.0" : 5.168079797729618,
+                "90.0" : 5.259535647739222,
+                "95.0" : 5.259535647739222,
+                "99.0" : 5.259535647739222,
+                "99.9" : 5.259535647739222,
+                "99.99" : 5.259535647739222,
+                "99.999" : 5.259535647739222,
+                "99.9999" : 5.259535647739222,
+                "100.0" : 5.259535647739222
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    5.168079797729618,
+                    5.259535647739222,
+                    5.126625968270215
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "cn.victor123.benchmark.benchmark.ClientBenchMarkUpload.post_upload_210KB",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA-2.app/Contents/lib/idea_rt.jar=54357:/Applications/IntelliJ IDEA-2.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_151",
+        "vmVersion" : "25.151-b12",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "className" : "cn.victor123.benchmark.client.SpringHttpClient",
+            "diffFeature" : "NULL"
+        },
+        "primaryMetric" : {
+            "score" : 5.278027465141194,
+            "scoreError" : 2.412292204662649,
+            "scoreConfidence" : [
+                2.865735260478545,
+                7.690319669803843
+            ],
+            "scorePercentiles" : {
+                "0.0" : 5.155191621009269,
+                "50.0" : 5.26091387289916,
+                "90.0" : 5.417976901515152,
+                "95.0" : 5.417976901515152,
+                "99.0" : 5.417976901515152,
+                "99.9" : 5.417976901515152,
+                "99.99" : 5.417976901515152,
+                "99.999" : 5.417976901515152,
+                "99.9999" : 5.417976901515152,
+                "100.0" : 5.417976901515152
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    5.26091387289916,
+                    5.155191621009269,
+                    5.417976901515152
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "cn.victor123.benchmark.benchmark.ClientBenchMarkUpload.post_upload_210KB",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA-2.app/Contents/lib/idea_rt.jar=54357:/Applications/IntelliJ IDEA-2.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_151",
+        "vmVersion" : "25.151-b12",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "className" : "cn.victor123.benchmark.client.UnirestHttpClient",
+            "diffFeature" : "NULL"
+        },
+        "primaryMetric" : {
+            "score" : 3.0403716977524957,
+            "scoreError" : 1.1044928648122094,
+            "scoreConfidence" : [
+                1.9358788329402863,
+                4.144864562564705
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2.98079445324598,
+                "50.0" : 3.0384881821428573,
+                "90.0" : 3.101832457868649,
+                "95.0" : 3.101832457868649,
+                "99.0" : 3.101832457868649,
+                "99.9" : 3.101832457868649,
+                "99.99" : 3.101832457868649,
+                "99.999" : 3.101832457868649,
+                "99.9999" : 3.101832457868649,
+                "100.0" : 3.101832457868649
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    3.101832457868649,
+                    2.98079445324598,
+                    3.0384881821428573
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "cn.victor123.benchmark.benchmark.ClientBenchMarkUpload.post_upload_420KB",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA-2.app/Contents/lib/idea_rt.jar=54357:/Applications/IntelliJ IDEA-2.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_151",
+        "vmVersion" : "25.151-b12",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "className" : "cn.victor123.benchmark.client.ApacheHttpShareClient",
+            "diffFeature" : "NULL"
+        },
+        "primaryMetric" : {
+            "score" : 5.485617391197825,
+            "scoreError" : 0.2734079298867858,
+            "scoreConfidence" : [
+                5.212209461311039,
+                5.759025321084611
+            ],
+            "scorePercentiles" : {
+                "0.0" : 5.471549466666667,
+                "50.0" : 5.483924232201534,
+                "90.0" : 5.501378474725275,
+                "95.0" : 5.501378474725275,
+                "99.0" : 5.501378474725275,
+                "99.9" : 5.501378474725275,
+                "99.99" : 5.501378474725275,
+                "99.999" : 5.501378474725275,
+                "99.9999" : 5.501378474725275,
+                "100.0" : 5.501378474725275
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    5.471549466666667,
+                    5.483924232201534,
+                    5.501378474725275
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "cn.victor123.benchmark.benchmark.ClientBenchMarkUpload.post_upload_420KB",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA-2.app/Contents/lib/idea_rt.jar=54357:/Applications/IntelliJ IDEA-2.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_151",
+        "vmVersion" : "25.151-b12",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "className" : "cn.victor123.benchmark.client.JdkHttpClient",
+            "diffFeature" : "NULL"
+        },
+        "primaryMetric" : {
+            "score" : 6.383949009835483,
+            "scoreError" : 2.329016427232003,
+            "scoreConfidence" : [
+                4.05493258260348,
+                8.712965437067485
+            ],
+            "scorePercentiles" : {
+                "0.0" : 6.250477570536829,
+                "50.0" : 6.396495932311622,
+                "90.0" : 6.504873526657997,
+                "95.0" : 6.504873526657997,
+                "99.0" : 6.504873526657997,
+                "99.9" : 6.504873526657997,
+                "99.99" : 6.504873526657997,
+                "99.999" : 6.504873526657997,
+                "99.9999" : 6.504873526657997,
+                "100.0" : 6.504873526657997
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    6.250477570536829,
+                    6.504873526657997,
+                    6.396495932311622
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "cn.victor123.benchmark.benchmark.ClientBenchMarkUpload.post_upload_420KB",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA-2.app/Contents/lib/idea_rt.jar=54357:/Applications/IntelliJ IDEA-2.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_151",
+        "vmVersion" : "25.151-b12",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "className" : "cn.victor123.benchmark.client.OkHttpClientt",
+            "diffFeature" : "NULL"
+        },
+        "primaryMetric" : {
+            "score" : 8.635033730672795,
+            "scoreError" : 15.816668565989193,
+            "scoreConfidence" : [
+                -7.181634835316398,
+                24.45170229666199
+            ],
+            "scorePercentiles" : {
+                "0.0" : 7.863529307692308,
+                "50.0" : 8.46832421319797,
+                "90.0" : 9.573247671128106,
+                "95.0" : 9.573247671128106,
+                "99.0" : 9.573247671128106,
+                "99.9" : 9.573247671128106,
+                "99.99" : 9.573247671128106,
+                "99.999" : 9.573247671128106,
+                "99.9999" : 9.573247671128106,
+                "100.0" : 9.573247671128106
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    8.46832421319797,
+                    7.863529307692308,
+                    9.573247671128106
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "cn.victor123.benchmark.benchmark.ClientBenchMarkUpload.post_upload_420KB",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA-2.app/Contents/lib/idea_rt.jar=54357:/Applications/IntelliJ IDEA-2.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_151",
+        "vmVersion" : "25.151-b12",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "className" : "cn.victor123.benchmark.client.SpringHttpClient",
+            "diffFeature" : "NULL"
+        },
+        "primaryMetric" : {
+            "score" : 7.98677452266107,
+            "scoreError" : 0.8433526025536756,
+            "scoreConfidence" : [
+                7.143421920107394,
+                8.830127125214744
+            ],
+            "scorePercentiles" : {
+                "0.0" : 7.9535584111111115,
+                "50.0" : 7.9671962114467405,
+                "90.0" : 8.03956894542536,
+                "95.0" : 8.03956894542536,
+                "99.0" : 8.03956894542536,
+                "99.9" : 8.03956894542536,
+                "99.99" : 8.03956894542536,
+                "99.999" : 8.03956894542536,
+                "99.9999" : 8.03956894542536,
+                "100.0" : 8.03956894542536
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    7.9671962114467405,
+                    8.03956894542536,
+                    7.9535584111111115
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "cn.victor123.benchmark.benchmark.ClientBenchMarkUpload.post_upload_420KB",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA-2.app/Contents/lib/idea_rt.jar=54357:/Applications/IntelliJ IDEA-2.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_151",
+        "vmVersion" : "25.151-b12",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "className" : "cn.victor123.benchmark.client.UnirestHttpClient",
+            "diffFeature" : "NULL"
+        },
+        "primaryMetric" : {
+            "score" : 6.237171136471646,
+            "scoreError" : 3.997242995817392,
+            "scoreConfidence" : [
+                2.2399281406542535,
+                10.234414132289038
+            ],
+            "scorePercentiles" : {
+                "0.0" : 5.986133360047847,
+                "50.0" : 6.335470958227848,
+                "90.0" : 6.38990909113924,
+                "95.0" : 6.38990909113924,
+                "99.0" : 6.38990909113924,
+                "99.9" : 6.38990909113924,
+                "99.99" : 6.38990909113924,
+                "99.999" : 6.38990909113924,
+                "99.9999" : 6.38990909113924,
+                "100.0" : 6.38990909113924
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    6.335470958227848,
+                    5.986133360047847,
+                    6.38990909113924
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+]
+
+

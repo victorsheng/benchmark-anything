@@ -6,3 +6,11 @@
 
 参数详解英文版:
 https://github.com/Valloric/jmh-playground
+
+
+
+# http-client-benchmark
+该目录包含了性能测试的代码
+
+# http-client-benchmark-mock-server
+该目录包含了被客户端访问的接口实现

@@ -2,9 +2,6 @@ package cn.victor123.benchmark.main;
 
 import cn.victor123.benchmark.benchmark.ClientBenchMark;
 import cn.victor123.benchmark.constant.Constant;
-import org.openjdk.jmh.profile.GCProfiler;
-import org.openjdk.jmh.profile.PausesProfiler;
-import org.openjdk.jmh.profile.StackProfiler;
 import org.openjdk.jmh.results.format.ResultFormatType;
 import org.openjdk.jmh.runner.Runner;
 import org.openjdk.jmh.runner.RunnerException;
@@ -22,9 +19,6 @@ public class LocalMain {
     Options opt = new OptionsBuilder()
         .include(ClientBenchMark.class.getSimpleName())
         .resultFormat(ResultFormatType.JSON)
-        .addProfiler(GCProfiler.class)
-        .addProfiler(StackProfiler.class)
-        .addProfiler(PausesProfiler.class)
         .result("result/" + s + "-result.csv")
         .forks(1)
         .build();
