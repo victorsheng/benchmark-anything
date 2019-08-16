@@ -1,5 +1,6 @@
-package cn.victor123.benchmark;
+package cn.victor123.benchmark.copy.main;
 
+import cn.victor123.benchmark.copy.StreamConvert;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -37,8 +38,8 @@ public class CopyBenchmark {
 
   private StreamConvert streamConvert;
 
-  @Param({"cn.victor123.benchmark.impl.ApacheCommonImpl",
-      "cn.victor123.benchmark.impl.JdkChannelImpl"})
+  @Param({"cn.victor123.benchmark.copy.impl.ApacheCommonImpl",
+      "cn.victor123.benchmark.copy.impl.JdkChannelImpl"})
   private String className;
 
   @Setup

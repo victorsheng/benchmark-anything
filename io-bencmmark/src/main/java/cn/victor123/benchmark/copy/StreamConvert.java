@@ -1,4 +1,4 @@
-package cn.victor123.benchmark;
+package cn.victor123.benchmark.copy;
 
 import java.io.FileOutputStream;
 import java.io.InputStream;

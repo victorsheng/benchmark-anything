@@ -1,9 +1,6 @@
-package cn.victor123.benchmark.test;
+package cn.victor123.benchmark.copy.impl;
 
-import cn.victor123.benchmark.StreamConvert;
-import cn.victor123.benchmark.impl.ApacheCommonImpl;
-import cn.victor123.benchmark.impl.JdkChannelImpl;
-import cn.victor123.benchmark.impl.JdkChannelImpl2;
+import cn.victor123.benchmark.copy.StreamConvert;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

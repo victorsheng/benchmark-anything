@@ -17,7 +17,7 @@ public class Local16ThreadMain {
     Constant.i = new Constant("localhost", "3000", "mock");
     long s = System.currentTimeMillis();
     Options opt = new OptionsBuilder()
-        .include(ClientBenchMark.class.getSimpleName())
+        .include("ClientBenchMarkGET")
         .resultFormat(ResultFormatType.JSON)
         .result("result/" + s + "-result.csv")
         .forks(1)
