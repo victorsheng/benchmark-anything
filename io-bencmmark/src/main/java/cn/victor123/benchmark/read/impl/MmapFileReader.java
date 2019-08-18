@@ -19,6 +19,7 @@ public class MmapFileReader implements FileReader {
           map(FileChannel.MapMode.READ_ONLY, position, bufferSize);
       byte[] arr = new byte[bufferSize];
       mb.get(arr, 0, bufferSize);
+//      System.out.println(Arrays.toString(arr));
       position += bufferSize;
     }
 

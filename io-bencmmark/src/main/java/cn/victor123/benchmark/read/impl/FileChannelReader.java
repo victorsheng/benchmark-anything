@@ -19,6 +19,12 @@ public class FileChannelReader implements FileReader {
       if (read > 0) {
         position += read;
       }
+//      buff.flip();
+//      while (buff.hasRemaining()) {
+//        byte b = buff.get();
+//        System.out.print(b);
+//      }
+//      System.out.println();
       buff.clear();
     } while (read > 0);
     channel.close();

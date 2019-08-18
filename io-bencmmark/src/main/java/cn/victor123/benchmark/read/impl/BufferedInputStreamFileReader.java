@@ -4,6 +4,7 @@ import cn.victor123.benchmark.read.FileReader;
 import java.io.BufferedInputStream;
 import java.io.FileInputStream;
 import java.io.InputStream;
+import java.util.Arrays;
 
 public class BufferedInputStreamFileReader implements FileReader {
 
@@ -18,6 +19,7 @@ public class BufferedInputStreamFileReader implements FileReader {
       if (len == -1) {
         break;
       }
+//      System.out.println(Arrays.toString(arr));
       position += len;
     }
     return position;

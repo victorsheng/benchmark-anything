@@ -1,23 +1,21 @@
 package cn.victor123.benchmark.read.impl;
 
 import cn.victor123.benchmark.read.FileReader;
-import java.io.FileInputStream;
-import java.util.Arrays;
+import java.io.RandomAccessFile;
 
-public class InputStreamFileReader implements FileReader {
-
+public class RandomAccessFileReader implements FileReader {
 
   @Override
   public int read(String path, int bufferSize) throws Exception {
-    FileInputStream fs = new FileInputStream(path);
+    RandomAccessFile file = new RandomAccessFile(path, "r");
+    long s = System.currentTimeMillis();
     int position = 0;
     while (true) {
       byte[] arr = new byte[bufferSize];
-      int len = fs.read(arr);
+      int len = file.read(arr);
       if (len == -1) {
         break;
       }
-//      System.out.println(Arrays.toString(arr));
       position += len;
     }
     return position;
