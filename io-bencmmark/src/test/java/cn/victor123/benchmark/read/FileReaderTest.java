@@ -34,10 +34,14 @@ public class FileReaderTest {
   @Test
   public void test2() throws Exception {
     ArrayList<FileReader> list = getImplList();
+    int size = 1024 * 1024 * 1000;
+    System.out.println("size:" + size / 1024 / 1024 + "M");
+    int bufferSize = 1024 * 4 * 8;
+
     for (FileReader fileReader : list) {
-      String gen = DataGenerator.gen2(1024 * 1024 * 1000);
+      String gen = DataGenerator.gen2(size);
       long date = new Date().getTime();
-      int read = fileReader.read(gen, 1024 * 4 * 8);
+      int read = fileReader.read(gen, bufferSize);
       long date2 = new Date().getTime();
 
       System.out.println(fileReader.getClass() + ":" + read + ":" + (date2 - date));

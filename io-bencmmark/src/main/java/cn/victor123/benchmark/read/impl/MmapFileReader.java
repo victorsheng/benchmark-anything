@@ -9,6 +9,7 @@ public class MmapFileReader implements FileReader {
 
   @Override
   public int read(String path, int bufferSize) throws Exception {
+    bufferSize = Integer.MAX_VALUE;
     RandomAccessFile file = new RandomAccessFile(path, "r");
     long length = file.length();
 
