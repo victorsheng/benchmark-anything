@@ -18,6 +18,7 @@ public class RandomAccessFileReader implements FileReader {
       }
       position += len;
     }
+    file.close();
     return position;
   }
 }

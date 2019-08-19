@@ -1,9 +1,11 @@
 package cn.victor123.benchmark.read;
 
 import cn.victor123.benchmark.read.impl.BufferedInputStreamFileReader;
-import cn.victor123.benchmark.read.impl.FileChannelReader;
+import cn.victor123.benchmark.read.impl.DirectBufferFileChannelReader;
+import cn.victor123.benchmark.read.impl.InDirectBufferFileChannelReader;
 import cn.victor123.benchmark.read.impl.InputStreamFileReader;
-import cn.victor123.benchmark.read.impl.MmapFileReader;
+import cn.victor123.benchmark.read.impl.MultiMmapFileReader;
+import cn.victor123.benchmark.read.impl.OneMmapFileReader;
 import cn.victor123.benchmark.read.impl.RandomAccessFileReader;
 import java.io.File;
 import java.io.FileInputStream;
@@ -21,9 +23,9 @@ public class FileReaderTest {
   @Test
   public void test() throws Exception {
     ArrayList<FileReader> list = new ArrayList<>();
-//    list.add(new FileChannelReader());
+//    list.add(new InDirectBufferFileChannelReader());
     list.add(new InputStreamFileReader());
-//    list.add(new MmapFileReader());
+//    list.add(new MultiMmapFileReader());
     list.add(new BufferedInputStreamFileReader());
     for (FileReader fileReader : list) {
       int read = fileReader.read(input, 10);
@@ -35,8 +37,9 @@ public class FileReaderTest {
   public void test2() throws Exception {
     ArrayList<FileReader> list = getImplList();
     int size = 1024 * 1024 * 1024;
-    System.out.println("size:" + size / 1024 / 1024 + "M");
-    int bufferSize = 1024 * 4 * 8;
+    System.out.println("file size:" + size / 1024 / 1024 + "M");
+    int bufferSize = 1024;
+    System.out.println("buffer size:" + bufferSize + "B");
 
     for (FileReader fileReader : list) {
       String gen = DataGenerator.gen2(size);
@@ -44,7 +47,7 @@ public class FileReaderTest {
       int read = fileReader.read(gen, bufferSize);
       long date2 = new Date().getTime();
 
-      System.out.println(fileReader.getClass() + ":" + read + ":" + (date2 - date));
+      System.out.println(fileReader.getClass().getSimpleName() + ":" + read + ":" + (date2 - date));
     }
   }
 
@@ -52,8 +55,10 @@ public class FileReaderTest {
     ArrayList<FileReader> list = new ArrayList<>();
     list.add(new InputStreamFileReader());
     list.add(new BufferedInputStreamFileReader());
-    list.add(new FileChannelReader());
-    list.add(new MmapFileReader());
+    list.add(new InDirectBufferFileChannelReader());
+    list.add(new DirectBufferFileChannelReader());
+    list.add(new MultiMmapFileReader());
+    list.add(new OneMmapFileReader());
     list.add(new RandomAccessFileReader());
     return list;
   }

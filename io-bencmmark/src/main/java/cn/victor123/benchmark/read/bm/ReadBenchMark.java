@@ -29,9 +29,9 @@ public class ReadBenchMark {
 
   @Param({
       "cn.victor123.benchmark.read.impl.BufferedInputStreamFileReader",
-      "cn.victor123.benchmark.read.impl.FileChannelReader",
+      "cn.victor123.benchmark.read.impl.InDirectBufferFileChannelReader",
       "cn.victor123.benchmark.read.impl.InputStreamFileReader",
-      "cn.victor123.benchmark.read.impl.MmapFileReader",
+      "cn.victor123.benchmark.read.impl.MultiMmapFileReader",
   })
   private String className;
 

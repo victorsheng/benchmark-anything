@@ -5,7 +5,7 @@ import java.io.RandomAccessFile;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 
-public class FileChannelReader implements FileReader {
+public class InDirectBufferFileChannelReader implements FileReader {
 
   @Override
   public int read(String path, int bufferSize) throws Exception {

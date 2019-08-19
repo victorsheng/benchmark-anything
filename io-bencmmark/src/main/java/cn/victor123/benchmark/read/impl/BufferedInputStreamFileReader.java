@@ -22,6 +22,7 @@ public class BufferedInputStreamFileReader implements FileReader {
 //      System.out.println(Arrays.toString(arr));
       position += len;
     }
+    fs.close();
     return position;
   }
 }
