@@ -13,8 +13,8 @@ public class BufferedInputStreamFileReader implements FileReader {
   public int read(String path, int bufferSize) throws Exception {
     InputStream fs = new BufferedInputStream(new FileInputStream(path), bufferSize);
     int position = 0;
+    byte[] arr = new byte[bufferSize];
     while (true) {
-      byte[] arr = new byte[bufferSize];
       int len = fs.read(arr);
       if (len == -1) {
         break;

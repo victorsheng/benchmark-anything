@@ -10,8 +10,8 @@ public class RandomAccessFileReader implements FileReader {
     RandomAccessFile file = new RandomAccessFile(path, "r");
     long s = System.currentTimeMillis();
     int position = 0;
+    byte[] arr = new byte[bufferSize];
     while (true) {
-      byte[] arr = new byte[bufferSize];
       int len = file.read(arr);
       if (len == -1) {
         break;

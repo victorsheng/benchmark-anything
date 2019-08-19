@@ -11,22 +11,17 @@ public class FileChannelReader implements FileReader {
   public int read(String path, int bufferSize) throws Exception {
     RandomAccessFile file = new RandomAccessFile(path, "r");
     FileChannel channel = file.getChannel();
-    ByteBuffer buff = ByteBuffer.allocateDirect(bufferSize);
+    ByteBuffer buff = ByteBuffer.allocate(bufferSize);
     int position = 0;
     int read;
-    do {
+    while (true){
       read = channel.read(buff);
-      if (read > 0) {
-        position += read;
+      if (read == -1) {
+        break;
       }
-//      buff.flip();
-//      while (buff.hasRemaining()) {
-//        byte b = buff.get();
-//        System.out.print(b);
-//      }
-//      System.out.println();
+      position += read;
       buff.clear();
-    } while (read > 0);
+    }
     channel.close();
     return position;
   }

@@ -34,7 +34,7 @@ public class FileReaderTest {
   @Test
   public void test2() throws Exception {
     ArrayList<FileReader> list = getImplList();
-    int size = 1024 * 1024 * 1000;
+    int size = 1024 * 1024 * 1024;
     System.out.println("size:" + size / 1024 / 1024 + "M");
     int bufferSize = 1024 * 4 * 8;
 
