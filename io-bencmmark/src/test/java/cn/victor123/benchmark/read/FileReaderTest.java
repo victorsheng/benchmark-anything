@@ -37,8 +37,8 @@ public class FileReaderTest {
   public void test2() throws Exception {
     ArrayList<FileReader> list = getImplList();
     int size = 1024 * 1024 * 1024;
-    System.out.println("file size:" + size / 1024 / 1024 + "M");
-    int bufferSize = 1024;
+    System.out.print("file size:" + size / 1024 / 1024 + "MB ");
+    int bufferSize = 1024*16;
     System.out.println("buffer size:" + bufferSize + "B");
 
     for (FileReader fileReader : list) {
@@ -47,7 +47,7 @@ public class FileReaderTest {
       int read = fileReader.read(gen, bufferSize);
       long date2 = new Date().getTime();
 
-      System.out.println(fileReader.getClass().getSimpleName() + ":" + read + ":" + (date2 - date));
+      System.out.println(fileReader.getClass().getSimpleName() + "," + read + "," + (date2 - date));
     }
   }
 

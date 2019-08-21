@@ -2,26 +2,26 @@ package cn.victor123.benchmark.write.impl;
 
 import cn.victor123.benchmark.write.FileWriter;
 import java.io.RandomAccessFile;
-import java.nio.MappedByteBuffer;
+import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 import java.util.Arrays;
 
-public class MmapFileWriter implements FileWriter {
+public class InDirectBufferFileChannelFileWriter implements FileWriter {
 
   @Override
   public void write(int fileSize, int bufferSize, String dstPath) throws Exception {
     RandomAccessFile file = new RandomAccessFile(dstPath, "rw");
     int position = 0;
+    FileChannel channel = file.getChannel();
     while (position < fileSize) {
-      MappedByteBuffer mb = file.getChannel().
-          map(FileChannel.MapMode.READ_WRITE, position, bufferSize);
       byte[] arr = new byte[bufferSize];
       Arrays.fill(arr, (byte) 2);
       position += arr.length;
-      mb.put(arr);
-//      mb.force();
+      ByteBuffer byteBuffer = ByteBuffer.allocate(arr.length);
+      byteBuffer.put(arr);
+      channel.write(ByteBuffer.wrap(arr));
     }
+//    channel.force(true);
     file.close();
-
   }
 }

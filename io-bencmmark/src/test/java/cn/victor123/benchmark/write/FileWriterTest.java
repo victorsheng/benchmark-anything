@@ -1,8 +1,10 @@
 package cn.victor123.benchmark.write;
 
 import cn.victor123.benchmark.write.impl.BufferedOutPutFileWriter;
-import cn.victor123.benchmark.write.impl.FileChannelFileWriter;
-import cn.victor123.benchmark.write.impl.MmapFileWriter;
+import cn.victor123.benchmark.write.impl.DirectBufferFileChannelFileWriter;
+import cn.victor123.benchmark.write.impl.InDirectBufferFileChannelFileWriter;
+import cn.victor123.benchmark.write.impl.MultiMmapFileWriter;
+import cn.victor123.benchmark.write.impl.OneMmapFileWriter;
 import cn.victor123.benchmark.write.impl.OutPutFileWriter;
 import cn.victor123.benchmark.write.impl.RandomAccessFileWriter;
 import java.io.File;
@@ -17,8 +19,9 @@ public class FileWriterTest {
   public void test1() throws Exception {
     ArrayList<FileWriter> implList = getImplList();
     int fileSize = 1024 * 1024 * 1000;
-    int bufferSize = 1024 * 4 * 8;
-    System.out.println("size:" + fileSize / 1024 / 1024 + "M");
+    int bufferSize = 1024*16;
+    System.out.println("file size:" + fileSize / 1024 / 1024 + "MB");
+    System.out.println("buffer size:" + bufferSize + "B");
     for (FileWriter fileWriter : implList) {
       File tmp = File.createTempFile("file-writer", "tmp");
       tmp.deleteOnExit();
@@ -28,7 +31,7 @@ public class FileWriterTest {
       long length = tmp.length();
       long date2 = new Date().getTime();
       System.out
-          .println("class:" + fileWriter.getClass() + ",size:" + length + ":" + (date2 - date));
+          .println(fileWriter.getClass().getSimpleName() + "," + length + "," + (date2 - date));
       tmp.delete();
     }
   }
@@ -38,8 +41,10 @@ public class FileWriterTest {
     ArrayList<FileWriter> list = new ArrayList<>();
     list.add(new OutPutFileWriter());
     list.add(new BufferedOutPutFileWriter());
-    list.add(new FileChannelFileWriter());
-    list.add(new MmapFileWriter());
+    list.add(new InDirectBufferFileChannelFileWriter());
+    list.add(new DirectBufferFileChannelFileWriter());
+    list.add(new OneMmapFileWriter());
+    list.add(new MultiMmapFileWriter());
     list.add(new RandomAccessFileWriter());
     return list;
   }

@@ -6,7 +6,7 @@ import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 import java.util.Arrays;
 
-public class FileChannelFileWriter implements FileWriter {
+public class DirectBufferFileChannelFileWriter implements FileWriter {
 
   @Override
   public void write(int fileSize, int bufferSize, String dstPath) throws Exception {
@@ -17,6 +17,8 @@ public class FileChannelFileWriter implements FileWriter {
       byte[] arr = new byte[bufferSize];
       Arrays.fill(arr, (byte) 2);
       position += arr.length;
+      ByteBuffer byteBuffer = ByteBuffer.allocateDirect(arr.length);
+      byteBuffer.put(arr);
       channel.write(ByteBuffer.wrap(arr));
     }
 //    channel.force(true);
